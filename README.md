@@ -5,7 +5,7 @@
 <thead>
 <tr>
 <th>List</th>
-<th>Original</th>
+<th>Link</th>
 <th>Description</th>
 </tr>
 </thead>
