@@ -89,3 +89,5 @@ workers.crazygames.com
 model.crazygames.com
 builds.crazygames.com
 images.crazygames.com
+www.minijuegos.com
+www.juegos.com
