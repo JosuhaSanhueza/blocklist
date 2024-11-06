@@ -1,5 +1,8 @@
 # Block List 
 # Games and Shcool Proyect
 
-Games Link            https://josuhasanhueza.github.io/blocklist/GamesBlockList.txt
-School Link           https://josuhasanhueza.github.io/blocklist/SchoolBlockList.txt
+<td>Games</td>
+<td><a href="https://josuhasanhueza.github.io/blocklist/GamesBlockList.txt" rel="nofollow">Link</a></td>
+
+<td>School </td>
+<td><a href="https://josuhasanhueza.github.io/blocklist/SchoolBlockList.txt" rel="nofollow">Link</a></td>
