@@ -18,7 +18,7 @@
 <tr>
 <td>School </td>
 <td><a href="https://josuhasanhueza.github.io/blocklist/SchoolBlockList.txt" rel="nofollow">Link</a></td>
-<td>descargas,torrents,vpn,streamin.</td>
+<td>descargas,torrents,vpn,streaming.</td>
 </tr>
 </tbody>
 
