@@ -119,3 +119,16 @@ auth.max.com
 atv-ps.primevideo.com
 www.primevideo.com
 protonvpn.com
+spec.cloud.360safe.com
+orion.ts.360.com
+update.iobit.com
+qup.cloud.360safe.com
+cdn-production-opera-website.operacdn.com
+www.opera.com
+help.nflxext.com
+help.netflix.com
+www.proofpoint.com
+www.mediafire.com
+app.mediafire.com
+static.mediafire.com
+www.qbittorrent.org
