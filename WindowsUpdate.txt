@@ -3,21 +3,28 @@
 ########################
 #
 # START - ALLOWING WINDOWS UPDATES
-#0.0.0.0 fe3.delivery.mp.microsoft.com
-#0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
-#0.0.0.0 sls.update.microsoft.com
-#0.0.0.0 sls.update.microsoft.com.nsatc.net
-#0.0.0.0 sls.update.microsoft.com.akadns.net
-#0.0.0.0 fe2.update.microsoft.com.nsatc.net
-#0.0.0.0 fe2.update.microsoft.com
-#0.0.0.0 static.78-46-223-24.clients.your-server.de
-#0.0.0.0 fg.download.windowsupdate.com.c.footprint.net
-#0.0.0.0 emdl.ws.microsoft.com           ### Also used to update store apps.
-#0.0.0.0 cds.d2s7q6s2.hwcdn.net          ### Verizon Content Delivery Network uses these to perform Windows updates.###
-#0.0.0.0 *wac.phicdn.net                 ### Verizon Content Delivery Network uses these to perform Windows updates.###
-#0.0.0.0 *wac.edgecastcdn.net            ### Verizon Content Delivery Network uses these to perform Windows updates.###
-#0.0.0.0 *.windowsupdate.com             ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
-#0.0.0.0 *.prod.do.dsp.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
-#0.0.0.0 *.dl.delivery.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
-#0.0.0.0 www.bing.com/threshold/xls.aspx ### Root Certificates Update to check the list of trusted authorities on Windows Update to see if an update is available. ###
+0.0.0.0 fe3.delivery.mp.microsoft.com
+0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+0.0.0.0 sls.update.microsoft.com
+0.0.0.0 sls.update.microsoft.com.nsatc.net
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 fe2.update.microsoft.com.nsatc.net
+0.0.0.0 fe2.update.microsoft.com
+0.0.0.0 static.78-46-223-24.clients.your-server.de
+0.0.0.0 fg.download.windowsupdate.com.c.footprint.net
+0.0.0.0 emdl.ws.microsoft.com           ### Also used to update store apps.
+0.0.0.0 cds.d2s7q6s2.hwcdn.net          ### Verizon Content Delivery Network uses these to perform Windows updates.###
+0.0.0.0 *wac.phicdn.net                 ### Verizon Content Delivery Network uses these to perform Windows updates.###
+0.0.0.0 *wac.edgecastcdn.net            ### Verizon Content Delivery Network uses these to perform Windows updates.###
+0.0.0.0 *.windowsupdate.com             ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK #####
+0.0.0.0 *.prod.do.dsp.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
+0.0.0.0 *.dl.delivery.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
+0.0.0.0 www.bing.com/threshold/xls.aspx ### Root Certificates Update to check the list of trusted authorities on Windows #Update to see if an update is available. ###
 # END - ALLOWING WINDOWS UPDATES
+windowsupdate.microsoft.com
+update.microsoft.com
+download.windowsupdate.com
+wustat.windows.com
+wuauserv.microsoft.com
+*.msocdn.com
+*.akadns.net
