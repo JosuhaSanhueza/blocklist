@@ -23,7 +23,7 @@
 <tr>
 <td>Windows Update </td>
 <td><a href="https://josuhasanhueza.github.io/blocklist/WindowsUpdate.txt" rel="nofollow">Link</a></td>
-<td>Actualizaciones</td>
+<td>Actualizaciones.</td>
 </tr>
 </tbody>
 
