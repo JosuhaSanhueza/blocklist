@@ -20,6 +20,11 @@
 <td><a href="https://josuhasanhueza.github.io/blocklist/SchoolBlockList.txt" rel="nofollow">Link</a></td>
 <td>descargas,torrents,vpn,streaming.</td>
 </tr>
+<tr>
+<td>Windows Update </td>
+<td><a href="https://josuhasanhueza.github.io/blocklist/WindowsUpdate.txt" rel="nofollow">Link</a></td>
+<td>Actualizaciones</td>
+</tr>
 </tbody>
 
 
