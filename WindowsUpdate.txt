@@ -29,3 +29,16 @@ prod.do.dsp.mp.microsoft.com
 dl.delivery.mp.microsoft.com
 emdl.ws.microsoft.com
 au.download.windowsupdate.com
+http://windowsupdate.microsoft.com 
+http://*.windowsupdate.microsoft.com
+https://*.windowsupdate.microsoft.com
+http://*.update.microsoft.com
+https://*.update.microsoft.com
+http://*.windowsupdate.com
+http://download.windowsupdate.com
+http://download.microsoft.com
+http://*.download.windowsupdate.com
+http://wustat.windows.com
+http://ntservicepack.microsoft.com
+http://stats.microsoft.com
+https://stats.microsoft.com
