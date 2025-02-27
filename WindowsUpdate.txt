@@ -1,44 +1,15 @@
-########################
-# START ALLOWING HOSTS #
-########################
-fe3.delivery.mp.microsoft.com
-fe3.delivery.dsp.mp.microsoft.com.nsatc.net
-sls.update.microsoft.com
-sls.update.microsoft.com.nsatc.net
-sls.update.microsoft.com.akadns.net
-fe2.update.microsoft.com.nsatc.net
-fe2.update.microsoft.com
-static.78-46-223-24.clients.your-server.de
-fg.download.windowsupdate.com.c.footprint.net
-emdl.ws.microsoft.com           ### Also used to update store apps.
-cds.d2s7q6s2.hwcdn.net          ### Verizon Content Delivery Network uses these to perform Windows updates.###
-wac.phicdn.net                 ### Verizon Content Delivery Network uses these to perform Windows updates.###
-wac.edgecastcdn.net            ### Verizon Content Delivery Network uses these to perform Windows updates.###
-windowsupdate.com             ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK #####
-prod.do.dsp.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
-dl.delivery.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
-windowsupdate.microsoft.com
+windowsupdate.com
 update.microsoft.com
 download.windowsupdate.com
-wustat.windows.com
-wuauserv.microsoft.com
-msocdn.com
-akadns.net
-settings-win.data.microsoft.com
-prod.do.dsp.mp.microsoft.com
+ctldl.windowsupdate.com
+delivery.mp.microsoft.com
 dl.delivery.mp.microsoft.com
 emdl.ws.microsoft.com
+fe2.update.microsoft.com
 au.download.windowsupdate.com
-http://windowsupdate.microsoft.com 
-http://*.windowsupdate.microsoft.com
-https://*.windowsupdate.microsoft.com
-http://*.update.microsoft.com
-https://*.update.microsoft.com
-http://*.windowsupdate.com
-http://download.windowsupdate.com
-http://download.microsoft.com
-http://*.download.windowsupdate.com
-http://wustat.windows.com
-http://ntservicepack.microsoft.com
-http://stats.microsoft.com
-https://stats.microsoft.com
+prod.do.dsp.mp.microsoft.com
+settings-win.data.microsoft.com
+v10.events.data.microsoft.com
+msftncsi.com
+windows.com
+microsoft.com
