@@ -12,15 +12,20 @@ static.78-46-223-24.clients.your-server.de
 fg.download.windowsupdate.com.c.footprint.net
 emdl.ws.microsoft.com           ### Also used to update store apps.
 cds.d2s7q6s2.hwcdn.net          ### Verizon Content Delivery Network uses these to perform Windows updates.###
-*wac.phicdn.net                 ### Verizon Content Delivery Network uses these to perform Windows updates.###
-*wac.edgecastcdn.net            ### Verizon Content Delivery Network uses these to perform Windows updates.###
-*.windowsupdate.com             ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK #####
-*.prod.do.dsp.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
-*.dl.delivery.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
+wac.phicdn.net                 ### Verizon Content Delivery Network uses these to perform Windows updates.###
+wac.edgecastcdn.net            ### Verizon Content Delivery Network uses these to perform Windows updates.###
+windowsupdate.com             ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK #####
+prod.do.dsp.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
+dl.delivery.mp.microsoft.com  ### *.WILDCARDS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
 windowsupdate.microsoft.com
 update.microsoft.com
 download.windowsupdate.com
 wustat.windows.com
 wuauserv.microsoft.com
-*.msocdn.com
-*.akadns.net
+msocdn.com
+akadns.net
+settings-win.data.microsoft.com
+prod.do.dsp.mp.microsoft.com
+dl.delivery.mp.microsoft.com
+emdl.ws.microsoft.com
+au.download.windowsupdate.com
