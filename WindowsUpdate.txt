@@ -1,3 +1,4 @@
+v10.events.data.microsoft.com
 prod.client.wosc.services.microsoft.com
 fe2cr.update.microsoft.com
 checkappexec.microsoft.com
