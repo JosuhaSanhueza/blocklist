@@ -1,3 +1,5 @@
+settings-win.data.microsoft.com
+v10.events.data.microsoft.com
 prod.client.wosc.services.microsoft.com
 fe2cr.update.microsoft.com
 checkappexec.microsoft.com
@@ -28,7 +30,5 @@ array621.prod.do.dsp.mp.microsoft.com
 config.edge.skype.com
 msedge.f.dl.delivery.mp.microsoft.com
 msedge.b.tlu.dl.delivery.mp.microsoft.com
-www.msftconnecttest.com
-dns.msftncsi.com
 slscr.update.microsoft.com
 csp.microsoft.com
