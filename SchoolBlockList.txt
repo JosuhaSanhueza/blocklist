@@ -134,9 +134,6 @@ static.mediafire.com
 www.qbittorrent.org
 static-mh.content.disney.io
 www.disneylatino.com
-dns.google
-doh.opendns.com
-dns.quad9.net
 sdup.update.360safe.com
 twitch.tv
 www.lacuarta.com
