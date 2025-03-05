@@ -32,3 +32,6 @@ msedge.f.dl.delivery.mp.microsoft.com
 msedge.b.tlu.dl.delivery.mp.microsoft.com
 slscr.update.microsoft.com
 csp.microsoft.com
+wdcp.microsoft.com
+definitionupdates.microsoft.com
+wdcpalt.microsoft.com
