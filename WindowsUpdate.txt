@@ -10,7 +10,6 @@ au.download.windowsupdate.com
 geo.prod.do.dsp.mp.microsoft.com
 kv601.prod.do.dsp.mp.microsoft.com
 client.wns.windows.com
-ow1.res.office365.com
 displaycatalog.mp.microsoft.com
 cxcs.microsoft.net
 tsfe.trafficshaping.dsp.mp.microsoft.com
@@ -24,7 +23,6 @@ array623.prod.do.dsp.mp.microsoft.com
 9.au.download.windowsupdate.com
 array606.prod.do.dsp.mp.microsoft.com
 ctldl.windowsupdate.com
-fs.microsoft.com
 array621.prod.do.dsp.mp.microsoft.com
 config.edge.skype.com
 msedge.f.dl.delivery.mp.microsoft.com
