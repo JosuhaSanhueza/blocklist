@@ -38,6 +38,11 @@ addons.mozilla.org
 addons.opera.com
 qurl.cloud.360safe.com
 s.cloud.360safe.com
+s.f.360.cn
+update.360safe.com
+down.360safe.com
+api.360.cn
+www.360.cn
 opera.com
 mega.io
 uptodown.com
