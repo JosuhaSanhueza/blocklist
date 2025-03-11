@@ -12,7 +12,6 @@ kv601.prod.do.dsp.mp.microsoft.com
 client.wns.windows.com
 ow1.res.office365.com
 displaycatalog.mp.microsoft.com
-go.microsoft.com
 cxcs.microsoft.net
 tsfe.trafficshaping.dsp.mp.microsoft.com
 licensing.mp.microsoft.com
