@@ -1,3 +1,8 @@
+update.googleapis.com
+dl.google.com
+updates.bravesoftware.com
+default.exp-tas.com
+fp-afd.azurefd.net
 windowsupdate.com
 mp.microsoft.com
 settings-win.data.microsoft.com
@@ -85,7 +90,5 @@ telemetry.microsoft.com
 oca.telemetry.microsoft.com
 vortex.data.microsoft.com
 vortex-win.data.microsoft.com
-updates.bravesoftware.com
-default.exp-tas.com
 fp-afd-nocache.azureedge.net
 cdn.storeedgefd.dsx.mp.microsoft.com
