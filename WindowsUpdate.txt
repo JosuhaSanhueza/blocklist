@@ -1,3 +1,5 @@
+windowsupdate.com
+mp.microsoft.com
 settings-win.data.microsoft.com
 v10.events.data.microsoft.com
 prod.client.wosc.services.microsoft.com
