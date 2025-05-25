@@ -81,3 +81,11 @@ s-ring.msedge.net
 ax-ring.msedge.net
 tse1.mm.bing.net
 cdn.onenote.net
+telemetry.microsoft.com
+oca.telemetry.microsoft.com
+vortex.data.microsoft.com
+vortex-win.data.microsoft.com
+updates.bravesoftware.com
+default.exp-tas.com
+fp-afd-nocache.azureedge.net
+cdn.storeedgefd.dsx.mp.microsoft.com
