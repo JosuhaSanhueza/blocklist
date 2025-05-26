@@ -75,7 +75,6 @@ fb-unicast.msedge.net
 bx-ring.msedge.net
 wac-ring.msedge.net
 fp.msedge.net
-go.microsoft.com
 mcr-ring.msedge.net
 p-ring.msedge.net
 t-ring-fdv2.msedge.net
