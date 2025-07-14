@@ -1,0 +1,3 @@
+update.googleapis.com
+dl.google.com
+updates.bravesoftware.com
