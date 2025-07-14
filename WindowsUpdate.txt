@@ -1,6 +1,3 @@
-update.googleapis.com
-dl.google.com
-updates.bravesoftware.com
 default.exp-tas.com
 fp-afd.azurefd.net
 windowsupdate.com
