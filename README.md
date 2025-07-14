@@ -38,6 +38,11 @@ Esta es una **lista de bloqueo** en formato texto diseñada para herramientas co
 <td><a href="https://josuhasanhueza.github.io/blocklist/WindowsUpdate.txt" rel="nofollow">Link</a></td>
 <td>Actualizaciones.</td>
 </tr>
+<tr>
+<td>Google Update </td>
+<td><a href="https://josuhasanhueza.github.io/blocklist/GoogleUpdate.txt" rel="nofollow">Link</a></td>
+<td>Actualizaciones.</td>
+</tr>
 </tbody>
 
 
