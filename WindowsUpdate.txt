@@ -33,9 +33,6 @@ msedge.f.dl.delivery.mp.microsoft.com
 msedge.b.tlu.dl.delivery.mp.microsoft.com
 slscr.update.microsoft.com
 csp.microsoft.com
-wdcp.microsoft.com
-definitionupdates.microsoft.com
-wdcpalt.microsoft.com
 mobile.events.data.microsoft.com
 umwatson.events.data.microsoft.com
 self.events.data.microsoft.com
@@ -94,3 +91,4 @@ mrodevicemgr.officeapps.live.com
 mobile.events.data.microsoft.com
 watson.events.data.microsoft.com
 v20.events.data.microsoft.com
+
