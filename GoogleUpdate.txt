@@ -1,5 +1,5 @@
 update.googleapis.com
 dl.google.com
-updates.bravesoftware.com
 addons.mozilla.org
 addons.opera.com
+
