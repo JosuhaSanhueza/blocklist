@@ -88,9 +88,8 @@ cdn.storeedgefd.dsx.mp.microsoft.com
 ds.download.windowsupdate.com
 fe2.update.microsoft.com
 mrodevicemgr.officeapps.live.com
-mobile.events.data.microsoft.com
-watson.events.data.microsoft.com
 v20.events.data.microsoft.com
 definitionupdates.microsoft.com
 wdcp.microsoft.com
 wdcpalt.microsoft.com
+
