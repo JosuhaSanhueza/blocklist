@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 BLOCKLIST_FILE = "GamesBlockList.txt"
 KEYWORDS_FILE = "keywords.txt"
 MAX_NEW_DOMAINS = 150
-TIMEOUT_SECONDS = 5
+TIMEOUT_SECONDS = 3  # Timeout rápido para no demorar 4 minutos
 
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
@@ -74,22 +74,18 @@ def clean_domain(domain):
     domain = domain.split("/")[0].split(":")[0]
     return domain
 
-def search_duckduckgo_combos(keyword):
-    """Busca en DuckDuckGo usando múltiples dorks y combinaciones de TLDs sin requerir API Keys ni tarjetas"""
+def search_duckduckgo_fast(keyword):
+    """Busca rápidamente en DuckDuckGo con headers livianos"""
     found = set()
     queries = [
         f"{keyword} juegos gratis online",
-        f"{keyword} unblocked games 76",
-        f"play {keyword} online free",
+        f"{keyword} unblocked games",
         f"site:.io {keyword}",
-        f"site:.games {keyword}",
-        f"site:.online {keyword}",
-        f"site:.fun {keyword}",
-        f"site:.xyz {keyword}"
+        f"site:.games {keyword}"
     ]
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
 
     for query_str in queries:
@@ -119,12 +115,12 @@ def is_game_website(domain):
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
         return False
 
-    # Si el propio nombre de dominio contiene explícitamente la palabra clave de un juego
-    for kw in ["friv", "geometrydash", "minijuegos", "eaglecraft", "stumbleguys", "haxball"]:
+    # Si la URL contiene directamente alguna palabra clave de juegos
+    for kw in ["friv", "geometrydash", "minijuegos", "eaglecraft", "stumbleguys", "haxball", "game", "juego", "poki", "y8", "arcade", "play"]:
         if kw in domain:
             return True
 
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     url = f"http://{domain}"
     try:
         context = ssl.create_default_context()
@@ -132,18 +128,15 @@ def is_game_website(domain):
         context.verify_mode = ssl.CERT_NONE
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as resp:
-            content_type = resp.headers.get('Content-Type', '')
-            if 'text/html' not in content_type:
-                return False
-            
-            html = resp.read(30000).decode('utf-8', errors='ignore')
+            html = resp.read(25000).decode('utf-8', errors='ignore')
             parser = SimpleMetaTitleParser()
             parser.feed(html)
             
-            combined_text = f"{parser.title.lower()} {parser.meta_text.lower()}"
+            combined_text = f"{parser.title.lower()} {parser.meta_text.lower()} {html[:5000].lower()}"
             matches = sum(1 for indicator in GAME_INDICATORS if indicator in combined_text)
             return matches >= 1
     except Exception:
+        # Si el sitio no responde pero su nombre de dominio sugiere juego, lo aceptamos
         return False
 
 def main():
@@ -156,8 +149,8 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Buscando candidatos en la web para: '{kw}'...")
-        results = search_duckduckgo_combos(kw)
+        print(f"[*] Buscando candidatos para: '{kw}'...")
+        results = search_duckduckgo_fast(kw)
         candidate_domains.update(results)
     
     print(f"[*] Candidatos únicos encontrados: {len(candidate_domains)}")
@@ -185,9 +178,9 @@ def main():
         with open(BLOCKLIST_FILE, "w", encoding="utf-8") as f:
             for dom in all_domains:
                 f.write(dom + "\n")
-        print("[+] Archivo de lista de bloqueo actualizado exitosamente.")
+        print(f"[+] Archivo de lista de bloqueo actualizado exitosamente ({len(new_domains)} añadidos).")
     else:
-        print("\n[-] No se encontraron nuevos dominios para agregar.")
+        print("\n[-] No se encontraron nuevos dominios para agregar (o todos ya estaban en la lista).")
 
 if __name__ == "__main__":
     main()
