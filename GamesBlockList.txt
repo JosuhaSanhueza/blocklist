@@ -92,6 +92,7 @@ friends.roblox.com
 friv-2017.com
 friv-7.com
 friv.cm
+friv.com
 friv.lol
 friv.uno
 friv1000.com
@@ -106,7 +107,9 @@ frivextra.com
 frivez.com
 frivjogosonline.com.br
 frivmax.com
+frivoriginal.com
 frivplus.com
+frivusa.com
 futbol-11.com
 game-cdn.poki.com
 gameinternationalization.roblox.com
@@ -117,6 +120,7 @@ games.roblox.com
 games44.com
 gartic.io
 garticphone.com
+geometry-dash-lite.io
 geometry-dash.net
 geometry-games.io
 geometry-lite.com
