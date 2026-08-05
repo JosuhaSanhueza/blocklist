@@ -2,9 +2,12 @@ name: Update BlockList Automatically
 
 on:
   schedule:
-    # Se ejecuta todas las noches a las 03:00 AM UTC (23:00 / 00:00 Chile/Arg)
+    # Se ejecuta todas las noches a las 03:00 AM UTC
     - cron: '0 3 * * *'
   workflow_dispatch: # Permite ejecutar manualmente desde GitHub UI
+
+permissions:
+  contents: write
 
 jobs:
   update-blocklist:
