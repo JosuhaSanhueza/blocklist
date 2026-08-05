@@ -4,17 +4,17 @@ import re
 import urllib.parse
 import urllib.request
 import ssl
-from html.parser import HTMLParser
 
 # Configuración
 BLOCKLIST_FILE = "GamesBlockList.txt"
 KEYWORDS_FILE = "keywords.txt"
 MAX_NEW_DOMAINS = 150
-TIMEOUT_SECONDS = 5
+TIMEOUT_SECONDS = 4
 
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
-    ".app", ".xyz", ".top", ".me", ".play", ".gg", ".game", ".cc", ".club", ".es"
+    ".app", ".xyz", ".top", ".me", ".play", ".gg", ".game", ".cc", ".club",
+    ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us"
 )
 
 GAME_INDICATORS = [
@@ -30,29 +30,6 @@ WHITELIST = {
     "discord.com", "fandom.com", "steamcommunity.com", "epicgames.com",
     "duckduckgo.com", "bing.com", "yahoo.com"
 }
-
-class SimpleMetaTitleParser(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.in_title = False
-        self.title = ""
-        self.meta_text = ""
-
-    def handle_starttag(self, tag, attrs):
-        if tag.lower() == 'title':
-            self.in_title = True
-        elif tag.lower() == 'meta':
-            attrs_dict = {k.lower(): v.lower() for k, v in attrs if k and v}
-            if attrs_dict.get('name') in ['description', 'keywords']:
-                self.meta_text += " " + attrs_dict.get('content', '')
-
-    def handle_endtag(self, tag):
-        if tag.lower() == 'title':
-            self.in_title = False
-
-    def handle_data(self, data):
-        if self.in_title:
-            self.title += data
 
 def load_existing_domains():
     if not os.path.exists(BLOCKLIST_FILE):
@@ -73,37 +50,53 @@ def clean_domain(domain):
     domain = domain.split("/")[0].split(":")[0]
     return domain
 
-def search_domains(keyword):
+def search_duckduckgo_pages(keyword):
+    """Busca variantes y subpáginas en DuckDuckGo iterando por múltiples términos"""
     found = set()
-    query = urllib.parse.quote(f"{keyword} juegos online free games site:com OR site:net OR site:io OR site:online OR site:games")
-    url = f"https://html.duckduckgo.com/html/?q={query}"
+    queries = [
+        f"{keyword} juegos gratis online",
+        f"{keyword} unblocked games 76 66",
+        f"play {keyword} online free browser",
+        f"site:.io {keyword}",
+        f"site:.games {keyword}",
+        f"site:.online {keyword}"
+    ]
+    
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
-    req = urllib.request.Request(url, headers=headers)
-    
-    try:
-        context = ssl.create_default_context()
-        context.check_hostname = False
-        context.verify_mode = ssl.CERT_NONE
-        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
-            html = response.read().decode('utf-8', errors='ignore')
-            links = re.findall(r'uddg=([^&"]+)', html)
-            for href in links:
-                actual_url = urllib.parse.unquote(href)
-                parsed = urllib.parse.urlparse(actual_url if actual_url.startswith('http') else 'http://' + actual_url)
-                dom = clean_domain(parsed.netloc)
-                if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
-                    if any(dom.endswith(tld) for tld in VALID_TLDS):
-                        found.add(dom)
-    except Exception as e:
-        print(f"[!] Error buscando keyword '{keyword}': {e}")
-    
+
+    for query_str in queries:
+        query = urllib.parse.quote(query_str)
+        url = f"https://html.duckduckgo.com/html/?q={query}"
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
+            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
+                html = response.read().decode('utf-8', errors='ignore')
+                links = re.findall(r'uddg=([^&"]+)', html)
+                for href in links:
+                    actual_url = urllib.parse.unquote(href)
+                    parsed = urllib.parse.urlparse(actual_url if actual_url.startswith('http') else 'http://' + actual_url)
+                    dom = clean_domain(parsed.netloc)
+                    if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
+                        if any(dom.endswith(tld) for tld in VALID_TLDS):
+                            found.add(dom)
+        except Exception:
+            pass
+            
     return found
 
 def is_game_website(domain):
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
         return False
+
+    # Si el propio nombre de dominio contiene una keyword de juegos clara (ej: friv360.com, geometrydashonline.net)
+    for kw in ["friv", "geometrydash", "minijuegos", "eaglecraft", "stumbleguys", "haxball"]:
+        if kw in domain:
+            return True
 
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     url = f"http://{domain}"
@@ -117,14 +110,9 @@ def is_game_website(domain):
             if 'text/html' not in content_type:
                 return False
             
-            html = resp.read(50000).decode('utf-8', errors='ignore')
-            parser = SimpleMetaTitleParser()
-            parser.feed(html)
-            
-            combined_text = f"{parser.title.lower()} {parser.meta_text.lower()}"
-            matches = sum(1 for indicator in GAME_INDICATORS if indicator in combined_text)
-            
-            return matches >= 1
+            html = resp.read(30000).decode('utf-8', errors='ignore').lower()
+            matches = sum(1 for indicator in GAME_INDICATORS if indicator in html)
+            return matches >= 2
     except Exception:
         return False
 
@@ -138,11 +126,11 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Buscando candidatos para: '{kw}'...")
-        results = search_domains(kw)
+        print(f"[*] Buscando candidatos ampliados para: '{kw}'...")
+        results = search_duckduckgo_pages(kw)
         candidate_domains.update(results)
     
-    print(f"[*] Candidatos únicos encontrados: {len(candidate_domains)}")
+    print(f"[*] Candidatos únicos encontrados en la web: {len(candidate_domains)}")
     
     new_domains = []
     for domain in candidate_domains:
@@ -153,13 +141,13 @@ def main():
         if domain in existing_domains:
             continue
             
-        print(f"[*] Verificando si '{domain}' es un juego...")
+        print(f"[*] Verificando: '{domain}'...")
         if is_game_website(domain):
             print(f"  [+] Confirmado como sitio de juegos: {domain}")
             new_domains.append(domain)
             existing_domains.add(domain)
         else:
-            print(f"  [-] Rechazado (No es juego o inactivo): {domain}")
+            print(f"  [-] Rechazado: {domain}")
             
     if new_domains:
         print(f"\n[+] Agregando {len(new_domains)} dominios nuevos a {BLOCKLIST_FILE}...")
