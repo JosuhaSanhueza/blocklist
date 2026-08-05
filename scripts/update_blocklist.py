@@ -4,12 +4,13 @@ import re
 import urllib.parse
 import urllib.request
 import ssl
+from html.parser import HTMLParser
 
 # Configuración
 BLOCKLIST_FILE = "GamesBlockList.txt"
 KEYWORDS_FILE = "keywords.txt"
 MAX_NEW_DOMAINS = 150
-TIMEOUT_SECONDS = 4
+TIMEOUT_SECONDS = 5
 
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
@@ -31,6 +32,29 @@ WHITELIST = {
     "duckduckgo.com", "bing.com", "yahoo.com"
 }
 
+class SimpleMetaTitleParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_title = False
+        self.title = ""
+        self.meta_text = ""
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == 'title':
+            self.in_title = True
+        elif tag.lower() == 'meta':
+            attrs_dict = {k.lower(): v.lower() for k, v in attrs if k and v}
+            if attrs_dict.get('name') in ['description', 'keywords']:
+                self.meta_text += " " + attrs_dict.get('content', '')
+
+    def handle_endtag(self, tag):
+        if tag.lower() == 'title':
+            self.in_title = False
+
+    def handle_data(self, data):
+        if self.in_title:
+            self.title += data
+
 def load_existing_domains():
     if not os.path.exists(BLOCKLIST_FILE):
         return set()
@@ -50,16 +74,18 @@ def clean_domain(domain):
     domain = domain.split("/")[0].split(":")[0]
     return domain
 
-def search_duckduckgo_pages(keyword):
-    """Busca variantes y subpáginas en DuckDuckGo iterando por múltiples términos"""
+def search_duckduckgo_combos(keyword):
+    """Busca en DuckDuckGo usando múltiples dorks y combinaciones de TLDs sin requerir API Keys ni tarjetas"""
     found = set()
     queries = [
         f"{keyword} juegos gratis online",
-        f"{keyword} unblocked games 76 66",
-        f"play {keyword} online free browser",
+        f"{keyword} unblocked games 76",
+        f"play {keyword} online free",
         f"site:.io {keyword}",
         f"site:.games {keyword}",
-        f"site:.online {keyword}"
+        f"site:.online {keyword}",
+        f"site:.fun {keyword}",
+        f"site:.xyz {keyword}"
     ]
     
     headers = {
@@ -93,7 +119,7 @@ def is_game_website(domain):
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
         return False
 
-    # Si el propio nombre de dominio contiene una keyword de juegos clara (ej: friv360.com, geometrydashonline.net)
+    # Si el propio nombre de dominio contiene explícitamente la palabra clave de un juego
     for kw in ["friv", "geometrydash", "minijuegos", "eaglecraft", "stumbleguys", "haxball"]:
         if kw in domain:
             return True
@@ -110,9 +136,13 @@ def is_game_website(domain):
             if 'text/html' not in content_type:
                 return False
             
-            html = resp.read(30000).decode('utf-8', errors='ignore').lower()
-            matches = sum(1 for indicator in GAME_INDICATORS if indicator in html)
-            return matches >= 2
+            html = resp.read(30000).decode('utf-8', errors='ignore')
+            parser = SimpleMetaTitleParser()
+            parser.feed(html)
+            
+            combined_text = f"{parser.title.lower()} {parser.meta_text.lower()}"
+            matches = sum(1 for indicator in GAME_INDICATORS if indicator in combined_text)
+            return matches >= 1
     except Exception:
         return False
 
@@ -126,11 +156,11 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Buscando candidatos ampliados para: '{kw}'...")
-        results = search_duckduckgo_pages(kw)
+        print(f"[*] Buscando candidatos en la web para: '{kw}'...")
+        results = search_duckduckgo_combos(kw)
         candidate_domains.update(results)
     
-    print(f"[*] Candidatos únicos encontrados en la web: {len(candidate_domains)}")
+    print(f"[*] Candidatos únicos encontrados: {len(candidate_domains)}")
     
     new_domains = []
     for domain in candidate_domains:
