@@ -1,0 +1,36 @@
+name: Update BlockList Automatically
+
+on:
+  schedule:
+    # Se ejecuta todas las noches a las 03:00 AM UTC (23:00 / 00:00 Chile/Arg)
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Permite ejecutar manualmente desde GitHub UI
+
+jobs:
+  update-blocklist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run BlockList Updater
+        run: |
+          python3 scripts/update_blocklist.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add GamesBlockList.txt keywords.txt
+          if git diff --staged --quiet; then
+            echo "No changes in blocklist today."
+          else
+            git commit -m "auto: update GamesBlockList.txt [skip ci]"
+            git push
+          fi
