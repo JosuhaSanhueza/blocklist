@@ -5,6 +5,7 @@
 3hm.minijuegos.com
 5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
 5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
+66-ez.gitlab.io
 67clicker.bitbucket.io
 6922b02c-40d6-4b41-8250-70ff32fd9b3c.poki-gdn.com
 8games.net
@@ -42,6 +43,7 @@ catalog.roblox.com
 cdn.mergecakegame.com
 cdp.cloud.unity3d.com
 classic.minecraft.net
+classrooms6x.gitlab.io
 cleverappssg.com
 clickspersecond.com
 client-telemetry.roblox.com
@@ -54,6 +56,7 @@ cooljuegos.com
 cpstest.click
 cpstest.org
 cptest.io
+crazygames.com
 crucible.frvr.com
 cryzen.io
 cza.crazygames.com
@@ -120,6 +123,7 @@ games.roblox.com
 games44.com
 gartic.io
 garticphone.com
+geodash.org
 geometry-dash-lite.io
 geometry-dash.net
 geometry-games.io
@@ -130,6 +134,7 @@ geometrydash-lite.io
 geometrydash-pc.com
 geometrydash.com
 geometrydash.es
+geometrydash.gg
 geometrydashh.es
 geometrydashlite2.io
 geometrydashlite22.io
@@ -185,6 +190,7 @@ minecraft.net
 minecraft.novaskin.me
 minecraftclassic.online
 minecraftforfreex.com
+minijuegos.com
 mobirix.com
 model.crazygames.com
 morefriv.com
@@ -240,6 +246,8 @@ t.poki.io
 tapnation.cdn.msnfun.com
 thumbnails.roblox.com
 time.mobirix.com
+ubg76.gitlab.io
+ug76.gitlab.io
 us-5.cryzen.io
 us-6.cryzen.io
 us.cryzen.io
@@ -303,6 +311,7 @@ www2.minijuegosgratis.com
 www3.minijuegosgratis.com
 www4.minijuegosgratis.com
 www5.minijuegosgratis.com
+y8.com
 yandex.com
 zone.msn.com
 zone.msn.com.edgesuite.net
