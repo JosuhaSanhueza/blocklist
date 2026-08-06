@@ -240,6 +240,7 @@ lms.roblox.com
 locale.roblox.com
 luckyblocks.io
 m0dgames.itch.io
+maddox.games
 makeitmeme.com
 matchventures.frvr.com
 mcon.vercel.app
@@ -259,6 +260,7 @@ minecraftclassic.online
 minecraftforfreex.com
 minijuegos.com
 minijuegos.games
+miniplay.com
 mobirix.com
 model.crazygames.com
 morefriv.com
