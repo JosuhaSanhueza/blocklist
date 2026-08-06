@@ -39,3 +39,4 @@ granny
 freegames
 mess
 kiz
+craft
