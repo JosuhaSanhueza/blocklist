@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 BLOCKLIST_FILE = "GamesBlockList.txt"
 KEYWORDS_FILE = "keywords.txt"
 MAX_NEW_DOMAINS = 150
-TIMEOUT_SECONDS = 5
+TIMEOUT_SECONDS = 4
 
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
@@ -81,13 +81,17 @@ def clean_domain(domain):
     domain = domain.split("/")[0].split(":")[0]
     return domain
 
-def search_duckduckgo_organic(keyword):
-    """Extrae los primeros resultados de búsqueda orgánicos reales de DuckDuckGo"""
+def discover_subdomains_and_search(keyword):
+    """Busca en DuckDuckGo orgánico y además extrae subdominios activos vía DNS HostSearch"""
     found = set()
+    
+    # 1. Búsqueda web orgánica en DuckDuckGo (Múltiples consultas)
     queries = [
         f"{keyword} juegos online",
         f"{keyword} unblocked games",
-        f"play {keyword} free online"
+        f"play {keyword} free online",
+        f"site:.io {keyword}",
+        f"site:.games {keyword}"
     ]
     
     headers = {
@@ -114,19 +118,42 @@ def search_duckduckgo_organic(keyword):
                             found.add(dom)
         except Exception:
             pass
-            
+
+    # 2. Descubrimiento activo de subdominios vía DNS HostSearch API (poki.com, crazygames.com, roblox.com, y8.com, etc.)
+    dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(keyword)}.com"
+    try:
+        req = urllib.request.Request(dns_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
+            text = resp.read().decode('utf-8', errors='ignore')
+            for line in text.split('\n'):
+                if ',' in line:
+                    host = line.split(',')[0].strip()
+                    dom = clean_domain(host)
+                    if dom and dom not in WHITELIST and any(dom.endswith(tld) for tld in VALID_TLDS):
+                        found.add(dom)
+    except Exception:
+        pass
+
     return found
 
 def is_game_website(domain):
     """
-    Verifica si un sitio es de juegos analizando su huella dactilar de motor JS/SDK 
-    o metadatos clave, evitando falsos positivos.
+    Verifica si un sitio/subdominio es de juegos analizando su huella dactilar de motor JS/SDK 
+    o subdominios directos de portales conocidos.
     """
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
         return False
 
     if any(non_game in domain for non_game in ["clinical", "medical", "appliance", "hospital", "pharma"]):
         return False
+
+    # Si es un subdominio de un portal de juegos muy conocido (ej: game-files.crazygames.com, fr.minijuegos.com, poki-gdn.com)
+    known_game_bases = ["poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com", "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com"]
+    for base in known_game_bases:
+        if domain.endswith("." + base) or domain == base:
+            # Excluir solo subdominios administrativos conocidos
+            if not any(admin in domain for admin in ["jira.", "admin.", "corp.", "office."]):
+                return True
 
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     
@@ -149,11 +176,9 @@ def is_game_website(domain):
                 combined_metadata = f"{parser.title.lower()} {parser.meta_text.lower()}"
                 html_lower = html.lower()
 
-                # 1. Detectar huella dactilar de motores/SDKs JS (Phaser, Unity WebGL, Poki SDK, CrazyGames SDK, Canvas, Containers)
+                # Detectar huella dactilar JS/HTML5
                 has_js_footprint = any(re.search(fp, html_lower) for fp in JS_GAME_FOOTPRINTS)
                 has_canvas_or_iframe = "<canvas" in html_lower or ("<iframe" in html_lower and "game" in html_lower)
-                
-                # 2. Análisis de texto y metadatos
                 text_matches = sum(1 for indicator in GAME_TEXT_INDICATORS if indicator in combined_metadata or indicator in html_lower[:3000])
 
                 if (has_js_footprint or has_canvas_or_iframe) and text_matches >= 1:
@@ -177,11 +202,11 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Extrayendo primeros resultados reales en DuckDuckGo para: '{kw}'...")
-        results = search_duckduckgo_organic(kw)
+        print(f"[*] Extrayendo búsquedas web y subdominios para: '{kw}'...")
+        results = discover_subdomains_and_search(kw)
         candidate_domains.update(results)
     
-    print(f"[*] Candidatos orgánicos de búsqueda web encontrados: {len(candidate_domains)}")
+    print(f"[*] Candidatos (web + subdominios) encontrados: {len(candidate_domains)}")
     
     new_domains = []
     for domain in candidate_domains:
@@ -192,9 +217,9 @@ def main():
         if domain in existing_domains:
             continue
             
-        print(f"[*] Inspeccionando huella dactilar JS/HTML5 en: '{domain}'...")
+        print(f"[*] Inspeccionando: '{domain}'...")
         if is_game_website(domain):
-            print(f"  [+] Confirmado sitio de juegos por huella/metadatos: {domain}")
+            print(f"  [+] Confirmado sitio o subdominio de juegos: {domain}")
             new_domains.append(domain)
             existing_domains.add(domain)
         else:
