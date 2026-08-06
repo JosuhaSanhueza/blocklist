@@ -424,3 +424,8 @@ zone.msn.com.edgesuite.net
 zynga.com
 mess.eu.org
 fridaynightfunkin.app
+mcraft.fun
+mcon.vercel.app
+smcraft.fun
+beta.mcraft.fun
+mcsrc.dev
