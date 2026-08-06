@@ -18,11 +18,17 @@ VALID_TLDS = (
     ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us"
 )
 
-# Palabras obligatorias que identifican un portal de juegos online en HTML/Metadatos
-STRICT_GAME_INDICATORS = [
-    "juegos gratis", "juegos online", "free online games", "play online",
-    "unblocked games", "html5 games", "browser games", "juegos de",
-    "play free", "juegos html5", "game portal", "online games"
+# Huellas dactilares de motores de juegos JS / SDKs / Canvas en código cliente
+JS_GAME_FOOTPRINTS = [
+    r"unitywebgl", r"phaser", r"pixi\.js", r"godot", r"construct[23]?",
+    r"turbowarp", r"createjs", r"poki-sdk", r"crazygames-sdk", r"gamedistribution",
+    r"playcanvas", r"cocos2d", r"game-container", r"gameframe", r"game_frame",
+    r"game-iframe", r"game_canvas", r"canvas-container"
+]
+
+GAME_TEXT_INDICATORS = [
+    "juego", "juegos", "game", "games", "play online", "unblocked", "free online",
+    "juegos gratis", "juegos online", "juego gratis", "html5 games", "browser game"
 ]
 
 WHITELIST = {
@@ -75,78 +81,91 @@ def clean_domain(domain):
     domain = domain.split("/")[0].split(":")[0]
     return domain
 
-def discover_subdomains_and_variants(keyword):
-    """Genera variantes específicas asociadas a la keyword"""
+def search_duckduckgo_organic(keyword):
+    """Extrae los primeros resultados de búsqueda orgánicos reales de DuckDuckGo"""
     found = set()
+    queries = [
+        f"{keyword} juegos online",
+        f"{keyword} unblocked games",
+        f"play {keyword} free online"
+    ]
     
-    # 1. API pública de resolución DNS HostSearch
-    url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(keyword)}.com"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
-            text = resp.read().decode('utf-8', errors='ignore')
-            for line in text.split('\n'):
-                if ',' in line:
-                    host = line.split(',')[0].strip()
-                    dom = clean_domain(host)
-                    if dom and any(dom.endswith(tld) for tld in VALID_TLDS):
-                        found.add(dom)
-    except Exception:
-        pass
-        
-    # 2. Generar patrones específicos de clones
-    for i in range(1, 10):
-        found.add(f"{keyword}{i}.com")
-        found.add(f"unblocked-{keyword}.com")
-        found.add(f"play-{keyword}.com")
-        found.add(f"{keyword}-games.com")
-        found.add(f"{keyword}.io")
-        found.add(f"{keyword}.games")
-        found.add(f"{keyword}.online")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+    }
 
+    for query_str in queries:
+        query = urllib.parse.quote(query_str)
+        url = f"https://html.duckduckgo.com/html/?q={query}"
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
+            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
+                html = response.read().decode('utf-8', errors='ignore')
+                links = re.findall(r'uddg=([^&"]+)', html)
+                for href in links:
+                    actual_url = urllib.parse.unquote(href)
+                    parsed = urllib.parse.urlparse(actual_url if actual_url.startswith('http') else 'http://' + actual_url)
+                    dom = clean_domain(parsed.netloc)
+                    if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
+                        if any(dom.endswith(tld) for tld in VALID_TLDS):
+                            found.add(dom)
+        except Exception:
+            pass
+            
     return found
 
 def is_game_website(domain):
-    """Validación rigurosa por contenido HTML/Metadata para eliminar falsos positivos"""
+    """
+    Verifica si un sitio es de juegos analizando su huella dactilar de motor JS/SDK 
+    o metadatos clave, evitando falsos positivos.
+    """
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
         return False
 
-    # Evitar sitios corporativos/empresariales conocidos por nombres comunes (ej: slopeclinical)
-    if "clinical" in domain or "medical" in domain or "appliance" in domain or "store" in domain:
+    if any(non_game in domain for non_game in ["clinical", "medical", "appliance", "hospital", "pharma"]):
         return False
 
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-    url = f"http://{domain}"
-    try:
-        context = ssl.create_default_context()
-        context.check_hostname = False
-        context.verify_mode = ssl.CERT_NONE
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as resp:
-            content_type = resp.headers.get('Content-Type', '')
-            if 'text/html' not in content_type:
+    
+    for scheme in ["https://", "http://"]:
+        url = f"{scheme}{domain}"
+        try:
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as resp:
+                content_type = resp.headers.get('Content-Type', '')
+                if 'text/html' not in content_type:
+                    return False
+                
+                html = resp.read(40000).decode('utf-8', errors='ignore')
+                parser = MetaTitleParser()
+                parser.feed(html)
+                
+                combined_metadata = f"{parser.title.lower()} {parser.meta_text.lower()}"
+                html_lower = html.lower()
+
+                # 1. Detectar huella dactilar de motores/SDKs JS (Phaser, Unity WebGL, Poki SDK, CrazyGames SDK, Canvas, Containers)
+                has_js_footprint = any(re.search(fp, html_lower) for fp in JS_GAME_FOOTPRINTS)
+                has_canvas_or_iframe = "<canvas" in html_lower or ("<iframe" in html_lower and "game" in html_lower)
+                
+                # 2. Análisis de texto y metadatos
+                text_matches = sum(1 for indicator in GAME_TEXT_INDICATORS if indicator in combined_metadata or indicator in html_lower[:3000])
+
+                if (has_js_footprint or has_canvas_or_iframe) and text_matches >= 1:
+                    return True
+                elif text_matches >= 2:
+                    return True
+
                 return False
+        except Exception:
+            continue
             
-            html = resp.read(30000).decode('utf-8', errors='ignore')
-            parser = MetaTitleParser()
-            parser.feed(html)
-            
-            combined_metadata = f"{parser.title.lower()} {parser.meta_text.lower()}"
-            
-            # 1. Comprobación estricta de meta título/descripción
-            for indicator in STRICT_GAME_INDICATORS:
-                if indicator in combined_metadata:
-                    return True
-            
-            # 2. Verificación de etiquetas típicas de portales HTML5 (canvas/game iframe/arcade)
-            if "<canvas" in html.lower() or "game-container" in html.lower() or "iframe" in html.lower() and "game" in html.lower():
-                if any(kw in combined_metadata or kw in html.lower() for kw in ["game", "juego", "play", "poki", "friv", "crazygames"]):
-                    return True
-                    
-            return False
-    except Exception:
-        # Si el sitio no responde HTTP o da timeout, NO LO AGREGAMOS (evita sitios basura/caídos/dominios estacionados)
-        return False
+    return False
 
 def main():
     print("[*] Cargando dominios existentes y palabras clave...")
@@ -158,11 +177,11 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Buscando candidatos para: '{kw}'...")
-        results = discover_subdomains_and_variants(kw)
+        print(f"[*] Extrayendo primeros resultados reales en DuckDuckGo para: '{kw}'...")
+        results = search_duckduckgo_organic(kw)
         candidate_domains.update(results)
     
-    print(f"[*] Candidatos únicos generados: {len(candidate_domains)}")
+    print(f"[*] Candidatos orgánicos de búsqueda web encontrados: {len(candidate_domains)}")
     
     new_domains = []
     for domain in candidate_domains:
@@ -173,13 +192,13 @@ def main():
         if domain in existing_domains:
             continue
             
-        print(f"[*] Verificando de forma estricta: '{domain}'...")
+        print(f"[*] Inspeccionando huella dactilar JS/HTML5 en: '{domain}'...")
         if is_game_website(domain):
-            print(f"  [+] Confirmado como sitio de juegos: {domain}")
+            print(f"  [+] Confirmado sitio de juegos por huella/metadatos: {domain}")
             new_domains.append(domain)
             existing_domains.add(domain)
         else:
-            print(f"  [-] Rechazado (No es juego o inactivo): {domain}")
+            print(f"  [-] Rechazado: {domain}")
             
     if new_domains:
         print(f"\n[+] Agregando {len(new_domains)} dominios nuevos a {BLOCKLIST_FILE}...")
