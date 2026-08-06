@@ -23,6 +23,7 @@ api.msn.com
 api.poki.com
 apis.roblox.com
 aquaperiit.comwww.friv.com
+ar.y8.com
 arealme.com
 armadillomarine.comwww.friv.com
 armorgames.online
@@ -144,6 +145,7 @@ gameinternationalization.roblox.com
 gamejoin.roblox.com
 gamepix.com
 games-games.com
+games.com
 games.poki.com
 games.roblox.com
 games4.com
@@ -190,6 +192,7 @@ haxball.com
 hdgames.com
 hoodamath.com
 hotgames.io
+html5.haxball.com
 images.crazygames.com
 img.poki-cdn.com
 inlogic.cdn.msnfun.com
@@ -315,6 +318,7 @@ sdk.legionsdk.com
 shellshock.io
 shellshockers.io
 shellshockers2.com
+silvergames.io
 slither.com
 slithergame.io
 slope3.com
@@ -412,6 +416,7 @@ www5.minijuegosgratis.com
 y8-games.com
 y8.com
 y8games2.com
+yahoo.games.com
 yandex.com
 yjizz.com-www.y8.com
 zone.msn.com
