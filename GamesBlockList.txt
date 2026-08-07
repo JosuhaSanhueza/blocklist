@@ -32,6 +32,7 @@ ads.poki.com
 adventneon.game-files.crazygames.com
 advertising.crazygames.com
 advertizing.crazygames.com
+aeon-network.net
 agar-io.com
 agar.io
 agario.com
@@ -49,6 +50,7 @@ apis.roblox.com
 aquaperiit.comwww.friv.com
 ar.crazygames.com
 ar.y8.com
+arch.mc
 arealme.com
 armadillomarine.comwww.friv.com
 armorgames.online
@@ -159,6 +161,7 @@ dashmetry.io
 de.crazygames.com
 deadshot.io
 desertblitz.minijuegos.com
+dev.eaglercraft.com
 developer.crazygames.com
 developer.poki.com
 developers.poki.com
@@ -182,6 +185,7 @@ eaglercraft.tools
 eaglercraft1-8.github.io
 eaglercraftgame.io
 eaglercrafthub.com
+eaglercraftservers.com
 economy.roblox.com
 ecsv2.roblox.com
 edge.games.msn.com
@@ -189,6 +193,7 @@ emupedia.net
 emuvault-2.firebaseapp.com
 ephemeralcounters.api.roblox.com
 epicgames.com
+esl-api.eaglercraft.com
 ext.minijuegos.com
 ext.minijuegosgratis.com
 ext01.fr.minijuegos.com
@@ -238,6 +243,7 @@ frivplus.com
 frivusa.com
 fun.friv.com
 futbol-11.com
+g.eaglercraftx.com
 game-cdn.poki.com
 gameflare.online
 gameinternationalization.roblox.com
@@ -275,6 +281,7 @@ geometrylitepc.io
 geometydashwave.io
 getwebservicesonline.comaccount.y8.com
 getwebservicesonline.comar.y8.com
+ggsmp.eaglercraftx.com
 ghs.googlehosted.com
 ghs64.googlehosted.com
 github.io
@@ -402,6 +409,7 @@ mafia1930.minijuegos.com
 mail.geometrydash.com
 makeitmeme.com
 matchventures.frvr.com
+mc.arch.lol
 mcon.vercel.app
 mcraft.fun
 mcsrc.dev
@@ -421,6 +429,7 @@ minecraft.novaskin.me
 minecraftclassic.online
 minecraftforfreex.com
 minelatino.com
+minex.eaglercraftx.com
 minijuegos.com
 minijuegos.games
 miniplay.com
@@ -446,6 +455,7 @@ neal.fun
 nemexia.minijuegos.com
 neocortex.fr.minijuegos.com
 newgrounds.com
+nightshade.eaglercraftx.com
 nite.games
 nm.minijuegos.com
 notifications.roblox.com
@@ -466,6 +476,7 @@ phoenix.jklm.fun
 pinpin.fr.minijuegos.com
 play-games.com
 play.eaglercraft.win
+play.eaglercraftx.com
 playbrain.games
 playgama.com
 playhop.com
@@ -521,6 +532,7 @@ scalacube.com
 scaryteacher-3d.io
 sdk.legionsdk.com
 sdk.poki.com
+servers.eaglercraft.com
 shellshock.io
 shellshockers.io
 shellshockers2.com
@@ -548,6 +560,7 @@ store.steampowered.com
 store.stumbleguys.com
 stumbleguys.com
 support1.ams3.y8.com
+sus.shhnowisnottheti.me
 swarm.minipush.minijuegos.com
 t.poki.io
 tapnation.cdn.msnfun.com
@@ -557,6 +570,7 @@ time.mobirix.com
 topgames.gg
 tracking-mail.email.crazygames.com
 traefik-web.minipush.minijuegos.com
+ts.eaglercraftx.com
 ubg76.gitlab.io
 ug76.gitlab.io
 unblocked-games.com
@@ -572,6 +586,7 @@ v.poki.com
 vc.fr.minijuegos.com
 veck.io
 veckio.io
+velocity.eg.mc.freedombrowser.org
 venge.io
 vidaextra.com
 videos.crazygames.com
@@ -584,10 +599,12 @@ web.cloudmoonapp.com
 web.friv.com
 webdisk.friv.com
 webmail.friv.com
+wedpqminex.eaglercraftx.com
 wiki.friv.com
 wordle-games.com
 workers.crazygames.com
 ww.friv.com
+ww1.playeaglercraft.com
 www.1001juegos.com
 www.a10.com
 www.addictinggames.com
@@ -661,12 +678,7 @@ yahoo.games.com
 yandex.com
 yjizz.com-www.y8.com
 zapgames.io
+zentic.org
 zone.msn.com
 zone.msn.com.edgesuite.net
 zynga.com
-arch.mc
-mc.arch.lol
-sus.shhnowisnottheti.me
-aeon-network.net
-zentic.org
-velocity.eg.mc.freedombrowser.org
