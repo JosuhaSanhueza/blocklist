@@ -664,3 +664,9 @@ zapgames.io
 zone.msn.com
 zone.msn.com.edgesuite.net
 zynga.com
+arch.mc
+mc.arch.lol
+sus.shhnowisnottheti.me
+aeon-network.net
+zentic.org
+velocity.eg.mc.freedombrowser.org
