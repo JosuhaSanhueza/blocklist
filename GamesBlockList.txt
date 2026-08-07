@@ -636,3 +636,6 @@ fnaffree.io
 cpstest.net
 eaglercraft.global.ssl.fastly.net
 fastly.net
+topgames.gg
+www.fnfgo.com
+www.snokido.com
