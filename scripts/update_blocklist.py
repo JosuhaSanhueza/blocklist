@@ -36,10 +36,9 @@ WHITELIST = {
     "apple.com", "amazon.com", "facebook.com", "twitter.com", "instagram.com",
     "reddit.com", "linkedin.com", "store.steampowered.com", "twitch.tv",
     "discord.com", "fandom.com", "steamcommunity.com", "epicgames.com",
-    "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com"
+    "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com"
 }
 
-# Subdominios que NO bloqueamos por ser infraestructura/administración (correo, auth, panelt, cpanel, etc.)
 ADMIN_SUBDOMAIN_PREFIXES = (
     "mail.", "webmail.", "cpanel.", "cpcalendars.", "cpcontacts.", "jira.",
     "auth.", "authorize.", "billing.", "careers.", "blog.", "docs.", "status.",
@@ -88,11 +87,9 @@ def clean_domain(domain):
     domain = domain.split("/")[0].split(":")[0]
     return domain
 
-def discover_subdomains_and_search(keyword):
-    """Busca en DuckDuckGo orgánico y además extrae subdominios activos vía DNS HostSearch"""
+# --- MÓDULO 1: DuckDuckGo Organic Search ---
+def search_duckduckgo_organic(keyword):
     found = set()
-    
-    # 1. Búsqueda web orgánica en DuckDuckGo
     queries = [
         f"{keyword} juegos online",
         f"{keyword} unblocked games",
@@ -100,10 +97,7 @@ def discover_subdomains_and_search(keyword):
         f"site:.io {keyword}",
         f"site:.games {keyword}"
     ]
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
-    }
+    headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"}
 
     for query_str in queries:
         query = urllib.parse.quote(query_str)
@@ -115,18 +109,60 @@ def discover_subdomains_and_search(keyword):
             context.verify_mode = ssl.CERT_NONE
             with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
                 html = response.read().decode('utf-8', errors='ignore')
-                links = re.findall(r'uddg=([^&"]+)', html)
+                raw_urls = re.findall(r'uddg=([^&\"]+)', html)
+                for u in raw_urls:
+                    decoded = urllib.parse.unquote(u)
+                    if decoded.startswith('http'):
+                        parsed = urllib.parse.urlparse(decoded)
+                        dom = clean_domain(parsed.netloc)
+                        if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
+                            if any(dom.endswith(tld) for tld in VALID_TLDS):
+                                found.add(dom)
+        except Exception:
+            pass
+
+    return found
+
+# --- MÓDULO 2: Startpage Privacy Search Engine ---
+def search_startpage_organic(keyword):
+    """Extrae resultados adicionales sin rastreo a través de Startpage POST search"""
+    found = set()
+    url = "https://www.startpage.com/sp/search"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+    
+    queries = [
+        f"{keyword} juegos gratis",
+        f"unblocked {keyword} games"
+    ]
+    
+    for query_str in queries:
+        data = urllib.parse.urlencode({"query": query_str, "cat": "web"}).encode('utf-8')
+        req = urllib.request.Request(url, data=data, headers=headers)
+        try:
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
+            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
+                html = response.read().decode('utf-8', errors='ignore')
+                # Enlaces de Startpage result-link
+                links = re.findall(r'href=\"(https?://[^\"]+)\"\s+class=\"[^\"]*result-link', html)
                 for href in links:
-                    actual_url = urllib.parse.unquote(href)
-                    parsed = urllib.parse.urlparse(actual_url if actual_url.startswith('http') else 'http://' + actual_url)
+                    parsed = urllib.parse.urlparse(href)
                     dom = clean_domain(parsed.netloc)
                     if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
                         if any(dom.endswith(tld) for tld in VALID_TLDS):
                             found.add(dom)
         except Exception:
             pass
+            
+    return found
 
-    # 2. Descubrimiento activo de subdominios vía DNS HostSearch API
+# --- MÓDULO 3: DNS HostSearch Subdomain Discovery ---
+def search_subdomains_dns(keyword):
+    found = set()
     dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(keyword)}.com"
     try:
         req = urllib.request.Request(dns_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -140,30 +176,29 @@ def discover_subdomains_and_search(keyword):
                         found.add(dom)
     except Exception:
         pass
-
     return found
 
+def discover_all_candidates(keyword):
+    candidates = set()
+    # Ejecutar los 3 módulos complementarios
+    candidates.update(search_duckduckgo_organic(keyword))
+    candidates.update(search_startpage_organic(keyword))
+    candidates.update(search_subdomains_dns(keyword))
+    return candidates
+
 def is_game_website(domain):
-    """
-    Verifica si un sitio/subdominio es de juegos analizando su huella dactilar de motor JS/SDK 
-    o subdominios directos de portales conocidos.
-    """
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
         return False
 
-    # Evitar dominios corporativos o no relacionados
     if any(non_game in domain for non_game in ["clinical", "medical", "appliance", "hospital", "pharma"]):
         return False
 
-    # Descartar subdominios administrativos o de sistema (evitamos bloquear mail/cpanel/auth de empresas o servicios)
     if any(domain.startswith(prefix) for prefix in ADMIN_SUBDOMAIN_PREFIXES):
         return False
 
-    # Si es un subdominio directo de entrega de juegos / CDN de portales reconocidos
     known_game_bases = ["poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com", "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com"]
     for base in known_game_bases:
         if domain.endswith("." + base) or domain == base:
-            # Aprobar subdominios jugables o CDNs de assets de juegos
             if any(game_sub in domain for game_sub in ["game", "play", "assets", "cdn", "v.", "builds", "dev", "static"]):
                 return True
 
@@ -188,7 +223,6 @@ def is_game_website(domain):
                 combined_metadata = f"{parser.title.lower()} {parser.meta_text.lower()}"
                 html_lower = html.lower()
 
-                # Detectar huella dactilar JS/HTML5
                 has_js_footprint = any(re.search(fp, html_lower) for fp in JS_GAME_FOOTPRINTS)
                 has_canvas_or_iframe = "<canvas" in html_lower or ("<iframe" in html_lower and "game" in html_lower)
                 text_matches = sum(1 for indicator in GAME_TEXT_INDICATORS if indicator in combined_metadata or indicator in html_lower[:3000])
@@ -214,11 +248,11 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Extrayendo búsquedas web y subdominios para: '{kw}'...")
-        results = discover_subdomains_and_search(kw)
+        print(f"[*] Rastrenado con Módulos (DuckDuckGo + Startpage + Subdominios DNS) para: '{kw}'...")
+        results = discover_all_candidates(kw)
         candidate_domains.update(results)
     
-    print(f"[*] Candidatos (web + subdominios) encontrados: {len(candidate_domains)}")
+    print(f"[*] Candidatos únicos totales encontrados: {len(candidate_domains)}")
     
     new_domains = []
     for domain in candidate_domains:
