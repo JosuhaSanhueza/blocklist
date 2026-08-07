@@ -14,6 +14,8 @@
 6922b02c-40d6-4b41-8250-70ff32fd9b3c.poki-gdn.com
 8-ball-billiards-classic.game-files.crazygames.com
 8games.net
+<<<<<<< head
+=======
 _8001._https.3hm.minijuegos.com
 a-grim-chase.game-files.crazygames.com
 a-grim-love-tale.game-files.crazygames.com
@@ -36,6 +38,7 @@ agario.com
 allwebgames.com
 alphabet-drop.game-files.crazygames.com
 animenewz.inwww.friv.com
+any.googlehosted.com
 api-acceptance.poki.com
 api.crazygames.com
 api.cryzen.io
@@ -56,10 +59,12 @@ assets.stumbleguys.com
 assets.test.stumbleguys.com
 assets2.stumbleguys.com
 assets2.test.stumbleguys.com
+aternos.org
 auds.poki.io
 auth.crazygames.com
 auth.roblox.com
 avatar.roblox.com
+axenthost.com
 ayuda.minijuegos.com
 azgames.io
 b.jetspaz.com
@@ -119,6 +124,7 @@ chess-free.game-files.crazygames.com
 chicken-scream.game-files.crazygames.com
 classic.friv.com
 classic.minecraft.net
+classroom80x.com
 classrooms6x.gitlab.io
 cleverappssg.com
 click.mail.poki.com
@@ -204,6 +210,7 @@ fr9.es
 freegames.io
 freegames2.com
 freegames9.com
+freemcserver.net
 fridaynightfunkin.app
 friends.crazygames.com
 friends.roblox.com
@@ -268,6 +275,8 @@ geometrylitepc.io
 geometydashwave.io
 getwebservicesonline.comaccount.y8.com
 getwebservicesonline.comar.y8.com
+ghs.googlehosted.com
+ghs64.googlehosted.com
 github.io
 gitlab.io-games.com
 giveawayoftheday.com
@@ -411,6 +420,7 @@ minecraft.net
 minecraft.novaskin.me
 minecraftclassic.online
 minecraftforfreex.com
+minelatino.com
 minijuegos.com
 minijuegos.games
 miniplay.com
@@ -507,6 +517,7 @@ rocketleague.com
 s1.minijuegosgratis.com
 s2.minijuegosgratis.com
 s3.minijuegosgratis.com
+scalacube.com
 scaryteacher-3d.io
 sdk.legionsdk.com
 sdk.poki.com
@@ -515,6 +526,7 @@ shellshockers.io
 shellshockers2.com
 shop.poki.com
 silvergames.io
+sites.google.com
 slither.com
 slithergame.io
 slope3.com
@@ -581,6 +593,7 @@ www.a10.com
 www.addictinggames.com
 www.arealme.com
 www.clickspersecond.com
+www.cokitos.com
 www.cooljuegos.com
 www.crazygames.com
 www.cubecraft.net
@@ -613,6 +626,7 @@ www.juegosfriv2018.net
 www.juegosfrivolo.com
 www.mcdle.net
 www.meegames.com
+www.minecraft.net
 www.minecraftclassic.online
 www.minecraftforfreex.com
 www.minijuegos.com
@@ -620,9 +634,11 @@ www.minijuegosgratis.com
 www.msngames.com
 www.newgrounds.com
 www.ohgames.io
+www.ouiheberg.com
 www.play-games.com
 www.roblox.com
 www.rocketleague.com
+www.sites.google.com
 www.snokido.com
 www.stumbleguys.com
 www.twoplayergames.org
@@ -648,31 +664,3 @@ zapgames.io
 zone.msn.com
 zone.msn.com.edgesuite.net
 zynga.com
-<<<<<<< HEAD
-=======
-fnaffree.io
-cpstest.net
-eaglercraft.global.ssl.fastly.net
-fastly.net
-topgames.gg
-www.fnfgo.com
-www.snokido.com
-fivenightsatfreddysgame.io
-emuvault-2.firebaseapp.com
-d1tm91r4ytbt54.cloudfront.net
-qiniu.keepwork.com
-play.eaglercraft.win
-client.eaglercraft.win
-eaglercraftgame.io
-www.xbitlabs.com
-classroom80x.com
-www.cokitos.com
-sites.google.com
-emuvault-2.firebaseapp.com
-aternos.org
-freemcserver.net
-scalacube.com
-www.ouiheberg.com
-www.minecraft.net
-axenthost.com
-minelatino.com
