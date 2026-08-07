@@ -632,3 +632,5 @@ zapgames.io
 zone.msn.com
 zone.msn.com.edgesuite.net
 zynga.com
+fnaffree.io
+cpstest.net

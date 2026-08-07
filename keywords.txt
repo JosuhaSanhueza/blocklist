@@ -56,3 +56,5 @@ browsergames
 html5games
 freeonlinegames
 juegosparaestudiantes
+cpstest
+cptest
