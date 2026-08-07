@@ -1,3 +1,19 @@
+# --- Eaglercraft y Servidores de Minecraft Web/Navegador ---
+eaglercraft
+eaglercraftX
+eaglercraft1.8
+eaglercraft1.2
+eaglercraftb1.3
+eaglercraft-servers
+eaglercraft-online
+eaglercraft-web
+eaglercraft-html5
+play-eaglercraft
+eaglercraft-client
+archmc
+eaglercraft-relays
+wss-eaglercraft
+
 # --- Juegos Virales e io Games ---
 geometrydash
 friv
@@ -58,7 +74,6 @@ freeonlinegames
 juegosparaestudiantes
 cpstest
 cptest
-fastly
 topgames
 fnf
 snokido

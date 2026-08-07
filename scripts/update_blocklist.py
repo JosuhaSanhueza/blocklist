@@ -15,20 +15,23 @@ TIMEOUT_SECONDS = 4
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
     ".app", ".xyz", ".top", ".me", ".play", ".gg", ".game", ".cc", ".club",
-    ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us"
+    ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us", ".win"
 )
 
-# Huellas dactilares de motores de juegos JS / SDKs / Canvas en código cliente
+# Huellas dactilares de motores de juegos JS / SDKs / Eaglercraft WebSockets / Canvas en código cliente
 JS_GAME_FOOTPRINTS = [
     r"unitywebgl", r"phaser", r"pixi\.js", r"godot", r"construct[23]?",
     r"turbowarp", r"createjs", r"poki-sdk", r"crazygames-sdk", r"gamedistribution",
     r"playcanvas", r"cocos2d", r"game-container", r"gameframe", r"game_frame",
-    r"game-iframe", r"game_canvas", r"canvas-container"
+    r"game-iframe", r"game_canvas", r"canvas-container",
+    r"eaglercraft", r"eagler", r"wss://", r"ws://", r"_eaglercraftX", r"eaglercraftX",
+    r"teavm", r"minecraftweb", r"webminecraft"
 ]
 
 GAME_TEXT_INDICATORS = [
     "juego", "juegos", "game", "games", "play online", "unblocked", "free online",
-    "juegos gratis", "juegos online", "juego gratis", "html5 games", "browser game"
+    "juegos gratis", "juegos online", "juego gratis", "html5 games", "browser game",
+    "eaglercraft", "minecraft 1.8", "minecraft 1.2", "eaglercraftx", "web minecraft"
 ]
 
 WHITELIST = {
@@ -88,21 +91,12 @@ def clean_domain(domain):
     return domain
 
 def generate_keyword_variations(keyword):
-    """
-    Genera automáticamente variaciones complejas de cada palabra clave:
-    - Separada con espacios: "juegosonline" -> "juegos online"
-    - Con guiones: "paper io" -> "paper-io"
-    - Sin espacios ni guiones: "paper-io" -> "paperio"
-    - Con puntos / extensiones comunes: "poki" -> "poki.com", "poki.io"
-    """
     variations = {keyword}
     
-    # Si contiene guiones, agregar versión con espacio y versión junta
     if "-" in keyword:
         variations.add(keyword.replace("-", " "))
         variations.add(keyword.replace("-", ""))
     
-    # Si contiene palabras pegadas comunes como 'juegosonline' o 'freegames'
     if "juegos" in keyword and len(keyword) > 6:
         variations.add(keyword.replace("juegos", "juegos "))
     if "games" in keyword and len(keyword) > 5:
@@ -110,7 +104,6 @@ def generate_keyword_variations(keyword):
     if "unblocked" in keyword and len(keyword) > 9:
         variations.add(keyword.replace("unblocked", "unblocked "))
         
-    # Limpiar espacios extra
     return [v.strip() for v in variations if v.strip()]
 
 # --- MÓDULO 1: DuckDuckGo Organic Search ---
@@ -125,12 +118,13 @@ def search_duckduckgo_organic(keyword):
             f"{kv} unblocked games",
             f"play {kv} free online",
             f"site:.io {kv}",
-            f"site:.games {kv}"
+            f"site:.games {kv}",
+            f"site:.win {kv}"
         ])
     
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"}
 
-    for query_str in queries[:8]: # Limitar a las 8 mejores combinaciones por keyword
+    for query_str in queries[:8]:
         query = urllib.parse.quote(query_str)
         url = f"https://html.duckduckgo.com/html/?q={query}"
         req = urllib.request.Request(url, headers=headers)
@@ -195,7 +189,6 @@ def search_startpage_organic(keyword):
 # --- MÓDULO 3: DNS HostSearch Subdomain Discovery ---
 def search_subdomains_dns(keyword):
     found = set()
-    # Probar la palabra tal cual y sin guiones para DNS HostSearch
     clean_kw = keyword.replace("-", "").replace(" ", "")
     dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}.com"
     try:
@@ -229,10 +222,10 @@ def is_game_website(domain):
     if any(domain.startswith(prefix) for prefix in ADMIN_SUBDOMAIN_PREFIXES):
         return False
 
-    known_game_bases = ["poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com", "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com"]
+    known_game_bases = ["poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com", "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com", "eaglercraft.win", "eaglercraft.com"]
     for base in known_game_bases:
         if domain.endswith("." + base) or domain == base:
-            if any(game_sub in domain for game_sub in ["game", "play", "assets", "cdn", "v.", "builds", "dev", "static"]):
+            if not any(admin in domain for admin in ["jira.", "admin.", "corp.", "office."]):
                 return True
 
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -281,7 +274,7 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Rastrenado con Módulos y Variaciones para: '{kw}'...")
+        print(f"[*] Rastrenado con Módulos para: '{kw}'...")
         results = discover_all_candidates(kw)
         candidate_domains.update(results)
     
