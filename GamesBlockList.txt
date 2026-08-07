@@ -640,3 +640,8 @@ topgames.gg
 www.fnfgo.com
 www.snokido.com
 fivenightsatfreddysgame.io
+emuvault-2.firebaseapp.com
+d1tm91r4ytbt54.cloudfront.net
+qiniu.keepwork.com
+play.eaglercraft.win
+client.eaglercraft.win
