@@ -634,3 +634,5 @@ zone.msn.com.edgesuite.net
 zynga.com
 fnaffree.io
 cpstest.net
+eaglercraft.global.ssl.fastly.net
+fastly.net
