@@ -645,3 +645,5 @@ d1tm91r4ytbt54.cloudfront.net
 qiniu.keepwork.com
 play.eaglercraft.win
 client.eaglercraft.win
+eaglercraftgame.io
+www.xbitlabs.com
