@@ -87,19 +87,50 @@ def clean_domain(domain):
     domain = domain.split("/")[0].split(":")[0]
     return domain
 
+def generate_keyword_variations(keyword):
+    """
+    Genera automáticamente variaciones complejas de cada palabra clave:
+    - Separada con espacios: "juegosonline" -> "juegos online"
+    - Con guiones: "paper io" -> "paper-io"
+    - Sin espacios ni guiones: "paper-io" -> "paperio"
+    - Con puntos / extensiones comunes: "poki" -> "poki.com", "poki.io"
+    """
+    variations = {keyword}
+    
+    # Si contiene guiones, agregar versión con espacio y versión junta
+    if "-" in keyword:
+        variations.add(keyword.replace("-", " "))
+        variations.add(keyword.replace("-", ""))
+    
+    # Si contiene palabras pegadas comunes como 'juegosonline' o 'freegames'
+    if "juegos" in keyword and len(keyword) > 6:
+        variations.add(keyword.replace("juegos", "juegos "))
+    if "games" in keyword and len(keyword) > 5:
+        variations.add(keyword.replace("games", " games"))
+    if "unblocked" in keyword and len(keyword) > 9:
+        variations.add(keyword.replace("unblocked", "unblocked "))
+        
+    # Limpiar espacios extra
+    return [v.strip() for v in variations if v.strip()]
+
 # --- MÓDULO 1: DuckDuckGo Organic Search ---
 def search_duckduckgo_organic(keyword):
     found = set()
-    queries = [
-        f"{keyword} juegos online",
-        f"{keyword} unblocked games",
-        f"play {keyword} free online",
-        f"site:.io {keyword}",
-        f"site:.games {keyword}"
-    ]
+    kw_variations = generate_keyword_variations(keyword)
+    
+    queries = []
+    for kv in kw_variations:
+        queries.extend([
+            f"{kv} juegos online",
+            f"{kv} unblocked games",
+            f"play {kv} free online",
+            f"site:.io {kv}",
+            f"site:.games {kv}"
+        ])
+    
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"}
 
-    for query_str in queries:
+    for query_str in queries[:8]: # Limitar a las 8 mejores combinaciones por keyword
         query = urllib.parse.quote(query_str)
         url = f"https://html.duckduckgo.com/html/?q={query}"
         req = urllib.request.Request(url, headers=headers)
@@ -125,7 +156,6 @@ def search_duckduckgo_organic(keyword):
 
 # --- MÓDULO 2: Startpage Privacy Search Engine ---
 def search_startpage_organic(keyword):
-    """Extrae resultados adicionales sin rastreo a través de Startpage POST search"""
     found = set()
     url = "https://www.startpage.com/sp/search"
     headers = {
@@ -133,12 +163,15 @@ def search_startpage_organic(keyword):
         "Content-Type": "application/x-www-form-urlencoded"
     }
     
-    queries = [
-        f"{keyword} juegos gratis",
-        f"unblocked {keyword} games"
-    ]
+    kw_variations = generate_keyword_variations(keyword)
+    queries = []
+    for kv in kw_variations:
+        queries.extend([
+            f"{kv} juegos gratis",
+            f"unblocked {kv} games"
+        ])
     
-    for query_str in queries:
+    for query_str in queries[:4]:
         data = urllib.parse.urlencode({"query": query_str, "cat": "web"}).encode('utf-8')
         req = urllib.request.Request(url, data=data, headers=headers)
         try:
@@ -147,7 +180,6 @@ def search_startpage_organic(keyword):
             context.verify_mode = ssl.CERT_NONE
             with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
                 html = response.read().decode('utf-8', errors='ignore')
-                # Enlaces de Startpage result-link
                 links = re.findall(r'href=\"(https?://[^\"]+)\"\s+class=\"[^\"]*result-link', html)
                 for href in links:
                     parsed = urllib.parse.urlparse(href)
@@ -163,7 +195,9 @@ def search_startpage_organic(keyword):
 # --- MÓDULO 3: DNS HostSearch Subdomain Discovery ---
 def search_subdomains_dns(keyword):
     found = set()
-    dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(keyword)}.com"
+    # Probar la palabra tal cual y sin guiones para DNS HostSearch
+    clean_kw = keyword.replace("-", "").replace(" ", "")
+    dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}.com"
     try:
         req = urllib.request.Request(dns_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
@@ -180,7 +214,6 @@ def search_subdomains_dns(keyword):
 
 def discover_all_candidates(keyword):
     candidates = set()
-    # Ejecutar los 3 módulos complementarios
     candidates.update(search_duckduckgo_organic(keyword))
     candidates.update(search_startpage_organic(keyword))
     candidates.update(search_subdomains_dns(keyword))
@@ -248,7 +281,7 @@ def main():
     
     candidate_domains = set()
     for kw in keywords:
-        print(f"[*] Rastrenado con Módulos (DuckDuckGo + Startpage + Subdominios DNS) para: '{kw}'...")
+        print(f"[*] Rastrenado con Módulos y Variaciones para: '{kw}'...")
         results = discover_all_candidates(kw)
         candidate_domains.update(results)
     
