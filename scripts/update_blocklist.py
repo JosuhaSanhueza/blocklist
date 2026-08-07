@@ -39,6 +39,13 @@ WHITELIST = {
     "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com"
 }
 
+# Subdominios que NO bloqueamos por ser infraestructura/administración (correo, auth, panelt, cpanel, etc.)
+ADMIN_SUBDOMAIN_PREFIXES = (
+    "mail.", "webmail.", "cpanel.", "cpcalendars.", "cpcontacts.", "jira.",
+    "auth.", "authorize.", "billing.", "careers.", "blog.", "docs.", "status.",
+    "autodiscover.", "admin.", "mx0.", "smtp.", "relay."
+)
+
 class MetaTitleParser(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -85,7 +92,7 @@ def discover_subdomains_and_search(keyword):
     """Busca en DuckDuckGo orgánico y además extrae subdominios activos vía DNS HostSearch"""
     found = set()
     
-    # 1. Búsqueda web orgánica en DuckDuckGo (Múltiples consultas)
+    # 1. Búsqueda web orgánica en DuckDuckGo
     queries = [
         f"{keyword} juegos online",
         f"{keyword} unblocked games",
@@ -119,7 +126,7 @@ def discover_subdomains_and_search(keyword):
         except Exception:
             pass
 
-    # 2. Descubrimiento activo de subdominios vía DNS HostSearch API (poki.com, crazygames.com, roblox.com, y8.com, etc.)
+    # 2. Descubrimiento activo de subdominios vía DNS HostSearch API
     dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(keyword)}.com"
     try:
         req = urllib.request.Request(dns_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -144,15 +151,20 @@ def is_game_website(domain):
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
         return False
 
+    # Evitar dominios corporativos o no relacionados
     if any(non_game in domain for non_game in ["clinical", "medical", "appliance", "hospital", "pharma"]):
         return False
 
-    # Si es un subdominio de un portal de juegos muy conocido (ej: game-files.crazygames.com, fr.minijuegos.com, poki-gdn.com)
+    # Descartar subdominios administrativos o de sistema (evitamos bloquear mail/cpanel/auth de empresas o servicios)
+    if any(domain.startswith(prefix) for prefix in ADMIN_SUBDOMAIN_PREFIXES):
+        return False
+
+    # Si es un subdominio directo de entrega de juegos / CDN de portales reconocidos
     known_game_bases = ["poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com", "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com"]
     for base in known_game_bases:
         if domain.endswith("." + base) or domain == base:
-            # Excluir solo subdominios administrativos conocidos
-            if not any(admin in domain for admin in ["jira.", "admin.", "corp.", "office."]):
+            # Aprobar subdominios jugables o CDNs de assets de juegos
+            if any(game_sub in domain for game_sub in ["game", "play", "assets", "cdn", "v.", "builds", "dev", "static"]):
                 return True
 
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
