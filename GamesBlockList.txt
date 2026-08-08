@@ -173,6 +173,7 @@ docs.crazygames.com
 drnusaifonline.comwww.friv.com
 e.kyabai.com
 eaglecraft.com
+eaglecraft.com.co
 eaglecraft.global.ssl.fastly.net
 eaglecraftgame.io
 eaglercraft.app
@@ -186,6 +187,7 @@ eaglercraft1-8.github.io
 eaglercraftgame.io
 eaglercrafthub.com
 eaglercraftservers.com
+eaglercraftweb.com
 economy.roblox.com
 ecsv2.roblox.com
 edge.games.msn.com
@@ -480,6 +482,7 @@ play.eaglercraftx.com
 playbrain.games
 playgama.com
 playhop.com
+playminigames.net
 playspark.net
 plesk.fr.minijuegos.com
 plesk01.fr.minijuegos.com
