@@ -335,3 +335,4 @@
 ||mineplay.io^
 ||eaglercraft.club^
 ||fridaynightfunkin.net^
+||ligadegamers.com^
