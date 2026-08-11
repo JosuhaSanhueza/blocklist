@@ -74,8 +74,15 @@ class MetaTitleParser(HTMLParser):
 def load_existing_domains():
     if not os.path.exists(BLOCKLIST_FILE):
         return set()
+    raw_domains = set()
     with open(BLOCKLIST_FILE, "r", encoding="utf-8", errors="ignore") as f:
-        return {line.strip().lower() for line in f if line.strip() and not line.startswith("#")}
+        for line in f:
+            line = line.strip().lower()
+            if line and not line.startswith("#"):
+                # Limpiar sintaxis de AdGuard Home ||domain^ para obtener el dominio puro
+                clean = line.lstrip("|").rstrip("^").strip()
+                raw_domains.add(clean)
+    return raw_domains
 
 def load_keywords():
     if not os.path.exists(KEYWORDS_FILE):
@@ -302,8 +309,9 @@ def main():
         all_domains = sorted(list(existing_domains))
         with open(BLOCKLIST_FILE, "w", encoding="utf-8") as f:
             for dom in all_domains:
-                f.write(dom + "\n")
-        print(f"[+] Archivo de lista de bloqueo actualizado exitosamente ({len(new_domains)} añadidos).")
+                # Formato nativo de AdGuard Home: ||domain^
+                f.write(f"||{dom}^\n")
+        print(f"[+] Archivo de lista de bloqueo actualizado exitosamente con sintaxis AdGuard Home ({len(new_domains)} añadidos).")
     else:
         print("\n[-] No se encontraron nuevos dominios para agregar.")
 
