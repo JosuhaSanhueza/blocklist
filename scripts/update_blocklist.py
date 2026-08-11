@@ -18,6 +18,12 @@ VALID_TLDS = (
     ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us", ".win"
 )
 
+# Servidores públicos o CDNs compartidos donde NO debemos consolidar al apex domain
+SHARED_HOSTING_PLATFORMS = (
+    "gitlab.io", "github.io", "bitbucket.io", "firebaseapp.com",
+    "cloudfront.net", "softgames.de", "googlehosted.com"
+)
+
 # Huellas dactilares de motores de juegos JS / SDKs / Eaglercraft WebSockets / Canvas en código cliente
 JS_GAME_FOOTPRINTS = [
     r"unitywebgl", r"phaser", r"pixi\.js", r"godot", r"construct[23]?",
@@ -71,6 +77,19 @@ class MetaTitleParser(HTMLParser):
         if self.in_title:
             self.title += data
 
+def get_root_domain(domain):
+    """Saca el dominio raíz (apex domain) respetando plataformas compartidas"""
+    if any(shared in domain for shared in SHARED_HOSTING_PLATFORMS):
+        return domain
+        
+    parts = domain.split('.')
+    if len(parts) <= 2:
+        return domain
+        
+    if len(parts) >= 3 and parts[-2] in ['co', 'com', 'org', 'net', 'edu', 'gov', 'poki-gdn', 'poki-cdn'] and len(parts[-1]) <= 3:
+        return '.'.join(parts[-3:])
+    return '.'.join(parts[-2:])
+
 def load_existing_domains():
     if not os.path.exists(BLOCKLIST_FILE):
         return set()
@@ -79,8 +98,9 @@ def load_existing_domains():
         for line in f:
             line = line.strip().lower()
             if line and not line.startswith("#"):
-                # Limpiar sintaxis de AdGuard Home ||domain^ para obtener el dominio puro
                 clean = line.lstrip("|").rstrip("^").strip()
+                if clean.startswith("www."):
+                    clean = clean[4:]
                 raw_domains.add(clean)
     return raw_domains
 
@@ -276,7 +296,7 @@ def main():
     existing_domains = load_existing_domains()
     keywords = load_keywords()
     
-    print(f"[*] Total dominios existentes: {len(existing_domains)}")
+    print(f"[*] Total dominios existentes (consolidados): {len(existing_domains)}")
     print(f"[*] Palabras clave a procesar: {len(keywords)}")
     
     candidate_domains = set()
@@ -293,19 +313,20 @@ def main():
             print(f"[*] Se alcanzó el límite diario de {MAX_NEW_DOMAINS} dominios nuevos.")
             break
             
-        if domain in existing_domains:
+        root_dom = get_root_domain(domain)
+        if root_dom in existing_domains or domain in existing_domains:
             continue
             
         print(f"[*] Inspeccionando: '{domain}'...")
         if is_game_website(domain):
-            print(f"  [+] Confirmado sitio o subdominio de juegos: {domain}")
-            new_domains.append(domain)
-            existing_domains.add(domain)
+            print(f"  [+] Confirmado sitio o subdominio de juegos: {domain} -> Consolidando a: {root_dom}")
+            new_domains.append(root_dom)
+            existing_domains.add(root_dom)
         else:
             print(f"  [-] Rechazado: {domain}")
             
     if new_domains:
-        print(f"\n[+] Agregando {len(new_domains)} dominios nuevos a {BLOCKLIST_FILE}...")
+        print(f"\n[+] Agregando {len(new_domains)} dominios principales consolidados a {BLOCKLIST_FILE}...")
         all_domains = sorted(list(existing_domains))
         with open(BLOCKLIST_FILE, "w", encoding="utf-8") as f:
             for dom in all_domains:
