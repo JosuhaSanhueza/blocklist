@@ -160,7 +160,6 @@
 ||github.io^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
-||google.com^
 ||googlehosted.com^
 ||granny-games.com^
 ||granny-online.com^
