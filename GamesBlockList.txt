@@ -336,3 +336,5 @@
 ||eaglercraft.club^
 ||fridaynightfunkin.net^
 ||ligadegamers.com^
+||optijuegos.net^
+||opticraft.net^
