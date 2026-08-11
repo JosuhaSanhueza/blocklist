@@ -332,3 +332,6 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
+||mineplay.io^
+||eaglercraft.club^
+||fridaynightfunkin.net^
