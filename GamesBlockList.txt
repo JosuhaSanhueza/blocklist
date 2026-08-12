@@ -338,3 +338,14 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
+<<<<<<< Updated upstream
+=======
+||mineplay.io^
+||eaglercraft.club^
+||fridaynightfunkin.net^
+||ligadegamers.com^
+||optijuegos.net^
+||opticraft.net^
+||eaglercraftx.net^
+||eaglercraft-minecraft.com^
+>>>>>>> Stashed changes
