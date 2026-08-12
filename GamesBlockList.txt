@@ -67,11 +67,12 @@
 ||deadshot.io^
 ||delt.io^
 ||diegosjuegos.com^
-||eaglecraft.com.co^
 ||eaglecraft.com^
+||eaglecraft.com.co^
 ||eaglecraftgame.io^
 ||eaglecraftonline.bitbucket.io^
 ||eaglercraft.app^
+||eaglercraft.club^
 ||eaglercraft.com^
 ||eaglercraft.dev^
 ||eaglercraft.ir^
@@ -104,6 +105,7 @@
 ||freegames9.com^
 ||freemcserver.net^
 ||fridaynightfunkin.app^
+||fridaynightfunkin.net^
 ||friv-2017.com^
 ||friv-7.com^
 ||friv.cm^
@@ -129,6 +131,7 @@
 ||frvr.com^
 ||futbol-11.com^
 ||gameflare.online^
+||gamenora.com^
 ||gamepix.com^
 ||games-games.com^
 ||games.com^
@@ -216,6 +219,7 @@
 ||krunker.io^
 ||kyabai.com^
 ||legionsdk.com^
+||ligadegamers.com^
 ||luckyblocks.io^
 ||maddox.games^
 ||makeitmeme.com^
@@ -234,6 +238,7 @@
 ||minecraftforfreex.com^
 ||minecraftforge.net^
 ||minelatino.com^
+||mineplay.io^
 ||minijuegos.com^
 ||minijuegos.games^
 ||minijuegosgratis.com^
@@ -257,6 +262,8 @@
 ||ohgames.io^
 ||onlinegames.io^
 ||onlinegames.net^
+||opticraft.net^
+||optijuegos.net^
 ||ouiheberg.com^
 ||play-games.com^
 ||playbrain.games^
@@ -331,9 +338,3 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
-||mineplay.io^
-||eaglercraft.club^
-||fridaynightfunkin.net^
-||ligadegamers.com^
-||optijuegos.net^
-||opticraft.net^
