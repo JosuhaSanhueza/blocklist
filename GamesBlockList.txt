@@ -345,3 +345,4 @@
 ||opticraft.net^
 ||eaglercraftx.net^
 ||eaglercraft-minecraft.com^
+||fastly.net^
