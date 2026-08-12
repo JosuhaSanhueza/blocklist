@@ -91,7 +91,6 @@
 ||epicgames.com^
 ||essential.gg^
 ||eu.org^
-||fastly.net^
 ||fivenightsatfreddysgame.io^
 ||flappybird.io^
 ||fnaffree.io^
@@ -174,7 +173,7 @@
 ||granny2.io^
 ||grannyonline.io^
 ||hahagames.com^
-||happinessad.github.io^
+||hapessad.github.io^
 ||haxball.com^
 ||hdgames.com^
 ||holajuegos.com^
