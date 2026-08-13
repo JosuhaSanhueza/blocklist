@@ -376,3 +376,5 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
+||geometrydash.com.mx^
+||geometrylitepc.com^
