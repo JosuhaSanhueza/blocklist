@@ -43,6 +43,7 @@
 ||bloxd.io^
 ||boing.es^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
+||carrot-craft.org^
 ||classroom80x.com^
 ||classrooms6x.gitlab.io^
 ||cleverappssg.com^
