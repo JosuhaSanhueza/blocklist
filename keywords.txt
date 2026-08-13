@@ -1,4 +1,4 @@
-# --- Eaglercraft y Servidores de Minecraft Web/Navegador ---
+# --- Servidores y Clientes Pirata de Minecraft Web (Eaglercraft, Opticraft, CraftMines) ---
 eaglercraft
 eaglercraftX
 eaglercraft1.8
@@ -13,6 +13,15 @@ eaglercraft-client
 archmc
 eaglercraft-relays
 wss-eaglercraft
+opticraft
+opticraft-server
+webmc
+webminecraft
+minecraft-web
+play-opticraft
+eagler-server
+eagler.ws
+eagler.network
 
 # --- Juegos Virales e io Games ---
 geometrydash
@@ -78,4 +87,3 @@ topgames
 fnf
 snokido
 fivenightsatfreddys
-amongus

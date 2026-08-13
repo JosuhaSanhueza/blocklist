@@ -15,7 +15,7 @@ TIMEOUT_SECONDS = 4
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
     ".app", ".xyz", ".top", ".me", ".play", ".gg", ".game", ".cc", ".club",
-    ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us", ".win"
+    ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us", ".win", ".ws", ".network", ".dev"
 )
 
 # Servidores públicos o CDNs compartidos donde NO debemos consolidar al apex domain
@@ -24,20 +24,20 @@ SHARED_HOSTING_PLATFORMS = (
     "cloudfront.net", "softgames.de", "googlehosted.com"
 )
 
-# Huellas dactilares de motores de juegos JS / SDKs / Eaglercraft WebSockets / Canvas en código cliente
+# Huellas dactilares de motores de juegos JS / SDKs / Eaglercraft WebSockets / Opticraft / Canvas en código cliente
 JS_GAME_FOOTPRINTS = [
     r"unitywebgl", r"phaser", r"pixi\.js", r"godot", r"construct[23]?",
     r"turbowarp", r"createjs", r"poki-sdk", r"crazygames-sdk", r"gamedistribution",
     r"playcanvas", r"cocos2d", r"game-container", r"gameframe", r"game_frame",
     r"game-iframe", r"game_canvas", r"canvas-container",
     r"eaglercraft", r"eagler", r"wss://", r"ws://", r"_eaglercraftX", r"eaglercraftX",
-    r"teavm", r"minecraftweb", r"webminecraft"
+    r"opticraft", r"teavm", r"minecraftweb", r"webminecraft"
 ]
 
 GAME_TEXT_INDICATORS = [
     "juego", "juegos", "game", "games", "play online", "unblocked", "free online",
     "juegos gratis", "juegos online", "juego gratis", "html5 games", "browser game",
-    "eaglercraft", "minecraft 1.8", "minecraft 1.2", "eaglercraftx", "web minecraft"
+    "eaglercraft", "minecraft 1.8", "minecraft 1.2", "eaglercraftx", "web minecraft", "opticraft"
 ]
 
 WHITELIST = {
@@ -133,7 +133,7 @@ def generate_keyword_variations(keyword):
         
     return [v.strip() for v in variations if v.strip()]
 
-# --- MÓDULO 1: DuckDuckGo Organic Search ---
+# --- MÓDULO 1: DuckDuckGo Organic Search & WSS Regex ---
 def search_duckduckgo_organic(keyword):
     found = set()
     kw_variations = generate_keyword_variations(keyword)
@@ -213,23 +213,27 @@ def search_startpage_organic(keyword):
             
     return found
 
-# --- MÓDULO 3: DNS HostSearch Subdomain Discovery ---
+# --- MÓDULO 3: DNS HostSearch Subdomain & Server Discovery ---
 def search_subdomains_dns(keyword):
     found = set()
     clean_kw = keyword.replace("-", "").replace(" ", "")
-    dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}.com"
-    try:
-        req = urllib.request.Request(dns_url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
-            text = resp.read().decode('utf-8', errors='ignore')
-            for line in text.split('\n'):
-                if ',' in line:
-                    host = line.split(',')[0].strip()
-                    dom = clean_domain(host)
-                    if dom and dom not in WHITELIST and any(dom.endswith(tld) for tld in VALID_TLDS):
-                        found.add(dom)
-    except Exception:
-        pass
+    
+    # Probar TLDs comunes para servidores de juegos web (com, net, org, io, win)
+    tlds_to_query = [".com", ".net", ".org", ".io", ".win"]
+    for tld in tlds_to_query:
+        dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}{tld}"
+        try:
+            req = urllib.request.Request(dns_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
+                text = resp.read().decode('utf-8', errors='ignore')
+                for line in text.split('\n'):
+                    if ',' in line:
+                        host = line.split(',')[0].strip()
+                        dom = clean_domain(host)
+                        if dom and dom not in WHITELIST and any(dom.endswith(vtld) for vtld in VALID_TLDS):
+                            found.add(dom)
+        except Exception:
+            pass
     return found
 
 def discover_all_candidates(keyword):
@@ -249,7 +253,11 @@ def is_game_website(domain):
     if any(domain.startswith(prefix) for prefix in ADMIN_SUBDOMAIN_PREFIXES):
         return False
 
-    known_game_bases = ["poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com", "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com", "eaglercraft.win", "eaglercraft.com"]
+    known_game_bases = [
+        "poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com",
+        "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com",
+        "eaglercraft.win", "eaglercraft.com", "eaglercraftx.com", "opticraft.com", "webmc.com"
+    ]
     for base in known_game_bases:
         if domain.endswith("." + base) or domain == base:
             if not any(admin in domain for admin in ["jira.", "admin.", "corp.", "office."]):
