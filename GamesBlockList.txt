@@ -46,6 +46,7 @@
 ||carrot-craft.org^
 ||classroom80x.com^
 ||classrooms6x.gitlab.io^
+||clavejuegos.com^
 ||cleverappssg.com^
 ||clickspersecond.com^
 ||cloudfront.net^
@@ -93,6 +94,7 @@
 ||eaglercraftz.pages.dev^
 ||easyfun.gg^
 ||edgesuite.net^
+||education.minecraft.net^
 ||emupedia.net^
 ||emuvault-2.firebaseapp.com^
 ||epicgames.com^
@@ -139,6 +141,7 @@
 ||frvr.com^
 ||futbol-11.com^
 ||gameflare.online^
+||gameforge.com^
 ||gamenora.com^
 ||gamepix.com^
 ||games-games.com^
@@ -180,6 +183,8 @@
 ||granny.io^
 ||granny1.io^
 ||granny2.io^
+||grannygame.org^
+||grannyhorror.com^
 ||grannyonline.io^
 ||hahagames.com^
 ||hapessad.github.io^
@@ -215,6 +220,7 @@
 ||juegosfrivolo.com^
 ||juegosgratis.games^
 ||juegosjuegos.ws^
+||jugarmccomportal.base44.app^
 ||kbhgames.com^
 ||keepwork.com^
 ||kiz10.com^
@@ -226,6 +232,7 @@
 ||kour.io^
 ||krunker.io^
 ||kyabai.com^
+||lagged.com^
 ||legionsdk.com^
 ||ligadegamers.com^
 ||listamc.com^
@@ -276,6 +283,7 @@
 ||opticraft.net^
 ||optijuegos.net^
 ||ouiheberg.com^
+||pacogames.com^
 ||pages.dev^
 ||play-games.com^
 ||playbrain.games^
@@ -300,6 +308,7 @@
 ||scaryteacher-3d.io^
 ||sentry.io^
 ||servidoresminecraft.info^
+||sgames.org^
 ||shellshock.io^
 ||shellshockers.io^
 ||shellshockers2.com^
@@ -326,6 +335,7 @@
 ||stumbleguys.com^
 ||sunfs.app^
 ||sunstudio.io^
+||superjocs.com^
 ||theludos.com^
 ||top-games.net^
 ||top-mcservers.com^
@@ -355,11 +365,3 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
-||superjocs.com^
-||gameforge.com^
-||education.minecraft.net^
-||pacogames.com^
-||jugarmccomportal.base44.app^
-||sgames.org^
-||lagged.com^
-||clavejuegos.com^
