@@ -378,3 +378,4 @@
 ||zynga.com^
 ||geometrydash.com.mx^
 ||geometrylitepc.com^
+||dinosaurgame-free.io^

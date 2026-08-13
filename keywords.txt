@@ -52,6 +52,9 @@ stickmanhook
 stickman-game
 stickmanhookgame
 geometrydash
+geometrydashpc
+geometrydash-pc
+geometrydashlite
 friv
 minijuegos
 roblox
