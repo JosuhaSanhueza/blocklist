@@ -346,3 +346,6 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
+||eaglercraftz.pages.dev^
+||playeagler.blog^
+||skinsmc.org^
