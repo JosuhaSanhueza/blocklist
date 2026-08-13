@@ -59,6 +59,10 @@
 ||cptest.io^
 ||craftnite.io^
 ||crazygames.com^
+||crazygames.com.es^
+||crazygames.gg^
+||crazygames.org^
+||crazygames.org.es^
 ||crazygames2.com^
 ||crazygames8.com^
 ||cryzen.io^
@@ -304,6 +308,7 @@
 ||rocketgames.io^
 ||rocketgoal.io^
 ||rocketleague.com^
+||rycellgames.github.io^
 ||scalacube.com^
 ||scaryteacher-3d.io^
 ||sentry.io^
@@ -320,7 +325,10 @@
 ||slither.com^
 ||slithergame.io^
 ||slope3.com^
+||slopecom.com^
+||slopegame.io^
 ||slopegame2.com^
+||slopeonline.bitbucket.io^
 ||slopeunblocked.games^
 ||smcraft.fun^
 ||snokido.com^
@@ -337,11 +345,13 @@
 ||sunstudio.io^
 ||superjocs.com^
 ||theludos.com^
+||theslope.github.io^
 ||top-games.net^
 ||top-mcservers.com^
 ||topeaglerservers.com^
 ||topg.org^
 ||topgames.gg^
+||tops.games^
 ||topservers200.com^
 ||twoplayergames.org^
 ||ubg76.gitlab.io^
@@ -357,6 +367,7 @@
 ||we-dashers.github.io^
 ||web-dashers.github.io^
 ||wordle-games.com^
+||wordle.net^
 ||xbitlabs.com^
 ||y8-games.com^
 ||y8.com^
