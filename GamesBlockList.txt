@@ -228,7 +228,6 @@
 ||kyabai.com^
 ||legionsdk.com^
 ||ligadegamers.com^
-||livegameserverlist.com^
 ||luckyblocks.io^
 ||maddox.games^
 ||makeitmeme.com^
@@ -265,7 +264,6 @@
 ||neoteo.com^
 ||newgrounds.com^
 ||nite.games^
-||nitrado.net^
 ||novaskin.me^
 ||now.gg^
 ||nowgames.io^
@@ -326,11 +324,10 @@
 ||sunfs.app^
 ||sunstudio.io^
 ||theludos.com^
-||top-games.net^
+||top-mcservers.com^
 ||topeaglerservers.com^
 ||topg.org^
 ||topgames.gg^
-||topservers200.com^
 ||twoplayergames.org^
 ||ubg76.gitlab.io^
 ||ug76.gitlab.io^
