@@ -68,8 +68,8 @@
 ||deadshot.io^
 ||delt.io^
 ||diegosjuegos.com^
-||eaglecraft.com.co^
 ||eaglecraft.com^
+||eaglecraft.com.co^
 ||eaglecraftgame.io^
 ||eaglecraftonline.bitbucket.io^
 ||eaglercraft-minecraft.com^
@@ -90,6 +90,7 @@
 ||eaglercraftx.com^
 ||eaglercraftx.net^
 ||eaglercraftx.org^
+||eaglercraftz.pages.dev^
 ||easyfun.gg^
 ||edgesuite.net^
 ||emupedia.net^
@@ -227,6 +228,7 @@
 ||kyabai.com^
 ||legionsdk.com^
 ||ligadegamers.com^
+||livegameserverlist.com^
 ||luckyblocks.io^
 ||maddox.games^
 ||makeitmeme.com^
@@ -263,6 +265,7 @@
 ||neoteo.com^
 ||newgrounds.com^
 ||nite.games^
+||nitrado.net^
 ||novaskin.me^
 ||now.gg^
 ||nowgames.io^
@@ -275,6 +278,7 @@
 ||pages.dev^
 ||play-games.com^
 ||playbrain.games^
+||playeagler.blog^
 ||playeaglercraft.com^
 ||playgama.com^
 ||playhop.com^
@@ -302,6 +306,7 @@
 ||sigmally.com^
 ||silvergames.com^
 ||silvergames.io^
+||skinsmc.org^
 ||slither.com^
 ||slithergame.io^
 ||slope3.com^
@@ -321,9 +326,11 @@
 ||sunfs.app^
 ||sunstudio.io^
 ||theludos.com^
+||top-games.net^
 ||topeaglerservers.com^
 ||topg.org^
 ||topgames.gg^
+||topservers200.com^
 ||twoplayergames.org^
 ||ubg76.gitlab.io^
 ||ug76.gitlab.io^
@@ -346,6 +353,3 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
-||eaglercraftz.pages.dev^
-||playeagler.blog^
-||skinsmc.org^
