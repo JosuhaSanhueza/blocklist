@@ -4,13 +4,16 @@ import re
 import urllib.parse
 import urllib.request
 import ssl
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
 
 # Configuración
 BLOCKLIST_FILE = "GamesBlockList.txt"
 KEYWORDS_FILE = "keywords.txt"
 MAX_NEW_DOMAINS = 150
-TIMEOUT_SECONDS = 4
+TIMEOUT_SECONDS = 3.0  # Timeout ágil por petición
+MAX_WORKERS_SEARCH = 12  # Hilos simultáneos para buscar por palabras clave
+MAX_WORKERS_VERIFY = 20  # Hilos simultáneos para inspeccionar candidatos por HTTP/HTTPS
 
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
@@ -18,10 +21,10 @@ VALID_TLDS = (
     ".es", ".co", ".uk", ".de", ".fr", ".ru", ".br", ".us", ".win", ".ws", ".network", ".dev"
 )
 
-# Servidores públicos o CDNs compartidos donde NO debemos consolidar al apex domain
+# Plataformas de hosting compartido donde NO debemos consolidar al apex domain
 SHARED_HOSTING_PLATFORMS = (
     "gitlab.io", "github.io", "bitbucket.io", "firebaseapp.com",
-    "cloudfront.net", "softgames.de", "googlehosted.com"
+    "cloudfront.net", "softgames.de", "googlehosted.com", "pages.dev"
 )
 
 # Huellas dactilares de motores de juegos JS / SDKs / Eaglercraft WebSockets / Opticraft / Canvas en código cliente
@@ -133,25 +136,15 @@ def generate_keyword_variations(keyword):
         
     return [v.strip() for v in variations if v.strip()]
 
-# --- MÓDULO 1: DuckDuckGo Organic Search & WSS Regex ---
+# --- MÓDULOS DE BÚSQUEDA ---
+
 def search_duckduckgo_organic(keyword):
     found = set()
     kw_variations = generate_keyword_variations(keyword)
-    
-    queries = []
-    for kv in kw_variations:
-        queries.extend([
-            f"{kv} juegos online",
-            f"{kv} unblocked games",
-            f"play {kv} free online",
-            f"site:.io {kv}",
-            f"site:.games {kv}",
-            f"site:.win {kv}"
-        ])
-    
+    queries = [f"{kv} juegos online" for kv in kw_variations[:2]] + [f"{kv} unblocked games" for kv in kw_variations[:2]]
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"}
 
-    for query_str in queries[:8]:
+    for query_str in queries:
         query = urllib.parse.quote(query_str)
         url = f"https://html.duckduckgo.com/html/?q={query}"
         req = urllib.request.Request(url, headers=headers)
@@ -175,50 +168,38 @@ def search_duckduckgo_organic(keyword):
 
     return found
 
-# --- MÓDULO 2: Startpage Privacy Search Engine ---
 def search_startpage_organic(keyword):
     found = set()
     url = "https://www.startpage.com/sp/search"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Content-Type": "application/x-www-form-urlencoded"
     }
     
-    kw_variations = generate_keyword_variations(keyword)
-    queries = []
-    for kv in kw_variations:
-        queries.extend([
-            f"{kv} juegos gratis",
-            f"unblocked {kv} games"
-        ])
-    
-    for query_str in queries[:4]:
-        data = urllib.parse.urlencode({"query": query_str, "cat": "web"}).encode('utf-8')
-        req = urllib.request.Request(url, data=data, headers=headers)
-        try:
-            context = ssl.create_default_context()
-            context.check_hostname = False
-            context.verify_mode = ssl.CERT_NONE
-            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
-                html = response.read().decode('utf-8', errors='ignore')
-                links = re.findall(r'href=\"(https?://[^\"]+)\"\s+class=\"[^\"]*result-link', html)
-                for href in links:
-                    parsed = urllib.parse.urlparse(href)
-                    dom = clean_domain(parsed.netloc)
-                    if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
-                        if any(dom.endswith(tld) for tld in VALID_TLDS):
-                            found.add(dom)
-        except Exception:
-            pass
+    data = urllib.parse.urlencode({"query": f"{keyword} juegos gratis", "cat": "web"}).encode('utf-8')
+    req = urllib.request.Request(url, data=data, headers=headers)
+    try:
+        context = ssl.create_default_context()
+        context.check_hostname = False
+        context.verify_mode = ssl.CERT_NONE
+        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
+            html = response.read().decode('utf-8', errors='ignore')
+            links = re.findall(r'href=\"(https?://[^\"]+)\"\s+class=\"[^\"]*result-link', html)
+            for href in links:
+                parsed = urllib.parse.urlparse(href)
+                dom = clean_domain(parsed.netloc)
+                if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
+                    if any(dom.endswith(tld) for tld in VALID_TLDS):
+                        found.add(dom)
+    except Exception:
+        pass
             
     return found
 
-# --- MÓDULO 3: DNS HostSearch Subdomain & Server Discovery ---
 def search_subdomains_dns(keyword):
     found = set()
     clean_kw = keyword.replace("-", "").replace(" ", "")
     
-    # Probar TLDs comunes para servidores de juegos web (com, net, org, io, win)
     tlds_to_query = [".com", ".net", ".org", ".io", ".win"]
     for tld in tlds_to_query:
         dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}{tld}"
@@ -236,12 +217,13 @@ def search_subdomains_dns(keyword):
             pass
     return found
 
-def discover_all_candidates(keyword):
-    candidates = set()
-    candidates.update(search_duckduckgo_organic(keyword))
-    candidates.update(search_startpage_organic(keyword))
-    candidates.update(search_subdomains_dns(keyword))
-    return candidates
+def process_single_keyword(kw):
+    """Función ejecutada en paralelo para cada palabra clave"""
+    res = set()
+    res.update(search_duckduckgo_organic(kw))
+    res.update(search_startpage_organic(kw))
+    res.update(search_subdomains_dns(kw))
+    return res
 
 def is_game_website(domain):
     if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
@@ -277,7 +259,7 @@ def is_game_website(domain):
                 if 'text/html' not in content_type:
                     return False
                 
-                html = resp.read(40000).decode('utf-8', errors='ignore')
+                html = resp.read(35000).decode('utf-8', errors='ignore')
                 parser = MetaTitleParser()
                 parser.feed(html)
                 
@@ -299,6 +281,16 @@ def is_game_website(domain):
             
     return False
 
+def verify_single_candidate(domain, existing_domains):
+    """Inspección concurrente de cada candidato"""
+    root_dom = get_root_domain(domain)
+    if root_dom in existing_domains or domain in existing_domains:
+        return None
+    
+    if is_game_website(domain):
+        return (domain, root_dom)
+    return None
+
 def main():
     print("[*] Cargando dominios existentes y palabras clave...")
     existing_domains = load_existing_domains()
@@ -308,31 +300,47 @@ def main():
     print(f"[*] Palabras clave a procesar: {len(keywords)}")
     
     candidate_domains = set()
-    for kw in keywords:
-        print(f"[*] Rastrenado con Módulos para: '{kw}'...")
-        results = discover_all_candidates(kw)
-        candidate_domains.update(results)
+    
+    # 1. BÚSQUEDA MULTIHILO DE PALABRAS CLAVE
+    print(f"[*] Rastreando candidatos en paralelo con {MAX_WORKERS_SEARCH} hilos concurrentes...")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS_SEARCH) as executor:
+        future_to_kw = {executor.submit(process_single_keyword, kw): kw for kw in keywords}
+        for future in as_completed(future_to_kw):
+            try:
+                res = future.result()
+                candidate_domains.update(res)
+            except Exception:
+                pass
     
     print(f"[*] Candidatos únicos totales encontrados: {len(candidate_domains)}")
     
+    # Filter candidates already in blocklist before network verification
+    to_verify = [
+        d for d in candidate_domains 
+        if get_root_domain(d) not in existing_domains and d not in existing_domains
+    ]
+    print(f"[*] Candidatos nuevos a inspeccionar (filtrados previos): {len(to_verify)}")
+    
     new_domains = []
-    for domain in candidate_domains:
-        if len(new_domains) >= MAX_NEW_DOMAINS:
-            print(f"[*] Se alcanzó el límite diario de {MAX_NEW_DOMAINS} dominios nuevos.")
-            break
-            
-        root_dom = get_root_domain(domain)
-        if root_dom in existing_domains or domain in existing_domains:
-            continue
-            
-        print(f"[*] Inspeccionando: '{domain}'...")
-        if is_game_website(domain):
-            print(f"  [+] Confirmado sitio o subdominio de juegos: {domain} -> Consolidando a: {root_dom}")
-            new_domains.append(root_dom)
-            existing_domains.add(root_dom)
-        else:
-            print(f"  [-] Rechazado: {domain}")
-            
+    
+    # 2. INSPECCIÓN MULTIHILO DE CANDIDATOS
+    print(f"[*] Verificando contenido HTML5/JS en paralelo con {MAX_WORKERS_VERIFY} hilos concurrentes...")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS_VERIFY) as executor:
+        future_to_dom = {executor.submit(verify_single_candidate, dom, existing_domains): dom for dom in to_verify}
+        for future in as_completed(future_to_dom):
+            if len(new_domains) >= MAX_NEW_DOMAINS:
+                break
+            try:
+                res = future.result()
+                if res:
+                    domain, root_dom = res
+                    if root_dom not in existing_domains:
+                        print(f"  [+] Confirmado sitio de juegos: {domain} -> Consolidando a: {root_dom}")
+                        new_domains.append(root_dom)
+                        existing_domains.add(root_dom)
+            except Exception:
+                pass
+
     if new_domains:
         print(f"\n[+] Agregando {len(new_domains)} dominios principales consolidados a {BLOCKLIST_FILE}...")
         all_domains = sorted(list(existing_domains))
@@ -342,7 +350,7 @@ def main():
                 f.write(f"||{dom}^\n")
         print(f"[+] Archivo de lista de bloqueo actualizado exitosamente con sintaxis AdGuard Home ({len(new_domains)} añadidos).")
     else:
-        print("\n[-] No se encontraron nuevos dominios para agregar.")
+        print("\n[-] No se encontraron nuevos dominios para agregar hoy.")
 
 if __name__ == "__main__":
     main()
