@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import os
 import re
+import socket
+import json
 import urllib.parse
 import urllib.request
 import ssl
@@ -218,6 +220,26 @@ def search_subdomains_dns(keyword):
             pass
     return found
 
+# --- MÓDULO 4: Shodan InternetDB API (Sin requerir API Key) ---
+def search_shodan_internetdb(domain):
+    """Consulta la API pública libre de Shodan por la IP del dominio para detectar puertos de juegos (25565, 19132) o etiquetas 'videogame'"""
+    try:
+        ip = socket.gethostbyname(domain)
+        shodan_url = f"https://internetdb.shodan.io/{ip}"
+        req = urllib.request.Request(shodan_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
+            data = json.loads(resp.read().decode('utf-8', errors='ignore'))
+            ports = data.get('ports', [])
+            tags = data.get('tags', [])
+            hostnames = data.get('hostnames', [])
+            
+            # Detectar puerto estándar de Minecraft Java (25565), Bedrock (19132) o tag videogame
+            if 25565 in ports or 19132 in ports or 'videogame' in tags:
+                return True, hostnames
+    except Exception:
+        pass
+    return False, []
+
 def process_single_keyword(kw):
     res = set()
     res.update(search_duckduckgo_organic(kw))
@@ -244,6 +266,11 @@ def is_game_website(domain):
         if domain.endswith("." + base) or domain == base:
             if not any(admin in domain for admin in ["jira.", "admin.", "corp.", "office."]):
                 return True
+
+    # 1. Consulta Shodan InternetDB libre por puerto 25565 (Minecraft Java) / 19132 (Bedrock)
+    is_mc_shodan, shodan_hosts = search_shodan_internetdb(domain)
+    if is_mc_shodan:
+        return True
 
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     
@@ -320,7 +347,7 @@ def main():
     
     new_domains = []
     
-    print(f"[*] Verificando contenido HTML5/JS en paralelo con {MAX_WORKERS_VERIFY} hilos concurrentes...")
+    print(f"[*] Verificando contenido HTML5/JS y Shodan InternetDB en paralelo con {MAX_WORKERS_VERIFY} hilos concurrentes...")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS_VERIFY) as executor:
         future_to_dom = {executor.submit(verify_single_candidate, dom, existing_domains): dom for dom in to_verify}
         for future in as_completed(future_to_dom):
@@ -331,7 +358,7 @@ def main():
                 if res:
                     domain, root_dom = res
                     if root_dom not in existing_domains:
-                        print(f"  [+] Confirmado sitio de juegos: {domain} -> Consolidando a: {root_dom}")
+                        print(f"  [+] Confirmado sitio de juegos / Shodan MC: {domain} -> Consolidando a: {root_dom}")
                         new_domains.append(root_dom)
                         existing_domains.add(root_dom)
             except Exception:
