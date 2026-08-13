@@ -355,3 +355,11 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
+||superjocs.com^
+||gameforge.com^
+||education.minecraft.net^
+||pacogames.com^
+||jugarmccomportal.base44.app^
+||sgames.org^
+||lagged.com^
+||clavejuegos.com^
