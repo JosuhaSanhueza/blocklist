@@ -34,13 +34,14 @@ JS_GAME_FOOTPRINTS = [
     r"playcanvas", r"cocos2d", r"game-container", r"gameframe", r"game_frame",
     r"game-iframe", r"game_canvas", r"canvas-container",
     r"eaglercraft", r"eagler", r"wss://", r"ws://", r"_eaglercraftX", r"eaglercraftX",
-    r"opticraft", r"teavm", r"minecraftweb", r"webminecraft"
+    r"opticraft", r"teavm", r"minecraftweb", r"webminecraft", r"stickman"
 ]
 
 GAME_TEXT_INDICATORS = [
     "juego", "juegos", "game", "games", "play online", "unblocked", "free online",
     "juegos gratis", "juegos online", "juego gratis", "html5 games", "browser game",
-    "eaglercraft", "minecraft 1.8", "minecraft 1.2", "eaglercraftx", "web minecraft", "opticraft"
+    "eaglercraft", "minecraft 1.8", "minecraft 1.2", "eaglercraftx", "web minecraft", "opticraft",
+    "minecraft server", "servidor minecraft", "server ip", "stickman"
 ]
 
 WHITELIST = {
@@ -218,7 +219,6 @@ def search_subdomains_dns(keyword):
     return found
 
 def process_single_keyword(kw):
-    """Función ejecutada en paralelo para cada palabra clave"""
     res = set()
     res.update(search_duckduckgo_organic(kw))
     res.update(search_startpage_organic(kw))
@@ -238,7 +238,7 @@ def is_game_website(domain):
     known_game_bases = [
         "poki.com", "crazygames.com", "minijuegos.com", "y8.com", "friv.com",
         "poki-cdn.com", "poki-gdn.com", "haxball.com", "stumbleguys.com",
-        "eaglercraft.win", "eaglercraft.com", "eaglercraftx.com", "opticraft.com", "webmc.com"
+        "eaglercraft.win", "eaglercraft.com", "eaglercraftx.com", "opticraft.com", "webmc.com", "minelatino.com", "stickmanhookgame.org"
     ]
     for base in known_game_bases:
         if domain.endswith("." + base) or domain == base:
@@ -282,7 +282,6 @@ def is_game_website(domain):
     return False
 
 def verify_single_candidate(domain, existing_domains):
-    """Inspección concurrente de cada candidato"""
     root_dom = get_root_domain(domain)
     if root_dom in existing_domains or domain in existing_domains:
         return None
@@ -301,7 +300,6 @@ def main():
     
     candidate_domains = set()
     
-    # 1. BÚSQUEDA MULTIHILO DE PALABRAS CLAVE
     print(f"[*] Rastreando candidatos en paralelo con {MAX_WORKERS_SEARCH} hilos concurrentes...")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS_SEARCH) as executor:
         future_to_kw = {executor.submit(process_single_keyword, kw): kw for kw in keywords}
@@ -314,7 +312,6 @@ def main():
     
     print(f"[*] Candidatos únicos totales encontrados: {len(candidate_domains)}")
     
-    # Filter candidates already in blocklist before network verification
     to_verify = [
         d for d in candidate_domains 
         if get_root_domain(d) not in existing_domains and d not in existing_domains
@@ -323,7 +320,6 @@ def main():
     
     new_domains = []
     
-    # 2. INSPECCIÓN MULTIHILO DE CANDIDATOS
     print(f"[*] Verificando contenido HTML5/JS en paralelo con {MAX_WORKERS_VERIFY} hilos concurrentes...")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS_VERIFY) as executor:
         future_to_dom = {executor.submit(verify_single_candidate, dom, existing_domains): dom for dom in to_verify}
@@ -346,7 +342,6 @@ def main():
         all_domains = sorted(list(existing_domains))
         with open(BLOCKLIST_FILE, "w", encoding="utf-8") as f:
             for dom in all_domains:
-                # Formato nativo de AdGuard Home: ||domain^
                 f.write(f"||{dom}^\n")
         print(f"[+] Archivo de lista de bloqueo actualizado exitosamente con sintaxis AdGuard Home ({len(new_domains)} añadidos).")
     else:

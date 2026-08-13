@@ -1,4 +1,13 @@
-# --- Servidores y Clientes Pirata de Minecraft Web (Eaglercraft, Opticraft, CraftMines) ---
+# --- Servidores, Listas de IPs/DNS y Comuniades de Minecraft (Minelatino, Opticraft, Eaglercraft, etc.) ---
+minelatino
+servidoresmc
+servidoresminecraft
+mc-servers
+minecraft-servers
+minecraftservers
+topg-mc
+minecraft-mp
+serverlist100
 eaglercraft
 eaglercraftX
 eaglercraft1.8
@@ -23,7 +32,11 @@ eagler-server
 eagler.ws
 eagler.network
 
-# --- Juegos Virales e io Games ---
+# --- Juegos Virales, Stickman y io Games ---
+stickman
+stickmanhook
+stickman-game
+stickmanhookgame
 geometrydash
 friv
 minijuegos
