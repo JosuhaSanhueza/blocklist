@@ -68,8 +68,8 @@
 ||deadshot.io^
 ||delt.io^
 ||diegosjuegos.com^
-||eaglecraft.com.co^
 ||eaglecraft.com^
+||eaglecraft.com.co^
 ||eaglecraftgame.io^
 ||eaglecraftonline.bitbucket.io^
 ||eaglercraft-minecraft.com^
@@ -228,6 +228,7 @@
 ||kyabai.com^
 ||legionsdk.com^
 ||ligadegamers.com^
+||listamc.com^
 ||livegameserverlist.com^
 ||luckyblocks.io^
 ||maddox.games^
