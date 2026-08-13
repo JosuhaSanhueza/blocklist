@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import re
+import random
 import socket
 import json
 import urllib.parse
@@ -144,10 +145,26 @@ def generate_keyword_variations(keyword):
 def search_duckduckgo_organic(keyword):
     found = set()
     kw_variations = generate_keyword_variations(keyword)
-    queries = [f"{kv} juegos online" for kv in kw_variations[:2]] + [f"{kv} unblocked games" for kv in kw_variations[:2]]
+    
+    # Generar Dorks avanzados y combinaciones profundas para extraer hasta 100 resultados por término
+    queries = []
+    for kv in kw_variations:
+        queries.extend([
+            f"{kv} juegos online",
+            f"{kv} unblocked games",
+            f"play {kv} free online",
+            f"site:.io {kv}",
+            f"site:.games {kv}",
+            f"site:.win {kv}",
+            f"inurl:unblocked {kv}",
+            f"intitle:game {kv}"
+        ])
+    
+    # Shuffle dinámico para que no traiga siempre los mismos primeros 10 resultados
+    random.shuffle(queries)
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"}
 
-    for query_str in queries:
+    for query_str in queries[:10]:
         query = urllib.parse.quote(query_str)
         url = f"https://html.duckduckgo.com/html/?q={query}"
         req = urllib.request.Request(url, headers=headers)
@@ -179,23 +196,28 @@ def search_startpage_organic(keyword):
         "Content-Type": "application/x-www-form-urlencoded"
     }
     
-    data = urllib.parse.urlencode({"query": f"{keyword} juegos gratis", "cat": "web"}).encode('utf-8')
-    req = urllib.request.Request(url, data=data, headers=headers)
-    try:
-        context = ssl.create_default_context()
-        context.check_hostname = False
-        context.verify_mode = ssl.CERT_NONE
-        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
-            html = response.read().decode('utf-8', errors='ignore')
-            links = re.findall(r'href=\"(https?://[^\"]+)\"\s+class=\"[^\"]*result-link', html)
-            for href in links:
-                parsed = urllib.parse.urlparse(href)
-                dom = clean_domain(parsed.netloc)
-                if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
-                    if any(dom.endswith(tld) for tld in VALID_TLDS):
-                        found.add(dom)
-    except Exception:
-        pass
+    kw_variations = generate_keyword_variations(keyword)
+    queries = [f"{kv} juegos gratis" for kv in kw_variations] + [f"unblocked {kv} games" for kv in kw_variations]
+    random.shuffle(queries)
+
+    for q in queries[:4]:
+        data = urllib.parse.urlencode({"query": q, "cat": "web"}).encode('utf-8')
+        req = urllib.request.Request(url, data=data, headers=headers)
+        try:
+            context = ssl.create_default_context()
+            context.check_hostname = False
+            context.verify_mode = ssl.CERT_NONE
+            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
+                html = response.read().decode('utf-8', errors='ignore')
+                links = re.findall(r'href=\"(https?://[^\"]+)\"\s+class=\"[^\"]*result-link', html)
+                for href in links:
+                    parsed = urllib.parse.urlparse(href)
+                    dom = clean_domain(parsed.netloc)
+                    if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
+                        if any(dom.endswith(tld) for tld in VALID_TLDS):
+                            found.add(dom)
+        except Exception:
+            pass
             
     return found
 
@@ -324,6 +346,9 @@ def main():
     
     print(f"[*] Total dominios existentes (consolidados): {len(existing_domains)}")
     print(f"[*] Palabras clave a procesar: {len(keywords)}")
+    
+    # Aleatorizar el orden de palabras clave en cada ejecución nocturna
+    random.shuffle(keywords)
     
     candidate_domains = set()
     
