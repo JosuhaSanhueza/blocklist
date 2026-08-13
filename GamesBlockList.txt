@@ -68,8 +68,8 @@
 ||deadshot.io^
 ||delt.io^
 ||diegosjuegos.com^
-||eaglecraft.com^
 ||eaglecraft.com.co^
+||eaglecraft.com^
 ||eaglecraftgame.io^
 ||eaglecraftonline.bitbucket.io^
 ||eaglercraft-minecraft.com^
