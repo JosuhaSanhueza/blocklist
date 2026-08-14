@@ -114,6 +114,7 @@
 ||fnfgo.com^
 ||fr9.es^
 ||freedombrowser.org^
+||freegame.com^
 ||freegames.com^
 ||freegames.io^
 ||freegames2.com^
@@ -147,7 +148,9 @@
 ||frvr.com^
 ||futbol-11.com^
 ||gamedistribution.com^
+||gameflare.net^
 ||gameflare.online^
+||gameflare.org^
 ||gameforge.com^
 ||gamenora.com^
 ||gamepix.com^
@@ -314,10 +317,12 @@
 ||purogames.com.br^
 ||q13x.com^
 ||roblox.com^
+||roblox.org^
 ||rocketgames.io^
 ||rocketgoal.io^
 ||rocketleague.com^
 ||rycellgames.github.io^
+||santiagodebus.com^
 ||scalacube.com^
 ||scaryteacher-3d.io^
 ||sentry.io^
