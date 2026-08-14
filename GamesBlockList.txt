@@ -73,6 +73,8 @@
 ||deadshot.io^
 ||delt.io^
 ||diegosjuegos.com^
+||digamore.com^
+||dinosaurgame-free.io^
 ||eaglecraft.com^
 ||eaglecraft.com.co^
 ||eaglecraftgame.io^
@@ -144,10 +146,12 @@
 ||frivusa.com^
 ||frvr.com^
 ||futbol-11.com^
+||gamedistribution.com^
 ||gameflare.online^
 ||gameforge.com^
 ||gamenora.com^
 ||gamepix.com^
+||games-66-ez.github.io^
 ||games-games.com^
 ||games.com^
 ||games4.com^
@@ -165,6 +169,7 @@
 ||geometrydash-lite.io^
 ||geometrydash-pc.com^
 ||geometrydash.com^
+||geometrydash.com.mx^
 ||geometrydash.es^
 ||geometrydash.gg^
 ||geometrydash.online^
@@ -173,6 +178,7 @@
 ||geometrydashlite22.io^
 ||geometrydashwave.com^
 ||geometrygames.io^
+||geometrylitepc.com^
 ||geometrylitepc.io^
 ||geometydashwave.io^
 ||github.io^
@@ -242,6 +248,7 @@
 ||listamc.com^
 ||livegameserverlist.com^
 ||luckyblocks.io^
+||machita66.com^
 ||maddox.games^
 ||makeitmeme.com^
 ||mcdle.net^
@@ -355,6 +362,7 @@
 ||topservers200.com^
 ||twoplayergames.org^
 ||ubg76.gitlab.io^
+||ug66.gitlab.io^
 ||ug76.gitlab.io^
 ||unblocked-games.com^
 ||unity3d.com^
@@ -366,6 +374,7 @@
 ||vidaextra.com^
 ||we-dashers.github.io^
 ||web-dashers.github.io^
+||webmc.com^
 ||wordle-games.com^
 ||wordle.net^
 ||xbitlabs.com^
@@ -376,6 +385,3 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
-||geometrydash.com.mx^
-||geometrylitepc.com^
-||dinosaurgame-free.io^
