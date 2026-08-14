@@ -216,6 +216,7 @@
 ||jetspaz.com^
 ||jeuxdefriv2015.com^
 ||jklm.fun^
+||jogos.com^
 ||juegaenlineachile.com^
 ||juegos.com^
 ||juegos.games^
@@ -237,6 +238,7 @@
 ||kizi.com^
 ||kizi2.com^
 ||kizi5.com^
+||kongregate.com^
 ||kongregate.io^
 ||kongregate.online^
 ||kour.io^
@@ -346,6 +348,7 @@
 ||stickhook.io^
 ||stickman-unblocked.github.io^
 ||stickmanhookgame.org^
+||stickmanshook.io^
 ||stickmanswing.io^
 ||stumbleguys.com^
 ||sunfs.app^
@@ -380,6 +383,7 @@
 ||xbitlabs.com^
 ||y8-games.com^
 ||y8.com^
+||y8games.net^
 ||y8games2.com^
 ||yandex.com^
 ||zapgames.io^
