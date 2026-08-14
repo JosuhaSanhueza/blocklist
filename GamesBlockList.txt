@@ -394,3 +394,5 @@
 ||zapgames.io^
 ||zentic.org^
 ||zynga.com^
+||amandathe-adventurer.com^
+||badtimesimulator.io^
