@@ -396,3 +396,9 @@
 ||zynga.com^
 ||amandathe-adventurer.com^
 ||badtimesimulator.io^
+||fastclient.net^
+||gamejolt.com^
+||fnfmod.online^
+||fnafgames.io^
+||gx.games^
+||gamaverse.com^
