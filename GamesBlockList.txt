@@ -225,6 +225,7 @@
 ||irv77.github.io^
 ||isladejuegos.com^
 ||itch.io^
+||itchio.top^
 ||jetspaz.com^
 ||jeuxdefriv2015.com^
 ||jklm.fun^
@@ -398,6 +399,7 @@
 ||xbitlabs.com^
 ||y8-games.com^
 ||y8.com^
+||y8.net^
 ||y8games.net^
 ||y8games2.com^
 ||yandex.com^
