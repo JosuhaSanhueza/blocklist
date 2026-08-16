@@ -347,6 +347,7 @@
 ||silvergames.com^
 ||silvergames.io^
 ||skinsmc.org^
+||skribbl.org^
 ||slither.com^
 ||slithergame.io^
 ||slope3.com^
