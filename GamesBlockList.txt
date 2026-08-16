@@ -312,6 +312,7 @@
 ||msn.com^
 ||msnfun.com^
 ||msngames.com^
+||msngames.io^
 ||myunblockedgames.com^
 ||nargames.com^
 ||narrow.one^
@@ -355,6 +356,7 @@
 ||rocketgames.net^
 ||rocketgoal.io^
 ||rocketleague.com^
+||rooftoprun.net^
 ||rycellgames.github.io^
 ||santiagodebus.com^
 ||scalacube.com^
