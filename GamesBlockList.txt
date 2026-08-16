@@ -7,8 +7,12 @@
 ||5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
 ||66-ez.gitlab.io^
 ||67clicker.bitbucket.io^
+||67clicker.com^
+||67clicker.io^
+||67clicker.org^
 ||6922b02c-40d6-4b41-8250-70ff32fd9b3c.poki-gdn.com^
 ||8games.net^
+||a-zgames.com^
 ||a.poki-cdn.com^
 ||a10.com^
 ||addictinggames.com^
@@ -47,6 +51,7 @@
 ||boing.es^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||carrot-craft.org^
+||classicjoy.games^
 ||classroom80x.com^
 ||classrooms6x.gitlab.io^
 ||clavejuegos.com^
@@ -73,11 +78,13 @@
 ||dashmetry.com^
 ||dashmetry.io^
 ||dashnet.org^
+||dbtorrent.games^
 ||deadshot.io^
 ||delt.io^
 ||diegosjuegos.com^
 ||digamore.com^
 ||dinosaurgame-free.io^
+||dinosaurgame.io^
 ||eaglecraft.com^
 ||eaglecraft.com.co^
 ||eaglecraftgame.io^
@@ -103,6 +110,7 @@
 ||eaglercraftz.pages.dev^
 ||easyfun.gg^
 ||edgesuite.net^
+||education.com^
 ||education.minecraft.net^
 ||emupedia.net^
 ||emuvault-2.firebaseapp.com^
@@ -119,6 +127,7 @@
 ||fnfgo.com^
 ||fnfmod.online^
 ||fr9.es^
+||free-aigames.com^
 ||freedombrowser.org^
 ||freegame.com^
 ||freegames.com^
@@ -129,6 +138,7 @@
 ||freewebgames.io^
 ||fridaynightfunkin.app^
 ||fridaynightfunkin.net^
+||fridaynightfunkin.org^
 ||friv-2017.com^
 ||friv-7.com^
 ||friv.cm^
@@ -167,6 +177,7 @@
 ||games.com^
 ||games4.com^
 ||games44.com^
+||gameszap.com^
 ||gartic.io^
 ||garticphone.com^
 ||geodash.org^
@@ -217,6 +228,9 @@
 ||holeio.com^
 ||hoodamath.com^
 ||hotgames.io^
+||html5games.com^
+||html5games.io^
+||html5games.net^
 ||hypixel.net^
 ||img.poki-cdn.com^
 ||impostor.io^
@@ -238,6 +252,7 @@
 ||juegosfriv-2020.com^
 ||juegosfriv2015.com^
 ||juegosfriv2016.net^
+||juegosfriv2017.com^
 ||juegosfriv2017.net^
 ||juegosfriv2018.net^
 ||juegosfriv3.com^
@@ -247,7 +262,9 @@
 ||jugarmccomportal.base44.app^
 ||kbhgames.com^
 ||keepwork.com^
+||kevin.games^
 ||kiz10.com^
+||kiz10.org^
 ||kizi.com^
 ||kizi2.com^
 ||kizi5.com^
@@ -278,6 +295,7 @@
 ||minecraft.com^
 ||minecraft.net^
 ||minecraftclassic.online^
+||minecraftclassic.org^
 ||minecraftforfreex.com^
 ||minecraftforge.net^
 ||minecraftlist.com^
@@ -294,10 +312,12 @@
 ||msn.com^
 ||msnfun.com^
 ||msngames.com^
+||myunblockedgames.com^
 ||nargames.com^
 ||narrow.one^
 ||neal.fun^
 ||neoteo.com^
+||netifun.com^
 ||newgrounds.com^
 ||nite.games^
 ||nitrado.net^
@@ -309,6 +329,7 @@
 ||onlinegames.net^
 ||opticraft.net^
 ||optijuegos.net^
+||ottomate.games^
 ||ouiheberg.com^
 ||pacogames.com^
 ||pages.dev^
@@ -318,6 +339,7 @@
 ||playeaglercraft.com^
 ||playgama.com^
 ||playhop.com^
+||playminigames.com^
 ||playminigames.net^
 ||playspark.net^
 ||poki-games.com^
@@ -330,6 +352,7 @@
 ||roblox.com^
 ||roblox.org^
 ||rocketgames.io^
+||rocketgames.net^
 ||rocketgoal.io^
 ||rocketleague.com^
 ||rycellgames.github.io^
@@ -356,6 +379,7 @@
 ||slopegame2.com^
 ||slopeonline.bitbucket.io^
 ||slopeunblocked.games^
+||smashkarts.com^
 ||smcraft.fun^
 ||snokido.com^
 ||spacewaves2.org^
@@ -363,8 +387,13 @@
 ||steamcommunity.com^
 ||steampowered.com^
 ||stickhook.io^
+||stickman-hook.io^
 ||stickman-unblocked.github.io^
+||stickmanhook.bitbucket.io^
+||stickmanhook2.io^
+||stickmanhookgame.com^
 ||stickmanhookgame.org^
+||stickmanhooks.co.uk^
 ||stickmanshook.io^
 ||stickmanswing.io^
 ||stumbleguys.com^
@@ -386,9 +415,13 @@
 ||ug76.gitlab.io^
 ||unblocked-games.com^
 ||unity3d.com^
+||us.com^
 ||v.poki-cdn.com^
 ||veck.io^
+||veckio.com^
 ||veckio.io^
+||veckio.online^
+||veckiogame.org^
 ||venge.io^
 ||vercel.app^
 ||vidaextra.com^
@@ -404,6 +437,8 @@
 ||y8games.net^
 ||y8games2.com^
 ||yandex.com^
+||yoplay.io^
 ||zapgames.io^
+||zapgames.site^
 ||zentic.org^
 ||zynga.com^
