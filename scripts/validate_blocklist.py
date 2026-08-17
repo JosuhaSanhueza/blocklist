@@ -4,11 +4,11 @@ import os
 import re
 
 BLOCKLIST_FILE = "GamesBlockList.txt"
+# La Whitelist solo protege infraestructura básica de red y motores de búsqueda (NO plataformas de juegos)
 WHITELIST = {
     "google.com", "youtube.com", "wikipedia.org", "github.com", "microsoft.com",
     "apple.com", "amazon.com", "facebook.com", "twitter.com", "instagram.com",
-    "reddit.com", "linkedin.com", "store.steampowered.com", "twitch.tv",
-    "discord.com", "fandom.com", "steamcommunity.com", "epicgames.com",
+    "reddit.com", "linkedin.com", "twitch.tv", "discord.com", "fandom.com",
     "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com"
 }
 
@@ -42,9 +42,9 @@ def validate_blocklist():
             errors.append(f"Línea {line_num}: Dominio duplicado '{domain}'.")
         domains_seen.add(domain)
 
-        # 3. Validar presencia accidental de Whitelist
+        # 3. Validar presencia accidental de Whitelist (solo servicios no-juegos)
         if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
-            errors.append(f"Línea {line_num}: CRÍTICO - Dominio legítimo en Whitelist detectado '{domain}'.")
+            errors.append(f"Línea {line_num}: CRÍTICO - Dominio infraestructura en Whitelist detectado '{domain}'.")
 
         # 4. Validar formato de caracteres de dominio
         if not re.match(r'^[a-z0-9.-]+\.[a-z]{2,10}$', domain):

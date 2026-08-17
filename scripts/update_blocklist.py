@@ -47,11 +47,11 @@ GAME_TEXT_INDICATORS = [
     "minecraft server", "servidor minecraft", "server ip", "stickman"
 ]
 
+# La Whitelist solo protege infraestructura esencial de internet (buscadores/redes sociales), NUNCA sitios de juegos
 WHITELIST = {
     "google.com", "youtube.com", "wikipedia.org", "github.com", "microsoft.com",
     "apple.com", "amazon.com", "facebook.com", "twitter.com", "instagram.com",
-    "reddit.com", "linkedin.com", "store.steampowered.com", "twitch.tv",
-    "discord.com", "fandom.com", "steamcommunity.com", "epicgames.com",
+    "reddit.com", "linkedin.com", "twitch.tv", "discord.com", "fandom.com",
     "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com"
 }
 
@@ -161,7 +161,6 @@ def search_duckduckgo_organic(keyword):
             f"intitle:game {kv}"
         ])
     
-    # Shuffle dinámico para que no traiga siempre los mismos primeros 10 resultados
     random.shuffle(queries)
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"}
 
@@ -349,7 +348,6 @@ def main():
     print(f"[*] Total dominios existentes (consolidados): {len(existing_domains)}")
     print(f"[*] Palabras clave a procesar: {len(keywords)}")
     
-    # Aleatorizar el orden de palabras clave en cada ejecución nocturna
     random.shuffle(keywords)
     
     candidate_domains = set()
