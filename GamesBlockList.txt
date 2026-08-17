@@ -55,6 +55,7 @@
 ||carrot-craft.org^
 ||classicjoy.games^
 ||classroom80x.com^
+||classroomgame.github.io^
 ||classrooms6x.gitlab.io^
 ||clavejuegos.com^
 ||cleverappssg.com^
@@ -312,6 +313,7 @@
 ||minijuegosgratis.com^
 ||miniplay.com^
 ||miniplay.io^
+||minix.games^
 ||mobirix.com^
 ||mobirix.net^
 ||morefriv.com^
@@ -328,6 +330,7 @@
 ||netifun.com^
 ||newgrounds.com^
 ||nite.games^
+||nitrado.com^
 ||nitrado.net^
 ||novaskin.me^
 ||now.gg^
