@@ -124,6 +124,7 @@
 ||eu.org^
 ||fastclient.net^
 ||fastly.net^
+||fivenightsatfreddys.com^
 ||fivenightsatfreddysgame.io^
 ||flappybird.io^
 ||fnaffree.io^
@@ -173,6 +174,7 @@
 ||gamalod.com^
 ||gamaverse.com^
 ||gamedistribution.com^
+||gameflare.com^
 ||gameflare.net^
 ||gameflare.online^
 ||gameflare.org^

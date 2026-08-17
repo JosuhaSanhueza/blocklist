@@ -15,7 +15,7 @@ BLOCKLIST_FILE = "GamesBlockList.txt"
 KEYWORDS_FILE = "keywords.txt"
 MAX_NEW_DOMAINS = 150
 TIMEOUT_SECONDS = 3.0  # Timeout ágil por petición
-MAX_WORKERS_SEARCH = 12  # Hilos simultáneos para buscar por palabras clave
+MAX_WORKERS_SEARCH = 25  # Hilos simultáneos para buscar por palabras clave
 MAX_WORKERS_VERIFY = 20  # Hilos simultáneos para inspeccionar candidatos por HTTP/HTTPS
 
 VALID_TLDS = (
@@ -164,7 +164,7 @@ def search_duckduckgo_organic(keyword):
     random.shuffle(queries)
     headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"}
 
-    for query_str in queries[:10]:
+    for query_str in queries[:3]:
         query = urllib.parse.quote(query_str)
         url = f"https://html.duckduckgo.com/html/?q={query}"
         req = urllib.request.Request(url, headers=headers)
@@ -200,7 +200,7 @@ def search_startpage_organic(keyword):
     queries = [f"{kv} juegos gratis" for kv in kw_variations] + [f"unblocked {kv} games" for kv in kw_variations]
     random.shuffle(queries)
 
-    for q in queries[:4]:
+    for q in queries[:2]:
         data = urllib.parse.urlencode({"query": q, "cat": "web"}).encode('utf-8')
         req = urllib.request.Request(url, data=data, headers=headers)
         try:
@@ -225,7 +225,7 @@ def search_subdomains_dns(keyword):
     found = set()
     clean_kw = keyword.replace("-", "").replace(" ", "")
     
-    tlds_to_query = [".com", ".net", ".org", ".io", ".games", ".game", ".win"]
+    tlds_to_query = [".com", ".io", ".games", ".game"]
     for tld in tlds_to_query:
         dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}{tld}"
         try:

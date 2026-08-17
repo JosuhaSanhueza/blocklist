@@ -125,6 +125,7 @@
 0.0.0.0 eu.org
 0.0.0.0 fastclient.net
 0.0.0.0 fastly.net
+0.0.0.0 fivenightsatfreddys.com
 0.0.0.0 fivenightsatfreddysgame.io
 0.0.0.0 flappybird.io
 0.0.0.0 fnaffree.io
@@ -174,6 +175,7 @@
 0.0.0.0 gamalod.com
 0.0.0.0 gamaverse.com
 0.0.0.0 gamedistribution.com
+0.0.0.0 gameflare.com
 0.0.0.0 gameflare.net
 0.0.0.0 gameflare.online
 0.0.0.0 gameflare.org
