@@ -38,6 +38,7 @@
 ||arealme.com^
 ||armorgames.online^
 ||assets.gd.sbs.softgames.de^
+||aternos.net^
 ||aternos.org^
 ||axenthost.com^
 ||azagames.io^
@@ -50,6 +51,7 @@
 ||bloxd.io^
 ||boing.es^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
+||calcsolver.net^
 ||carrot-craft.org^
 ||classicjoy.games^
 ||classroom80x.com^
@@ -163,6 +165,7 @@
 ||frivusa.com^
 ||frvr.com^
 ||futbol-11.com^
+||gamalod.com^
 ||gamaverse.com^
 ||gamedistribution.com^
 ||gameflare.net^
@@ -180,6 +183,7 @@
 ||gameszap.com^
 ||gartic.io^
 ||garticphone.com^
+||gd.games^
 ||geodash.org^
 ||geometry-dash-lite.io^
 ||geometry-dash.net^
@@ -283,6 +287,7 @@
 ||machita66.com^
 ||maddox.games^
 ||makeitmeme.com^
+||manablade.com^
 ||mcdle.net^
 ||mcraft.fun^
 ||mcsrc.dev^
@@ -306,6 +311,7 @@
 ||minijuegos.games^
 ||minijuegosgratis.com^
 ||miniplay.com^
+||miniplay.io^
 ||mobirix.com^
 ||mobirix.net^
 ||morefriv.com^
@@ -337,6 +343,7 @@
 ||pacogames.com^
 ||pages.dev^
 ||play-games.com^
+||playbrain.com^
 ||playbrain.games^
 ||playcutegames.com^
 ||playeagler.blog^
@@ -351,6 +358,7 @@
 ||poki.com^
 ||poki.io^
 ||poki1.com^
+||poki2.net^
 ||purogames.com.br^
 ||q13x.com^
 ||roblox.com^
@@ -359,6 +367,7 @@
 ||rocketgames.net^
 ||rocketgoal.io^
 ||rocketleague.com^
+||rocketsoccerderby.gitlab.io^
 ||rooftoprun.net^
 ||rycellgames.github.io^
 ||santiagodebus.com^
@@ -420,6 +429,7 @@
 ||ug66.gitlab.io^
 ||ug76.gitlab.io^
 ||unblocked-games.com^
+||unblockedgamesbrowser.com^
 ||unity3d.com^
 ||us.com^
 ||v.poki-cdn.com^
@@ -448,7 +458,3 @@
 ||zapgames.site^
 ||zentic.org^
 ||zynga.com^
-||manablade.com^
-||calcsolver.net^
-||www.poki2.net^
-||gd.games^
