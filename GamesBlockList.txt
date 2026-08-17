@@ -263,6 +263,7 @@
 ||juegos.io^
 ||juegosdechicas.com^
 ||juegosfriv-2020.com^
+||juegosfriv.com^
 ||juegosfriv2015.com^
 ||juegosfriv2016.net^
 ||juegosfriv2017.com^
@@ -475,3 +476,4 @@
 ||zapgames.site^
 ||zentic.org^
 ||zynga.com^
+||zynga.games^

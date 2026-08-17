@@ -264,6 +264,7 @@
 0.0.0.0 juegos.io
 0.0.0.0 juegosdechicas.com
 0.0.0.0 juegosfriv-2020.com
+0.0.0.0 juegosfriv.com
 0.0.0.0 juegosfriv2015.com
 0.0.0.0 juegosfriv2016.net
 0.0.0.0 juegosfriv2017.com
@@ -476,3 +477,4 @@
 0.0.0.0 zapgames.site
 0.0.0.0 zentic.org
 0.0.0.0 zynga.com
+0.0.0.0 zynga.games
