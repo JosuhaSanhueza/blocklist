@@ -271,7 +271,8 @@ def process_single_keyword(kw):
     return res
 
 def is_game_website(domain):
-    if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
+    root_dom = get_root_domain(domain)
+    if domain in WHITELIST or root_dom in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST) or any(root_dom.endswith("." + w) for w in WHITELIST):
         return False
 
     if any(non_game in domain for non_game in ["clinical", "medical", "appliance", "hospital", "pharma"]):
