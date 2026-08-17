@@ -3,6 +3,7 @@
 0.0.0.0 13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com
 0.0.0.0 1games.io
 0.0.0.0 2v2.io
+0.0.0.0 2v2io.io
 0.0.0.0 40servidoresmc.es
 0.0.0.0 5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
 0.0.0.0 5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
@@ -89,6 +90,7 @@
 0.0.0.0 digamore.com
 0.0.0.0 dinosaurgame-free.io
 0.0.0.0 dinosaurgame.io
+0.0.0.0 drivequest.io
 0.0.0.0 eaglecraft.com.co
 0.0.0.0 eaglecraft.com
 0.0.0.0 eaglecraftgame.io
@@ -140,6 +142,7 @@
 0.0.0.0 freegames9.com
 0.0.0.0 freemcserver.net
 0.0.0.0 freewebgames.io
+0.0.0.0 friclassic.online
 0.0.0.0 fridaynightfunkin.app
 0.0.0.0 fridaynightfunkin.net
 0.0.0.0 fridaynightfunkin.org
@@ -158,6 +161,7 @@
 0.0.0.0 frivclasico.co
 0.0.0.0 frivclassic.com
 0.0.0.0 frivclassic.github.io
+0.0.0.0 frivclassic.org
 0.0.0.0 frivextra.com
 0.0.0.0 frivez.com
 0.0.0.0 frivjogosonline.com.br
@@ -182,6 +186,7 @@
 0.0.0.0 games.com
 0.0.0.0 games4.com
 0.0.0.0 games44.com
+0.0.0.0 gameslol.net
 0.0.0.0 gameszap.com
 0.0.0.0 gartic.io
 0.0.0.0 garticphone.com
@@ -240,6 +245,7 @@
 0.0.0.0 hypixel.net
 0.0.0.0 img.poki-cdn.com
 0.0.0.0 impostor.io
+0.0.0.0 inblog.io
 0.0.0.0 io-games.com
 0.0.0.0 io-games.io
 0.0.0.0 irv77.github.io
@@ -284,6 +290,7 @@
 0.0.0.0 legionsdk.com
 0.0.0.0 ligadegamers.com
 0.0.0.0 listamc.com
+0.0.0.0 listamc.net
 0.0.0.0 livegameserverlist.com
 0.0.0.0 luckyblocks.io
 0.0.0.0 machita66.com
@@ -319,6 +326,7 @@
 0.0.0.0 mobirix.net
 0.0.0.0 morefriv.com
 0.0.0.0 msauth.net
+0.0.0.0 msn-21.github.io
 0.0.0.0 msn.com
 0.0.0.0 msnfun.com
 0.0.0.0 msngames.com
@@ -357,6 +365,8 @@
 0.0.0.0 playminigames.com
 0.0.0.0 playminigames.net
 0.0.0.0 playspark.net
+0.0.0.0 playzen.io
+0.0.0.0 pogo.com
 0.0.0.0 poki-games.com
 0.0.0.0 poki-gdn.com
 0.0.0.0 poki.com
@@ -365,6 +375,7 @@
 0.0.0.0 poki2.net
 0.0.0.0 purogames.com.br
 0.0.0.0 q13x.com
+0.0.0.0 ragdollarchers2.io
 0.0.0.0 roblox.com
 0.0.0.0 roblox.org
 0.0.0.0 rocketgames.io
@@ -428,6 +439,7 @@
 0.0.0.0 topgames.gg
 0.0.0.0 tops.games
 0.0.0.0 topservers200.com
+0.0.0.0 tsyuay.github.io
 0.0.0.0 twoplayergames.org
 0.0.0.0 ubg76.gitlab.io
 0.0.0.0 ug66.gitlab.io

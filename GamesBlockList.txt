@@ -2,6 +2,7 @@
 ||13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com^
 ||1games.io^
 ||2v2.io^
+||2v2io.io^
 ||40servidoresmc.es^
 ||5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
 ||5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
@@ -88,6 +89,7 @@
 ||digamore.com^
 ||dinosaurgame-free.io^
 ||dinosaurgame.io^
+||drivequest.io^
 ||eaglecraft.com^
 ||eaglecraft.com.co^
 ||eaglecraftgame.io^
@@ -139,6 +141,7 @@
 ||freegames9.com^
 ||freemcserver.net^
 ||freewebgames.io^
+||friclassic.online^
 ||fridaynightfunkin.app^
 ||fridaynightfunkin.net^
 ||fridaynightfunkin.org^
@@ -157,6 +160,7 @@
 ||frivclasico.co^
 ||frivclassic.com^
 ||frivclassic.github.io^
+||frivclassic.org^
 ||frivextra.com^
 ||frivez.com^
 ||frivjogosonline.com.br^
@@ -181,6 +185,7 @@
 ||games.com^
 ||games4.com^
 ||games44.com^
+||gameslol.net^
 ||gameszap.com^
 ||gartic.io^
 ||garticphone.com^
@@ -239,6 +244,7 @@
 ||hypixel.net^
 ||img.poki-cdn.com^
 ||impostor.io^
+||inblog.io^
 ||io-games.com^
 ||io-games.io^
 ||irv77.github.io^
@@ -283,6 +289,7 @@
 ||legionsdk.com^
 ||ligadegamers.com^
 ||listamc.com^
+||listamc.net^
 ||livegameserverlist.com^
 ||luckyblocks.io^
 ||machita66.com^
@@ -318,6 +325,7 @@
 ||mobirix.net^
 ||morefriv.com^
 ||msauth.net^
+||msn-21.github.io^
 ||msn.com^
 ||msnfun.com^
 ||msngames.com^
@@ -356,6 +364,8 @@
 ||playminigames.com^
 ||playminigames.net^
 ||playspark.net^
+||playzen.io^
+||pogo.com^
 ||poki-games.com^
 ||poki-gdn.com^
 ||poki.com^
@@ -364,6 +374,7 @@
 ||poki2.net^
 ||purogames.com.br^
 ||q13x.com^
+||ragdollarchers2.io^
 ||roblox.com^
 ||roblox.org^
 ||rocketgames.io^
@@ -427,6 +438,7 @@
 ||topgames.gg^
 ||tops.games^
 ||topservers200.com^
+||tsyuay.github.io^
 ||twoplayergames.org^
 ||ubg76.gitlab.io^
 ||ug66.gitlab.io^
