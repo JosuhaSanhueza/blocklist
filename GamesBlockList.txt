@@ -448,3 +448,7 @@
 ||zapgames.site^
 ||zentic.org^
 ||zynga.com^
+||manablade.com^
+||calcsolver.net^
+||www.poki2.net^
+||gd.games^
