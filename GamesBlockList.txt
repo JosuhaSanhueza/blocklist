@@ -298,6 +298,7 @@
 ||minecraftclassic.org^
 ||minecraftforfreex.com^
 ||minecraftforge.net^
+||minecraftjava.net^
 ||minecraftlist.com^
 ||minelatino.com^
 ||mineplay.io^
@@ -326,6 +327,7 @@
 ||now.gg^
 ||nowgames.io^
 ||ohgames.io^
+||one.io^
 ||onlinegames.io^
 ||onlinegames.net^
 ||opticraft.net^
@@ -336,6 +338,7 @@
 ||pages.dev^
 ||play-games.com^
 ||playbrain.games^
+||playcutegames.com^
 ||playeagler.blog^
 ||playeaglercraft.com^
 ||playgama.com^
@@ -372,6 +375,7 @@
 ||silvergames.com^
 ||silvergames.io^
 ||skinsmc.org^
+||skribbl.io^
 ||skribbl.org^
 ||slither.com^
 ||slithergame.io^
