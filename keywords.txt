@@ -410,3 +410,24 @@ yandex
 zapgames
 zentic
 zynga
+
+# --- Franquicias y Portales Recientes de GamesBlockList.txt ---
+aigames
+calcsolver
+classicjoy
+dbtorrent
+gameszap
+kevin
+manablade
+minecraftjava
+myunblockedgames
+netifun
+ottomate
+playcutegames
+poki2
+rooftoprun
+stickmanhook2
+stickmanhooks
+veckiogame
+yoplay
+zgames
