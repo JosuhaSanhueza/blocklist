@@ -146,15 +146,16 @@ def search_duckduckgo_organic(keyword):
     found = set()
     kw_variations = generate_keyword_variations(keyword)
     
-    # Generar Dorks avanzados y combinaciones profundas para extraer hasta 100 resultados por término
+    # Generar Dorks avanzados y combinaciones profundas abarcando .game y .games
     queries = []
     for kv in kw_variations:
         queries.extend([
             f"{kv} juegos online",
             f"{kv} unblocked games",
             f"play {kv} free online",
-            f"site:.io {kv}",
+            f"site:.game {kv}",
             f"site:.games {kv}",
+            f"site:.io {kv}",
             f"site:.win {kv}",
             f"inurl:unblocked {kv}",
             f"intitle:game {kv}"
@@ -225,7 +226,7 @@ def search_subdomains_dns(keyword):
     found = set()
     clean_kw = keyword.replace("-", "").replace(" ", "")
     
-    tlds_to_query = [".com", ".net", ".org", ".io", ".win"]
+    tlds_to_query = [".com", ".net", ".org", ".io", ".games", ".game", ".win"]
     for tld in tlds_to_query:
         dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}{tld}"
         try:
