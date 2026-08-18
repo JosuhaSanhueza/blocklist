@@ -124,7 +124,6 @@
 ||essential.gg^
 ||eu.org^
 ||fastclient.net^
-||fastly.net^
 ||fivenightsatfreddys.com^
 ||fivenightsatfreddysgame.io^
 ||flappybird.io^
