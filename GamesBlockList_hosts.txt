@@ -27,6 +27,7 @@
 0.0.0.0 agarcity.io
 0.0.0.0 agario.com
 0.0.0.0 agarz.com
+0.0.0.0 allout.game
 0.0.0.0 allwebgames.com
 0.0.0.0 amandathe-adventurer.com
 0.0.0.0 amogus.io

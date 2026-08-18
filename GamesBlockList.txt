@@ -26,6 +26,7 @@
 ||agarcity.io^
 ||agario.com^
 ||agarz.com^
+||allout.game^
 ||allwebgames.com^
 ||amandathe-adventurer.com^
 ||amogus.io^
