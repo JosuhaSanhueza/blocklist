@@ -79,8 +79,10 @@
 0.0.0.0 crazygames.org
 0.0.0.0 crazygames2.com
 0.0.0.0 crazygames8.com
+0.0.0.0 crazyschoolgames.com
 0.0.0.0 cryzen.io
 0.0.0.0 cubecraft.net
+0.0.0.0 d1tmbzjih4bfq6.cloudfront.net
 0.0.0.0 dashmetry.com
 0.0.0.0 dashmetry.io
 0.0.0.0 dashnet.org
@@ -125,7 +127,6 @@
 0.0.0.0 essential.gg
 0.0.0.0 eu.org
 0.0.0.0 fastclient.net
-0.0.0.0 fastly.net
 0.0.0.0 fivenightsatfreddys.com
 0.0.0.0 fivenightsatfreddysgame.io
 0.0.0.0 flappybird.io
@@ -377,6 +378,7 @@
 0.0.0.0 poki.io
 0.0.0.0 poki1.com
 0.0.0.0 poki2.net
+0.0.0.0 primarygames.gitlab.io
 0.0.0.0 purogames.com.br
 0.0.0.0 q13x.com
 0.0.0.0 ragdollarchers2.io
@@ -392,8 +394,10 @@
 0.0.0.0 santiagodebus.com
 0.0.0.0 scalacube.com
 0.0.0.0 scaryteacher-3d.io
+0.0.0.0 schoolunblockedgames.gitlab.io
 0.0.0.0 sentry.io
 0.0.0.0 servidoresminecraft.info
+0.0.0.0 sgames.io
 0.0.0.0 sgames.org
 0.0.0.0 shellshock.io
 0.0.0.0 shellshockers.io
@@ -428,6 +432,8 @@
 0.0.0.0 stickmanhookgame.com
 0.0.0.0 stickmanhookgame.org
 0.0.0.0 stickmanhooks.co.uk
+0.0.0.0 stickmankombat.io
+0.0.0.0 stickmanshook.com
 0.0.0.0 stickmanshook.io
 0.0.0.0 stickmanswing.io
 0.0.0.0 stumbleguys.com

@@ -78,8 +78,10 @@
 ||crazygames.org.es^
 ||crazygames2.com^
 ||crazygames8.com^
+||crazyschoolgames.com^
 ||cryzen.io^
 ||cubecraft.net^
+||d1tmbzjih4bfq6.cloudfront.net^
 ||dashmetry.com^
 ||dashmetry.io^
 ||dashnet.org^
@@ -375,6 +377,7 @@
 ||poki.io^
 ||poki1.com^
 ||poki2.net^
+||primarygames.gitlab.io^
 ||purogames.com.br^
 ||q13x.com^
 ||ragdollarchers2.io^
@@ -390,8 +393,10 @@
 ||santiagodebus.com^
 ||scalacube.com^
 ||scaryteacher-3d.io^
+||schoolunblockedgames.gitlab.io^
 ||sentry.io^
 ||servidoresminecraft.info^
+||sgames.io^
 ||sgames.org^
 ||shellshock.io^
 ||shellshockers.io^
@@ -426,6 +431,8 @@
 ||stickmanhookgame.com^
 ||stickmanhookgame.org^
 ||stickmanhooks.co.uk^
+||stickmankombat.io^
+||stickmanshook.com^
 ||stickmanshook.io^
 ||stickmanswing.io^
 ||stumbleguys.com^
