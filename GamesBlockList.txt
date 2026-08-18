@@ -231,6 +231,7 @@
 ||granny2.io^
 ||grannygame.org^
 ||grannyhorror.com^
+||grannyhorror.io^
 ||grannyonline.io^
 ||gx.games^
 ||hahagames.com^
@@ -366,6 +367,7 @@
 ||playeaglercraft.com^
 ||playgama.com^
 ||playhop.com^
+||playhop2.com^
 ||playminigames.com^
 ||playminigames.net^
 ||playspark.net^

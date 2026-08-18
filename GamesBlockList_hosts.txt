@@ -232,6 +232,7 @@
 0.0.0.0 granny2.io
 0.0.0.0 grannygame.org
 0.0.0.0 grannyhorror.com
+0.0.0.0 grannyhorror.io
 0.0.0.0 grannyonline.io
 0.0.0.0 gx.games
 0.0.0.0 hahagames.com
@@ -367,6 +368,7 @@
 0.0.0.0 playeaglercraft.com
 0.0.0.0 playgama.com
 0.0.0.0 playhop.com
+0.0.0.0 playhop2.com
 0.0.0.0 playminigames.com
 0.0.0.0 playminigames.net
 0.0.0.0 playspark.net
