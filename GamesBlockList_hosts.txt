@@ -124,6 +124,7 @@
 0.0.0.0 emupedia.net
 0.0.0.0 emuvault-2.firebaseapp.com
 0.0.0.0 epicgames.com
+0.0.0.0 epiconlinegames.com
 0.0.0.0 essential.gg
 0.0.0.0 eu.org
 0.0.0.0 fastclient.net
@@ -183,6 +184,7 @@
 0.0.0.0 gameflare.org
 0.0.0.0 gameforge.com
 0.0.0.0 gamejolt.com
+0.0.0.0 gamelybyte.com
 0.0.0.0 gamenora.com
 0.0.0.0 gamepix.com
 0.0.0.0 games-66-ez.github.io
@@ -341,6 +343,7 @@
 0.0.0.0 nargames.com
 0.0.0.0 narrow.one
 0.0.0.0 neal.fun
+0.0.0.0 nemoplay.com
 0.0.0.0 neoteo.com
 0.0.0.0 netifun.com
 0.0.0.0 newgrounds.com
@@ -351,6 +354,7 @@
 0.0.0.0 now.gg
 0.0.0.0 nowgames.io
 0.0.0.0 ohgames.io
+0.0.0.0 omigames.com
 0.0.0.0 one.io
 0.0.0.0 onlinegames.io
 0.0.0.0 onlinegames.net

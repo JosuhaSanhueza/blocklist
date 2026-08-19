@@ -123,6 +123,7 @@
 ||emupedia.net^
 ||emuvault-2.firebaseapp.com^
 ||epicgames.com^
+||epiconlinegames.com^
 ||essential.gg^
 ||eu.org^
 ||fastclient.net^
@@ -182,6 +183,7 @@
 ||gameflare.org^
 ||gameforge.com^
 ||gamejolt.com^
+||gamelybyte.com^
 ||gamenora.com^
 ||gamepix.com^
 ||games-66-ez.github.io^
@@ -340,6 +342,7 @@
 ||nargames.com^
 ||narrow.one^
 ||neal.fun^
+||nemoplay.com^
 ||neoteo.com^
 ||netifun.com^
 ||newgrounds.com^
@@ -350,6 +353,7 @@
 ||now.gg^
 ||nowgames.io^
 ||ohgames.io^
+||omigames.com^
 ||one.io^
 ||onlinegames.io^
 ||onlinegames.net^
