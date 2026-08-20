@@ -365,6 +365,7 @@
 0.0.0.0 onlinegames.io
 0.0.0.0 onlinegames.net
 0.0.0.0 opticraft.net
+0.0.0.0 optijuegos.com
 0.0.0.0 optijuegos.net
 0.0.0.0 ottomate.games
 0.0.0.0 ouiheberg.com
@@ -449,6 +450,7 @@
 0.0.0.0 stickmanshook.com
 0.0.0.0 stickmanshook.io
 0.0.0.0 stickmanswing.io
+0.0.0.0 stickypiston.co
 0.0.0.0 stumbleguys.com
 0.0.0.0 sunfs.app
 0.0.0.0 sunstudio.io

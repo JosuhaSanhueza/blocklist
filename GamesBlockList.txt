@@ -364,6 +364,7 @@
 ||onlinegames.io^
 ||onlinegames.net^
 ||opticraft.net^
+||optijuegos.com^
 ||optijuegos.net^
 ||ottomate.games^
 ||ouiheberg.com^
@@ -453,6 +454,7 @@
 ||stickmanshook.com^
 ||stickmanshook.io^
 ||stickmanswing.io^
+||stickypiston.co^
 ||stumbleguys.com^
 ||sunfs.app^
 ||sunstudio.io^
