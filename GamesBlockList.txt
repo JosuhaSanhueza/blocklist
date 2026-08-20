@@ -1,5 +1,6 @@
 ||1001juegos.com^
 ||13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com^
+||1games.com^
 ||1games.io^
 ||2v2.io^
 ||2v2io.io^
@@ -93,6 +94,7 @@
 ||digamore.com^
 ||dinosaurgame-free.io^
 ||dinosaurgame.io^
+||dominoes365.io^
 ||drivequest.io^
 ||eaglecraft.com^
 ||eaglecraft.com.co^
@@ -121,6 +123,8 @@
 ||edgesuite.net^
 ||education.com^
 ||education.minecraft.net^
+||emulatorjs.com^
+||emulatorjs.org^
 ||emupedia.net^
 ||emuvault-2.firebaseapp.com^
 ||epicgames.com^
@@ -194,6 +198,7 @@
 ||games44.com^
 ||gameslol.net^
 ||gameszap.com^
+||gartic.com^
 ||gartic.io^
 ||garticphone.com^
 ||gd.games^
@@ -388,6 +393,7 @@
 ||purogames.com.br^
 ||q13x.com^
 ||ragdollarchers2.io^
+||retroarch.com^
 ||roblox.com^
 ||roblox.org^
 ||rocketgames.io^
@@ -412,6 +418,11 @@
 ||sigmally.com^
 ||silvergames.com^
 ||silvergames.io^
+||sites.google.com/*/games/*^
+||sites.google.com/*/super-mario-world^
+||sites.google.com/site/totalgameinn/*^
+||sites.google.com/view/*game*^
+||sites.google.com/view/totalgameinn/*^
 ||skinsmc.org^
 ||skribbl.io^
 ||skribbl.org^
@@ -461,6 +472,7 @@
 ||ug66.gitlab.io^
 ||ug76.gitlab.io^
 ||unblocked-games.com^
+||unblockedgames76.com^
 ||unblockedgamesbrowser.com^
 ||unity3d.com^
 ||us.com^
@@ -476,6 +488,7 @@
 ||we-dashers.github.io^
 ||web-dashers.github.io^
 ||webmc.com^
+||webretro.org^
 ||wordle-games.com^
 ||wordle.net^
 ||xbitlabs.com^
@@ -491,16 +504,3 @@
 ||zentic.org^
 ||zynga.com^
 ||zynga.games^
-
-# --- Reglas de Emuladores Embebidos (Opción 2) ---
-||emulatorjs.org^
-||emulatorjs.com^
-||retroarch.com^
-||webretro.org^
-
-# --- Reglas de Filtrado Avanzado por Ruta/Path en Google Sites (Opción 3) ---
-||sites.google.com/view/totalgameinn/*
-||sites.google.com/site/totalgameinn/*
-||sites.google.com/*/super-mario-world
-||sites.google.com/*/games/*
-||sites.google.com/view/*game*

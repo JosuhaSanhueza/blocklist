@@ -55,6 +55,14 @@ WHITELIST = {
     "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com"
 }
 
+# CDNs / Infraestructura crítica que NUNCA debemos bloquear al escanear iframe o CDNs embebidos
+SAFE_CDN_INFRASTRUCTURE = {
+    "google.com", "gstatic.com", "googleapis.com", "googletagmanager.com",
+    "google-analytics.com", "github.com", "gitlab.io", "cloudflare.com",
+    "cloudfront.net", "jsdelivr.net", "unpkg.com", "cdnjs.cloudflare.com",
+    "schema.org", "w3.org"
+}
+
 ADMIN_SUBDOMAIN_PREFIXES = (
     "mail.", "webmail.", "cpanel.", "cpcalendars.", "cpcontacts.", "jira.",
     "auth.", "authorize.", "billing.", "careers.", "blog.", "docs.", "status.",
@@ -146,19 +154,17 @@ def search_duckduckgo_organic(keyword):
     found = set()
     kw_variations = generate_keyword_variations(keyword)
     
-    # Generar Dorks avanzados y combinaciones profundas abarcando .game y .games
+    # Generar Dorks avanzados incluyendo sites.google.com, .game y .games
     queries = []
     for kv in kw_variations:
         queries.extend([
             f"{kv} juegos online",
             f"{kv} unblocked games",
-            f"play {kv} free online",
+            f"site:sites.google.com {kv}",
             f"site:.game {kv}",
             f"site:.games {kv}",
             f"site:.io {kv}",
-            f"site:.win {kv}",
-            f"inurl:unblocked {kv}",
-            f"intitle:game {kv}"
+            f"inurl:unblocked {kv}"
         ])
     
     random.shuffle(queries)
@@ -183,10 +189,40 @@ def search_duckduckgo_organic(keyword):
                         if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
                             if any(dom.endswith(tld) for tld in VALID_TLDS):
                                 found.add(dom)
+                                
+                        # Si es un Google Sites de juegos, escanear la página para extraer su CDN/servidor de emulador embebido
+                        if "sites.google.com" in decoded and any(term in decoded.lower() for term in ["game", "juego", "unblocked", "mario", "arcade", "play"]):
+                            embedded_cdns = scan_embedded_game_cdns(decoded)
+                            found.update(embedded_cdns)
         except Exception:
             pass
 
     return found
+
+def scan_embedded_game_cdns(target_url):
+    """Escanea una página de juegos (ej. Google Sites) para extraer y validar CDNs/servidores de emuladores embebidos"""
+    found_cdns = set()
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    try:
+        context = ssl.create_default_context()
+        context.check_hostname = False
+        context.verify_mode = ssl.CERT_NONE
+        req = urllib.request.Request(target_url, headers=headers)
+        with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as resp:
+            html = resp.read().decode('utf-8', errors='ignore')
+            urls = re.findall(r'https?://[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}[^\s\"\'<>]*', html)
+            for u in urls:
+                netloc = urllib.parse.urlparse(u).netloc.lower()
+                clean_netloc = clean_domain(netloc)
+                # Filtro de seguridad: NUNCA agregar infraestructura segura (Google Fonts, Analytics, Cloudflare JS)
+                if clean_netloc and not any(safe in clean_netloc for safe in SAFE_CDN_INFRASTRUCTURE):
+                    if any(dom_tld for dom_tld in VALID_TLDS if clean_netloc.endswith(dom_tld)):
+                        # Verificar palabras clave de emuladores / juegos en la URL
+                        if any(term in u.lower() for term in ['emulator', 'mario', 'game', 'rom', 'play', 'cdn', 'asset', 'swf', 'wasm', 'eagler']):
+                            found_cdns.add(clean_netloc)
+    except Exception:
+        pass
+    return found_cdns
 
 def search_startpage_organic(keyword):
     found = set()

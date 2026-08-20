@@ -1,6 +1,7 @@
 # --- GamesBlockList (Formato Estándar Hosts / OPNsense Unbound) ---
 0.0.0.0 1001juegos.com
 0.0.0.0 13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com
+0.0.0.0 1games.com
 0.0.0.0 1games.io
 0.0.0.0 2v2.io
 0.0.0.0 2v2io.io
@@ -94,6 +95,7 @@
 0.0.0.0 digamore.com
 0.0.0.0 dinosaurgame-free.io
 0.0.0.0 dinosaurgame.io
+0.0.0.0 dominoes365.io
 0.0.0.0 drivequest.io
 0.0.0.0 eaglecraft.com.co
 0.0.0.0 eaglecraft.com
@@ -197,6 +199,7 @@
 0.0.0.0 games44.com
 0.0.0.0 gameslol.net
 0.0.0.0 gameszap.com
+0.0.0.0 gartic.com
 0.0.0.0 gartic.io
 0.0.0.0 garticphone.com
 0.0.0.0 gd.games
@@ -465,6 +468,7 @@
 0.0.0.0 ug66.gitlab.io
 0.0.0.0 ug76.gitlab.io
 0.0.0.0 unblocked-games.com
+0.0.0.0 unblockedgames76.com
 0.0.0.0 unblockedgamesbrowser.com
 0.0.0.0 unity3d.com
 0.0.0.0 us.com
