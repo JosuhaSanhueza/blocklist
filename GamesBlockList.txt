@@ -491,3 +491,16 @@
 ||zentic.org^
 ||zynga.com^
 ||zynga.games^
+
+# --- Reglas de Emuladores Embebidos (Opción 2) ---
+||emulatorjs.org^
+||emulatorjs.com^
+||retroarch.com^
+||webretro.org^
+
+# --- Reglas de Filtrado Avanzado por Ruta/Path en Google Sites (Opción 3) ---
+||sites.google.com/view/totalgameinn/*
+||sites.google.com/site/totalgameinn/*
+||sites.google.com/*/super-mario-world
+||sites.google.com/*/games/*
+||sites.google.com/view/*game*

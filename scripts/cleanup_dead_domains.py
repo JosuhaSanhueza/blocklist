@@ -20,6 +20,9 @@ def is_domain_accessible(rule):
     if not line_clean or line_clean.startswith("#"):
         return rule, True
 
+    if "$document" in line_clean or "/*" in line_clean:
+        return rule, True
+
     domain = line_clean.lstrip("|").rstrip("^").strip().lower()
 
     if domain in PRESERVED_DOMAINS or any(shared in domain for shared in ["gitlab.io", "github.io", "bitbucket.io"]):
@@ -57,12 +60,13 @@ def main():
 
     active_rules = sorted(list(set(lines)))
 
-    # Generar versión GamesBlockList_hosts.txt para OPNsense / Unbound / Hosts
+    # Generar versión GamesBlockList_hosts.txt para OPNsense / Unbound / Hosts (solo dominios puros)
     with open(HOSTS_FILE, "w", encoding="utf-8") as f:
         f.write("# --- GamesBlockList (Formato Estándar Hosts / OPNsense Unbound) ---\n")
         for r in active_rules:
-            domain = r.lstrip("|").rstrip("^")
-            f.write(f"0.0.0.0 {domain}\n")
+            if not ("$document" in r or "/*" in r):
+                domain = r.lstrip("|").rstrip("^")
+                f.write(f"0.0.0.0 {domain}\n")
 
     print(f"[+] Verificación exitosa:")
     print(f"  - Dominios procesados: {total_initial}")

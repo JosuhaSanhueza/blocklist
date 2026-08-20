@@ -4,7 +4,7 @@ import os
 import re
 
 BLOCKLIST_FILE = "GamesBlockList.txt"
-# La Whitelist solo protege infraestructura básica de red y motores de búsqueda (NO plataformas de juegos)
+# La Whitelist solo protege infraestructura esencial de internet (buscadores/redes sociales), NUNCA sitios de juegos
 WHITELIST = {
     "google.com", "youtube.com", "wikipedia.org", "github.com", "microsoft.com",
     "apple.com", "amazon.com", "facebook.com", "twitter.com", "instagram.com",
@@ -28,6 +28,12 @@ def validate_blocklist():
     for line_num, line in enumerate(lines, 1):
         line_clean = line.strip()
         if not line_clean or line_clean.startswith("#"):
+            continue
+
+        # Permitir reglas de filtrado de URL / Path de AdGuard (ej: ||sites.google.com/view/totalgameinn/*$document)
+        if "$document" in line_clean or "/*" in line_clean:
+            if not line_clean.startswith("||"):
+                errors.append(f"Línea {line_num}: Regla de Path inválida '{line_clean}'. Debe iniciar con '||'.")
             continue
 
         # 1. Validar sintaxis AdGuard Home ||domain^
@@ -56,7 +62,7 @@ def validate_blocklist():
             print(f"  - {err}")
         sys.exit(1)
     else:
-        print("[+] Validaciones exitosas: Sintaxis AdGuard Home 100% correcta, sin duplicados y Whitelist respetada.")
+        print("[+] Validaciones exitosas: Sintaxis 100% correcta, sin duplicados y Whitelist respetada.")
         sys.exit(0)
 
 if __name__ == "__main__":

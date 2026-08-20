@@ -122,6 +122,8 @@
 0.0.0.0 edgesuite.net
 0.0.0.0 education.com
 0.0.0.0 education.minecraft.net
+0.0.0.0 emulatorjs.com
+0.0.0.0 emulatorjs.org
 0.0.0.0 emupedia.net
 0.0.0.0 emuvault-2.firebaseapp.com
 0.0.0.0 epicgames.com
@@ -389,6 +391,7 @@
 0.0.0.0 purogames.com.br
 0.0.0.0 q13x.com
 0.0.0.0 ragdollarchers2.io
+0.0.0.0 retroarch.com
 0.0.0.0 roblox.com
 0.0.0.0 roblox.org
 0.0.0.0 rocketgames.io
@@ -477,6 +480,7 @@
 0.0.0.0 we-dashers.github.io
 0.0.0.0 web-dashers.github.io
 0.0.0.0 webmc.com
+0.0.0.0 webretro.org
 0.0.0.0 wordle-games.com
 0.0.0.0 wordle.net
 0.0.0.0 xbitlabs.com
