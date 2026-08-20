@@ -46,6 +46,7 @@
 0.0.0.0 axenthost.com
 0.0.0.0 azagames.io
 0.0.0.0 azgames.io
+0.0.0.0 badparentingame.com
 0.0.0.0 badparentingame.io
 0.0.0.0 badtimesimulator.io
 0.0.0.0 base44.app

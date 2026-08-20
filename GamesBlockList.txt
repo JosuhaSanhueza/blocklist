@@ -45,6 +45,7 @@
 ||axenthost.com^
 ||azagames.io^
 ||azgames.io^
+||badparentingame.com^
 ||badparentingame.io^
 ||badtimesimulator.io^
 ||base44.app^
