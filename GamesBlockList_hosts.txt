@@ -500,6 +500,7 @@
 0.0.0.0 y8games.net
 0.0.0.0 y8games2.com
 0.0.0.0 yandex.com
+0.0.0.0 yandexgames.online
 0.0.0.0 yoplay.io
 0.0.0.0 zapgames.io
 0.0.0.0 zapgames.site
