@@ -36,6 +36,7 @@
 ||amongusfree.io^
 ||amongusonline.io^
 ||amongusplay.online^
+||ant.games^
 ||arch.lol^
 ||arch.mc^
 ||arealme.com^
@@ -50,6 +51,7 @@
 ||badparentingame.io^
 ||badtimesimulator.io^
 ||base44.app^
+||bee.games^
 ||bestminecraftserverlist.net^
 ||blipzi.com^
 ||bloxd.io^
@@ -344,6 +346,7 @@
 ||msnfun.com^
 ||msngames.com^
 ||msngames.io^
+||my.games^
 ||myunblockedgames.com^
 ||nargames.com^
 ||narrow.one^
@@ -491,6 +494,7 @@
 ||web-dashers.github.io^
 ||webmc.com^
 ||webretro.org^
+||weplayretro.games^
 ||wordle-games.com^
 ||wordle.net^
 ||xbitlabs.com^

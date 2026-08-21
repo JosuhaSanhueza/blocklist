@@ -37,6 +37,7 @@
 0.0.0.0 amongusfree.io
 0.0.0.0 amongusonline.io
 0.0.0.0 amongusplay.online
+0.0.0.0 ant.games
 0.0.0.0 arch.lol
 0.0.0.0 arch.mc
 0.0.0.0 arealme.com
@@ -51,6 +52,7 @@
 0.0.0.0 badparentingame.io
 0.0.0.0 badtimesimulator.io
 0.0.0.0 base44.app
+0.0.0.0 bee.games
 0.0.0.0 bestminecraftserverlist.net
 0.0.0.0 blipzi.com
 0.0.0.0 bloxd.io
@@ -345,6 +347,7 @@
 0.0.0.0 msnfun.com
 0.0.0.0 msngames.com
 0.0.0.0 msngames.io
+0.0.0.0 my.games
 0.0.0.0 myunblockedgames.com
 0.0.0.0 nargames.com
 0.0.0.0 narrow.one
@@ -487,6 +490,7 @@
 0.0.0.0 web-dashers.github.io
 0.0.0.0 webmc.com
 0.0.0.0 webretro.org
+0.0.0.0 weplayretro.games
 0.0.0.0 wordle-games.com
 0.0.0.0 wordle.net
 0.0.0.0 xbitlabs.com
