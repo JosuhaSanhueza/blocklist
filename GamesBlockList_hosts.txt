@@ -71,6 +71,7 @@
 0.0.0.0 cloudmoonapp.com
 0.0.0.0 cokitos.com
 0.0.0.0 cooljuegos.com
+0.0.0.0 coolmathgames.com
 0.0.0.0 cpstest.click
 0.0.0.0 cpstest.net
 0.0.0.0 cpstest.org
@@ -340,6 +341,7 @@
 0.0.0.0 minix.games
 0.0.0.0 mobirix.com
 0.0.0.0 mobirix.net
+0.0.0.0 mochig.com
 0.0.0.0 morefriv.com
 0.0.0.0 msauth.net
 0.0.0.0 msn-21.github.io

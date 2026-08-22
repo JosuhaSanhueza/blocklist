@@ -70,6 +70,7 @@
 ||cloudmoonapp.com^
 ||cokitos.com^
 ||cooljuegos.com^
+||coolmathgames.com^
 ||cpstest.click^
 ||cpstest.net^
 ||cpstest.org^
@@ -339,6 +340,7 @@
 ||minix.games^
 ||mobirix.com^
 ||mobirix.net^
+||mochig.com^
 ||morefriv.com^
 ||msauth.net^
 ||msn-21.github.io^
@@ -511,4 +513,3 @@
 ||zentic.org^
 ||zynga.com^
 ||zynga.games^
-||mochig.com^
