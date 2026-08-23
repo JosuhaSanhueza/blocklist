@@ -168,6 +168,7 @@
 ||friv2021.com^
 ||friv2online.com^
 ||friv4school.com^
+||friv4school.io^
 ||frivantiguo.net^
 ||frivclasico.co^
 ||frivclassic.com^
@@ -470,6 +471,7 @@
 ||top-mcservers.com^
 ||topeaglerservers.com^
 ||topg.org^
+||topgames.com^
 ||topgames.gg^
 ||tops.games^
 ||topservers200.com^
