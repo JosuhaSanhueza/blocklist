@@ -5,6 +5,7 @@ import random
 import socket
 import json
 import time
+import threading
 import urllib.parse
 import urllib.request
 import ssl
@@ -18,6 +19,30 @@ MAX_NEW_DOMAINS = 300
 TIMEOUT_SECONDS = 3.0  # Timeout ágil por petición
 MAX_WORKERS_SEARCH = 25  # Hilos simultáneos para buscar por palabras clave
 MAX_WORKERS_VERIFY = 20  # Hilos simultáneos para inspeccionar candidatos por HTTP/HTTPS
+
+# Intervalo mínimo global (segundos) entre requests al mismo motor/servicio,
+# sin importar cuántos hilos estén corriendo. Con 25 hilos disparando en paralelo
+# sin esto, se bombardea a DuckDuckGo/crt.sh y activan rate-limiting casi de
+# inmediato, dejando el resto del run sin resultados.
+MIN_REQUEST_INTERVAL = {
+    "duckduckgo": 0.7,
+    "crtsh": 1.2,
+    "hackertarget": 0.5,
+}
+_throttle_lock = threading.Lock()
+_last_request_time = {}
+
+def throttle(source):
+    """Serializa requests a `source` para respetar MIN_REQUEST_INTERVAL globalmente."""
+    interval = MIN_REQUEST_INTERVAL.get(source, 0)
+    if interval <= 0:
+        return
+    with _throttle_lock:
+        now = time.monotonic()
+        wait = _last_request_time.get(source, 0) + interval - now
+        if wait > 0:
+            time.sleep(wait)
+        _last_request_time[source] = time.monotonic()
 
 VALID_TLDS = (
     ".com", ".net", ".org", ".io", ".games", ".online", ".fun", ".site",
@@ -191,6 +216,7 @@ def search_duckduckgo_organic(keyword):
         url = f"https://html.duckduckgo.com/html/?q={query}"
         req = urllib.request.Request(url, headers=headers)
         try:
+            throttle("duckduckgo")
             context = ssl.create_default_context()
             with fetch_with_retry(req, context=context) as response:
                 html = response.read().decode('utf-8', errors='ignore')
@@ -210,9 +236,6 @@ def search_duckduckgo_organic(keyword):
                             found.update(embedded_cdns)
         except Exception:
             pass
-
-        # Pausa cortés entre queries al mismo motor para no gatillar bloqueos por IP
-        time.sleep(random.uniform(0.4, 1.0))
 
     return found
 
@@ -247,6 +270,7 @@ def search_subdomains_dns(keyword):
     for tld in tlds_to_query:
         dns_url = f"https://api.hackertarget.com/hostsearch/?q={urllib.parse.quote(clean_kw)}{tld}"
         try:
+            throttle("hackertarget")
             req = urllib.request.Request(dns_url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
                 text = resp.read().decode('utf-8', errors='ignore')
@@ -271,6 +295,7 @@ def search_crtsh(keyword):
     if len(clean_kw) < 4:
         return found
     try:
+        throttle("crtsh")
         url = f"https://crt.sh/?q=%25{urllib.parse.quote(clean_kw)}%25&output=json"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with fetch_with_retry(req, timeout=8.0, retries=1) as resp:
