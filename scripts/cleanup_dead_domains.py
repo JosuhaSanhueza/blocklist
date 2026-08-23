@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import socket
 import urllib.request
 import ssl
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -35,8 +36,6 @@ def is_domain_accessible(rule):
         url = f"{scheme}{domain}"
         try:
             context = ssl.create_default_context()
-            context.check_hostname = False
-            context.verify_mode = ssl.CERT_NONE
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as resp:
                 if resp.status < 500:
@@ -44,8 +43,14 @@ def is_domain_accessible(rule):
         except Exception:
             continue
 
-    # Conservar en caso de bloqueo estricto o fallos temporales de red local
-    return rule, True
+    # Última chance: resolución DNS. Si el dominio ni siquiera resuelve, se considera muerto.
+    try:
+        socket.gethostbyname(domain)
+        return rule, True
+    except Exception:
+        pass
+
+    return rule, False
 
 def main():
     if not os.path.exists(BLOCKLIST_FILE):
@@ -56,9 +61,32 @@ def main():
         lines = [l.strip() for l in f if l.strip() and not l.startswith("#")]
 
     total_initial = len(lines)
-    print(f"[*] Verificando validez y generando exportación multiplataforma Hosts sobre {total_initial} dominios...")
+    print(f"[*] Verificando accesibilidad de {total_initial} reglas (HTTP/HTTPS/DNS)...")
 
-    active_rules = sorted(list(set(lines)))
+    rules = sorted(set(lines))
+    active_rules = []
+    dead_rules = []
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_rule = {executor.submit(is_domain_accessible, r): r for r in rules}
+        for future in as_completed(future_to_rule):
+            rule, alive = future.result()
+            if alive:
+                active_rules.append(rule)
+            else:
+                dead_rules.append(rule)
+
+    active_rules = sorted(active_rules)
+
+    if dead_rules:
+        print(f"[-] Eliminando {len(dead_rules)} dominios muertos (sin respuesta HTTP/HTTPS ni DNS):")
+        for r in sorted(dead_rules):
+            print(f"    - {r}")
+        with open(BLOCKLIST_FILE, "w", encoding="utf-8") as f:
+            for r in active_rules:
+                f.write(f"{r}\n")
+    else:
+        print("[+] No se encontraron dominios muertos.")
 
     # Generar versión GamesBlockList_hosts.txt para OPNsense / Unbound / Hosts (solo dominios puros)
     with open(HOSTS_FILE, "w", encoding="utf-8") as f:
@@ -70,6 +98,7 @@ def main():
 
     print(f"[+] Verificación exitosa:")
     print(f"  - Dominios procesados: {total_initial}")
+    print(f"  - Dominios activos restantes: {len(active_rules)}")
     print(f"  - Generado archivo multiplataforma Hosts: {HOSTS_FILE}")
 
 if __name__ == "__main__":

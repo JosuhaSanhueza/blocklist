@@ -12,6 +12,46 @@ WHITELIST = {
     "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com"
 }
 
+def check_line(line_clean, line_num, domains_seen):
+    """Valida una línea de la blocklist. Devuelve (errores, dominio_o_None).
+
+    `domains_seen` se muta con el dominio de esta línea si es válido, para que
+    el llamador pueda detectar duplicados a través de múltiples líneas.
+    """
+    errors = []
+
+    if not line_clean or line_clean.startswith("#"):
+        return errors, None
+
+    # Permitir reglas de filtrado de URL / Path de AdGuard (ej: ||sites.google.com/view/totalgameinn/*$document)
+    if "$document" in line_clean or "/*" in line_clean:
+        if not line_clean.startswith("||"):
+            errors.append(f"Línea {line_num}: Regla de Path inválida '{line_clean}'. Debe iniciar con '||'.")
+        return errors, None
+
+    # 1. Validar sintaxis AdGuard Home ||domain^
+    if not (line_clean.startswith("||") and line_clean.endswith("^")):
+        errors.append(f"Línea {line_num}: Sintaxis inválida '{line_clean}'. Debe ser '||dominio^'.")
+        return errors, None
+
+    domain = line_clean[2:-1].lower()
+
+    # 2. Verificar duplicados
+    if domain in domains_seen:
+        errors.append(f"Línea {line_num}: Dominio duplicado '{domain}'.")
+    domains_seen.add(domain)
+
+    # 3. Validar presencia accidental de Whitelist (solo servicios no-juegos)
+    if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
+        errors.append(f"Línea {line_num}: CRÍTICO - Dominio infraestructura en Whitelist detectado '{domain}'.")
+
+    # 4. Validar formato de caracteres de dominio
+    if not re.match(r'^[a-z0-9.-]+\.[a-z]{2,10}$', domain):
+        errors.append(f"Línea {line_num}: Formato de dominio no válido '{domain}'.")
+
+    return errors, domain
+
+
 def validate_blocklist():
     if not os.path.exists(BLOCKLIST_FILE):
         print(f"[ERROR] Archivo {BLOCKLIST_FILE} no encontrado.")
@@ -26,35 +66,8 @@ def validate_blocklist():
     print(f"[*] Validando sintaxis e integridad de {len(lines)} reglas en {BLOCKLIST_FILE}...")
 
     for line_num, line in enumerate(lines, 1):
-        line_clean = line.strip()
-        if not line_clean or line_clean.startswith("#"):
-            continue
-
-        # Permitir reglas de filtrado de URL / Path de AdGuard (ej: ||sites.google.com/view/totalgameinn/*$document)
-        if "$document" in line_clean or "/*" in line_clean:
-            if not line_clean.startswith("||"):
-                errors.append(f"Línea {line_num}: Regla de Path inválida '{line_clean}'. Debe iniciar con '||'.")
-            continue
-
-        # 1. Validar sintaxis AdGuard Home ||domain^
-        if not (line_clean.startswith("||") and line_clean.endswith("^")):
-            errors.append(f"Línea {line_num}: Sintaxis inválida '{line_clean}'. Debe ser '||dominio^'.")
-            continue
-
-        domain = line_clean[2:-1].lower()
-
-        # 2. Verificar duplicados
-        if domain in domains_seen:
-            errors.append(f"Línea {line_num}: Dominio duplicado '{domain}'.")
-        domains_seen.add(domain)
-
-        # 3. Validar presencia accidental de Whitelist (solo servicios no-juegos)
-        if domain in WHITELIST or any(domain.endswith("." + w) for w in WHITELIST):
-            errors.append(f"Línea {line_num}: CRÍTICO - Dominio infraestructura en Whitelist detectado '{domain}'.")
-
-        # 4. Validar formato de caracteres de dominio
-        if not re.match(r'^[a-z0-9.-]+\.[a-z]{2,10}$', domain):
-            errors.append(f"Línea {line_num}: Formato de dominio no válido '{domain}'.")
+        line_errors, _ = check_line(line.strip(), line_num, domains_seen)
+        errors.extend(line_errors)
 
     if errors:
         print("\n[!] Se encontraron los siguientes errores en la validación:")

@@ -4,6 +4,7 @@ import re
 import random
 import socket
 import json
+import time
 import urllib.parse
 import urllib.request
 import ssl
@@ -13,7 +14,7 @@ from html.parser import HTMLParser
 # Configuración
 BLOCKLIST_FILE = "GamesBlockList.txt"
 KEYWORDS_FILE = "keywords.txt"
-MAX_NEW_DOMAINS = 150
+MAX_NEW_DOMAINS = 300
 TIMEOUT_SECONDS = 3.0  # Timeout ágil por petición
 MAX_WORKERS_SEARCH = 25  # Hilos simultáneos para buscar por palabras clave
 MAX_WORKERS_VERIFY = 20  # Hilos simultáneos para inspeccionar candidatos por HTTP/HTTPS
@@ -150,6 +151,21 @@ def generate_keyword_variations(keyword):
 
 # --- MÓDULOS DE BÚSQUEDA ---
 
+def fetch_with_retry(req, timeout=TIMEOUT_SECONDS, context=None, retries=2, backoff=0.6):
+    """GET con reintentos y backoff exponencial + jitter, para tolerar rate-limits temporales
+    de los motores de búsqueda sin bombardearlos ni fallar en el primer error transitorio."""
+    last_exc = None
+    for attempt in range(retries + 1):
+        try:
+            if context is not None:
+                return urllib.request.urlopen(req, timeout=timeout, context=context)
+            return urllib.request.urlopen(req, timeout=timeout)
+        except Exception as exc:
+            last_exc = exc
+            if attempt < retries:
+                time.sleep(backoff * (2 ** attempt) + random.uniform(0, 0.3))
+    raise last_exc
+
 def search_duckduckgo_organic(keyword):
     found = set()
     kw_variations = generate_keyword_variations(keyword)
@@ -176,9 +192,7 @@ def search_duckduckgo_organic(keyword):
         req = urllib.request.Request(url, headers=headers)
         try:
             context = ssl.create_default_context()
-            context.check_hostname = False
-            context.verify_mode = ssl.CERT_NONE
-            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
+            with fetch_with_retry(req, context=context) as response:
                 html = response.read().decode('utf-8', errors='ignore')
                 raw_urls = re.findall(r'uddg=([^&\"]+)', html)
                 for u in raw_urls:
@@ -189,13 +203,16 @@ def search_duckduckgo_organic(keyword):
                         if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
                             if any(dom.endswith(tld) for tld in VALID_TLDS):
                                 found.add(dom)
-                                
+
                         # Si es un Google Sites de juegos, escanear la página para extraer su CDN/servidor de emulador embebido
                         if "sites.google.com" in decoded and any(term in decoded.lower() for term in ["game", "juego", "unblocked", "mario", "arcade", "play"]):
                             embedded_cdns = scan_embedded_game_cdns(decoded)
                             found.update(embedded_cdns)
         except Exception:
             pass
+
+        # Pausa cortés entre queries al mismo motor para no gatillar bloqueos por IP
+        time.sleep(random.uniform(0.4, 1.0))
 
     return found
 
@@ -205,8 +222,6 @@ def scan_embedded_game_cdns(target_url):
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     try:
         context = ssl.create_default_context()
-        context.check_hostname = False
-        context.verify_mode = ssl.CERT_NONE
         req = urllib.request.Request(target_url, headers=headers)
         with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as resp:
             html = resp.read().decode('utf-8', errors='ignore')
@@ -223,39 +238,6 @@ def scan_embedded_game_cdns(target_url):
     except Exception:
         pass
     return found_cdns
-
-def search_startpage_organic(keyword):
-    found = set()
-    url = "https://www.startpage.com/sp/search"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Content-Type": "application/x-www-form-urlencoded"
-    }
-    
-    kw_variations = generate_keyword_variations(keyword)
-    queries = [f"{kv} juegos gratis" for kv in kw_variations] + [f"unblocked {kv} games" for kv in kw_variations]
-    random.shuffle(queries)
-
-    for q in queries[:2]:
-        data = urllib.parse.urlencode({"query": q, "cat": "web"}).encode('utf-8')
-        req = urllib.request.Request(url, data=data, headers=headers)
-        try:
-            context = ssl.create_default_context()
-            context.check_hostname = False
-            context.verify_mode = ssl.CERT_NONE
-            with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as response:
-                html = response.read().decode('utf-8', errors='ignore')
-                links = re.findall(r'href=\"(https?://[^\"]+)\"\s+class=\"[^\"]*result-link', html)
-                for href in links:
-                    parsed = urllib.parse.urlparse(href)
-                    dom = clean_domain(parsed.netloc)
-                    if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
-                        if any(dom.endswith(tld) for tld in VALID_TLDS):
-                            found.add(dom)
-        except Exception:
-            pass
-            
-    return found
 
 def search_subdomains_dns(keyword):
     found = set()
@@ -276,6 +258,32 @@ def search_subdomains_dns(keyword):
                             found.add(dom)
         except Exception:
             pass
+    return found
+
+# --- MÓDULO: crt.sh (Certificate Transparency Logs, gratuito y sin API key) ---
+def search_crtsh(keyword):
+    """Busca en logs públicos de Certificate Transparency dominios cuyo certificado
+    contenga la keyword. Encuentra sitios nuevos apenas sacan su certificado SSL,
+    antes de que motores de búsqueda como Google los indexen. Sustituto gratuito
+    de la Google Search API (de pago) para descubrir dominios nuevos."""
+    found = set()
+    clean_kw = keyword.replace(" ", "")
+    if len(clean_kw) < 4:
+        return found
+    try:
+        url = f"https://crt.sh/?q=%25{urllib.parse.quote(clean_kw)}%25&output=json"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with fetch_with_retry(req, timeout=8.0, retries=1) as resp:
+            data = json.loads(resp.read().decode('utf-8', errors='ignore'))
+            for entry in data[:300]:
+                name_value = entry.get('name_value', '')
+                for line in name_value.split('\n'):
+                    dom = clean_domain(line.strip().lstrip('*.'))
+                    if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
+                        if any(dom.endswith(tld) for tld in VALID_TLDS):
+                            found.add(dom)
+    except Exception:
+        pass
     return found
 
 # --- MÓDULO 4: Shodan InternetDB API (Sin requerir API Key) ---
@@ -301,8 +309,8 @@ def search_shodan_internetdb(domain):
 def process_single_keyword(kw):
     res = set()
     res.update(search_duckduckgo_organic(kw))
-    res.update(search_startpage_organic(kw))
     res.update(search_subdomains_dns(kw))
+    res.update(search_crtsh(kw))
     return res
 
 def is_game_website(domain):
@@ -337,8 +345,6 @@ def is_game_website(domain):
         url = f"{scheme}{domain}"
         try:
             context = ssl.create_default_context()
-            context.check_hostname = False
-            context.verify_mode = ssl.CERT_NONE
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS, context=context) as resp:
                 content_type = resp.headers.get('Content-Type', '')
