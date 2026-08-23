@@ -507,5 +507,6 @@
 0.0.0.0 zapgames.io
 0.0.0.0 zapgames.site
 0.0.0.0 zentic.org
+0.0.0.0 zgames.com
 0.0.0.0 zynga.com
 0.0.0.0 zynga.games

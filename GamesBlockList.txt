@@ -511,5 +511,6 @@
 ||zapgames.io^
 ||zapgames.site^
 ||zentic.org^
+||zgames.com^
 ||zynga.com^
 ||zynga.games^
