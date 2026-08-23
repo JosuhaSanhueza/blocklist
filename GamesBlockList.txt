@@ -351,6 +351,7 @@
 ||msngames.io^
 ||my.games^
 ||myunblockedgames.com^
+||myunblockedgames.io^
 ||nargames.com^
 ||narrow.one^
 ||neal.fun^
