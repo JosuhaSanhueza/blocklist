@@ -430,21 +430,26 @@ def main():
                 pass
     
     print(f"[*] Candidatos únicos totales encontrados: {len(candidate_domains)}")
-    
+
     to_verify = [
-        d for d in candidate_domains 
+        d for d in candidate_domains
         if get_root_domain(d) not in existing_domains and d not in existing_domains
     ]
+    already_known = sorted(candidate_domains - set(to_verify))
+    print(f"[*] Candidatos ya conocidos (descartados por estar en la lista): {len(already_known)}")
+    for dom in already_known:
+        print(f"    - {dom} (ya cubierto por: {get_root_domain(dom)})")
     print(f"[*] Candidatos nuevos a inspeccionar (filtrados previos): {len(to_verify)}")
-    
+
     new_domains = []
-    
+
     print(f"[*] Verificando contenido HTML5/JS y Shodan InternetDB en paralelo con {MAX_WORKERS_VERIFY} hilos concurrentes...")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS_VERIFY) as executor:
         future_to_dom = {executor.submit(verify_single_candidate, dom, existing_domains): dom for dom in to_verify}
         for future in as_completed(future_to_dom):
             if len(new_domains) >= MAX_NEW_DOMAINS:
                 break
+            dom_checked = future_to_dom[future]
             try:
                 res = future.result()
                 if res:
@@ -453,8 +458,12 @@ def main():
                         print(f"  [+] Confirmado sitio de juegos / Shodan MC: {domain} -> Consolidando a: {root_dom}")
                         new_domains.append(root_dom)
                         existing_domains.add(root_dom)
-            except Exception:
-                pass
+                    else:
+                        print(f"  [-] Descartado (ya consolidado en esta corrida): {dom_checked}")
+                else:
+                    print(f"  [-] Descartado (no parece sitio de juegos): {dom_checked}")
+            except Exception as exc:
+                print(f"  [-] Descartado (error de verificación: {exc}): {dom_checked}")
 
     if new_domains:
         print(f"\n[+] Agregando {len(new_domains)} dominios principales consolidados a {BLOCKLIST_FILE}...")
