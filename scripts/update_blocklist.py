@@ -20,6 +20,13 @@ TIMEOUT_SECONDS = 3.0  # Timeout ágil por petición
 MAX_WORKERS_SEARCH = 25  # Hilos simultáneos para buscar por palabras clave
 MAX_WORKERS_VERIFY = 20  # Hilos simultáneos para inspeccionar candidatos por HTTP/HTTPS
 
+# Gemini API (grounding con Google Search, tier gratuito) — sustituto oficial y
+# soportado del scraping de motores de búsqueda. Opcional: si no hay API key
+# configurada, esta fuente simplemente no se usa (no rompe nada).
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_BATCH_SIZE = 6  # keywords por request, para rendir mejor la cuota gratuita diaria
+
 # Intervalo mínimo global (segundos) entre requests al mismo motor/servicio,
 # sin importar cuántos hilos estén corriendo. Con 25 hilos disparando en paralelo
 # sin esto, se bombardea a DuckDuckGo/crt.sh y activan rate-limiting casi de
@@ -28,6 +35,7 @@ MIN_REQUEST_INTERVAL = {
     "duckduckgo": 0.7,
     "crtsh": 1.2,
     "hackertarget": 0.5,
+    "gemini": 4.5,  # tier gratuito: ~15 req/min máx, nos quedamos bien debajo
 }
 _throttle_lock = threading.Lock()
 _last_request_time = {}
@@ -311,6 +319,56 @@ def search_crtsh(keyword):
         pass
     return found
 
+# Regex para extraer nombres de dominio del texto de respuesta de Gemini
+_DOMAIN_TOKEN_RE = re.compile(
+    r'\b([a-z0-9](?:[a-z0-9-]*[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)*'
+    r'(?:' + '|'.join(re.escape(tld) for tld in VALID_TLDS) + r'))\b',
+    re.IGNORECASE
+)
+
+def search_gemini_grounding(keyword_batch):
+    """Usa la API de Gemini con la herramienta google_search (grounding, tier
+    gratuito) como reemplazo oficial y soportado del scraping de buscadores.
+    La API gratuita no expone la URL real de las fuentes citadas (solo un link
+    de redirección de Google), así que se le pide al modelo texto plano con
+    nombres de dominio y se extraen por regex; los inventados/caídos igual
+    quedan filtrados después por la verificación de contenido real."""
+    found = set()
+    if not GEMINI_API_KEY:
+        return found
+
+    prompt = (
+        "Busca sitios web reales de juegos online gratuitos para navegador relacionados con: "
+        + ", ".join(keyword_batch)
+        + ". Responde SOLO con una lista de nombres de dominio reales y accesibles ahora mismo, "
+        "uno por línea, sin explicaciones ni markdown."
+    )
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    payload = json.dumps({
+        "contents": [{"parts": [{"text": prompt}]}],
+        "tools": [{"google_search": {}}]
+    }).encode("utf-8")
+    headers = {
+        "Content-Type": "application/json",
+        "x-goog-api-key": GEMINI_API_KEY,
+    }
+    req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
+    try:
+        throttle("gemini")
+        context = ssl.create_default_context()
+        with fetch_with_retry(req, timeout=15.0, context=context, retries=1) as resp:
+            data = json.loads(resp.read().decode('utf-8', errors='ignore'))
+            for candidate in data.get('candidates', []):
+                for part in candidate.get('content', {}).get('parts', []):
+                    text = part.get('text', '')
+                    for match in _DOMAIN_TOKEN_RE.findall(text.lower()):
+                        dom = clean_domain(match)
+                        if dom and dom not in WHITELIST and not any(dom.endswith("." + w) for w in WHITELIST):
+                            found.add(dom)
+    except Exception:
+        pass
+    return found
+
 # --- MÓDULO 4: Shodan InternetDB API (Sin requerir API Key) ---
 def search_shodan_internetdb(domain):
     """Consulta la API pública libre de Shodan por la IP del dominio para detectar puertos de juegos (25565, 19132) o etiquetas 'videogame'"""
@@ -418,17 +476,26 @@ def main():
     random.shuffle(keywords)
     
     candidate_domains = set()
-    
+
+    if GEMINI_API_KEY:
+        print("[*] GEMINI_API_KEY detectada: se usará grounding con Google Search como fuente adicional.")
+    else:
+        print("[*] GEMINI_API_KEY no configurada: se omite la fuente Gemini (opcional).")
+
+    keyword_batches = [keywords[i:i + GEMINI_BATCH_SIZE] for i in range(0, len(keywords), GEMINI_BATCH_SIZE)]
+
     print(f"[*] Rastreando candidatos en paralelo con {MAX_WORKERS_SEARCH} hilos concurrentes...")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS_SEARCH) as executor:
-        future_to_kw = {executor.submit(process_single_keyword, kw): kw for kw in keywords}
-        for future in as_completed(future_to_kw):
+        futures = {executor.submit(process_single_keyword, kw): kw for kw in keywords}
+        if GEMINI_API_KEY:
+            futures.update({executor.submit(search_gemini_grounding, batch): batch for batch in keyword_batches})
+        for future in as_completed(futures):
             try:
                 res = future.result()
                 candidate_domains.update(res)
             except Exception:
                 pass
-    
+
     print(f"[*] Candidatos únicos totales encontrados: {len(candidate_domains)}")
 
     to_verify = [
