@@ -431,3 +431,18 @@ stickmanhooks
 veckiogame
 yoplay
 zgames
+
+# --- Emuladores en navegador y plataformas descubiertas por análisis de GamesBlockList.txt ---
+emulatorjs
+retroarch
+webretro
+yandexgames
+pogo
+privategameservers
+stickypiston
+
+# --- Tema recurrente: juegos "no bloqueados" para colegio, alojados en hosting gratuito ---
+school unblocked games
+juegos no bloqueados colegio
+gitlab pages juegos
+bitbucket pages juegos

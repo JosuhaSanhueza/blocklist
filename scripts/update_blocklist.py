@@ -207,7 +207,10 @@ def search_duckduckgo_organic(keyword):
     found = set()
     kw_variations = generate_keyword_variations(keyword)
     
-    # Generar Dorks avanzados incluyendo sites.google.com, .game y .games
+    # Generar Dorks avanzados incluyendo sites.google.com, .game y .games, y
+    # plataformas de hosting estático gratuito (gitlab.io, bitbucket.io, pages.dev,
+    # firebaseapp.com) donde suelen terminar los sitios de "unblocked games" que
+    # se agregan manualmente porque el buscador normal no los encuentra.
     queries = []
     for kv in kw_variations:
         queries.extend([
@@ -217,7 +220,11 @@ def search_duckduckgo_organic(keyword):
             f"site:.game {kv}",
             f"site:.games {kv}",
             f"site:.io {kv}",
-            f"inurl:unblocked {kv}"
+            f"inurl:unblocked {kv}",
+            f"site:gitlab.io {kv}",
+            f"site:bitbucket.io {kv}",
+            f"site:pages.dev {kv}",
+            f"site:firebaseapp.com {kv}",
         ])
     
     random.shuffle(queries)
@@ -344,7 +351,10 @@ def search_gemini_grounding(keyword_batch):
     prompt = (
         "Busca sitios web reales de juegos online gratuitos para navegador relacionados con: "
         + ", ".join(keyword_batch)
-        + ". Responde SOLO con una lista de nombres de dominio reales y accesibles ahora mismo, "
+        + ". Incluye también, si existen, sitios alojados en hosting estático gratuito "
+        "(gitlab.io, bitbucket.io, pages.dev, firebaseapp.com, github.io) que suelen usar "
+        "los sitios de 'juegos no bloqueados para el colegio' (school unblocked games). "
+        "Responde SOLO con una lista de nombres de dominio reales y accesibles ahora mismo, "
         "uno por línea, sin explicaciones ni markdown."
     )
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
