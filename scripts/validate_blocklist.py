@@ -9,7 +9,8 @@ WHITELIST = {
     "google.com", "youtube.com", "wikipedia.org", "github.com", "microsoft.com",
     "apple.com", "amazon.com", "facebook.com", "twitter.com", "instagram.com",
     "reddit.com", "linkedin.com", "twitch.tv", "discord.com", "fandom.com",
-    "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com"
+    "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com",
+    "fastly.com", "fastly.net", "fastlylb.net"
 }
 
 def check_line(line_clean, line_num, domains_seen):

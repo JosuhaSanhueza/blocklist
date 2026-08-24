@@ -86,7 +86,11 @@ WHITELIST = {
     "google.com", "youtube.com", "wikipedia.org", "github.com", "microsoft.com",
     "apple.com", "amazon.com", "facebook.com", "twitter.com", "instagram.com",
     "reddit.com", "linkedin.com", "twitch.tv", "discord.com", "fandom.com",
-    "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com"
+    "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com",
+    # CDNs multi-tenant: miles de sitios sin relación (Pinterest, Reddit, npm, etc.)
+    # comparten esta infraestructura bajo el dominio del CDN. El sitio de juegos que
+    # la usa se bloquea por SU PROPIO dominio (ej. frvr.com), nunca por el del CDN.
+    "fastly.com", "fastly.net", "fastlylb.net"
 }
 
 # CDNs / Infraestructura crítica que NUNCA debemos bloquear al escanear iframe o CDNs embebidos
@@ -94,7 +98,7 @@ SAFE_CDN_INFRASTRUCTURE = {
     "google.com", "gstatic.com", "googleapis.com", "googletagmanager.com",
     "google-analytics.com", "github.com", "gitlab.io", "cloudflare.com",
     "cloudfront.net", "jsdelivr.net", "unpkg.com", "cdnjs.cloudflare.com",
-    "schema.org", "w3.org"
+    "schema.org", "w3.org", "fastly.com", "fastly.net", "fastlylb.net"
 }
 
 ADMIN_SUBDOMAIN_PREFIXES = (
