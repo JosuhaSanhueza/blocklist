@@ -388,6 +388,7 @@
 ||playcutegames.com^
 ||playeagler.blog^
 ||playeaglercraft.com^
+||player2.game^
 ||playgama.com^
 ||playhop.com^
 ||playhop2.com^
@@ -418,6 +419,7 @@
 ||rocketsoccerderby.gitlab.io^
 ||rooftoprun.net^
 ||rycellgames.github.io^
+||sandbox.game^
 ||santiagodebus.com^
 ||scalacube.com^
 ||scaryteacher-3d.io^
