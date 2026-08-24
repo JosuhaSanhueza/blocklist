@@ -263,11 +263,14 @@
 ||html5games.io^
 ||html5games.net^
 ||hypixel.net^
+||igre.games^
 ||img.poki-cdn.com^
 ||impostor.io^
 ||inblog.io^
 ||io-games.com^
 ||io-games.io^
+||iogames.games^
+||iospace.games^
 ||irv77.github.io^
 ||isladejuegos.com^
 ||itch.io^
@@ -486,6 +489,7 @@
 ||topgames.gg^
 ||tops.games^
 ||topservers200.com^
+||totaljerkface.com^
 ||tsyuay.github.io^
 ||twoplayergames.org^
 ||ubg76.gitlab.io^
@@ -517,6 +521,7 @@
 ||y8-games.com^
 ||y8.com^
 ||y8.net^
+||y8games.games^
 ||y8games.net^
 ||y8games2.com^
 ||yandex.com^
@@ -528,4 +533,3 @@
 ||zgames.com^
 ||zynga.com^
 ||zynga.games^
-||totaljerkface.com^
