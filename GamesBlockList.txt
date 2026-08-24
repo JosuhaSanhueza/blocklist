@@ -13,6 +13,7 @@
 ||67clicker.io^
 ||67clicker.org^
 ||6922b02c-40d6-4b41-8250-70ff32fd9b3c.poki-gdn.com^
+||8games.com^
 ||8games.net^
 ||a-zgames.com^
 ||a.poki-cdn.com^
@@ -392,6 +393,7 @@
 ||playhop2.com^
 ||playminigames.com^
 ||playminigames.net^
+||playschoolgames.com^
 ||playspark.net^
 ||playzen.io^
 ||pogo.com^
@@ -402,6 +404,7 @@
 ||poki1.com^
 ||poki2.net^
 ||primarygames.gitlab.io^
+||privategameservers.com^
 ||purogames.com.br^
 ||q13x.com^
 ||ragdollarchers2.io^
