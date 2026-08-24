@@ -70,6 +70,8 @@
 ||clickspersecond.com^
 ||cloudfront.net^
 ||cloudmoonapp.com^
+||codyshack.pages.dev^
+||coinops.pages.dev^
 ||cokitos.com^
 ||cooljuegos.com^
 ||coolmathgames.com^
@@ -102,6 +104,7 @@
 ||dinosaurgame.io^
 ||dominoes365.io^
 ||drivequest.io^
+||eag.pages.dev^
 ||eaglecraft.com^
 ||eaglecraft.com.co^
 ||eaglecraftgame.io^
@@ -124,6 +127,7 @@
 ||eaglercraftx.com^
 ||eaglercraftx.net^
 ||eaglercraftx.org^
+||eaglercraftx1-8.pages.dev^
 ||eaglercraftz.pages.dev^
 ||easyfun.gg^
 ||edgesuite.net^
@@ -526,6 +530,7 @@
 ||y8games2.com^
 ||yandex.com^
 ||yandexgames.online^
+||yee.pages.dev^
 ||yoplay.io^
 ||zapgames.io^
 ||zapgames.site^
