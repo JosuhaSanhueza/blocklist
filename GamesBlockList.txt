@@ -528,3 +528,4 @@
 ||zgames.com^
 ||zynga.com^
 ||zynga.games^
+||totaljerkface.com^
