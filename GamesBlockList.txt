@@ -139,6 +139,7 @@
 ||eu.org^
 ||fastclient.net^
 ||fivenightsatfreddys.com^
+||fivenightsatfreddysgame.com^
 ||fivenightsatfreddysgame.io^
 ||flappybird.io^
 ||fnaffree.io^
