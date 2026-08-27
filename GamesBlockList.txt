@@ -13,6 +13,8 @@
 ||67clicker.io^
 ||67clicker.org^
 ||6922b02c-40d6-4b41-8250-70ff32fd9b3c.poki-gdn.com^
+||6x-classroom.bitbucket.io^
+||76-games.bitbucket.io^
 ||8games.com^
 ||8games.io^
 ||8games.net^
@@ -40,9 +42,14 @@
 ||amongusonline.io^
 ||amongusplay.online^
 ||ant.games^
+||anygames-ad.bitbucket.io^
+||anygames-com.bitbucket.io^
+||anygames-free.bitbucket.io^
+||anygames-us1.bitbucket.io^
 ||arch.lol^
 ||arch.mc^
 ||arealme.com^
+||armorgames-as.bitbucket.io^
 ||armorgames.online^
 ||assets.gd.sbs.softgames.de^
 ||aternos.net^
@@ -81,6 +88,8 @@
 ||cpstest.org^
 ||cptest.io^
 ||craftnite.io^
+||crazy-game.bitbucket.io^
+||crazygames-ad.bitbucket.io^
 ||crazygames.com^
 ||crazygames.com.es^
 ||crazygames.gg^
@@ -316,6 +325,7 @@
 ||kour.io^
 ||krunker.io^
 ||kyabai.com^
+||lagged-io.bitbucket.io^
 ||lagged.com^
 ||legionsdk.com^
 ||ligadegamers.com^
@@ -472,6 +482,7 @@
 ||stickman-hook.io^
 ||stickman-unblocked.github.io^
 ||stickmanhook.bitbucket.io^
+||stickmanhook2.com^
 ||stickmanhook2.io^
 ||stickmanhookgame.com^
 ||stickmanhookgame.org^
