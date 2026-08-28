@@ -557,3 +557,4 @@
 ||zynga.com^
 ||zynga.games^
 ||capybara-game.com^
+||capybaragame.io^
