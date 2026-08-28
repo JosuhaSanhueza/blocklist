@@ -70,6 +70,7 @@
 ||calcsolver.net^
 ||carrot-craft.org^
 ||classicjoy.games^
+||classroom-6x.bitbucket.io^
 ||classroom80x.com^
 ||classroomgame.github.io^
 ||classrooms6x.gitlab.io^
@@ -211,6 +212,9 @@
 ||gameforge.com^
 ||gamejolt.com^
 ||gamelybyte.com^
+||gamenora-com.bitbucket.io^
+||gamenora-io.bitbucket.io^
+||gamenora-vu.bitbucket.io^
 ||gamenora.com^
 ||gamepix.com^
 ||games-66-ez.github.io^
@@ -356,6 +360,7 @@
 ||minecraftjava.net^
 ||minecraftlist.com^
 ||minelatino.com^
+||mineplay.com^
 ||mineplay.io^
 ||minijuegos.com^
 ||minijuegos.games^
