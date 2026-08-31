@@ -438,8 +438,6 @@
 ||q13x.com^
 ||ragdollarchers2.io^
 ||retroarch.com^
-||roblox.com^
-||roblox.org^
 ||rocketgames.io^
 ||rocketgames.net^
 ||rocketgoal.io^
