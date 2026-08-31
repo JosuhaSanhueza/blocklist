@@ -557,3 +557,5 @@
 ||zgames.com^
 ||zynga.com^
 ||zynga.games^
+||cookie-clicker2.com^
+||friv2010.com^
