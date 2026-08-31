@@ -68,6 +68,8 @@
 ||boing.es^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||calcsolver.net^
+||capybara-game.com^
+||capybaragame.io^
 ||carrot-craft.org^
 ||classicjoy.games^
 ||classroom-6x.bitbucket.io^
@@ -397,6 +399,7 @@
 ||ohgames.io^
 ||omigames.com^
 ||one.io^
+||onlinegames.com^
 ||onlinegames.io^
 ||onlinegames.net^
 ||opticraft.net^
@@ -556,5 +559,3 @@
 ||zgames.com^
 ||zynga.com^
 ||zynga.games^
-||capybara-game.com^
-||capybaragame.io^
