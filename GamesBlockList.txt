@@ -84,6 +84,7 @@
 ||codyshack.pages.dev^
 ||coinops.pages.dev^
 ||cokitos.com^
+||cookie-clicker2.com^
 ||cooljuegos.com^
 ||coolmathgames.com^
 ||cpstest.click^
@@ -186,6 +187,7 @@
 ||friv.lol^
 ||friv.uno^
 ||friv1000.com^
+||friv2010.com^
 ||friv2021.com^
 ||friv2online.com^
 ||friv4school.com^
@@ -361,9 +363,12 @@
 ||minecraftforge.net^
 ||minecraftjava.net^
 ||minecraftlist.com^
+||minecraftservers.us^
 ||minelatino.com^
+||minelist.io^
 ||mineplay.com^
 ||mineplay.io^
+||minerank.com^
 ||minijuegos.com^
 ||minijuegos.games^
 ||minijuegosgratis.com^
@@ -454,6 +459,7 @@
 ||servidoresminecraft.info^
 ||sgames.io^
 ||sgames.org^
+||shellshock.com^
 ||shellshock.io^
 ||shellshockers.io^
 ||shellshockers2.com^
@@ -557,5 +563,3 @@
 ||zgames.com^
 ||zynga.com^
 ||zynga.games^
-||cookie-clicker2.com^
-||friv2010.com^
