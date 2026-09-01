@@ -213,6 +213,7 @@
 0.0.0.0 frivplus.com
 0.0.0.0 frivusa.com
 0.0.0.0 frvr.com
+0.0.0.0 fuegoyagua.es
 0.0.0.0 futbol-11.com
 0.0.0.0 gamalod.com
 0.0.0.0 gamaverse.com
@@ -406,6 +407,7 @@
 0.0.0.0 neoteo.com
 0.0.0.0 netifun.com
 0.0.0.0 newgrounds.com
+0.0.0.0 night.fire.games
 0.0.0.0 nite.games
 0.0.0.0 nitrado.com
 0.0.0.0 nitrado.net
@@ -467,6 +469,7 @@
 0.0.0.0 scalacube.com
 0.0.0.0 scaryteacher-3d.io
 0.0.0.0 schoolunblockedgames.gitlab.io
+0.0.0.0 scratchgamesonline.io
 0.0.0.0 sentry.io
 0.0.0.0 servidoresminecraft.info
 0.0.0.0 sgames.io

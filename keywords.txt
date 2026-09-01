@@ -456,3 +456,8 @@ penaltyshooters
 viverse
 clash3d
 trex runner
+
+# --- Descubiertas por análisis de páginas agregadas manualmente (2026-09-02) ---
+fuegoyagua
+fire.games
+scratchgamesonline
