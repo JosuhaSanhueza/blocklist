@@ -49,3 +49,8 @@ class TestCheckLine:
     def test_path_rule_without_prefix_rejected(self):
         errors, domain = check_line("sites.google.com/view/game/*$document", 1, set())
         assert len(errors) == 1
+
+    def test_www_prefix_rejected(self):
+        errors, domain = check_line("||www.friv2010.com^", 1, set())
+        assert any("www." in e for e in errors)
+        assert domain == "www.friv2010.com"

@@ -446,3 +446,13 @@ school unblocked games
 juegos no bloqueados colegio
 gitlab pages juegos
 bitbucket pages juegos
+
+# --- Descubiertas por análisis de páginas agregadas manualmente (2026-09-01) ---
+arkadium
+clickergames
+fandejuegos
+gametop
+penaltyshooters
+viverse
+clash3d
+trex runner

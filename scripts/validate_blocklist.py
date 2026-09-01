@@ -50,6 +50,16 @@ def check_line(line_clean, line_num, domains_seen):
     if not re.match(r'^[a-z0-9.-]+\.[a-z]{2,10}$', domain):
         errors.append(f"Línea {line_num}: Formato de dominio no válido '{domain}'.")
 
+    # 5. Rechazar reglas con prefijo www. — ||dominio^ ya bloquea www.dominio
+    # automáticamente (y todos los demás subdominios). Una regla ||www.dominio^
+    # por sí sola NO cubre el dominio raíz sin www, así que agregar el dominio
+    # con www es, en el mejor caso redundante, y en el peor un hueco.
+    if domain.startswith("www."):
+        errors.append(
+            f"Línea {line_num}: No uses el prefijo 'www.' — agrega '{domain[4:]}' en su lugar "
+            f"(||{domain[4:]}^ ya bloquea www.{domain[4:]} automáticamente)."
+        )
+
     return errors, domain
 
 
