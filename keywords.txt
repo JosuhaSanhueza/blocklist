@@ -142,7 +142,6 @@ amongus
 amongusfree
 amongusonline
 amongusplay
-arch
 arealme
 aternos
 axenthost
