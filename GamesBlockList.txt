@@ -49,6 +49,7 @@
 ||arch.lol^
 ||arch.mc^
 ||arealme.com^
+||arkadium.com^
 ||armorgames-as.bitbucket.io^
 ||armorgames.online^
 ||assets.gd.sbs.softgames.de^
@@ -71,6 +72,7 @@
 ||capybara-game.com^
 ||capybaragame.io^
 ||carrot-craft.org^
+||clash3d.com^
 ||classicjoy.games^
 ||classroom-6x.bitbucket.io^
 ||classroom80x.com^
@@ -78,6 +80,7 @@
 ||classrooms6x.gitlab.io^
 ||clavejuegos.com^
 ||cleverappssg.com^
+||clickergames.io^
 ||clickspersecond.com^
 ||cloudfront.net^
 ||cloudmoonapp.com^
@@ -155,6 +158,7 @@
 ||epiconlinegames.com^
 ||essential.gg^
 ||eu.org^
+||fandejuegos.com^
 ||fastclient.net^
 ||fivenightsatfreddys.com^
 ||fivenightsatfreddysgame.com^
@@ -186,8 +190,11 @@
 ||friv.io^
 ||friv.lol^
 ||friv.uno^
+||friv.vip^
 ||friv1000.com^
+||friv20.org^
 ||friv2010.com^
+||friv2015.com^
 ||friv2021.com^
 ||friv2online.com^
 ||friv4school.com^
@@ -205,6 +212,7 @@
 ||frivplus.com^
 ||frivusa.com^
 ||frvr.com^
+||fuegoyagua.es^
 ||futbol-11.com^
 ||gamalod.com^
 ||gamaverse.com^
@@ -228,6 +236,7 @@
 ||games44.com^
 ||gameslol.net^
 ||gameszap.com^
+||gametop.com^
 ||gartic.com^
 ||gartic.io^
 ||garticphone.com^
@@ -284,6 +293,7 @@
 ||html5games.com^
 ||html5games.io^
 ||html5games.net^
+||hypixel.io^
 ||hypixel.net^
 ||igre.games^
 ||img.poki-cdn.com^
@@ -291,6 +301,7 @@
 ||inblog.io^
 ||io-games.com^
 ||io-games.io^
+||iogames.fun^
 ||iogames.games^
 ||iospace.games^
 ||irv77.github.io^
@@ -298,6 +309,7 @@
 ||itch.io^
 ||itchio.top^
 ||jetspaz.com^
+||jeuxdefriv2014.com^
 ||jeuxdefriv2015.com^
 ||jklm.fun^
 ||jogos.com^
@@ -314,6 +326,7 @@
 ||juegosfriv2017.com^
 ||juegosfriv2017.net^
 ||juegosfriv2018.net^
+||juegosfriv2019.com^
 ||juegosfriv3.com^
 ||juegosfrivolo.com^
 ||juegosgratis.games^
@@ -345,6 +358,7 @@
 ||maddox.games^
 ||makeitmeme.com^
 ||manablade.com^
+||manablade.io^
 ||mcdle.net^
 ||mcraft.fun^
 ||mcsrc.dev^
@@ -395,6 +409,7 @@
 ||neoteo.com^
 ||netifun.com^
 ||newgrounds.com^
+||night.fire.games^
 ||nite.games^
 ||nitrado.com^
 ||nitrado.net^
@@ -415,6 +430,7 @@
 ||outof.games^
 ||pacogames.com^
 ||pages.dev^
+||penaltyshooters.gitlab.io^
 ||play-games.com^
 ||playbrain.com^
 ||playbrain.games^
@@ -455,6 +471,7 @@
 ||scalacube.com^
 ||scaryteacher-3d.io^
 ||schoolunblockedgames.gitlab.io^
+||scratchgamesonline.io^
 ||sentry.io^
 ||servidoresminecraft.info^
 ||sgames.io^
@@ -519,6 +536,7 @@
 ||tops.games^
 ||topservers200.com^
 ||totaljerkface.com^
+||trex-runner.com^
 ||tsyuay.github.io^
 ||twoplayergames.org^
 ||ubg76.gitlab.io^
@@ -539,8 +557,10 @@
 ||venge.io^
 ||vercel.app^
 ||vidaextra.com^
+||viverse.com^
 ||we-dashers.github.io^
 ||web-dashers.github.io^
+||webgamer.io^
 ||webmc.com^
 ||webretro.org^
 ||weplayretro.games^
@@ -563,19 +583,3 @@
 ||zgames.com^
 ||zynga.com^
 ||zynga.games^
-||clickergames.io^
-||jeuxdefriv2014.com^
-||viverse.com^
-||penaltyshooters.gitlab.io^
-||clash3d.com^
-||friv20.org^
-||fandejuegos.com^
-||arkadium.com^
-||gametop.com^
-||friv2015.com^
-||friv.vip^
-||juegosfriv2019.com^
-||trex-runner.com^
-||fuegoyagua.es^
-||night.fire.games^
-||scratchgamesonline.io^

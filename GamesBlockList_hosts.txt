@@ -294,6 +294,7 @@
 0.0.0.0 html5games.com
 0.0.0.0 html5games.io
 0.0.0.0 html5games.net
+0.0.0.0 hypixel.io
 0.0.0.0 hypixel.net
 0.0.0.0 igre.games
 0.0.0.0 img.poki-cdn.com
@@ -301,6 +302,7 @@
 0.0.0.0 inblog.io
 0.0.0.0 io-games.com
 0.0.0.0 io-games.io
+0.0.0.0 iogames.fun
 0.0.0.0 iogames.games
 0.0.0.0 iospace.games
 0.0.0.0 irv77.github.io
@@ -357,6 +359,7 @@
 0.0.0.0 maddox.games
 0.0.0.0 makeitmeme.com
 0.0.0.0 manablade.com
+0.0.0.0 manablade.io
 0.0.0.0 mcdle.net
 0.0.0.0 mcraft.fun
 0.0.0.0 mcsrc.dev
@@ -553,6 +556,7 @@
 0.0.0.0 viverse.com
 0.0.0.0 we-dashers.github.io
 0.0.0.0 web-dashers.github.io
+0.0.0.0 webgamer.io
 0.0.0.0 webmc.com
 0.0.0.0 webretro.org
 0.0.0.0 weplayretro.games
