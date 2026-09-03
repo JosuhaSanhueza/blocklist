@@ -42,6 +42,7 @@
 0.0.0.0 a-zgames.com
 0.0.0.0 a.poki-cdn.com
 0.0.0.0 a10.com
+0.0.0.0 abcya.com
 0.0.0.0 adarkroom.doublespeakgames.com
 0.0.0.0 addictinggames.com
 0.0.0.0 addictinggames.io
@@ -85,6 +86,7 @@
 0.0.0.0 armorgames-as.bitbucket.io
 0.0.0.0 armorgames.com
 0.0.0.0 armorgames.online
+0.0.0.0 arvexgames.com
 0.0.0.0 ascjogos.org.br
 0.0.0.0 asobrain.com
 0.0.0.0 assets.gd.sbs.softgames.de
@@ -102,6 +104,7 @@
 0.0.0.0 basketball-stars.io
 0.0.0.0 basketballlegends.fun
 0.0.0.0 basketballstarss.github.io
+0.0.0.0 basketrandom.io
 0.0.0.0 battleon.com
 0.0.0.0 bee.games
 0.0.0.0 bestcrazygames.com
@@ -144,6 +147,7 @@
 0.0.0.0 cdn-augames.github.io
 0.0.0.0 cdn.games.juegos123.net
 0.0.0.0 cdn.pomu.com
+0.0.0.0 chess.com
 0.0.0.0 chromedino.com
 0.0.0.0 ciudadelas.net
 0.0.0.0 clash3d.com
@@ -211,9 +215,11 @@
 0.0.0.0 dbtorrent.games
 0.0.0.0 deadastronauts.games
 0.0.0.0 deadshot.io
+0.0.0.0 defly.io
 0.0.0.0 delt.io
 0.0.0.0 detodojuegos.com
 0.0.0.0 diegosjuegos.com
+0.0.0.0 diep.io
 0.0.0.0 diepio2.pages.dev
 0.0.0.0 digamore.com
 0.0.0.0 dinogame.gg
@@ -246,6 +252,7 @@
 0.0.0.0 eaglecraftgame.io
 0.0.0.0 eaglecraftonline.bitbucket.io
 0.0.0.0 eaglercraft-minecraft.com
+0.0.0.0 eaglercraft.42web.io
 0.0.0.0 eaglercraft.app
 0.0.0.0 eaglercraft.club
 0.0.0.0 eaglercraft.com
@@ -314,6 +321,7 @@
 0.0.0.0 freegames2.com
 0.0.0.0 freegames9.com
 0.0.0.0 freemcserver.net
+0.0.0.0 freeonlinegames.com
 0.0.0.0 freewebgames.io
 0.0.0.0 friclassic.online
 0.0.0.0 fridaynightfunkin.app
@@ -361,6 +369,7 @@
 0.0.0.0 frivusa.com
 0.0.0.0 frvr.com
 0.0.0.0 fuegoyagua.es
+0.0.0.0 funbrain.com
 0.0.0.0 funkin.me
 0.0.0.0 funtrivia.com
 0.0.0.0 futbol-11.com
@@ -633,6 +642,7 @@
 0.0.0.0 mobirix.net
 0.0.0.0 mochig.com
 0.0.0.0 monkeymath.pages.dev
+0.0.0.0 mope.io
 0.0.0.0 morefriv.com
 0.0.0.0 moto-x3monline.github.io
 0.0.0.0 mountain-game-games.github.io
@@ -703,6 +713,7 @@
 0.0.0.0 papasgamesonline.github.io
 0.0.0.0 papaspizzeria-unblocked.github.io
 0.0.0.0 papasunblockedgames.github.io
+0.0.0.0 paper.io
 0.0.0.0 papergames.io
 0.0.0.0 paperminecraft.co
 0.0.0.0 paweljarosz.itch.io
@@ -823,6 +834,7 @@
 0.0.0.0 slope3.com
 0.0.0.0 slope3unblocked.github.io
 0.0.0.0 slopecom.com
+0.0.0.0 slopegame-online.com
 0.0.0.0 slopegame.io
 0.0.0.0 slopegame2.com
 0.0.0.0 slopegamebox.com
@@ -913,6 +925,7 @@
 0.0.0.0 trickjoker312.github.io
 0.0.0.0 tsyuay.github.io
 0.0.0.0 tubeclicker.io
+0.0.0.0 tunnelrushgame.io
 0.0.0.0 turtlegames.org
 0.0.0.0 tuxpusher.github.io
 0.0.0.0 twoplayergames.com
@@ -932,6 +945,8 @@
 0.0.0.0 unblocked-games.com
 0.0.0.0 unblocked-games.gamesroid.com
 0.0.0.0 unblocked-steal-a-brainrot.github.io
+0.0.0.0 unblocked76.org
+0.0.0.0 unblockedgames66.org
 0.0.0.0 unblockedgames76.com
 0.0.0.0 unblockedgames76.gitlab.io
 0.0.0.0 unblockedgamesblogger.weebly.com
@@ -967,6 +982,7 @@
 0.0.0.0 web-dashers.github.io
 0.0.0.0 webgamer.io
 0.0.0.0 webmc.com
+0.0.0.0 webmc.fun
 0.0.0.0 webmulator.com
 0.0.0.0 webretro.org
 0.0.0.0 weeklyarcade.games

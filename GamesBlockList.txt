@@ -46,6 +46,7 @@
 ||a-zgames.com^
 ||a.poki-cdn.com^
 ||a10.com^
+||abcya.com^
 ||adarkroom.doublespeakgames.com^
 ||addictinggames.com^
 ||addictinggames.io^
@@ -89,6 +90,7 @@
 ||armorgames-as.bitbucket.io^
 ||armorgames.com^
 ||armorgames.online^
+||arvexgames.com^
 ||ascjogos.org.br^
 ||asobrain.com^
 ||assets.gd.sbs.softgames.de^
@@ -106,6 +108,7 @@
 ||basketball-stars.io^
 ||basketballlegends.fun^
 ||basketballstarss.github.io^
+||basketrandom.io^
 ||battleon.com^
 ||bee.games^
 ||bestcrazygames.com^
@@ -148,6 +151,7 @@
 ||cdn-augames.github.io^
 ||cdn.games.juegos123.net^
 ||cdn.pomu.com^
+||chess.com^
 ||chromedino.com^
 ||ciudadelas.net^
 ||clash3d.com^
@@ -215,9 +219,11 @@
 ||dbtorrent.games^
 ||deadastronauts.games^
 ||deadshot.io^
+||defly.io^
 ||delt.io^
 ||detodojuegos.com^
 ||diegosjuegos.com^
+||diep.io^
 ||diepio2.pages.dev^
 ||digamore.com^
 ||dinogame.gg^
@@ -250,6 +256,7 @@
 ||eaglecraftgame.io^
 ||eaglecraftonline.bitbucket.io^
 ||eaglercraft-minecraft.com^
+||eaglercraft.42web.io^
 ||eaglercraft.app^
 ||eaglercraft.club^
 ||eaglercraft.com^
@@ -318,6 +325,7 @@
 ||freegames2.com^
 ||freegames9.com^
 ||freemcserver.net^
+||freeonlinegames.com^
 ||freewebgames.io^
 ||friclassic.online^
 ||fridaynightfunkin.app^
@@ -365,6 +373,7 @@
 ||frivusa.com^
 ||frvr.com^
 ||fuegoyagua.es^
+||funbrain.com^
 ||funkin.me^
 ||funtrivia.com^
 ||futbol-11.com^
@@ -637,6 +646,7 @@
 ||mobirix.net^
 ||mochig.com^
 ||monkeymath.pages.dev^
+||mope.io^
 ||morefriv.com^
 ||moto-x3monline.github.io^
 ||mountain-game-games.github.io^
@@ -707,6 +717,7 @@
 ||papasgamesonline.github.io^
 ||papaspizzeria-unblocked.github.io^
 ||papasunblockedgames.github.io^
+||paper.io^
 ||papergames.io^
 ||paperminecraft.co^
 ||paweljarosz.itch.io^
@@ -827,6 +838,7 @@
 ||slope3.com^
 ||slope3unblocked.github.io^
 ||slopecom.com^
+||slopegame-online.com^
 ||slopegame.io^
 ||slopegame2.com^
 ||slopegamebox.com^
@@ -917,6 +929,7 @@
 ||trickjoker312.github.io^
 ||tsyuay.github.io^
 ||tubeclicker.io^
+||tunnelrushgame.io^
 ||turtlegames.org^
 ||tuxpusher.github.io^
 ||twoplayergames.com^
@@ -936,6 +949,8 @@
 ||unblocked-games.com^
 ||unblocked-games.gamesroid.com^
 ||unblocked-steal-a-brainrot.github.io^
+||unblocked76.org^
+||unblockedgames66.org^
 ||unblockedgames76.com^
 ||unblockedgames76.gitlab.io^
 ||unblockedgamesblogger.weebly.com^
@@ -971,6 +986,7 @@
 ||web-dashers.github.io^
 ||webgamer.io^
 ||webmc.com^
+||webmc.fun^
 ||webmulator.com^
 ||webretro.org^
 ||weeklyarcade.games^

@@ -771,3 +771,15 @@ spinhook
 swordbattle
 tuxpusher
 weeklyarcade
+
+# --- Listicles + GitHub topics (unblocked-games, eaglercraft), sesión 2026-09-03 ---
+abcya
+arvexgames
+basketrandom
+defly
+diep
+funbrain
+mope
+tunnelrush
+unblocked66
+unblocked76

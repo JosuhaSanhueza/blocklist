@@ -61,7 +61,8 @@ VALID_TLDS = (
 # Plataformas de hosting compartido donde NO debemos consolidar al apex domain
 SHARED_HOSTING_PLATFORMS = (
     "gitlab.io", "github.io", "bitbucket.io", "firebaseapp.com",
-    "cloudfront.net", "softgames.de", "googlehosted.com", "pages.dev"
+    "cloudfront.net", "softgames.de", "googlehosted.com", "pages.dev",
+    "42web.io"
 )
 
 # Huellas dactilares de motores de juegos JS / SDKs / Eaglercraft WebSockets / Opticraft / Canvas en código cliente
@@ -94,6 +95,11 @@ WHITELIST = {
     # Plataformas de crowdfunding/hosting con millones de proyectos no relacionados:
     # bloquear el dominio completo por una campaña de un juego sería colateral masivo.
     "kickstarter.com",
+    # Grandes instituciones/plataformas con contenido mayormente no relacionado a
+    # juegos (archivo histórico, entorno educativo de coding, cadena de TV infantil).
+    # Sitios de juegos específicos alojados en subdominios propios (no estos apex)
+    # se bloquean por su propio dominio, nunca por el de la institución.
+    "archive.org", "scratch.mit.edu", "cartoonnetwork.es", "cartoonnetworkhq.com",
 }
 
 # CDNs / Infraestructura crítica que NUNCA debemos bloquear al escanear iframe o CDNs embebidos
