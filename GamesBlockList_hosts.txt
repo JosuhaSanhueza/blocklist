@@ -110,6 +110,9 @@
 0.0.0.0 boredomgames.pages.dev
 0.0.0.0 boxinggames.org
 0.0.0.0 boxingrandom.net
+0.0.0.0 brainrot-games.io
+0.0.0.0 brainrotgames.games
+0.0.0.0 brawl-stars.eu
 0.0.0.0 bubbleshooteonline.github.io
 0.0.0.0 buff.game
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
@@ -319,6 +322,7 @@
 0.0.0.0 frivusa.com
 0.0.0.0 frvr.com
 0.0.0.0 fuegoyagua.es
+0.0.0.0 funtrivia.com
 0.0.0.0 futbol-11.com
 0.0.0.0 futbol11.com
 0.0.0.0 gamalod.com
@@ -391,6 +395,7 @@
 0.0.0.0 github.io
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
+0.0.0.0 gogamego.io
 0.0.0.0 gomestable.netlify.app
 0.0.0.0 googlehosted.com
 0.0.0.0 googlesnake.org
@@ -612,6 +617,7 @@
 0.0.0.0 outred.org
 0.0.0.0 ovo-games-online.github.io
 0.0.0.0 ovoclassic-pro.github.io
+0.0.0.0 ozogames.com
 0.0.0.0 p0xgames.online
 0.0.0.0 pacogames.com
 0.0.0.0 pages.dev
@@ -629,6 +635,7 @@
 0.0.0.0 picklekid31.github.io
 0.0.0.0 pla.bad-time-simulator.com
 0.0.0.0 play-games.com
+0.0.0.0 play.gilect.com
 0.0.0.0 playable.game
 0.0.0.0 playbloonstowerdefense.com
 0.0.0.0 playbrain.com
@@ -741,6 +748,7 @@
 0.0.0.0 starlighttt.netlify.app
 0.0.0.0 start.gg
 0.0.0.0 staticquasar931.github.io
+0.0.0.0 steala-brainrot.io
 0.0.0.0 steamcommunity.com
 0.0.0.0 steampowered.com
 0.0.0.0 stickhook.io
@@ -811,8 +819,10 @@
 0.0.0.0 unblocked-cookie-clicker.pages.dev
 0.0.0.0 unblocked-games.com
 0.0.0.0 unblocked-games.gamesroid.com
+0.0.0.0 unblocked-steal-a-brainrot.github.io
 0.0.0.0 unblockedgames76.com
 0.0.0.0 unblockedgames76.gitlab.io
+0.0.0.0 unblockedgamesblogger.weebly.com
 0.0.0.0 unblockedgamesbrowser.com
 0.0.0.0 unblockedgamesgg.com
 0.0.0.0 unblockedgamesheaven.brownwebdesign.com
@@ -848,6 +858,7 @@
 0.0.0.0 webretro.org
 0.0.0.0 weplayretro.games
 0.0.0.0 werty.me
+0.0.0.0 woogames.io
 0.0.0.0 wordle-games.com
 0.0.0.0 wordle.net
 0.0.0.0 wordles.org

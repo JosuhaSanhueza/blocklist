@@ -114,6 +114,9 @@
 ||boredomgames.pages.dev^
 ||boxinggames.org^
 ||boxingrandom.net^
+||brainrot-games.io^
+||brainrotgames.games^
+||brawl-stars.eu^
 ||bubbleshooteonline.github.io^
 ||buff.game^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
@@ -323,6 +326,7 @@
 ||frivusa.com^
 ||frvr.com^
 ||fuegoyagua.es^
+||funtrivia.com^
 ||futbol-11.com^
 ||futbol11.com^
 ||gamalod.com^
@@ -395,6 +399,7 @@
 ||github.io^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
+||gogamego.io^
 ||gomestable.netlify.app^
 ||googlehosted.com^
 ||googlesnake.org^
@@ -616,6 +621,7 @@
 ||outred.org^
 ||ovo-games-online.github.io^
 ||ovoclassic-pro.github.io^
+||ozogames.com^
 ||p0xgames.online^
 ||pacogames.com^
 ||pages.dev^
@@ -633,6 +639,7 @@
 ||picklekid31.github.io^
 ||pla.bad-time-simulator.com^
 ||play-games.com^
+||play.gilect.com^
 ||playable.game^
 ||playbloonstowerdefense.com^
 ||playbrain.com^
@@ -745,6 +752,7 @@
 ||starlighttt.netlify.app^
 ||start.gg^
 ||staticquasar931.github.io^
+||steala-brainrot.io^
 ||steamcommunity.com^
 ||steampowered.com^
 ||stickhook.io^
@@ -815,8 +823,10 @@
 ||unblocked-cookie-clicker.pages.dev^
 ||unblocked-games.com^
 ||unblocked-games.gamesroid.com^
+||unblocked-steal-a-brainrot.github.io^
 ||unblockedgames76.com^
 ||unblockedgames76.gitlab.io^
+||unblockedgamesblogger.weebly.com^
 ||unblockedgamesbrowser.com^
 ||unblockedgamesgg.com^
 ||unblockedgamesheaven.brownwebdesign.com^
@@ -852,6 +862,7 @@
 ||webretro.org^
 ||weplayretro.games^
 ||werty.me^
+||woogames.io^
 ||wordle-games.com^
 ||wordle.net^
 ||wordles.org^
