@@ -348,6 +348,8 @@
 0.0.0.0 geodash.org
 0.0.0.0 geometry-dash-lite.io
 0.0.0.0 geometry-dash-unbanned.github.io
+0.0.0.0 geometry-dash-unblocked-nine.vercel.app
+0.0.0.0 geometry-dash-unblocked.vercel.app
 0.0.0.0 geometry-dash.net
 0.0.0.0 geometry-dashpc.com
 0.0.0.0 geometry-games.io
@@ -484,6 +486,7 @@
 0.0.0.0 ligadegamers.com
 0.0.0.0 listamc.com
 0.0.0.0 listamc.net
+0.0.0.0 lite.3kh0.net
 0.0.0.0 lite.nativegames.net
 0.0.0.0 livegameserverlist.com
 0.0.0.0 lps7x.csb.app
@@ -496,6 +499,7 @@
 0.0.0.0 manablade.io
 0.0.0.0 mathwizard.pages.dev
 0.0.0.0 maxwellstevenson.com
+0.0.0.0 mc.sealcentral.co
 0.0.0.0 mcdle.net
 0.0.0.0 mcraft.fun
 0.0.0.0 mcsrc.dev
@@ -636,6 +640,7 @@
 0.0.0.0 raftlife.io
 0.0.0.0 ragdollarchers2.io
 0.0.0.0 re-pack-delta.vercel.app
+0.0.0.0 realhack101sunblockedunq.webnode.page
 0.0.0.0 retroarch.com
 0.0.0.0 retrobowl.me
 0.0.0.0 retrobowl.school
@@ -669,6 +674,7 @@
 0.0.0.0 shellshockers2.com
 0.0.0.0 shellshockers2.io
 0.0.0.0 shhnowisnottheti.me
+0.0.0.0 shuttleproxy.com
 0.0.0.0 sigmagames69.github.io
 0.0.0.0 sigmally.com
 0.0.0.0 silvergames.com
@@ -768,6 +774,7 @@
 0.0.0.0 ug66.gitlab.io
 0.0.0.0 ug76.gitlab.io
 0.0.0.0 unbannedgames.io
+0.0.0.0 unbl0ck.github.io
 0.0.0.0 unblocked-2026.github.io
 0.0.0.0 unblocked-cookie-clicker.pages.dev
 0.0.0.0 unblocked-games.com

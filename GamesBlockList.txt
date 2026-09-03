@@ -352,6 +352,8 @@
 ||geodash.org^
 ||geometry-dash-lite.io^
 ||geometry-dash-unbanned.github.io^
+||geometry-dash-unblocked-nine.vercel.app^
+||geometry-dash-unblocked.vercel.app^
 ||geometry-dash.net^
 ||geometry-dashpc.com^
 ||geometry-games.io^
@@ -488,6 +490,7 @@
 ||ligadegamers.com^
 ||listamc.com^
 ||listamc.net^
+||lite.3kh0.net^
 ||lite.nativegames.net^
 ||livegameserverlist.com^
 ||lps7x.csb.app^
@@ -500,6 +503,7 @@
 ||manablade.io^
 ||mathwizard.pages.dev^
 ||maxwellstevenson.com^
+||mc.sealcentral.co^
 ||mcdle.net^
 ||mcraft.fun^
 ||mcsrc.dev^
@@ -640,6 +644,7 @@
 ||raftlife.io^
 ||ragdollarchers2.io^
 ||re-pack-delta.vercel.app^
+||realhack101sunblockedunq.webnode.page^
 ||retroarch.com^
 ||retrobowl.me^
 ||retrobowl.school^
@@ -673,6 +678,7 @@
 ||shellshockers2.com^
 ||shellshockers2.io^
 ||shhnowisnottheti.me^
+||shuttleproxy.com^
 ||sigmagames69.github.io^
 ||sigmally.com^
 ||silvergames.com^
@@ -772,6 +778,7 @@
 ||ug66.gitlab.io^
 ||ug76.gitlab.io^
 ||unbannedgames.io^
+||unbl0ck.github.io^
 ||unblocked-2026.github.io^
 ||unblocked-cookie-clicker.pages.dev^
 ||unblocked-games.com^
