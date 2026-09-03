@@ -44,6 +44,7 @@
 ||a-zgames.com^
 ||a.poki-cdn.com^
 ||a10.com^
+||adarkroom.doublespeakgames.com^
 ||addictinggames.com^
 ||addictinggames.io^
 ||adfree-sz-games.github.io^
@@ -61,6 +62,7 @@
 ||agarz.com^
 ||alexx743-games-unblocked.vercel.app^
 ||allout.game^
+||allsonicgames.net^
 ||allwebgames.com^
 ||amandathe-adventurer.com^
 ||amogus.io^
@@ -82,6 +84,7 @@
 ||arealme.com^
 ||arkadium.com^
 ||armorgames-as.bitbucket.io^
+||armorgames.com^
 ||armorgames.online^
 ||ascjogos.org.br^
 ||assets.gd.sbs.softgames.de^
@@ -99,12 +102,14 @@
 ||basketball-stars.io^
 ||basketballlegends.fun^
 ||basketballstarss.github.io^
+||battleon.com^
 ||bee.games^
 ||bestcrazygames.com^
 ||bestminecraftserverlist.net^
 ||bestunblockedgames.com^
 ||bgs.pages.dev^
 ||bidoofery.github.io^
+||bigbadwaffle.itch.io^
 ||bitlifegame.com^
 ||bitlifeunblockedonline.github.io^
 ||blipzi.com^
@@ -136,7 +141,9 @@
 ||cdn.pomu.com^
 ||chromedino.com^
 ||clash3d.com^
+||classicgamezone.com^
 ||classicjoy.games^
+||classicreload.com^
 ||classroom-6x.bitbucket.io^
 ||classroom-6x.io^
 ||classroom20x.com^
@@ -182,6 +189,7 @@
 ||crazygames2.com^
 ||crazygames8.com^
 ||crazyschoolgames.com^
+||cross-code.com^
 ||crossy-road-unblock.github.io^
 ||cryzen.io^
 ||cubecraft.net^
@@ -207,6 +215,7 @@
 ||dolldivine.com^
 ||dominoes365.io^
 ||doodlejump.io^
+||dragonawaken.com^
 ||dress-up-games.github.io^
 ||drift-hunters.co^
 ||driftboss-unblocked.com^
@@ -276,6 +285,7 @@
 ||fnfgo.com^
 ||fnfmod.online^
 ||fngames.io^
+||forgeofempires.com^
 ||fr9.es^
 ||free-aigames.com^
 ||freedombrowser.org^
@@ -380,6 +390,7 @@
 ||gd.games^
 ||genarcy.github.io^
 ||geodash.org^
+||geoguessr.com^
 ||geometry-dash-lite.io^
 ||geometry-dash-unbanned.github.io^
 ||geometry-dash-unblocked-nine.vercel.app^
@@ -415,7 +426,9 @@
 ||googlehosted.com^
 ||googlesnake.org^
 ||goose.game^
+||got.gtarcade.com^
 ||gplusgames.gitlab.io^
+||graebor.itch.io^
 ||granny-games.com^
 ||granny-online.com^
 ||granny.es^
@@ -434,6 +447,9 @@
 ||haxball.com^
 ||hdgames.com^
 ||head-soccer.io^
+||helmetroyale.io^
+||hexar.io^
+||higherlowergame.com^
 ||hihoy.com^
 ||holajuegos.com^
 ||hole-io.com^
@@ -483,6 +499,7 @@
 ||juegos123.net^
 ||juegosadn.es^
 ||juegosdechicas.com^
+||juegosdiarios.com^
 ||juegosfriv-2020.com^
 ||juegosfriv.com^
 ||juegosfriv.es^
@@ -503,6 +520,7 @@
 ||juegosfrivolo.com^
 ||juegosgratis.games^
 ||juegosgratispuntocom.github.io^
+||juegosjuegos.com^
 ||juegosjuegos.ws^
 ||jugarmccomportal.base44.app^
 ||kazwire.com^
@@ -531,6 +549,7 @@
 ||listamc.net^
 ||lite.3kh0.net^
 ||lite.nativegames.net^
+||littlewargame.com^
 ||livegameserverlist.com^
 ||lps7x.csb.app^
 ||luckyblocks.io^
@@ -541,6 +560,7 @@
 ||manablade.com^
 ||manablade.io^
 ||mathwizard.pages.dev^
+||mattmakesgames.itch.io^
 ||maxwellstevenson.com^
 ||mc.sealcentral.co^
 ||mcdle.net^
@@ -594,7 +614,9 @@
 ||msnfun.com^
 ||msngames.com^
 ||msngames.io^
+||mundijuegos.com^
 ||my.games^
+||myabandonware.com^
 ||myunblockedgames.com^
 ||myunblockedgames.io^
 ||mywordle.net^
@@ -655,13 +677,16 @@
 ||penaltyshooters.gitlab.io^
 ||petezahgames.com^
 ||picklekid31.github.io^
+||pinturillo2.com^
 ||pla.bad-time-simulator.com^
+||plarium.com^
 ||play-games.com^
 ||play.gilect.com^
 ||playable.game^
 ||playbloonstowerdefense.com^
 ||playbrain.com^
 ||playbrain.games^
+||playclassic.games^
 ||playcutegames.com^
 ||playeagler.blog^
 ||playeaglercraft.com^
@@ -674,6 +699,8 @@
 ||playminigames.com^
 ||playminigames.net^
 ||playmushies.com^
+||playold.games^
+||playpicross.com^
 ||playschoolgames.com^
 ||playspark.net^
 ||playzen.io^
@@ -696,9 +723,11 @@
 ||ragdollarchers2.io^
 ||re-pack-delta.vercel.app^
 ||realhack101sunblockedunq.webnode.page^
+||realmofthemadgod.com^
 ||retroarch.com^
 ||retrobowl.me^
 ||retrobowl.school^
+||retrogames.cc^
 ||roblox-unblock.github.io^
 ||rocketgames.io^
 ||rocketgames.net^
@@ -708,6 +737,7 @@
 ||rooftoprun.net^
 ||rossygames.github.io^
 ||run3-game-unblocked.github.io^
+||runescape.com^
 ||rycellgames.github.io^
 ||sacul-6.github.io^
 ||sandbox.game^
@@ -741,6 +771,7 @@
 ||skribbl.io^
 ||skribbl.org^
 ||slither.com^
+||slither.io^
 ||slithergame.io^
 ||slope-game-io.github.io^
 ||slope-online.github.io^
@@ -799,20 +830,25 @@
 ||sunfs.app^
 ||sunstudio.io^
 ||superjocs.com^
+||surviv.io^
 ||sz-games.github.io^
 ||szgames.net^
+||tagpro.koalabeast.com^
 ||tagunblocked.com^
+||tankionline.com^
 ||tankstroubleunblocked.com^
 ||tanukisunsetgame.github.io^
 ||teamgames.club^
 ||teddblue.github.io^
 ||templerungames.github.io^
+||terrycavanaghgames.com^
 ||thegamecenter.github.io^
 ||theimpossiblequiz-online.github.io^
 ||theludos.com^
 ||thesacredtexts.weebly.com^
 ||theshovel.rocks^
 ||theslope.github.io^
+||thewikigame.com^
 ||todojuegosgratis.es^
 ||top-games.net^
 ||top-mcservers.com^
@@ -823,6 +859,7 @@
 ||tops.games^
 ||topservers200.com^
 ||totaljerkface.com^
+||transformice.com^
 ||treeshateyou-game.com^
 ||trex-runner.com^
 ||trickjoker312.github.io^
