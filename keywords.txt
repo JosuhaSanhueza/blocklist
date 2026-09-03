@@ -483,3 +483,14 @@ juegosadn
 juegosfrivclasico
 todojuegosgratis
 vitalitygames
+
+# --- Descubiertas por análisis de páginas agregadas manualmente (2026-09-10) ---
+paisdelosjuegos
+
+# --- Red de sitios hermanos de friv.com (mismo operador, detectados en su HTML) ---
+femo
+frivace
+gamui
+werty
+yurk
+zelgirl
