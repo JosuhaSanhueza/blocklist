@@ -50,6 +50,7 @@
 0.0.0.0 anygames-us1.bitbucket.io
 0.0.0.0 arch.lol
 0.0.0.0 arch.mc
+0.0.0.0 areajugones.sport.es
 0.0.0.0 arealme.com
 0.0.0.0 arkadium.com
 0.0.0.0 armorgames-as.bitbucket.io
@@ -76,6 +77,7 @@
 0.0.0.0 capybara-game.com
 0.0.0.0 capybaragame.io
 0.0.0.0 carrot-craft.org
+0.0.0.0 cdn.games.juegos123.net
 0.0.0.0 cdn.pomu.com
 0.0.0.0 chromedino.com
 0.0.0.0 clash3d.com
@@ -122,6 +124,7 @@
 0.0.0.0 deadastronauts.games
 0.0.0.0 deadshot.io
 0.0.0.0 delt.io
+0.0.0.0 detodojuegos.com
 0.0.0.0 diegosjuegos.com
 0.0.0.0 digamore.com
 0.0.0.0 dinorunner.com
@@ -199,6 +202,7 @@
 0.0.0.0 friv-2026.com
 0.0.0.0 friv-7.com
 0.0.0.0 friv.cm
+0.0.0.0 friv.com.br
 0.0.0.0 friv.com
 0.0.0.0 friv.io
 0.0.0.0 friv.lol
@@ -219,6 +223,7 @@
 0.0.0.0 frivclassic.com
 0.0.0.0 frivclassic.github.io
 0.0.0.0 frivclassic.org
+0.0.0.0 frives.net
 0.0.0.0 frivextra.com
 0.0.0.0 frivez.com
 0.0.0.0 frivjogosonline.com.br
@@ -239,6 +244,7 @@
 0.0.0.0 gameflare.org
 0.0.0.0 gameforge.com
 0.0.0.0 gamejolt.com
+0.0.0.0 gamekarma.com
 0.0.0.0 gamelybyte.com
 0.0.0.0 gamenora-com.bitbucket.io
 0.0.0.0 gamenora-io.bitbucket.io
@@ -252,6 +258,7 @@
 0.0.0.0 games44.com
 0.0.0.0 gamesgames.com
 0.0.0.0 gamesgamescdn.com
+0.0.0.0 gamesgo.net
 0.0.0.0 gameslol.net
 0.0.0.0 gameszap.com
 0.0.0.0 gametop.com
@@ -329,6 +336,7 @@
 0.0.0.0 itch.io
 0.0.0.0 itchio.top
 0.0.0.0 jetspaz.com
+0.0.0.0 jeuxdefriv.com
 0.0.0.0 jeuxdefriv2014.com
 0.0.0.0 jeuxdefriv2015.com
 0.0.0.0 jklm.fun
@@ -337,9 +345,12 @@
 0.0.0.0 juegos.com
 0.0.0.0 juegos.games
 0.0.0.0 juegos.io
+0.0.0.0 juegos123.net
+0.0.0.0 juegosadn.es
 0.0.0.0 juegosdechicas.com
 0.0.0.0 juegosfriv-2020.com
 0.0.0.0 juegosfriv.com
+0.0.0.0 juegosfriv.es
 0.0.0.0 juegosfriv2015.com
 0.0.0.0 juegosfriv2016.com
 0.0.0.0 juegosfriv2016.net
@@ -352,6 +363,7 @@
 0.0.0.0 juegosfriv2022.com
 0.0.0.0 juegosfriv2023.com
 0.0.0.0 juegosfriv3.com
+0.0.0.0 juegosfrivclasico.com
 0.0.0.0 juegosfrivolo.com
 0.0.0.0 juegosgratis.games
 0.0.0.0 juegosjuegos.ws
@@ -553,6 +565,7 @@
 0.0.0.0 superjocs.com
 0.0.0.0 theludos.com
 0.0.0.0 theslope.github.io
+0.0.0.0 todojuegosgratis.es
 0.0.0.0 top-games.net
 0.0.0.0 top-mcservers.com
 0.0.0.0 topeaglerservers.com
@@ -584,6 +597,7 @@
 0.0.0.0 venge.io
 0.0.0.0 vercel.app
 0.0.0.0 vidaextra.com
+0.0.0.0 vitalitygames.com
 0.0.0.0 viverse.com
 0.0.0.0 we-dashers.github.io
 0.0.0.0 web-dashers.github.io

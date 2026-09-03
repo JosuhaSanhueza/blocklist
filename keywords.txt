@@ -472,3 +472,14 @@ gamesgames
 garena
 pomu
 snakejuego
+
+# --- Descubiertas por análisis de páginas agregadas manualmente (2026-09-09) ---
+areajugones
+detodojuegos
+frives
+gamekarma
+gamesgo
+juegosadn
+juegosfrivclasico
+todojuegosgratis
+vitalitygames

@@ -54,6 +54,7 @@
 ||anygames-us1.bitbucket.io^
 ||arch.lol^
 ||arch.mc^
+||areajugones.sport.es^
 ||arealme.com^
 ||arkadium.com^
 ||armorgames-as.bitbucket.io^
@@ -80,6 +81,7 @@
 ||capybara-game.com^
 ||capybaragame.io^
 ||carrot-craft.org^
+||cdn.games.juegos123.net^
 ||cdn.pomu.com^
 ||chromedino.com^
 ||clash3d.com^
@@ -126,6 +128,7 @@
 ||deadastronauts.games^
 ||deadshot.io^
 ||delt.io^
+||detodojuegos.com^
 ||diegosjuegos.com^
 ||digamore.com^
 ||dinorunner.com^
@@ -204,6 +207,7 @@
 ||friv-7.com^
 ||friv.cm^
 ||friv.com^
+||friv.com.br^
 ||friv.io^
 ||friv.lol^
 ||friv.uno^
@@ -223,6 +227,7 @@
 ||frivclassic.com^
 ||frivclassic.github.io^
 ||frivclassic.org^
+||frives.net^
 ||frivextra.com^
 ||frivez.com^
 ||frivjogosonline.com.br^
@@ -243,6 +248,7 @@
 ||gameflare.org^
 ||gameforge.com^
 ||gamejolt.com^
+||gamekarma.com^
 ||gamelybyte.com^
 ||gamenora-com.bitbucket.io^
 ||gamenora-io.bitbucket.io^
@@ -256,6 +262,7 @@
 ||games44.com^
 ||gamesgames.com^
 ||gamesgamescdn.com^
+||gamesgo.net^
 ||gameslol.net^
 ||gameszap.com^
 ||gametop.com^
@@ -333,6 +340,7 @@
 ||itch.io^
 ||itchio.top^
 ||jetspaz.com^
+||jeuxdefriv.com^
 ||jeuxdefriv2014.com^
 ||jeuxdefriv2015.com^
 ||jklm.fun^
@@ -341,9 +349,12 @@
 ||juegos.com^
 ||juegos.games^
 ||juegos.io^
+||juegos123.net^
+||juegosadn.es^
 ||juegosdechicas.com^
 ||juegosfriv-2020.com^
 ||juegosfriv.com^
+||juegosfriv.es^
 ||juegosfriv2015.com^
 ||juegosfriv2016.com^
 ||juegosfriv2016.net^
@@ -356,6 +367,7 @@
 ||juegosfriv2022.com^
 ||juegosfriv2023.com^
 ||juegosfriv3.com^
+||juegosfrivclasico.com^
 ||juegosfrivolo.com^
 ||juegosgratis.games^
 ||juegosjuegos.ws^
@@ -557,6 +569,7 @@
 ||superjocs.com^
 ||theludos.com^
 ||theslope.github.io^
+||todojuegosgratis.es^
 ||top-games.net^
 ||top-mcservers.com^
 ||topeaglerservers.com^
@@ -588,6 +601,7 @@
 ||venge.io^
 ||vercel.app^
 ||vidaextra.com^
+||vitalitygames.com^
 ||viverse.com^
 ||we-dashers.github.io^
 ||web-dashers.github.io^
