@@ -460,3 +460,15 @@ trex runner
 fuegoyagua
 fire.games
 scratchgamesonline
+
+# --- Descubiertas por análisis de páginas agregadas manualmente (2026-09-08) ---
+ascjogos
+chromedino
+copero
+dinorunner
+dinosaurgamefree
+elgoog
+gamesgames
+garena
+pomu
+snakejuego

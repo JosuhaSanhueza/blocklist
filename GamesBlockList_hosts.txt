@@ -1,4 +1,5 @@
 # --- GamesBlockList (Formato Estándar Hosts / OPNsense Unbound) ---
+0.0.0.0 1001games.com
 0.0.0.0 1001juegos.com
 0.0.0.0 13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com
 0.0.0.0 1games.com
@@ -53,6 +54,7 @@
 0.0.0.0 arkadium.com
 0.0.0.0 armorgames-as.bitbucket.io
 0.0.0.0 armorgames.online
+0.0.0.0 ascjogos.org.br
 0.0.0.0 assets.gd.sbs.softgames.de
 0.0.0.0 aternos.net
 0.0.0.0 aternos.org
@@ -74,6 +76,8 @@
 0.0.0.0 capybara-game.com
 0.0.0.0 capybaragame.io
 0.0.0.0 carrot-craft.org
+0.0.0.0 cdn.pomu.com
+0.0.0.0 chromedino.com
 0.0.0.0 clash3d.com
 0.0.0.0 classicjoy.games
 0.0.0.0 classroom-6x.bitbucket.io
@@ -92,6 +96,7 @@
 0.0.0.0 cookie-clicker2.com
 0.0.0.0 cooljuegos.com
 0.0.0.0 coolmathgames.com
+0.0.0.0 copero.com.ar
 0.0.0.0 cpstest.click
 0.0.0.0 cpstest.net
 0.0.0.0 cpstest.org
@@ -119,9 +124,11 @@
 0.0.0.0 delt.io
 0.0.0.0 diegosjuegos.com
 0.0.0.0 digamore.com
+0.0.0.0 dinorunner.com
 0.0.0.0 dinosaur.game
 0.0.0.0 dinosaurgame-free.io
 0.0.0.0 dinosaurgame.io
+0.0.0.0 dinosaurgamefree.io
 0.0.0.0 dominoes365.io
 0.0.0.0 drivequest.io
 0.0.0.0 eag.pages.dev
@@ -153,6 +160,7 @@
 0.0.0.0 edgesuite.net
 0.0.0.0 education.com
 0.0.0.0 education.minecraft.net
+0.0.0.0 elgoog.im
 0.0.0.0 emulatorjs.com
 0.0.0.0 emulatorjs.org
 0.0.0.0 emupedia.net
@@ -163,6 +171,7 @@
 0.0.0.0 eu.org
 0.0.0.0 fandejuegos.com
 0.0.0.0 fastclient.net
+0.0.0.0 ff.garena.com
 0.0.0.0 fivenightsatfreddys.com
 0.0.0.0 fivenightsatfreddysgame.com
 0.0.0.0 fivenightsatfreddysgame.io
@@ -187,6 +196,7 @@
 0.0.0.0 fridaynightfunkin.net
 0.0.0.0 fridaynightfunkin.org
 0.0.0.0 friv-2017.com
+0.0.0.0 friv-2026.com
 0.0.0.0 friv-7.com
 0.0.0.0 friv.cm
 0.0.0.0 friv.com
@@ -196,9 +206,11 @@
 0.0.0.0 friv.vip
 0.0.0.0 friv1000.com
 0.0.0.0 friv20.org
+0.0.0.0 friv2000.com
 0.0.0.0 friv2010.com
 0.0.0.0 friv2015.com
 0.0.0.0 friv2021.com
+0.0.0.0 friv2025.com
 0.0.0.0 friv2online.com
 0.0.0.0 friv4school.com
 0.0.0.0 friv4school.io
@@ -217,6 +229,7 @@
 0.0.0.0 frvr.com
 0.0.0.0 fuegoyagua.es
 0.0.0.0 futbol-11.com
+0.0.0.0 futbol11.com
 0.0.0.0 gamalod.com
 0.0.0.0 gamaverse.com
 0.0.0.0 gamedistribution.com
@@ -237,6 +250,8 @@
 0.0.0.0 games.com
 0.0.0.0 games4.com
 0.0.0.0 games44.com
+0.0.0.0 gamesgames.com
+0.0.0.0 gamesgamescdn.com
 0.0.0.0 gameslol.net
 0.0.0.0 gameszap.com
 0.0.0.0 gametop.com
@@ -330,8 +345,12 @@
 0.0.0.0 juegosfriv2016.net
 0.0.0.0 juegosfriv2017.com
 0.0.0.0 juegosfriv2017.net
+0.0.0.0 juegosfriv2018.com
 0.0.0.0 juegosfriv2018.net
+0.0.0.0 juegosfriv2018.org
 0.0.0.0 juegosfriv2019.com
+0.0.0.0 juegosfriv2022.com
+0.0.0.0 juegosfriv2023.com
 0.0.0.0 juegosfriv3.com
 0.0.0.0 juegosfrivolo.com
 0.0.0.0 juegosgratis.games
@@ -367,6 +386,7 @@
 0.0.0.0 mcdle.net
 0.0.0.0 mcraft.fun
 0.0.0.0 mcsrc.dev
+0.0.0.0 media.copero.com.ar
 0.0.0.0 meegames.com
 0.0.0.0 meowdoku.games
 0.0.0.0 mergecakegame.com
@@ -418,6 +438,7 @@
 0.0.0.0 nite.games
 0.0.0.0 nitrado.com
 0.0.0.0 nitrado.net
+0.0.0.0 nocache.pomu.com
 0.0.0.0 novaskin.me
 0.0.0.0 now.gg
 0.0.0.0 nowgames.io
@@ -436,6 +457,7 @@
 0.0.0.0 pacogames.com
 0.0.0.0 pages.dev
 0.0.0.0 penaltyshooters.gitlab.io
+0.0.0.0 pla.bad-time-simulator.com
 0.0.0.0 play-games.com
 0.0.0.0 playable.game
 0.0.0.0 playbrain.com
@@ -460,6 +482,7 @@
 0.0.0.0 poki.io
 0.0.0.0 poki1.com
 0.0.0.0 poki2.net
+0.0.0.0 pomu.com
 0.0.0.0 primarygames.gitlab.io
 0.0.0.0 privategameservers.com
 0.0.0.0 purogames.com.br
@@ -504,6 +527,7 @@
 0.0.0.0 slopeunblocked.games
 0.0.0.0 smashkarts.com
 0.0.0.0 smcraft.fun
+0.0.0.0 snakejuego.com
 0.0.0.0 snokido.com
 0.0.0.0 spacewaves2.org
 0.0.0.0 start.gg

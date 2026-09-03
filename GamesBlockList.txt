@@ -1,3 +1,9 @@
+||sites.google.com/*/games/*^
+||sites.google.com/*/super-mario-world^
+||sites.google.com/site/totalgameinn/*^
+||sites.google.com/view/*game*^
+||sites.google.com/view/totalgameinn/*^
+||1001games.com^
 ||1001juegos.com^
 ||13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com^
 ||1games.com^
@@ -52,6 +58,7 @@
 ||arkadium.com^
 ||armorgames-as.bitbucket.io^
 ||armorgames.online^
+||ascjogos.org.br^
 ||assets.gd.sbs.softgames.de^
 ||aternos.net^
 ||aternos.org^
@@ -73,6 +80,8 @@
 ||capybara-game.com^
 ||capybaragame.io^
 ||carrot-craft.org^
+||cdn.pomu.com^
+||chromedino.com^
 ||clash3d.com^
 ||classicjoy.games^
 ||classroom-6x.bitbucket.io^
@@ -91,6 +100,7 @@
 ||cookie-clicker2.com^
 ||cooljuegos.com^
 ||coolmathgames.com^
+||copero.com.ar^
 ||cpstest.click^
 ||cpstest.net^
 ||cpstest.org^
@@ -118,9 +128,11 @@
 ||delt.io^
 ||diegosjuegos.com^
 ||digamore.com^
+||dinorunner.com^
 ||dinosaur.game^
 ||dinosaurgame-free.io^
 ||dinosaurgame.io^
+||dinosaurgamefree.io^
 ||dominoes365.io^
 ||drivequest.io^
 ||eag.pages.dev^
@@ -152,6 +164,7 @@
 ||edgesuite.net^
 ||education.com^
 ||education.minecraft.net^
+||elgoog.im^
 ||emulatorjs.com^
 ||emulatorjs.org^
 ||emupedia.net^
@@ -162,6 +175,7 @@
 ||eu.org^
 ||fandejuegos.com^
 ||fastclient.net^
+||ff.garena.com^
 ||fivenightsatfreddys.com^
 ||fivenightsatfreddysgame.com^
 ||fivenightsatfreddysgame.io^
@@ -186,6 +200,7 @@
 ||fridaynightfunkin.net^
 ||fridaynightfunkin.org^
 ||friv-2017.com^
+||friv-2026.com^
 ||friv-7.com^
 ||friv.cm^
 ||friv.com^
@@ -195,9 +210,11 @@
 ||friv.vip^
 ||friv1000.com^
 ||friv20.org^
+||friv2000.com^
 ||friv2010.com^
 ||friv2015.com^
 ||friv2021.com^
+||friv2025.com^
 ||friv2online.com^
 ||friv4school.com^
 ||friv4school.io^
@@ -216,6 +233,7 @@
 ||frvr.com^
 ||fuegoyagua.es^
 ||futbol-11.com^
+||futbol11.com^
 ||gamalod.com^
 ||gamaverse.com^
 ||gamedistribution.com^
@@ -236,6 +254,8 @@
 ||games.com^
 ||games4.com^
 ||games44.com^
+||gamesgames.com^
+||gamesgamescdn.com^
 ||gameslol.net^
 ||gameszap.com^
 ||gametop.com^
@@ -329,8 +349,12 @@
 ||juegosfriv2016.net^
 ||juegosfriv2017.com^
 ||juegosfriv2017.net^
+||juegosfriv2018.com^
 ||juegosfriv2018.net^
+||juegosfriv2018.org^
 ||juegosfriv2019.com^
+||juegosfriv2022.com^
+||juegosfriv2023.com^
 ||juegosfriv3.com^
 ||juegosfrivolo.com^
 ||juegosgratis.games^
@@ -366,6 +390,7 @@
 ||mcdle.net^
 ||mcraft.fun^
 ||mcsrc.dev^
+||media.copero.com.ar^
 ||meegames.com^
 ||meowdoku.games^
 ||mergecakegame.com^
@@ -417,6 +442,7 @@
 ||nite.games^
 ||nitrado.com^
 ||nitrado.net^
+||nocache.pomu.com^
 ||novaskin.me^
 ||now.gg^
 ||nowgames.io^
@@ -435,6 +461,7 @@
 ||pacogames.com^
 ||pages.dev^
 ||penaltyshooters.gitlab.io^
+||pla.bad-time-simulator.com^
 ||play-games.com^
 ||playable.game^
 ||playbrain.com^
@@ -459,6 +486,7 @@
 ||poki.io^
 ||poki1.com^
 ||poki2.net^
+||pomu.com^
 ||primarygames.gitlab.io^
 ||privategameservers.com^
 ||purogames.com.br^
@@ -490,11 +518,6 @@
 ||sigmally.com^
 ||silvergames.com^
 ||silvergames.io^
-||sites.google.com/*/games/*^
-||sites.google.com/*/super-mario-world^
-||sites.google.com/site/totalgameinn/*^
-||sites.google.com/view/*game*^
-||sites.google.com/view/totalgameinn/*^
 ||skinsmc.org^
 ||skribbl.io^
 ||skribbl.org^
@@ -508,6 +531,7 @@
 ||slopeunblocked.games^
 ||smashkarts.com^
 ||smcraft.fun^
+||snakejuego.com^
 ||snokido.com^
 ||spacewaves2.org^
 ||start.gg^
