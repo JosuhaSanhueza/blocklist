@@ -426,6 +426,7 @@
 0.0.0.0 hypixel.io
 0.0.0.0 hypixel.net
 0.0.0.0 ice-wallo-come.github.io
+0.0.0.0 idlegames.win
 0.0.0.0 igre.games
 0.0.0.0 imagineisland.game
 0.0.0.0 img.poki-cdn.com
@@ -655,6 +656,7 @@
 0.0.0.0 poki.io
 0.0.0.0 poki1.com
 0.0.0.0 poki2.net
+0.0.0.0 poki2.online
 0.0.0.0 pomu.com
 0.0.0.0 primarygames.gitlab.io
 0.0.0.0 privategameservers.com
@@ -734,6 +736,7 @@
 0.0.0.0 snowrider.pro
 0.0.0.0 snowrider3d.com
 0.0.0.0 snowrider3d.pro
+0.0.0.0 soccer-randomx.github.io
 0.0.0.0 spacewaves2.org
 0.0.0.0 starlighttt.netlify.app
 0.0.0.0 start.gg

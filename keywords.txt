@@ -634,3 +634,23 @@ ynrbsu
 zatoga
 zenithub
 zlite
+
+# --- Segunda tanda de búsqueda masiva, 2026-09-10 ---
+augames
+bestunblockedgames
+bloonstd
+boredomgames
+boxinggames
+boxingrandom
+cokogames
+cookinggames
+coolmathunblocked
+dolldivine
+ezpzunblockedgames
+hihoy
+idlegames
+mimshacks
+pcmobilegames
+petezahgames
+playbloonstowerdefense
+szgames

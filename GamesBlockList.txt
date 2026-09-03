@@ -430,6 +430,7 @@
 ||hypixel.io^
 ||hypixel.net^
 ||ice-wallo-come.github.io^
+||idlegames.win^
 ||igre.games^
 ||imagineisland.game^
 ||img.poki-cdn.com^
@@ -659,6 +660,7 @@
 ||poki.io^
 ||poki1.com^
 ||poki2.net^
+||poki2.online^
 ||pomu.com^
 ||primarygames.gitlab.io^
 ||privategameservers.com^
@@ -738,6 +740,7 @@
 ||snowrider.pro^
 ||snowrider3d.com^
 ||snowrider3d.pro^
+||soccer-randomx.github.io^
 ||spacewaves2.org^
 ||starlighttt.netlify.app^
 ||start.gg^
