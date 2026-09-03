@@ -15,6 +15,7 @@
 ||1v1lolgames.org^
 ||1v1lolreloaded.com^
 ||1v1lolunblocked.com^
+||247games.com^
 ||2v2.io^
 ||2v2io.io^
 ||3kh0.github.io^
@@ -110,9 +111,11 @@
 ||bestminecraftserverlist.net^
 ||bestunblockedgames.com^
 ||betrayal.io^
+||bgames.com^
 ||bgs.pages.dev^
 ||bidoofery.github.io^
 ||bigbadwaffle.itch.io^
+||bigfishgames.com^
 ||bitlifegame.com^
 ||bitlifeunblockedonline.github.io^
 ||blipzi.com^
@@ -123,6 +126,7 @@
 ||boardgamearena.com^
 ||boing.es^
 ||bonk-io.com^
+||bored.com^
 ||boredomgames.pages.dev^
 ||boxinggames.org^
 ||boxingrandom.net^
@@ -194,7 +198,9 @@
 ||crazygames.org.es^
 ||crazygames2.com^
 ||crazygames8.com^
+||crazymonkeygames.com^
 ||crazyschoolgames.com^
+||cribbage-online.net^
 ||cross-code.com^
 ||crossy-road-unblock.github.io^
 ||cryzen.io^
@@ -296,6 +302,7 @@
 ||fnfgo.com^
 ||fnfmod.online^
 ||fngames.io^
+||fog.com^
 ||forgeofempires.com^
 ||fr9.es^
 ||free-aigames.com^
@@ -369,6 +376,7 @@
 ||gameflare.online^
 ||gameflare.org^
 ||gameforge.com^
+||gamehouse.com^
 ||gamejolt.com^
 ||gamekarma.com^
 ||gamelybyte.com^
@@ -430,6 +438,7 @@
 ||geometrylitepc.io^
 ||geometydashwave.io^
 ||geonautica.pages.dev^
+||girlsgogames.com^
 ||github.io^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
@@ -459,6 +468,7 @@
 ||haxball.com^
 ||hdgames.com^
 ||head-soccer.io^
+||hearts.land^
 ||helmetroyale.io^
 ||hexar.io^
 ||higherlowergame.com^
@@ -542,6 +552,7 @@
 ||keepwork.com^
 ||kevin.games^
 ||kickoutgames.com^
+||king.com^
 ||kiz10.com^
 ||kiz10.org^
 ||kizi.com^
@@ -613,6 +624,7 @@
 ||miniplay.com^
 ||miniplay.io^
 ||minix.games^
+||mmogames.com^
 ||mobirix.com^
 ||mobirix.net^
 ||mochig.com^
@@ -716,6 +728,7 @@
 ||playmushies.com^
 ||playold.games^
 ||playpicross.com^
+||playretrogames.com^
 ||playschoolgames.com^
 ||playspark.net^
 ||playzen.io^
@@ -729,6 +742,7 @@
 ||poki2.net^
 ||poki2.online^
 ||pomu.com^
+||poncle.itch.io^
 ||primarygames.gitlab.io^
 ||privategameservers.com^
 ||project-scythe.vercel.app^
@@ -777,6 +791,7 @@
 ||shellshockers2.com^
 ||shellshockers2.io^
 ||shhnowisnottheti.me^
+||shockwave.com^
 ||shsgames.github.io^
 ||shuttleproxy.com^
 ||sigmagames69.github.io^
@@ -815,7 +830,9 @@
 ||snowrider3d.com^
 ||snowrider3d.pro^
 ||soccer-randomx.github.io^
+||solitaired.com^
 ||spacewaves2.org^
+||spades.co^
 ||starlighttt.netlify.app^
 ||start.gg^
 ||staticquasar931.github.io^
@@ -937,6 +954,7 @@
 ||web-dashers.github.io^
 ||webgamer.io^
 ||webmc.com^
+||webmulator.com^
 ||webretro.org^
 ||weplayretro.games^
 ||werty.me^

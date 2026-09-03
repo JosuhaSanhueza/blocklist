@@ -11,6 +11,7 @@
 0.0.0.0 1v1lolgames.org
 0.0.0.0 1v1lolreloaded.com
 0.0.0.0 1v1lolunblocked.com
+0.0.0.0 247games.com
 0.0.0.0 2v2.io
 0.0.0.0 2v2io.io
 0.0.0.0 3kh0.github.io
@@ -106,9 +107,11 @@
 0.0.0.0 bestminecraftserverlist.net
 0.0.0.0 bestunblockedgames.com
 0.0.0.0 betrayal.io
+0.0.0.0 bgames.com
 0.0.0.0 bgs.pages.dev
 0.0.0.0 bidoofery.github.io
 0.0.0.0 bigbadwaffle.itch.io
+0.0.0.0 bigfishgames.com
 0.0.0.0 bitlifegame.com
 0.0.0.0 bitlifeunblockedonline.github.io
 0.0.0.0 blipzi.com
@@ -119,6 +122,7 @@
 0.0.0.0 boardgamearena.com
 0.0.0.0 boing.es
 0.0.0.0 bonk-io.com
+0.0.0.0 bored.com
 0.0.0.0 boredomgames.pages.dev
 0.0.0.0 boxinggames.org
 0.0.0.0 boxingrandom.net
@@ -190,7 +194,9 @@
 0.0.0.0 crazygames.org
 0.0.0.0 crazygames2.com
 0.0.0.0 crazygames8.com
+0.0.0.0 crazymonkeygames.com
 0.0.0.0 crazyschoolgames.com
+0.0.0.0 cribbage-online.net
 0.0.0.0 cross-code.com
 0.0.0.0 crossy-road-unblock.github.io
 0.0.0.0 cryzen.io
@@ -292,6 +298,7 @@
 0.0.0.0 fnfgo.com
 0.0.0.0 fnfmod.online
 0.0.0.0 fngames.io
+0.0.0.0 fog.com
 0.0.0.0 forgeofempires.com
 0.0.0.0 fr9.es
 0.0.0.0 free-aigames.com
@@ -365,6 +372,7 @@
 0.0.0.0 gameflare.online
 0.0.0.0 gameflare.org
 0.0.0.0 gameforge.com
+0.0.0.0 gamehouse.com
 0.0.0.0 gamejolt.com
 0.0.0.0 gamekarma.com
 0.0.0.0 gamelybyte.com
@@ -426,6 +434,7 @@
 0.0.0.0 geometrylitepc.io
 0.0.0.0 geometydashwave.io
 0.0.0.0 geonautica.pages.dev
+0.0.0.0 girlsgogames.com
 0.0.0.0 github.io
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
@@ -455,6 +464,7 @@
 0.0.0.0 haxball.com
 0.0.0.0 hdgames.com
 0.0.0.0 head-soccer.io
+0.0.0.0 hearts.land
 0.0.0.0 helmetroyale.io
 0.0.0.0 hexar.io
 0.0.0.0 higherlowergame.com
@@ -538,6 +548,7 @@
 0.0.0.0 keepwork.com
 0.0.0.0 kevin.games
 0.0.0.0 kickoutgames.com
+0.0.0.0 king.com
 0.0.0.0 kiz10.com
 0.0.0.0 kiz10.org
 0.0.0.0 kizi.com
@@ -609,6 +620,7 @@
 0.0.0.0 miniplay.com
 0.0.0.0 miniplay.io
 0.0.0.0 minix.games
+0.0.0.0 mmogames.com
 0.0.0.0 mobirix.com
 0.0.0.0 mobirix.net
 0.0.0.0 mochig.com
@@ -712,6 +724,7 @@
 0.0.0.0 playmushies.com
 0.0.0.0 playold.games
 0.0.0.0 playpicross.com
+0.0.0.0 playretrogames.com
 0.0.0.0 playschoolgames.com
 0.0.0.0 playspark.net
 0.0.0.0 playzen.io
@@ -725,6 +738,7 @@
 0.0.0.0 poki2.net
 0.0.0.0 poki2.online
 0.0.0.0 pomu.com
+0.0.0.0 poncle.itch.io
 0.0.0.0 primarygames.gitlab.io
 0.0.0.0 privategameservers.com
 0.0.0.0 project-scythe.vercel.app
@@ -773,6 +787,7 @@
 0.0.0.0 shellshockers2.com
 0.0.0.0 shellshockers2.io
 0.0.0.0 shhnowisnottheti.me
+0.0.0.0 shockwave.com
 0.0.0.0 shsgames.github.io
 0.0.0.0 shuttleproxy.com
 0.0.0.0 sigmagames69.github.io
@@ -811,7 +826,9 @@
 0.0.0.0 snowrider3d.com
 0.0.0.0 snowrider3d.pro
 0.0.0.0 soccer-randomx.github.io
+0.0.0.0 solitaired.com
 0.0.0.0 spacewaves2.org
+0.0.0.0 spades.co
 0.0.0.0 starlighttt.netlify.app
 0.0.0.0 start.gg
 0.0.0.0 staticquasar931.github.io
@@ -933,6 +950,7 @@
 0.0.0.0 web-dashers.github.io
 0.0.0.0 webgamer.io
 0.0.0.0 webmc.com
+0.0.0.0 webmulator.com
 0.0.0.0 webretro.org
 0.0.0.0 weplayretro.games
 0.0.0.0 werty.me
