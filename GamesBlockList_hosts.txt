@@ -13,7 +13,9 @@
 0.0.0.0 1v1lolunblocked.com
 0.0.0.0 2v2.io
 0.0.0.0 2v2io.io
+0.0.0.0 3kh0.github.io
 0.0.0.0 40servidoresmc.es
+0.0.0.0 4k-teavm.pages.dev
 0.0.0.0 5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
 0.0.0.0 5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
 0.0.0.0 5kh0.github.io
@@ -29,6 +31,7 @@
 0.0.0.0 6zar.com
 0.0.0.0 75kh0.github.io
 0.0.0.0 76-games.bitbucket.io
+0.0.0.0 76unblockedgamesonline.github.io
 0.0.0.0 7x.games
 0.0.0.0 8games.com
 0.0.0.0 8games.io
@@ -38,6 +41,7 @@
 0.0.0.0 a10.com
 0.0.0.0 addictinggames.com
 0.0.0.0 addictinggames.io
+0.0.0.0 adfree-sz-games.github.io
 0.0.0.0 aeon-network.net
 0.0.0.0 agame.com
 0.0.0.0 agaonline.io
@@ -63,6 +67,7 @@
 0.0.0.0 anygames-com.bitbucket.io
 0.0.0.0 anygames-free.bitbucket.io
 0.0.0.0 anygames-us1.bitbucket.io
+0.0.0.0 arbyusuf.github.io
 0.0.0.0 arch.lol
 0.0.0.0 arch.mc
 0.0.0.0 areajugones.sport.es
@@ -76,6 +81,7 @@
 0.0.0.0 aternos.org
 0.0.0.0 axenthost.com
 0.0.0.0 azagames.io
+0.0.0.0 azenark.github.io
 0.0.0.0 azgames.io
 0.0.0.0 badparentingame.com
 0.0.0.0 badparentingame.io
@@ -91,13 +97,18 @@
 0.0.0.0 bgs.pages.dev
 0.0.0.0 bidoofery.github.io
 0.0.0.0 bitlifegame.com
+0.0.0.0 bitlifeunblockedonline.github.io
 0.0.0.0 blipzi.com
+0.0.0.0 blockpostonlineplay.github.io
+0.0.0.0 blooket1.com
 0.0.0.0 bloxd.io
 0.0.0.0 boing.es
 0.0.0.0 bonk-io.com
+0.0.0.0 bubbleshooteonline.github.io
 0.0.0.0 buff.game
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
 0.0.0.0 calcsolver.net
+0.0.0.0 capprime.netlify.app
 0.0.0.0 capybara-game.com
 0.0.0.0 capybaragame.io
 0.0.0.0 carrot-craft.org
@@ -110,6 +121,7 @@
 0.0.0.0 classicjoy.games
 0.0.0.0 classroom-6x.bitbucket.io
 0.0.0.0 classroom-6x.io
+0.0.0.0 classroom20x.com
 0.0.0.0 classroom80x.com
 0.0.0.0 classroomgame.github.io
 0.0.0.0 classrooms6x.gitlab.io
@@ -132,6 +144,7 @@
 0.0.0.0 cooljuegos.com
 0.0.0.0 coolmathgames.com
 0.0.0.0 copero.com.ar
+0.0.0.0 copyofmasite.pages.dev
 0.0.0.0 cpstest.click
 0.0.0.0 cpstest.net
 0.0.0.0 cpstest.org
@@ -194,6 +207,7 @@
 0.0.0.0 eaglercraft.tools
 0.0.0.0 eaglercraft.win
 0.0.0.0 eaglercraft1-8.github.io
+0.0.0.0 eaglercraftextras.github.io
 0.0.0.0 eaglercraftgame.github.io
 0.0.0.0 eaglercraftgame.io
 0.0.0.0 eaglercrafthub.com
@@ -204,11 +218,13 @@
 0.0.0.0 eaglercraftx.org
 0.0.0.0 eaglercraftx1-8.pages.dev
 0.0.0.0 eaglercraftz.pages.dev
+0.0.0.0 eaglerforge.github.io
 0.0.0.0 easyfun.gg
 0.0.0.0 edgesuite.net
 0.0.0.0 education.com
 0.0.0.0 education.minecraft.net
 0.0.0.0 elgoog.im
+0.0.0.0 ellieeet123.github.io
 0.0.0.0 emulatorjs.com
 0.0.0.0 emulatorjs.org
 0.0.0.0 emupedia.net
@@ -358,6 +374,7 @@
 0.0.0.0 github.io
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
+0.0.0.0 gomestable.netlify.app
 0.0.0.0 googlehosted.com
 0.0.0.0 googlesnake.org
 0.0.0.0 goose.game
@@ -408,6 +425,7 @@
 0.0.0.0 itch.io
 0.0.0.0 itchio.top
 0.0.0.0 jetspaz.com
+0.0.0.0 jetyehs.github.io
 0.0.0.0 jeuxdefriv.com
 0.0.0.0 jeuxdefriv2014.com
 0.0.0.0 jeuxdefriv2015.com
@@ -440,9 +458,11 @@
 0.0.0.0 juegosfrivclasico.com
 0.0.0.0 juegosfrivolo.com
 0.0.0.0 juegosgratis.games
+0.0.0.0 juegosgratispuntocom.github.io
 0.0.0.0 juegosjuegos.ws
 0.0.0.0 jugarmccomportal.base44.app
 0.0.0.0 kbhgames.com
+0.0.0.0 kbhgamesonline.github.io
 0.0.0.0 keepwork.com
 0.0.0.0 kevin.games
 0.0.0.0 kickoutgames.com
@@ -464,6 +484,7 @@
 0.0.0.0 ligadegamers.com
 0.0.0.0 listamc.com
 0.0.0.0 listamc.net
+0.0.0.0 lite.nativegames.net
 0.0.0.0 livegameserverlist.com
 0.0.0.0 lps7x.csb.app
 0.0.0.0 luckyblocks.io
@@ -474,6 +495,7 @@
 0.0.0.0 manablade.com
 0.0.0.0 manablade.io
 0.0.0.0 mathwizard.pages.dev
+0.0.0.0 maxwellstevenson.com
 0.0.0.0 mcdle.net
 0.0.0.0 mcraft.fun
 0.0.0.0 mcsrc.dev
@@ -543,6 +565,7 @@
 0.0.0.0 now.gg
 0.0.0.0 nowgames.io
 0.0.0.0 nowgg.me
+0.0.0.0 null-x-team.github.io
 0.0.0.0 oddgames.uk
 0.0.0.0 ofogames.com
 0.0.0.0 ohgames.io
@@ -564,6 +587,7 @@
 0.0.0.0 outred.org
 0.0.0.0 ovo-games-online.github.io
 0.0.0.0 ovoclassic-pro.github.io
+0.0.0.0 p0xgames.online
 0.0.0.0 pacogames.com
 0.0.0.0 pages.dev
 0.0.0.0 paisdelosjuegos.net
@@ -587,6 +611,7 @@
 0.0.0.0 player2.game
 0.0.0.0 playgama.com
 0.0.0.0 playgames.io
+0.0.0.0 playgeodash.pages.dev
 0.0.0.0 playhop.com
 0.0.0.0 playhop2.com
 0.0.0.0 playminigames.com
@@ -610,6 +635,7 @@
 0.0.0.0 q13x.com
 0.0.0.0 raftlife.io
 0.0.0.0 ragdollarchers2.io
+0.0.0.0 re-pack-delta.vercel.app
 0.0.0.0 retroarch.com
 0.0.0.0 retrobowl.me
 0.0.0.0 retrobowl.school
@@ -619,15 +645,20 @@
 0.0.0.0 rocketleague.com
 0.0.0.0 rocketsoccerderby.gitlab.io
 0.0.0.0 rooftoprun.net
+0.0.0.0 rossygames.github.io
+0.0.0.0 run3-game-unblocked.github.io
 0.0.0.0 rycellgames.github.io
+0.0.0.0 sacul-6.github.io
 0.0.0.0 sandbox.game
 0.0.0.0 santiagodebus.com
 0.0.0.0 scalacube.com
 0.0.0.0 scaryteacher-3d.io
+0.0.0.0 schoolgamethingy.github.io
 0.0.0.0 schoolunblockedgames.gitlab.io
 0.0.0.0 schplay.com
 0.0.0.0 scratchgamesonline.io
 0.0.0.0 sentry.io
+0.0.0.0 serpgames.github.io
 0.0.0.0 servidoresminecraft.info
 0.0.0.0 sgames.io
 0.0.0.0 sgames.org
@@ -638,6 +669,7 @@
 0.0.0.0 shellshockers2.com
 0.0.0.0 shellshockers2.io
 0.0.0.0 shhnowisnottheti.me
+0.0.0.0 sigmagames69.github.io
 0.0.0.0 sigmally.com
 0.0.0.0 silvergames.com
 0.0.0.0 silvergames.io
@@ -656,6 +688,7 @@
 0.0.0.0 slopecom.com
 0.0.0.0 slopegame.io
 0.0.0.0 slopegame2.com
+0.0.0.0 slopegamebox.com
 0.0.0.0 slopeio.org
 0.0.0.0 slopeonline.bitbucket.io
 0.0.0.0 slopeunblocked.bitbucket.io
@@ -669,7 +702,9 @@
 0.0.0.0 snowrider3d.com
 0.0.0.0 snowrider3d.pro
 0.0.0.0 spacewaves2.org
+0.0.0.0 starlighttt.netlify.app
 0.0.0.0 start.gg
+0.0.0.0 staticquasar931.github.io
 0.0.0.0 steamcommunity.com
 0.0.0.0 steampowered.com
 0.0.0.0 stickhook.io
@@ -700,10 +735,13 @@
 0.0.0.0 sz-games.github.io
 0.0.0.0 tagunblocked.com
 0.0.0.0 tankstroubleunblocked.com
+0.0.0.0 tanukisunsetgame.github.io
 0.0.0.0 teamgames.club
 0.0.0.0 teddblue.github.io
 0.0.0.0 templerungames.github.io
+0.0.0.0 thegamecenter.github.io
 0.0.0.0 theludos.com
+0.0.0.0 thesacredtexts.weebly.com
 0.0.0.0 theslope.github.io
 0.0.0.0 todojuegosgratis.es
 0.0.0.0 top-games.net
@@ -729,9 +767,11 @@
 0.0.0.0 ubghyper.github.io
 0.0.0.0 ug66.gitlab.io
 0.0.0.0 ug76.gitlab.io
+0.0.0.0 unbannedgames.io
 0.0.0.0 unblocked-2026.github.io
 0.0.0.0 unblocked-cookie-clicker.pages.dev
 0.0.0.0 unblocked-games.com
+0.0.0.0 unblocked-games.gamesroid.com
 0.0.0.0 unblockedgames76.com
 0.0.0.0 unblockedgames76.gitlab.io
 0.0.0.0 unblockedgamesbrowser.com
@@ -739,9 +779,11 @@
 0.0.0.0 unblockedgamesheaven.brownwebdesign.com
 0.0.0.0 unblockedrush.com
 0.0.0.0 unity3d.com
+0.0.0.0 untitledproxy.pages.dev
 0.0.0.0 us.com
 0.0.0.0 uunnblockedgames.weebly.com
 0.0.0.0 v.poki-cdn.com
+0.0.0.0 valuxshop.github.io
 0.0.0.0 veck.io
 0.0.0.0 veckio.com
 0.0.0.0 veckio.io
@@ -753,9 +795,11 @@
 0.0.0.0 vercel.app
 0.0.0.0 vexgames.online
 0.0.0.0 vibearcade.com
+0.0.0.0 viberverse.github.io
 0.0.0.0 vidaextra.com
 0.0.0.0 vitalitygames.com
 0.0.0.0 viverse.com
+0.0.0.0 wafercafe.com
 0.0.0.0 we-dashers.github.io
 0.0.0.0 web-dashers.github.io
 0.0.0.0 webgamer.io
@@ -767,6 +811,7 @@
 0.0.0.0 wordle.net
 0.0.0.0 wordles.org
 0.0.0.0 wordlyplay.com
+0.0.0.0 wowubg.github.io
 0.0.0.0 xbitlabs.com
 0.0.0.0 y8-games.com
 0.0.0.0 y8.com
@@ -777,6 +822,7 @@
 0.0.0.0 yandex.com
 0.0.0.0 yandexgames.online
 0.0.0.0 yee.pages.dev
+0.0.0.0 ynrbsu.github.io
 0.0.0.0 yoplay.io
 0.0.0.0 yurk.com
 0.0.0.0 zapgames.io
@@ -786,5 +832,6 @@
 0.0.0.0 zentic.org
 0.0.0.0 zgames.com
 0.0.0.0 zgames.io
+0.0.0.0 zlite.zatoga.net
 0.0.0.0 zynga.com
 0.0.0.0 zynga.games

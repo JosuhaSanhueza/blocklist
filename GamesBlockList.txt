@@ -17,7 +17,9 @@
 ||1v1lolunblocked.com^
 ||2v2.io^
 ||2v2io.io^
+||3kh0.github.io^
 ||40servidoresmc.es^
+||4k-teavm.pages.dev^
 ||5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
 ||5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
 ||5kh0.github.io^
@@ -33,6 +35,7 @@
 ||6zar.com^
 ||75kh0.github.io^
 ||76-games.bitbucket.io^
+||76unblockedgamesonline.github.io^
 ||7x.games^
 ||8games.com^
 ||8games.io^
@@ -42,6 +45,7 @@
 ||a10.com^
 ||addictinggames.com^
 ||addictinggames.io^
+||adfree-sz-games.github.io^
 ||aeon-network.net^
 ||agame.com^
 ||agaonline.io^
@@ -67,6 +71,7 @@
 ||anygames-com.bitbucket.io^
 ||anygames-free.bitbucket.io^
 ||anygames-us1.bitbucket.io^
+||arbyusuf.github.io^
 ||arch.lol^
 ||arch.mc^
 ||areajugones.sport.es^
@@ -80,6 +85,7 @@
 ||aternos.org^
 ||axenthost.com^
 ||azagames.io^
+||azenark.github.io^
 ||azgames.io^
 ||badparentingame.com^
 ||badparentingame.io^
@@ -95,13 +101,18 @@
 ||bgs.pages.dev^
 ||bidoofery.github.io^
 ||bitlifegame.com^
+||bitlifeunblockedonline.github.io^
 ||blipzi.com^
+||blockpostonlineplay.github.io^
+||blooket1.com^
 ||bloxd.io^
 ||boing.es^
 ||bonk-io.com^
+||bubbleshooteonline.github.io^
 ||buff.game^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||calcsolver.net^
+||capprime.netlify.app^
 ||capybara-game.com^
 ||capybaragame.io^
 ||carrot-craft.org^
@@ -114,6 +125,7 @@
 ||classicjoy.games^
 ||classroom-6x.bitbucket.io^
 ||classroom-6x.io^
+||classroom20x.com^
 ||classroom80x.com^
 ||classroomgame.github.io^
 ||classrooms6x.gitlab.io^
@@ -136,6 +148,7 @@
 ||cooljuegos.com^
 ||coolmathgames.com^
 ||copero.com.ar^
+||copyofmasite.pages.dev^
 ||cpstest.click^
 ||cpstest.net^
 ||cpstest.org^
@@ -198,6 +211,7 @@
 ||eaglercraft.tools^
 ||eaglercraft.win^
 ||eaglercraft1-8.github.io^
+||eaglercraftextras.github.io^
 ||eaglercraftgame.github.io^
 ||eaglercraftgame.io^
 ||eaglercrafthub.com^
@@ -208,11 +222,13 @@
 ||eaglercraftx.org^
 ||eaglercraftx1-8.pages.dev^
 ||eaglercraftz.pages.dev^
+||eaglerforge.github.io^
 ||easyfun.gg^
 ||edgesuite.net^
 ||education.com^
 ||education.minecraft.net^
 ||elgoog.im^
+||ellieeet123.github.io^
 ||emulatorjs.com^
 ||emulatorjs.org^
 ||emupedia.net^
@@ -362,6 +378,7 @@
 ||github.io^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
+||gomestable.netlify.app^
 ||googlehosted.com^
 ||googlesnake.org^
 ||goose.game^
@@ -412,6 +429,7 @@
 ||itch.io^
 ||itchio.top^
 ||jetspaz.com^
+||jetyehs.github.io^
 ||jeuxdefriv.com^
 ||jeuxdefriv2014.com^
 ||jeuxdefriv2015.com^
@@ -444,9 +462,11 @@
 ||juegosfrivclasico.com^
 ||juegosfrivolo.com^
 ||juegosgratis.games^
+||juegosgratispuntocom.github.io^
 ||juegosjuegos.ws^
 ||jugarmccomportal.base44.app^
 ||kbhgames.com^
+||kbhgamesonline.github.io^
 ||keepwork.com^
 ||kevin.games^
 ||kickoutgames.com^
@@ -468,6 +488,7 @@
 ||ligadegamers.com^
 ||listamc.com^
 ||listamc.net^
+||lite.nativegames.net^
 ||livegameserverlist.com^
 ||lps7x.csb.app^
 ||luckyblocks.io^
@@ -478,6 +499,7 @@
 ||manablade.com^
 ||manablade.io^
 ||mathwizard.pages.dev^
+||maxwellstevenson.com^
 ||mcdle.net^
 ||mcraft.fun^
 ||mcsrc.dev^
@@ -547,6 +569,7 @@
 ||now.gg^
 ||nowgames.io^
 ||nowgg.me^
+||null-x-team.github.io^
 ||oddgames.uk^
 ||ofogames.com^
 ||ohgames.io^
@@ -568,6 +591,7 @@
 ||outred.org^
 ||ovo-games-online.github.io^
 ||ovoclassic-pro.github.io^
+||p0xgames.online^
 ||pacogames.com^
 ||pages.dev^
 ||paisdelosjuegos.net^
@@ -591,6 +615,7 @@
 ||player2.game^
 ||playgama.com^
 ||playgames.io^
+||playgeodash.pages.dev^
 ||playhop.com^
 ||playhop2.com^
 ||playminigames.com^
@@ -614,6 +639,7 @@
 ||q13x.com^
 ||raftlife.io^
 ||ragdollarchers2.io^
+||re-pack-delta.vercel.app^
 ||retroarch.com^
 ||retrobowl.me^
 ||retrobowl.school^
@@ -623,15 +649,20 @@
 ||rocketleague.com^
 ||rocketsoccerderby.gitlab.io^
 ||rooftoprun.net^
+||rossygames.github.io^
+||run3-game-unblocked.github.io^
 ||rycellgames.github.io^
+||sacul-6.github.io^
 ||sandbox.game^
 ||santiagodebus.com^
 ||scalacube.com^
 ||scaryteacher-3d.io^
+||schoolgamethingy.github.io^
 ||schoolunblockedgames.gitlab.io^
 ||schplay.com^
 ||scratchgamesonline.io^
 ||sentry.io^
+||serpgames.github.io^
 ||servidoresminecraft.info^
 ||sgames.io^
 ||sgames.org^
@@ -642,6 +673,7 @@
 ||shellshockers2.com^
 ||shellshockers2.io^
 ||shhnowisnottheti.me^
+||sigmagames69.github.io^
 ||sigmally.com^
 ||silvergames.com^
 ||silvergames.io^
@@ -660,6 +692,7 @@
 ||slopecom.com^
 ||slopegame.io^
 ||slopegame2.com^
+||slopegamebox.com^
 ||slopeio.org^
 ||slopeonline.bitbucket.io^
 ||slopeunblocked.bitbucket.io^
@@ -673,7 +706,9 @@
 ||snowrider3d.com^
 ||snowrider3d.pro^
 ||spacewaves2.org^
+||starlighttt.netlify.app^
 ||start.gg^
+||staticquasar931.github.io^
 ||steamcommunity.com^
 ||steampowered.com^
 ||stickhook.io^
@@ -704,10 +739,13 @@
 ||sz-games.github.io^
 ||tagunblocked.com^
 ||tankstroubleunblocked.com^
+||tanukisunsetgame.github.io^
 ||teamgames.club^
 ||teddblue.github.io^
 ||templerungames.github.io^
+||thegamecenter.github.io^
 ||theludos.com^
+||thesacredtexts.weebly.com^
 ||theslope.github.io^
 ||todojuegosgratis.es^
 ||top-games.net^
@@ -733,9 +771,11 @@
 ||ubghyper.github.io^
 ||ug66.gitlab.io^
 ||ug76.gitlab.io^
+||unbannedgames.io^
 ||unblocked-2026.github.io^
 ||unblocked-cookie-clicker.pages.dev^
 ||unblocked-games.com^
+||unblocked-games.gamesroid.com^
 ||unblockedgames76.com^
 ||unblockedgames76.gitlab.io^
 ||unblockedgamesbrowser.com^
@@ -743,9 +783,11 @@
 ||unblockedgamesheaven.brownwebdesign.com^
 ||unblockedrush.com^
 ||unity3d.com^
+||untitledproxy.pages.dev^
 ||us.com^
 ||uunnblockedgames.weebly.com^
 ||v.poki-cdn.com^
+||valuxshop.github.io^
 ||veck.io^
 ||veckio.com^
 ||veckio.io^
@@ -757,9 +799,11 @@
 ||vercel.app^
 ||vexgames.online^
 ||vibearcade.com^
+||viberverse.github.io^
 ||vidaextra.com^
 ||vitalitygames.com^
 ||viverse.com^
+||wafercafe.com^
 ||we-dashers.github.io^
 ||web-dashers.github.io^
 ||webgamer.io^
@@ -771,6 +815,7 @@
 ||wordle.net^
 ||wordles.org^
 ||wordlyplay.com^
+||wowubg.github.io^
 ||xbitlabs.com^
 ||y8-games.com^
 ||y8.com^
@@ -781,6 +826,7 @@
 ||yandex.com^
 ||yandexgames.online^
 ||yee.pages.dev^
+||ynrbsu.github.io^
 ||yoplay.io^
 ||yurk.com^
 ||zapgames.io^
@@ -790,5 +836,6 @@
 ||zentic.org^
 ||zgames.com^
 ||zgames.io^
+||zlite.zatoga.net^
 ||zynga.com^
 ||zynga.games^
