@@ -69,6 +69,7 @@
 0.0.0.0 anygames-free.bitbucket.io
 0.0.0.0 anygames-us1.bitbucket.io
 0.0.0.0 arbyusuf.github.io
+0.0.0.0 arcadino.com
 0.0.0.0 arch.lol
 0.0.0.0 arch.mc
 0.0.0.0 areajugones.sport.es
@@ -263,9 +264,11 @@
 0.0.0.0 flappybird.io
 0.0.0.0 fnaffree.io
 0.0.0.0 fnafgames.io
+0.0.0.0 fnafplus.io
 0.0.0.0 fnf-games.io
 0.0.0.0 fnfgo.com
 0.0.0.0 fnfmod.online
+0.0.0.0 fngames.io
 0.0.0.0 fr9.es
 0.0.0.0 free-aigames.com
 0.0.0.0 freedombrowser.org
@@ -327,6 +330,8 @@
 0.0.0.0 futbol11.com
 0.0.0.0 gamalod.com
 0.0.0.0 gamaverse.com
+0.0.0.0 game-game.com
+0.0.0.0 game.giantshaft.com
 0.0.0.0 gamedistribution.com
 0.0.0.0 gameflare.com
 0.0.0.0 gameflare.net
@@ -346,6 +351,7 @@
 0.0.0.0 games-66-ez.github.io
 0.0.0.0 games-games.com
 0.0.0.0 games.com
+0.0.0.0 games.serp.co
 0.0.0.0 games4.com
 0.0.0.0 games44.com
 0.0.0.0 gamesdizi.com
@@ -425,6 +431,7 @@
 0.0.0.0 holeio.com
 0.0.0.0 hoodamath.com
 0.0.0.0 hotgames.io
+0.0.0.0 houselearning.org
 0.0.0.0 html5games.com
 0.0.0.0 html5games.io
 0.0.0.0 html5games.net
@@ -435,6 +442,7 @@
 0.0.0.0 igre.games
 0.0.0.0 imagineisland.game
 0.0.0.0 img.poki-cdn.com
+0.0.0.0 impossiblequiz.net
 0.0.0.0 impostor.io
 0.0.0.0 inblog.io
 0.0.0.0 io-games.com
@@ -566,6 +574,7 @@
 0.0.0.0 morefriv.com
 0.0.0.0 moto-x3monline.github.io
 0.0.0.0 mountain-game-games.github.io
+0.0.0.0 mountain658.github.io
 0.0.0.0 mountjustin.github.io
 0.0.0.0 msauth.net
 0.0.0.0 msn-21.github.io
@@ -785,6 +794,7 @@
 0.0.0.0 teddblue.github.io
 0.0.0.0 templerungames.github.io
 0.0.0.0 thegamecenter.github.io
+0.0.0.0 theimpossiblequiz-online.github.io
 0.0.0.0 theludos.com
 0.0.0.0 thesacredtexts.weebly.com
 0.0.0.0 theslope.github.io

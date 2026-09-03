@@ -73,6 +73,7 @@
 ||anygames-free.bitbucket.io^
 ||anygames-us1.bitbucket.io^
 ||arbyusuf.github.io^
+||arcadino.com^
 ||arch.lol^
 ||arch.mc^
 ||areajugones.sport.es^
@@ -267,9 +268,11 @@
 ||flappybird.io^
 ||fnaffree.io^
 ||fnafgames.io^
+||fnafplus.io^
 ||fnf-games.io^
 ||fnfgo.com^
 ||fnfmod.online^
+||fngames.io^
 ||fr9.es^
 ||free-aigames.com^
 ||freedombrowser.org^
@@ -331,6 +334,8 @@
 ||futbol11.com^
 ||gamalod.com^
 ||gamaverse.com^
+||game-game.com^
+||game.giantshaft.com^
 ||gamedistribution.com^
 ||gameflare.com^
 ||gameflare.net^
@@ -350,6 +355,7 @@
 ||games-66-ez.github.io^
 ||games-games.com^
 ||games.com^
+||games.serp.co^
 ||games4.com^
 ||games44.com^
 ||gamesdizi.com^
@@ -429,6 +435,7 @@
 ||holeio.com^
 ||hoodamath.com^
 ||hotgames.io^
+||houselearning.org^
 ||html5games.com^
 ||html5games.io^
 ||html5games.net^
@@ -439,6 +446,7 @@
 ||igre.games^
 ||imagineisland.game^
 ||img.poki-cdn.com^
+||impossiblequiz.net^
 ||impostor.io^
 ||inblog.io^
 ||io-games.com^
@@ -570,6 +578,7 @@
 ||morefriv.com^
 ||moto-x3monline.github.io^
 ||mountain-game-games.github.io^
+||mountain658.github.io^
 ||mountjustin.github.io^
 ||msauth.net^
 ||msn-21.github.io^
@@ -789,6 +798,7 @@
 ||teddblue.github.io^
 ||templerungames.github.io^
 ||thegamecenter.github.io^
+||theimpossiblequiz-online.github.io^
 ||theludos.com^
 ||thesacredtexts.weebly.com^
 ||theslope.github.io^
