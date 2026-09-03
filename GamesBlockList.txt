@@ -57,6 +57,7 @@
 ||agario.com^
 ||agariojuego.com^
 ||agarz.com^
+||alexx743-games-unblocked.vercel.app^
 ||allout.game^
 ||allwebgames.com^
 ||amandathe-adventurer.com^
@@ -110,6 +111,7 @@
 ||bloxd.io^
 ||boing.es^
 ||bonk-io.com^
+||boredomgames.pages.dev^
 ||boxinggames.org^
 ||boxingrandom.net^
 ||bubbleshooteonline.github.io^
@@ -122,6 +124,7 @@
 ||carrot-craft.org^
 ||cattn.github.io^
 ||cbgamesdev.github.io^
+||cdn-augames.github.io^
 ||cdn.games.juegos123.net^
 ||cdn.pomu.com^
 ||chromedino.com^
@@ -443,6 +446,7 @@
 ||isladejuegos.com^
 ||itch.io^
 ||itchio.top^
+||jackpot-games-damifidy.vercel.app^
 ||jetspaz.com^
 ||jetyehs.github.io^
 ||jeuxdefriv.com^
@@ -624,6 +628,7 @@
 ||paperminecraft.co^
 ||pcmobilegames.com^
 ||penaltyshooters.gitlab.io^
+||petezahgames.com^
 ||picklekid31.github.io^
 ||pla.bad-time-simulator.com^
 ||play-games.com^
@@ -711,6 +716,7 @@
 ||slithergame.io^
 ||slope-game-io.github.io^
 ||slope-online.github.io^
+||slope-unblockedgames.github.io^
 ||slope.faav.top^
 ||slope2unblocked.com^
 ||slope3.com^

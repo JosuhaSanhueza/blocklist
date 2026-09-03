@@ -53,6 +53,7 @@
 0.0.0.0 agario.com
 0.0.0.0 agariojuego.com
 0.0.0.0 agarz.com
+0.0.0.0 alexx743-games-unblocked.vercel.app
 0.0.0.0 allout.game
 0.0.0.0 allwebgames.com
 0.0.0.0 amandathe-adventurer.com
@@ -106,6 +107,7 @@
 0.0.0.0 bloxd.io
 0.0.0.0 boing.es
 0.0.0.0 bonk-io.com
+0.0.0.0 boredomgames.pages.dev
 0.0.0.0 boxinggames.org
 0.0.0.0 boxingrandom.net
 0.0.0.0 bubbleshooteonline.github.io
@@ -118,6 +120,7 @@
 0.0.0.0 carrot-craft.org
 0.0.0.0 cattn.github.io
 0.0.0.0 cbgamesdev.github.io
+0.0.0.0 cdn-augames.github.io
 0.0.0.0 cdn.games.juegos123.net
 0.0.0.0 cdn.pomu.com
 0.0.0.0 chromedino.com
@@ -439,6 +442,7 @@
 0.0.0.0 isladejuegos.com
 0.0.0.0 itch.io
 0.0.0.0 itchio.top
+0.0.0.0 jackpot-games-damifidy.vercel.app
 0.0.0.0 jetspaz.com
 0.0.0.0 jetyehs.github.io
 0.0.0.0 jeuxdefriv.com
@@ -620,6 +624,7 @@
 0.0.0.0 paperminecraft.co
 0.0.0.0 pcmobilegames.com
 0.0.0.0 penaltyshooters.gitlab.io
+0.0.0.0 petezahgames.com
 0.0.0.0 picklekid31.github.io
 0.0.0.0 pla.bad-time-simulator.com
 0.0.0.0 play-games.com
@@ -707,6 +712,7 @@
 0.0.0.0 slithergame.io
 0.0.0.0 slope-game-io.github.io
 0.0.0.0 slope-online.github.io
+0.0.0.0 slope-unblockedgames.github.io
 0.0.0.0 slope.faav.top
 0.0.0.0 slope2unblocked.com
 0.0.0.0 slope3.com
