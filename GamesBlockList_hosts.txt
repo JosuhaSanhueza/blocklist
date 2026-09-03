@@ -56,6 +56,7 @@
 0.0.0.0 agario.com
 0.0.0.0 agariojuego.com
 0.0.0.0 agarz.com
+0.0.0.0 airconsole.com
 0.0.0.0 alexx743-games-unblocked.vercel.app
 0.0.0.0 allout.game
 0.0.0.0 allsonicgames.net
@@ -83,6 +84,7 @@
 0.0.0.0 armorgames.com
 0.0.0.0 armorgames.online
 0.0.0.0 ascjogos.org.br
+0.0.0.0 asobrain.com
 0.0.0.0 assets.gd.sbs.softgames.de
 0.0.0.0 aternos.net
 0.0.0.0 aternos.org
@@ -103,6 +105,7 @@
 0.0.0.0 bestcrazygames.com
 0.0.0.0 bestminecraftserverlist.net
 0.0.0.0 bestunblockedgames.com
+0.0.0.0 betrayal.io
 0.0.0.0 bgs.pages.dev
 0.0.0.0 bidoofery.github.io
 0.0.0.0 bigbadwaffle.itch.io
@@ -113,6 +116,7 @@
 0.0.0.0 blooket1.com
 0.0.0.0 bloonstd.org
 0.0.0.0 bloxd.io
+0.0.0.0 boardgamearena.com
 0.0.0.0 boing.es
 0.0.0.0 bonk-io.com
 0.0.0.0 boredomgames.pages.dev
@@ -136,6 +140,7 @@
 0.0.0.0 cdn.games.juegos123.net
 0.0.0.0 cdn.pomu.com
 0.0.0.0 chromedino.com
+0.0.0.0 ciudadelas.net
 0.0.0.0 clash3d.com
 0.0.0.0 classicgamezone.com
 0.0.0.0 classicjoy.games
@@ -159,6 +164,7 @@
 0.0.0.0 coinops.pages.dev
 0.0.0.0 cokitos.com
 0.0.0.0 cokogames.com
+0.0.0.0 colonist.io
 0.0.0.0 cookie-clicker2.com
 0.0.0.0 cookieclicker-unblocked.pages.dev
 0.0.0.0 cookieclicker2.io
@@ -189,6 +195,7 @@
 0.0.0.0 crossy-road-unblock.github.io
 0.0.0.0 cryzen.io
 0.0.0.0 cubecraft.net
+0.0.0.0 curvefever.pro
 0.0.0.0 cutedressup.com
 0.0.0.0 d1tmbzjih4bfq6.cloudfront.net
 0.0.0.0 dashmetry.com
@@ -209,9 +216,13 @@
 0.0.0.0 dinosaurgame.io
 0.0.0.0 dinosaurgamefree.io
 0.0.0.0 dolldivine.com
+0.0.0.0 dominion.games
 0.0.0.0 dominoes365.io
 0.0.0.0 doodlejump.io
 0.0.0.0 dragonawaken.com
+0.0.0.0 dragonbound.net
+0.0.0.0 drawbattle.io
+0.0.0.0 drawize.com
 0.0.0.0 dress-up-games.github.io
 0.0.0.0 drift-hunters.co
 0.0.0.0 driftboss-unblocked.com
@@ -284,6 +295,7 @@
 0.0.0.0 forgeofempires.com
 0.0.0.0 fr9.es
 0.0.0.0 free-aigames.com
+0.0.0.0 freecivweb.com
 0.0.0.0 freedombrowser.org
 0.0.0.0 freegame.com
 0.0.0.0 freegames.com
@@ -484,6 +496,7 @@
 0.0.0.0 jeuxdefriv.com
 0.0.0.0 jeuxdefriv2014.com
 0.0.0.0 jeuxdefriv2015.com
+0.0.0.0 jigsawpuzzles.io
 0.0.0.0 jklm.fun
 0.0.0.0 joalor64.itch.io
 0.0.0.0 jogos-friv.com
@@ -540,6 +553,7 @@
 0.0.0.0 lagged-io.bitbucket.io
 0.0.0.0 lagged.com
 0.0.0.0 legionsdk.com
+0.0.0.0 lichess.org
 0.0.0.0 ligadegamers.com
 0.0.0.0 listamc.com
 0.0.0.0 listamc.net
@@ -668,6 +682,7 @@
 0.0.0.0 papasgamesonline.github.io
 0.0.0.0 papaspizzeria-unblocked.github.io
 0.0.0.0 papasunblockedgames.github.io
+0.0.0.0 papergames.io
 0.0.0.0 paperminecraft.co
 0.0.0.0 pcmobilegames.com
 0.0.0.0 penaltyshooters.gitlab.io
@@ -730,6 +745,7 @@
 0.0.0.0 rocketgoal.io
 0.0.0.0 rocketleague.com
 0.0.0.0 rocketsoccerderby.gitlab.io
+0.0.0.0 roll20.net
 0.0.0.0 rooftoprun.net
 0.0.0.0 rossygames.github.io
 0.0.0.0 run3-game-unblocked.github.io
@@ -740,6 +756,7 @@
 0.0.0.0 santiagodebus.com
 0.0.0.0 scalacube.com
 0.0.0.0 scaryteacher-3d.io
+0.0.0.0 scattergoriesonline.net
 0.0.0.0 schoolgamethingy.github.io
 0.0.0.0 schoolunblockedgames.gitlab.io
 0.0.0.0 schplay.com
@@ -829,6 +846,7 @@
 0.0.0.0 surviv.io
 0.0.0.0 sz-games.github.io
 0.0.0.0 szgames.net
+0.0.0.0 tabletopia.com
 0.0.0.0 tagpro.koalabeast.com
 0.0.0.0 tagunblocked.com
 0.0.0.0 tankionline.com
@@ -838,6 +856,7 @@
 0.0.0.0 teddblue.github.io
 0.0.0.0 templerungames.github.io
 0.0.0.0 terrycavanaghgames.com
+0.0.0.0 tetr.io
 0.0.0.0 thegamecenter.github.io
 0.0.0.0 theimpossiblequiz-online.github.io
 0.0.0.0 theludos.com
@@ -938,6 +957,7 @@
 0.0.0.0 yiv.com
 0.0.0.0 ynrbsu.github.io
 0.0.0.0 yoplay.io
+0.0.0.0 yucata.de
 0.0.0.0 yurk.com
 0.0.0.0 zapgames.io
 0.0.0.0 zapgames.site
