@@ -98,6 +98,7 @@
 ||bee.games^
 ||bestcrazygames.com^
 ||bestminecraftserverlist.net^
+||bestunblockedgames.com^
 ||bgs.pages.dev^
 ||bidoofery.github.io^
 ||bitlifegame.com^
@@ -105,6 +106,7 @@
 ||blipzi.com^
 ||blockpostonlineplay.github.io^
 ||blooket1.com^
+||bloonstd.org^
 ||bloxd.io^
 ||boing.es^
 ||bonk-io.com^
@@ -139,6 +141,7 @@
 ||cloudmoonapp.com^
 ||clusterrush.com^
 ||clusterrushgame.com^
+||cmug.gitlab.io^
 ||codyshack.pages.dev^
 ||coinops.pages.dev^
 ||cokitos.com^
@@ -151,6 +154,7 @@
 ||cool-orpin.vercel.app^
 ||cooljuegos.com^
 ||coolmathgames.com^
+||coolmathunblocked.weebly.com^
 ||copero.com.ar^
 ||copyofmasite.pages.dev^
 ||cpstest.click^
@@ -202,6 +206,7 @@
 ||driftbossunblocked.io^
 ||drifthunters.org^
 ||drivequest.io^
+||duck-math.gitlab.io^
 ||eag.pages.dev^
 ||eaglecraft.com^
 ||eaglecraft.com.co^
@@ -623,6 +628,7 @@
 ||pla.bad-time-simulator.com^
 ||play-games.com^
 ||playable.game^
+||playbloonstowerdefense.com^
 ||playbrain.com^
 ||playbrain.games^
 ||playcutegames.com^
@@ -722,6 +728,7 @@
 ||smdgames.github.io^
 ||snakejuego.com^
 ||snokido.com^
+||snow-rider-3d.bitbucket.io^
 ||snowrider.pro^
 ||snowrider3d.com^
 ||snowrider3d.pro^
@@ -820,6 +827,8 @@
 ||vectaria.io^
 ||venge.io^
 ||vercel.app^
+||vex4unblocked.github.io^
+||vexgame-unblocked.github.io^
 ||vexgames.online^
 ||vibearcade.com^
 ||viberverse.github.io^

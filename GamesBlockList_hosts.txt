@@ -94,6 +94,7 @@
 0.0.0.0 bee.games
 0.0.0.0 bestcrazygames.com
 0.0.0.0 bestminecraftserverlist.net
+0.0.0.0 bestunblockedgames.com
 0.0.0.0 bgs.pages.dev
 0.0.0.0 bidoofery.github.io
 0.0.0.0 bitlifegame.com
@@ -101,6 +102,7 @@
 0.0.0.0 blipzi.com
 0.0.0.0 blockpostonlineplay.github.io
 0.0.0.0 blooket1.com
+0.0.0.0 bloonstd.org
 0.0.0.0 bloxd.io
 0.0.0.0 boing.es
 0.0.0.0 bonk-io.com
@@ -135,6 +137,7 @@
 0.0.0.0 cloudmoonapp.com
 0.0.0.0 clusterrush.com
 0.0.0.0 clusterrushgame.com
+0.0.0.0 cmug.gitlab.io
 0.0.0.0 codyshack.pages.dev
 0.0.0.0 coinops.pages.dev
 0.0.0.0 cokitos.com
@@ -147,6 +150,7 @@
 0.0.0.0 cool-orpin.vercel.app
 0.0.0.0 cooljuegos.com
 0.0.0.0 coolmathgames.com
+0.0.0.0 coolmathunblocked.weebly.com
 0.0.0.0 copero.com.ar
 0.0.0.0 copyofmasite.pages.dev
 0.0.0.0 cpstest.click
@@ -198,6 +202,7 @@
 0.0.0.0 driftbossunblocked.io
 0.0.0.0 drifthunters.org
 0.0.0.0 drivequest.io
+0.0.0.0 duck-math.gitlab.io
 0.0.0.0 eag.pages.dev
 0.0.0.0 eaglecraft.com.co
 0.0.0.0 eaglecraft.com
@@ -619,6 +624,7 @@
 0.0.0.0 pla.bad-time-simulator.com
 0.0.0.0 play-games.com
 0.0.0.0 playable.game
+0.0.0.0 playbloonstowerdefense.com
 0.0.0.0 playbrain.com
 0.0.0.0 playbrain.games
 0.0.0.0 playcutegames.com
@@ -718,6 +724,7 @@
 0.0.0.0 smdgames.github.io
 0.0.0.0 snakejuego.com
 0.0.0.0 snokido.com
+0.0.0.0 snow-rider-3d.bitbucket.io
 0.0.0.0 snowrider.pro
 0.0.0.0 snowrider3d.com
 0.0.0.0 snowrider3d.pro
@@ -816,6 +823,8 @@
 0.0.0.0 vectaria.io
 0.0.0.0 venge.io
 0.0.0.0 vercel.app
+0.0.0.0 vex4unblocked.github.io
+0.0.0.0 vexgame-unblocked.github.io
 0.0.0.0 vexgames.online
 0.0.0.0 vibearcade.com
 0.0.0.0 viberverse.github.io
