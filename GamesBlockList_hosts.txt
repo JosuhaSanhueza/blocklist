@@ -104,6 +104,8 @@
 0.0.0.0 bloxd.io
 0.0.0.0 boing.es
 0.0.0.0 bonk-io.com
+0.0.0.0 boxinggames.org
+0.0.0.0 boxingrandom.net
 0.0.0.0 bubbleshooteonline.github.io
 0.0.0.0 buff.game
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
@@ -136,10 +138,12 @@
 0.0.0.0 codyshack.pages.dev
 0.0.0.0 coinops.pages.dev
 0.0.0.0 cokitos.com
+0.0.0.0 cokogames.com
 0.0.0.0 cookie-clicker2.com
 0.0.0.0 cookieclicker-unblocked.pages.dev
 0.0.0.0 cookieclicker2.io
 0.0.0.0 cookieclickernew.com
+0.0.0.0 cookinggames.com
 0.0.0.0 cool-orpin.vercel.app
 0.0.0.0 cooljuegos.com
 0.0.0.0 coolmathgames.com
@@ -182,8 +186,10 @@
 0.0.0.0 dinosaurgame-free.io
 0.0.0.0 dinosaurgame.io
 0.0.0.0 dinosaurgamefree.io
+0.0.0.0 dolldivine.com
 0.0.0.0 dominoes365.io
 0.0.0.0 doodlejump.io
+0.0.0.0 dress-up-games.github.io
 0.0.0.0 drift-hunters.co
 0.0.0.0 driftboss-unblocked.com
 0.0.0.0 driftboss.io
@@ -233,6 +239,7 @@
 0.0.0.0 epiconlinegames.com
 0.0.0.0 essential.gg
 0.0.0.0 eu.org
+0.0.0.0 ezpzunblockedgames.com
 0.0.0.0 faf-games.gitlab.io
 0.0.0.0 fandejuegos.com
 0.0.0.0 fastclient.net
@@ -399,6 +406,7 @@
 0.0.0.0 haxball.com
 0.0.0.0 hdgames.com
 0.0.0.0 head-soccer.io
+0.0.0.0 hihoy.com
 0.0.0.0 holajuegos.com
 0.0.0.0 hole-io.com
 0.0.0.0 holeio.com
@@ -510,9 +518,11 @@
 0.0.0.0 messcraft.ovh
 0.0.0.0 mgalternative.github.io
 0.0.0.0 mgg658.github.io
+0.0.0.0 mimshacks.com
 0.0.0.0 mine-craft.io
 0.0.0.0 minecraft-eaglercraft.github.io
 0.0.0.0 minecraft-games.com
+0.0.0.0 minecraft-mp.com
 0.0.0.0 minecraft.com
 0.0.0.0 minecraft.net
 0.0.0.0 minecraftclassic.online
@@ -603,6 +613,7 @@
 0.0.0.0 papaspizzeria-unblocked.github.io
 0.0.0.0 papasunblockedgames.github.io
 0.0.0.0 paperminecraft.co
+0.0.0.0 pcmobilegames.com
 0.0.0.0 penaltyshooters.gitlab.io
 0.0.0.0 picklekid31.github.io
 0.0.0.0 pla.bad-time-simulator.com
@@ -625,6 +636,7 @@
 0.0.0.0 playschoolgames.com
 0.0.0.0 playspark.net
 0.0.0.0 playzen.io
+0.0.0.0 pog.com
 0.0.0.0 pogo.com
 0.0.0.0 poki-games.com
 0.0.0.0 poki-gdn.com
@@ -645,6 +657,7 @@
 0.0.0.0 retroarch.com
 0.0.0.0 retrobowl.me
 0.0.0.0 retrobowl.school
+0.0.0.0 roblox-unblock.github.io
 0.0.0.0 rocketgames.io
 0.0.0.0 rocketgames.net
 0.0.0.0 rocketgoal.io
@@ -740,6 +753,7 @@
 0.0.0.0 sunstudio.io
 0.0.0.0 superjocs.com
 0.0.0.0 sz-games.github.io
+0.0.0.0 szgames.net
 0.0.0.0 tagunblocked.com
 0.0.0.0 tankstroubleunblocked.com
 0.0.0.0 tanukisunsetgame.github.io
@@ -768,6 +782,7 @@
 0.0.0.0 twoplayergames.com
 0.0.0.0 twoplayergames.org
 0.0.0.0 ubg365.github.io
+0.0.0.0 ubg6969.gitlab.io
 0.0.0.0 ubg76.com
 0.0.0.0 ubg76.gitlab.io
 0.0.0.0 ubg98.github.io
@@ -827,9 +842,11 @@
 0.0.0.0 y8games.games
 0.0.0.0 y8games.net
 0.0.0.0 y8games2.com
+0.0.0.0 y9freegames.com
 0.0.0.0 yandex.com
 0.0.0.0 yandexgames.online
 0.0.0.0 yee.pages.dev
+0.0.0.0 yiv.com
 0.0.0.0 ynrbsu.github.io
 0.0.0.0 yoplay.io
 0.0.0.0 yurk.com

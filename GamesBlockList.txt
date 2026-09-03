@@ -108,6 +108,8 @@
 ||bloxd.io^
 ||boing.es^
 ||bonk-io.com^
+||boxinggames.org^
+||boxingrandom.net^
 ||bubbleshooteonline.github.io^
 ||buff.game^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
@@ -140,10 +142,12 @@
 ||codyshack.pages.dev^
 ||coinops.pages.dev^
 ||cokitos.com^
+||cokogames.com^
 ||cookie-clicker2.com^
 ||cookieclicker-unblocked.pages.dev^
 ||cookieclicker2.io^
 ||cookieclickernew.com^
+||cookinggames.com^
 ||cool-orpin.vercel.app^
 ||cooljuegos.com^
 ||coolmathgames.com^
@@ -186,8 +190,10 @@
 ||dinosaurgame-free.io^
 ||dinosaurgame.io^
 ||dinosaurgamefree.io^
+||dolldivine.com^
 ||dominoes365.io^
 ||doodlejump.io^
+||dress-up-games.github.io^
 ||drift-hunters.co^
 ||driftboss-unblocked.com^
 ||driftboss.io^
@@ -237,6 +243,7 @@
 ||epiconlinegames.com^
 ||essential.gg^
 ||eu.org^
+||ezpzunblockedgames.com^
 ||faf-games.gitlab.io^
 ||fandejuegos.com^
 ||fastclient.net^
@@ -403,6 +410,7 @@
 ||haxball.com^
 ||hdgames.com^
 ||head-soccer.io^
+||hihoy.com^
 ||holajuegos.com^
 ||hole-io.com^
 ||holeio.com^
@@ -514,9 +522,11 @@
 ||messcraft.ovh^
 ||mgalternative.github.io^
 ||mgg658.github.io^
+||mimshacks.com^
 ||mine-craft.io^
 ||minecraft-eaglercraft.github.io^
 ||minecraft-games.com^
+||minecraft-mp.com^
 ||minecraft.com^
 ||minecraft.net^
 ||minecraftclassic.online^
@@ -607,6 +617,7 @@
 ||papaspizzeria-unblocked.github.io^
 ||papasunblockedgames.github.io^
 ||paperminecraft.co^
+||pcmobilegames.com^
 ||penaltyshooters.gitlab.io^
 ||picklekid31.github.io^
 ||pla.bad-time-simulator.com^
@@ -629,6 +640,7 @@
 ||playschoolgames.com^
 ||playspark.net^
 ||playzen.io^
+||pog.com^
 ||pogo.com^
 ||poki-games.com^
 ||poki-gdn.com^
@@ -649,6 +661,7 @@
 ||retroarch.com^
 ||retrobowl.me^
 ||retrobowl.school^
+||roblox-unblock.github.io^
 ||rocketgames.io^
 ||rocketgames.net^
 ||rocketgoal.io^
@@ -744,6 +757,7 @@
 ||sunstudio.io^
 ||superjocs.com^
 ||sz-games.github.io^
+||szgames.net^
 ||tagunblocked.com^
 ||tankstroubleunblocked.com^
 ||tanukisunsetgame.github.io^
@@ -772,6 +786,7 @@
 ||twoplayergames.com^
 ||twoplayergames.org^
 ||ubg365.github.io^
+||ubg6969.gitlab.io^
 ||ubg76.com^
 ||ubg76.gitlab.io^
 ||ubg98.github.io^
@@ -831,9 +846,11 @@
 ||y8games.games^
 ||y8games.net^
 ||y8games2.com^
+||y9freegames.com^
 ||yandex.com^
 ||yandexgames.online^
 ||yee.pages.dev^
+||yiv.com^
 ||ynrbsu.github.io^
 ||yoplay.io^
 ||yurk.com^
