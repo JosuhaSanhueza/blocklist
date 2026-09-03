@@ -70,6 +70,7 @@
 ||allwebgames.com^
 ||amandathe-adventurer.com^
 ||amogus.io^
+||among-us.net^
 ||amongus-online.net^
 ||amongus.uk^
 ||amongusfree.io^
@@ -306,8 +307,11 @@
 ||fivenightsatfreddysgame.com^
 ||fivenightsatfreddysgame.io^
 ||flappybird.io^
+||fnaf-unblock.github.io^
+||fnaf.gratis^
 ||fnaffree.io^
 ||fnafgames.io^
+||fnafjuegos.com^
 ||fnafplus.io^
 ||fnf-games.io^
 ||fnfgo.com^
@@ -375,6 +379,7 @@
 ||fuegoyagua.es^
 ||funbrain.com^
 ||funkin.me^
+||funny-school.github.io^
 ||funtrivia.com^
 ||futbol-11.com^
 ||futbol11.com^
@@ -453,6 +458,7 @@
 ||geonautica.pages.dev^
 ||girlsgogames.com^
 ||github.io^
+||githubgames.gitlab.io^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
 ||gogamego.io^
@@ -866,9 +872,12 @@
 ||steala-brainrot.io^
 ||steamcommunity.com^
 ||steampowered.com^
+||stickfighter.io^
 ||stickhook.io^
 ||stickman-hook.io^
 ||stickman-unblocked.github.io^
+||stickman.pro^
+||stickmanhook-unblocked.github.io^
 ||stickmanhook.bitbucket.io^
 ||stickmanhook.org^
 ||stickmanhook2.com^
@@ -950,6 +959,7 @@
 ||unblocked-games.gamesroid.com^
 ||unblocked-steal-a-brainrot.github.io^
 ||unblocked76.org^
+||unblockedgame67.github.io^
 ||unblockedgames66.org^
 ||unblockedgames76.com^
 ||unblockedgames76.gitlab.io^
@@ -999,6 +1009,7 @@
 ||wordles.org^
 ||wordlyplay.com^
 ||wowubg.github.io^
+||wtfgames.io^
 ||xbitlabs.com^
 ||y8-games.com^
 ||y8.com^
@@ -1014,6 +1025,7 @@
 ||ynrbsu.github.io^
 ||yoplay.io^
 ||yucata.de^
+||yupgames.io^
 ||yurk.com^
 ||zapgames.io^
 ||zapgames.site^

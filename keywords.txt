@@ -783,3 +783,10 @@ mope
 tunnelrush
 unblocked66
 unblocked76
+
+# --- Búsqueda específica: FNAF, Among Us, Stickman (2026-09-03) ---
+fnafjuegos
+githubgames
+stickfighter
+wtfgames
+yupgames

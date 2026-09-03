@@ -66,6 +66,7 @@
 0.0.0.0 allwebgames.com
 0.0.0.0 amandathe-adventurer.com
 0.0.0.0 amogus.io
+0.0.0.0 among-us.net
 0.0.0.0 amongus-online.net
 0.0.0.0 amongus.uk
 0.0.0.0 amongusfree.io
@@ -302,8 +303,11 @@
 0.0.0.0 fivenightsatfreddysgame.com
 0.0.0.0 fivenightsatfreddysgame.io
 0.0.0.0 flappybird.io
+0.0.0.0 fnaf-unblock.github.io
+0.0.0.0 fnaf.gratis
 0.0.0.0 fnaffree.io
 0.0.0.0 fnafgames.io
+0.0.0.0 fnafjuegos.com
 0.0.0.0 fnafplus.io
 0.0.0.0 fnf-games.io
 0.0.0.0 fnfgo.com
@@ -371,6 +375,7 @@
 0.0.0.0 fuegoyagua.es
 0.0.0.0 funbrain.com
 0.0.0.0 funkin.me
+0.0.0.0 funny-school.github.io
 0.0.0.0 funtrivia.com
 0.0.0.0 futbol-11.com
 0.0.0.0 futbol11.com
@@ -449,6 +454,7 @@
 0.0.0.0 geonautica.pages.dev
 0.0.0.0 girlsgogames.com
 0.0.0.0 github.io
+0.0.0.0 githubgames.gitlab.io
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
 0.0.0.0 gogamego.io
@@ -862,9 +868,12 @@
 0.0.0.0 steala-brainrot.io
 0.0.0.0 steamcommunity.com
 0.0.0.0 steampowered.com
+0.0.0.0 stickfighter.io
 0.0.0.0 stickhook.io
 0.0.0.0 stickman-hook.io
 0.0.0.0 stickman-unblocked.github.io
+0.0.0.0 stickman.pro
+0.0.0.0 stickmanhook-unblocked.github.io
 0.0.0.0 stickmanhook.bitbucket.io
 0.0.0.0 stickmanhook.org
 0.0.0.0 stickmanhook2.com
@@ -946,6 +955,7 @@
 0.0.0.0 unblocked-games.gamesroid.com
 0.0.0.0 unblocked-steal-a-brainrot.github.io
 0.0.0.0 unblocked76.org
+0.0.0.0 unblockedgame67.github.io
 0.0.0.0 unblockedgames66.org
 0.0.0.0 unblockedgames76.com
 0.0.0.0 unblockedgames76.gitlab.io
@@ -995,6 +1005,7 @@
 0.0.0.0 wordles.org
 0.0.0.0 wordlyplay.com
 0.0.0.0 wowubg.github.io
+0.0.0.0 wtfgames.io
 0.0.0.0 xbitlabs.com
 0.0.0.0 y8-games.com
 0.0.0.0 y8.com
@@ -1010,6 +1021,7 @@
 0.0.0.0 ynrbsu.github.io
 0.0.0.0 yoplay.io
 0.0.0.0 yucata.de
+0.0.0.0 yupgames.io
 0.0.0.0 yurk.com
 0.0.0.0 zapgames.io
 0.0.0.0 zapgames.site
