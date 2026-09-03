@@ -561,6 +561,7 @@
 0.0.0.0 netifun.com
 0.0.0.0 newgrounds.com
 0.0.0.0 night.fire.games
+0.0.0.0 niksid09.neocities.org
 0.0.0.0 nite.games
 0.0.0.0 nitrado.com
 0.0.0.0 nitrado.net
