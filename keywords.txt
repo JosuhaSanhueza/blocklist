@@ -679,3 +679,66 @@ turtlegames
 unblockedgamesblogger
 wheeliebikegame
 woogames
+
+# --- Cuarta tanda: dominios extraídos de artículos "top páginas de juegos" (2026-09-10) ---
+adarkroom
+airconsole
+allsonicgames
+asobrain
+battleon
+betrayal
+bigbadwaffle
+boardgamearena
+ciudadelas
+classicgamezone
+classicreload
+colonist
+curvefever
+dominion
+doublespeakgames
+dragonawaken
+dragonbound
+drawbattle
+drawize
+forgeofempires
+freecivweb
+geoguessr
+graebor
+gtarcade
+helmetroyale
+hexar
+higherlowergame
+jigsawpuzzles
+juegosdiarios
+koalabeast
+lichess
+littlewargame
+mattmakesgames
+mundijuegos
+myabandonware
+papergames
+pinturillo
+plarium
+playclassic
+playold
+playpicross
+realmofthemadgod
+retrogames
+runescape
+scattergoriesonline
+tabletopia
+tagpro
+tankionline
+terrycavanaghgames
+thewikigame
+transformice
+yucata
+
+# --- Frases temáticas para encontrar artículos "top páginas de juegos" (listicles) ---
+juegos online
+juegos en linea
+lista de paginas de juegos
+mejores webs de juegos gratis
+alternativas a friv
+paginas de juegos sin descargar
+juegos de navegador gratis
