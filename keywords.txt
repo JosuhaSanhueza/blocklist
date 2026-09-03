@@ -755,3 +755,19 @@ poncle
 shockwave
 solitaired
 webmulator
+
+# --- Cierre de sesión: paso de 1000 dominios (2026-09-10) ---
+educaenvivo
+elbuhoboo
+jigsawplanet
+juegosarea
+juegosinfantilespum
+juegosipo
+paweljarosz
+pushergames
+puzzlegarage
+seapusher
+spinhook
+swordbattle
+tuxpusher
+weeklyarcade

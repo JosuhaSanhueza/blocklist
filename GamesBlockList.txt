@@ -42,6 +42,7 @@
 ||8games.com^
 ||8games.io^
 ||8games.net^
+||8smcrlgq850irkn7pmvjzg1s.github.io^
 ||a-zgames.com^
 ||a.poki-cdn.com^
 ||a10.com^
@@ -272,8 +273,10 @@
 ||eaglerforge.github.io^
 ||easyfun.gg^
 ||edgesuite.net^
+||educaenvivo.com^
 ||education.com^
 ||education.minecraft.net^
+||elbuhoboo.com^
 ||elgoog.im^
 ||ellieeet123.github.io^
 ||emulatorjs.com^
@@ -285,6 +288,7 @@
 ||essential.gg^
 ||eu.org^
 ||ezpzunblockedgames.com^
+||f1thunder.vercel.app^
 ||faf-games.gitlab.io^
 ||fandejuegos.com^
 ||fastclient.net^
@@ -510,6 +514,7 @@
 ||jeuxdefriv.com^
 ||jeuxdefriv2014.com^
 ||jeuxdefriv2015.com^
+||jigsawplanet.com^
 ||jigsawpuzzles.io^
 ||jklm.fun^
 ||joalor64.itch.io^
@@ -521,6 +526,7 @@
 ||juegos.io^
 ||juegos123.net^
 ||juegosadn.es^
+||juegosarea.com^
 ||juegosdechicas.com^
 ||juegosdiarios.com^
 ||juegosfriv-2020.com^
@@ -543,6 +549,8 @@
 ||juegosfrivolo.com^
 ||juegosgratis.games^
 ||juegosgratispuntocom.github.io^
+||juegosinfantilespum.com^
+||juegosipo.com^
 ||juegosjuegos.com^
 ||juegosjuegos.ws^
 ||jugarmccomportal.base44.app^
@@ -674,6 +682,7 @@
 ||onlinegames.com^
 ||onlinegames.io^
 ||onlinegames.net^
+||ooooooooo.ooo^
 ||opium-games.com^
 ||opticraft.net^
 ||optijuegos.com^
@@ -700,6 +709,7 @@
 ||papasunblockedgames.github.io^
 ||papergames.io^
 ||paperminecraft.co^
+||paweljarosz.itch.io^
 ||pcmobilegames.com^
 ||penaltyshooters.gitlab.io^
 ||petezahgames.com^
@@ -747,6 +757,8 @@
 ||privategameservers.com^
 ||project-scythe.vercel.app^
 ||purogames.com.br^
+||pushergames.itch.io^
+||puzzlegarage.com^
 ||q13x.com^
 ||raftlife.io^
 ||ragdollarchers2.io^
@@ -768,6 +780,7 @@
 ||rossygames.github.io^
 ||run3-game-unblocked.github.io^
 ||runescape.com^
+||rutai.kia.prz.edu.pl^
 ||rycellgames.github.io^
 ||sacul-6.github.io^
 ||sandbox.game^
@@ -779,6 +792,7 @@
 ||schoolunblockedgames.gitlab.io^
 ||schplay.com^
 ||scratchgamesonline.io^
+||seapusher.github.io^
 ||sentry.io^
 ||serpgames.github.io^
 ||servidoresminecraft.info^
@@ -833,6 +847,7 @@
 ||solitaired.com^
 ||spacewaves2.org^
 ||spades.co^
+||spinhook.ir^
 ||starlighttt.netlify.app^
 ||start.gg^
 ||staticquasar931.github.io^
@@ -865,6 +880,7 @@
 ||sunstudio.io^
 ||superjocs.com^
 ||surviv.io^
+||swordbattle.io^
 ||sz-games.github.io^
 ||szgames.net^
 ||tabletopia.com^
@@ -902,6 +918,7 @@
 ||tsyuay.github.io^
 ||tubeclicker.io^
 ||turtlegames.org^
+||tuxpusher.github.io^
 ||twoplayergames.com^
 ||twoplayergames.org^
 ||ubg365.github.io^
@@ -956,6 +973,7 @@
 ||webmc.com^
 ||webmulator.com^
 ||webretro.org^
+||weeklyarcade.games^
 ||weplayretro.games^
 ||werty.me^
 ||wheeliebikegame.github.io^
