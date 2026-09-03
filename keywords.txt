@@ -790,3 +790,8 @@ githubgames
 stickfighter
 wtfgames
 yupgames
+
+# --- Búsqueda específica: Minecraft/Eaglercraft, Granny (2026-09-03) ---
+genizymath
+githubiogames
+grannyfree

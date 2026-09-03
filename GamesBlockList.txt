@@ -427,6 +427,7 @@
 ||garticphone.com^
 ||gd.games^
 ||genarcy.github.io^
+||genizymath.github.io^
 ||geodash.org^
 ||geoguessr.com^
 ||geometry-dash-lite.io^
@@ -459,6 +460,7 @@
 ||girlsgogames.com^
 ||github.io^
 ||githubgames.gitlab.io^
+||githubiogames.com^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
 ||gogamego.io^
@@ -477,6 +479,7 @@
 ||granny.io^
 ||granny1.io^
 ||granny2.io^
+||grannyfree.io^
 ||grannygame.org^
 ||grannyhorror.com^
 ||grannyhorror.io^
@@ -535,6 +538,7 @@
 ||joalor64.itch.io^
 ||jogos-friv.com^
 ||jogos.com^
+||jopi.com^
 ||juegaenlineachile.com^
 ||juegos.com^
 ||juegos.games^

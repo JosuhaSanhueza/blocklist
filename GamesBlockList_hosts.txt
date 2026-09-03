@@ -423,6 +423,7 @@
 0.0.0.0 garticphone.com
 0.0.0.0 gd.games
 0.0.0.0 genarcy.github.io
+0.0.0.0 genizymath.github.io
 0.0.0.0 geodash.org
 0.0.0.0 geoguessr.com
 0.0.0.0 geometry-dash-lite.io
@@ -455,6 +456,7 @@
 0.0.0.0 girlsgogames.com
 0.0.0.0 github.io
 0.0.0.0 githubgames.gitlab.io
+0.0.0.0 githubiogames.com
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
 0.0.0.0 gogamego.io
@@ -473,6 +475,7 @@
 0.0.0.0 granny.io
 0.0.0.0 granny1.io
 0.0.0.0 granny2.io
+0.0.0.0 grannyfree.io
 0.0.0.0 grannygame.org
 0.0.0.0 grannyhorror.com
 0.0.0.0 grannyhorror.io
@@ -531,6 +534,7 @@
 0.0.0.0 joalor64.itch.io
 0.0.0.0 jogos-friv.com
 0.0.0.0 jogos.com
+0.0.0.0 jopi.com
 0.0.0.0 juegaenlineachile.com
 0.0.0.0 juegos.com
 0.0.0.0 juegos.games
