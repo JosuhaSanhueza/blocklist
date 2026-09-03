@@ -96,6 +96,7 @@
 0.0.0.0 coinops.pages.dev
 0.0.0.0 cokitos.com
 0.0.0.0 cookie-clicker2.com
+0.0.0.0 cookieclickernew.com
 0.0.0.0 cooljuegos.com
 0.0.0.0 coolmathgames.com
 0.0.0.0 copero.com.ar
@@ -176,6 +177,7 @@
 0.0.0.0 fastclient.net
 0.0.0.0 femo.com
 0.0.0.0 ff.garena.com
+0.0.0.0 findeaglerservers.com
 0.0.0.0 fivenightsatfreddys.com
 0.0.0.0 fivenightsatfreddysgame.com
 0.0.0.0 fivenightsatfreddysgame.io
@@ -496,6 +498,7 @@
 0.0.0.0 playhop2.com
 0.0.0.0 playminigames.com
 0.0.0.0 playminigames.net
+0.0.0.0 playmushies.com
 0.0.0.0 playschoolgames.com
 0.0.0.0 playspark.net
 0.0.0.0 playzen.io
@@ -608,6 +611,7 @@
 0.0.0.0 veckiogame.org
 0.0.0.0 venge.io
 0.0.0.0 vercel.app
+0.0.0.0 vibearcade.com
 0.0.0.0 vidaextra.com
 0.0.0.0 vitalitygames.com
 0.0.0.0 viverse.com

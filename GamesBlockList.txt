@@ -100,6 +100,7 @@
 ||coinops.pages.dev^
 ||cokitos.com^
 ||cookie-clicker2.com^
+||cookieclickernew.com^
 ||cooljuegos.com^
 ||coolmathgames.com^
 ||copero.com.ar^
@@ -180,6 +181,7 @@
 ||fastclient.net^
 ||femo.com^
 ||ff.garena.com^
+||findeaglerservers.com^
 ||fivenightsatfreddys.com^
 ||fivenightsatfreddysgame.com^
 ||fivenightsatfreddysgame.io^
@@ -500,6 +502,7 @@
 ||playhop2.com^
 ||playminigames.com^
 ||playminigames.net^
+||playmushies.com^
 ||playschoolgames.com^
 ||playspark.net^
 ||playzen.io^
@@ -612,6 +615,7 @@
 ||veckiogame.org^
 ||venge.io^
 ||vercel.app^
+||vibearcade.com^
 ||vidaextra.com^
 ||vitalitygames.com^
 ||viverse.com^

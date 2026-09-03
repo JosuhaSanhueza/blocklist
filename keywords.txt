@@ -494,3 +494,9 @@ gamui
 werty
 yurk
 zelgirl
+
+# --- Encontradas por búsqueda web directa de Claude (2026-09-10) ---
+findeaglerservers
+cookieclickernew
+playmushies
+vibearcade
