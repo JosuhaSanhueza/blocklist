@@ -90,7 +90,10 @@ WHITELIST = {
     # CDNs multi-tenant: miles de sitios sin relación (Pinterest, Reddit, npm, etc.)
     # comparten esta infraestructura bajo el dominio del CDN. El sitio de juegos que
     # la usa se bloquea por SU PROPIO dominio (ej. frvr.com), nunca por el del CDN.
-    "fastly.com", "fastly.net", "fastlylb.net"
+    "fastly.com", "fastly.net", "fastlylb.net",
+    # Plataformas de crowdfunding/hosting con millones de proyectos no relacionados:
+    # bloquear el dominio completo por una campaña de un juego sería colateral masivo.
+    "kickstarter.com",
 }
 
 # CDNs / Infraestructura crítica que NUNCA debemos bloquear al escanear iframe o CDNs embebidos

@@ -20,6 +20,7 @@
 ||3kh0.github.io^
 ||40servidoresmc.es^
 ||4k-teavm.pages.dev^
+||55gms.com^
 ||5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
 ||5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
 ||5kh0.github.io^
@@ -47,6 +48,7 @@
 ||addictinggames.io^
 ||adfree-sz-games.github.io^
 ||aeon-network.net^
+||aflacck.itch.io^
 ||agame.com^
 ||agaonline.io^
 ||agar-io.com^
@@ -119,6 +121,7 @@
 ||brainrotgames.games^
 ||brawl-stars.eu^
 ||bubbleshooteonline.github.io^
+||bubbleshooter.net^
 ||buff.game^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||calcsolver.net^
@@ -329,6 +332,7 @@
 ||frivusa.com^
 ||frvr.com^
 ||fuegoyagua.es^
+||funkin.me^
 ||funtrivia.com^
 ||futbol-11.com^
 ||futbol11.com^
@@ -336,6 +340,7 @@
 ||gamaverse.com^
 ||game-game.com^
 ||game.giantshaft.com^
+||gamebanana.com^
 ||gamedistribution.com^
 ||gameflare.com^
 ||gameflare.net^
@@ -439,6 +444,7 @@
 ||html5games.com^
 ||html5games.io^
 ||html5games.net^
+||hypackellite1.github.io^
 ||hypixel.io^
 ||hypixel.net^
 ||ice-wallo-come.github.io^
@@ -467,6 +473,7 @@
 ||jeuxdefriv2014.com^
 ||jeuxdefriv2015.com^
 ||jklm.fun^
+||joalor64.itch.io^
 ||jogos-friv.com^
 ||jogos.com^
 ||juegaenlineachile.com^
@@ -498,6 +505,7 @@
 ||juegosgratispuntocom.github.io^
 ||juegosjuegos.ws^
 ||jugarmccomportal.base44.app^
+||kazwire.com^
 ||kbhgames.com^
 ||kbhgamesonline.github.io^
 ||keepwork.com^
@@ -597,6 +605,7 @@
 ||nemoplay.com^
 ||neoteo.com^
 ||netifun.com^
+||nettleweb.pages.dev^
 ||newgrounds.com^
 ||night.fire.games^
 ||niksid09.neocities.org^
@@ -721,6 +730,7 @@
 ||shellshockers2.com^
 ||shellshockers2.io^
 ||shhnowisnottheti.me^
+||shsgames.github.io^
 ||shuttleproxy.com^
 ||sigmagames69.github.io^
 ||sigmally.com^
@@ -801,6 +811,7 @@
 ||theimpossiblequiz-online.github.io^
 ||theludos.com^
 ||thesacredtexts.weebly.com^
+||theshovel.rocks^
 ||theslope.github.io^
 ||todojuegosgratis.es^
 ||top-games.net^
@@ -817,6 +828,7 @@
 ||trickjoker312.github.io^
 ||tsyuay.github.io^
 ||tubeclicker.io^
+||turtlegames.org^
 ||twoplayergames.com^
 ||twoplayergames.org^
 ||ubg365.github.io^
@@ -872,6 +884,7 @@
 ||webretro.org^
 ||weplayretro.games^
 ||werty.me^
+||wheeliebikegame.github.io^
 ||woogames.io^
 ||wordle-games.com^
 ||wordle.net^

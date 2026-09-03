@@ -16,6 +16,7 @@
 0.0.0.0 3kh0.github.io
 0.0.0.0 40servidoresmc.es
 0.0.0.0 4k-teavm.pages.dev
+0.0.0.0 55gms.com
 0.0.0.0 5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
 0.0.0.0 5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
 0.0.0.0 5kh0.github.io
@@ -43,6 +44,7 @@
 0.0.0.0 addictinggames.io
 0.0.0.0 adfree-sz-games.github.io
 0.0.0.0 aeon-network.net
+0.0.0.0 aflacck.itch.io
 0.0.0.0 agame.com
 0.0.0.0 agaonline.io
 0.0.0.0 agar-io.com
@@ -115,6 +117,7 @@
 0.0.0.0 brainrotgames.games
 0.0.0.0 brawl-stars.eu
 0.0.0.0 bubbleshooteonline.github.io
+0.0.0.0 bubbleshooter.net
 0.0.0.0 buff.game
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
 0.0.0.0 calcsolver.net
@@ -325,6 +328,7 @@
 0.0.0.0 frivusa.com
 0.0.0.0 frvr.com
 0.0.0.0 fuegoyagua.es
+0.0.0.0 funkin.me
 0.0.0.0 funtrivia.com
 0.0.0.0 futbol-11.com
 0.0.0.0 futbol11.com
@@ -332,6 +336,7 @@
 0.0.0.0 gamaverse.com
 0.0.0.0 game-game.com
 0.0.0.0 game.giantshaft.com
+0.0.0.0 gamebanana.com
 0.0.0.0 gamedistribution.com
 0.0.0.0 gameflare.com
 0.0.0.0 gameflare.net
@@ -435,6 +440,7 @@
 0.0.0.0 html5games.com
 0.0.0.0 html5games.io
 0.0.0.0 html5games.net
+0.0.0.0 hypackellite1.github.io
 0.0.0.0 hypixel.io
 0.0.0.0 hypixel.net
 0.0.0.0 ice-wallo-come.github.io
@@ -463,6 +469,7 @@
 0.0.0.0 jeuxdefriv2014.com
 0.0.0.0 jeuxdefriv2015.com
 0.0.0.0 jklm.fun
+0.0.0.0 joalor64.itch.io
 0.0.0.0 jogos-friv.com
 0.0.0.0 jogos.com
 0.0.0.0 juegaenlineachile.com
@@ -494,6 +501,7 @@
 0.0.0.0 juegosgratispuntocom.github.io
 0.0.0.0 juegosjuegos.ws
 0.0.0.0 jugarmccomportal.base44.app
+0.0.0.0 kazwire.com
 0.0.0.0 kbhgames.com
 0.0.0.0 kbhgamesonline.github.io
 0.0.0.0 keepwork.com
@@ -593,6 +601,7 @@
 0.0.0.0 nemoplay.com
 0.0.0.0 neoteo.com
 0.0.0.0 netifun.com
+0.0.0.0 nettleweb.pages.dev
 0.0.0.0 newgrounds.com
 0.0.0.0 night.fire.games
 0.0.0.0 niksid09.neocities.org
@@ -717,6 +726,7 @@
 0.0.0.0 shellshockers2.com
 0.0.0.0 shellshockers2.io
 0.0.0.0 shhnowisnottheti.me
+0.0.0.0 shsgames.github.io
 0.0.0.0 shuttleproxy.com
 0.0.0.0 sigmagames69.github.io
 0.0.0.0 sigmally.com
@@ -797,6 +807,7 @@
 0.0.0.0 theimpossiblequiz-online.github.io
 0.0.0.0 theludos.com
 0.0.0.0 thesacredtexts.weebly.com
+0.0.0.0 theshovel.rocks
 0.0.0.0 theslope.github.io
 0.0.0.0 todojuegosgratis.es
 0.0.0.0 top-games.net
@@ -813,6 +824,7 @@
 0.0.0.0 trickjoker312.github.io
 0.0.0.0 tsyuay.github.io
 0.0.0.0 tubeclicker.io
+0.0.0.0 turtlegames.org
 0.0.0.0 twoplayergames.com
 0.0.0.0 twoplayergames.org
 0.0.0.0 ubg365.github.io
@@ -868,6 +880,7 @@
 0.0.0.0 webretro.org
 0.0.0.0 weplayretro.games
 0.0.0.0 werty.me
+0.0.0.0 wheeliebikegame.github.io
 0.0.0.0 woogames.io
 0.0.0.0 wordle-games.com
 0.0.0.0 wordle.net
