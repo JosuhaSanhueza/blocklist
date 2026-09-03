@@ -67,6 +67,7 @@
 ||blipzi.com^
 ||bloxd.io^
 ||boing.es^
+||buff.game^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||calcsolver.net^
 ||capybara-game.com^
@@ -117,6 +118,7 @@
 ||delt.io^
 ||diegosjuegos.com^
 ||digamore.com^
+||dinosaur.game^
 ||dinosaurgame-free.io^
 ||dinosaurgame.io^
 ||dominoes365.io^
@@ -268,6 +270,7 @@
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
 ||googlehosted.com^
+||goose.game^
 ||granny-games.com^
 ||granny-online.com^
 ||granny.es^
@@ -296,6 +299,7 @@
 ||hypixel.io^
 ||hypixel.net^
 ||igre.games^
+||imagineisland.game^
 ||img.poki-cdn.com^
 ||impostor.io^
 ||inblog.io^
@@ -432,6 +436,7 @@
 ||pages.dev^
 ||penaltyshooters.gitlab.io^
 ||play-games.com^
+||playable.game^
 ||playbrain.com^
 ||playbrain.games^
 ||playcutegames.com^
@@ -439,6 +444,7 @@
 ||playeaglercraft.com^
 ||player2.game^
 ||playgama.com^
+||playgames.io^
 ||playhop.com^
 ||playhop2.com^
 ||playminigames.com^
@@ -539,6 +545,7 @@
 ||trex-runner.com^
 ||tsyuay.github.io^
 ||twoplayergames.org^
+||ubg76.com^
 ||ubg76.gitlab.io^
 ||ug66.gitlab.io^
 ||ug76.gitlab.io^

@@ -68,6 +68,7 @@
 0.0.0.0 blipzi.com
 0.0.0.0 bloxd.io
 0.0.0.0 boing.es
+0.0.0.0 buff.game
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
 0.0.0.0 calcsolver.net
 0.0.0.0 capybara-game.com
@@ -118,6 +119,7 @@
 0.0.0.0 delt.io
 0.0.0.0 diegosjuegos.com
 0.0.0.0 digamore.com
+0.0.0.0 dinosaur.game
 0.0.0.0 dinosaurgame-free.io
 0.0.0.0 dinosaurgame.io
 0.0.0.0 dominoes365.io
@@ -269,6 +271,7 @@
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
 0.0.0.0 googlehosted.com
+0.0.0.0 goose.game
 0.0.0.0 granny-games.com
 0.0.0.0 granny-online.com
 0.0.0.0 granny.es
@@ -297,6 +300,7 @@
 0.0.0.0 hypixel.io
 0.0.0.0 hypixel.net
 0.0.0.0 igre.games
+0.0.0.0 imagineisland.game
 0.0.0.0 img.poki-cdn.com
 0.0.0.0 impostor.io
 0.0.0.0 inblog.io
@@ -433,6 +437,7 @@
 0.0.0.0 pages.dev
 0.0.0.0 penaltyshooters.gitlab.io
 0.0.0.0 play-games.com
+0.0.0.0 playable.game
 0.0.0.0 playbrain.com
 0.0.0.0 playbrain.games
 0.0.0.0 playcutegames.com
@@ -440,6 +445,7 @@
 0.0.0.0 playeaglercraft.com
 0.0.0.0 player2.game
 0.0.0.0 playgama.com
+0.0.0.0 playgames.io
 0.0.0.0 playhop.com
 0.0.0.0 playhop2.com
 0.0.0.0 playminigames.com
@@ -535,6 +541,7 @@
 0.0.0.0 trex-runner.com
 0.0.0.0 tsyuay.github.io
 0.0.0.0 twoplayergames.org
+0.0.0.0 ubg76.com
 0.0.0.0 ubg76.gitlab.io
 0.0.0.0 ug66.gitlab.io
 0.0.0.0 ug76.gitlab.io
