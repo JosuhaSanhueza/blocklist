@@ -1,4 +1,5 @@
 # --- GamesBlockList (Formato Estándar Hosts / OPNsense Unbound) ---
+0.0.0.0 0ntimer.github.io
 0.0.0.0 1001games.com
 0.0.0.0 1001juegos.com
 0.0.0.0 13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com
@@ -15,6 +16,8 @@
 0.0.0.0 40servidoresmc.es
 0.0.0.0 5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
 0.0.0.0 5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com
+0.0.0.0 5kh0.github.io
+0.0.0.0 658658658.github.io
 0.0.0.0 66-ez.gitlab.io
 0.0.0.0 66games.io
 0.0.0.0 67clicker.bitbucket.io
@@ -24,7 +27,9 @@
 0.0.0.0 6922b02c-40d6-4b41-8250-70ff32fd9b3c.poki-gdn.com
 0.0.0.0 6x-classroom.bitbucket.io
 0.0.0.0 6zar.com
+0.0.0.0 75kh0.github.io
 0.0.0.0 76-games.bitbucket.io
+0.0.0.0 7x.games
 0.0.0.0 8games.com
 0.0.0.0 8games.io
 0.0.0.0 8games.net
@@ -42,6 +47,7 @@
 0.0.0.0 agar.live
 0.0.0.0 agarcity.io
 0.0.0.0 agario.com
+0.0.0.0 agariojuego.com
 0.0.0.0 agarz.com
 0.0.0.0 allout.game
 0.0.0.0 allwebgames.com
@@ -82,6 +88,8 @@
 0.0.0.0 bee.games
 0.0.0.0 bestcrazygames.com
 0.0.0.0 bestminecraftserverlist.net
+0.0.0.0 bgs.pages.dev
+0.0.0.0 bidoofery.github.io
 0.0.0.0 bitlifegame.com
 0.0.0.0 blipzi.com
 0.0.0.0 bloxd.io
@@ -93,6 +101,7 @@
 0.0.0.0 capybara-game.com
 0.0.0.0 capybaragame.io
 0.0.0.0 carrot-craft.org
+0.0.0.0 cattn.github.io
 0.0.0.0 cbgamesdev.github.io
 0.0.0.0 cdn.games.juegos123.net
 0.0.0.0 cdn.pomu.com
@@ -119,6 +128,7 @@
 0.0.0.0 cookieclicker-unblocked.pages.dev
 0.0.0.0 cookieclicker2.io
 0.0.0.0 cookieclickernew.com
+0.0.0.0 cool-orpin.vercel.app
 0.0.0.0 cooljuegos.com
 0.0.0.0 coolmathgames.com
 0.0.0.0 copero.com.ar
@@ -297,6 +307,7 @@
 0.0.0.0 gamenora.com
 0.0.0.0 gamepix.com
 0.0.0.0 gamepluto.com
+0.0.0.0 gamerateofficial.weebly.com
 0.0.0.0 games-66-ez.github.io
 0.0.0.0 games-games.com
 0.0.0.0 games.com
@@ -317,6 +328,7 @@
 0.0.0.0 gartic.io
 0.0.0.0 garticphone.com
 0.0.0.0 gd.games
+0.0.0.0 genarcy.github.io
 0.0.0.0 geodash.org
 0.0.0.0 geometry-dash-lite.io
 0.0.0.0 geometry-dash-unbanned.github.io
@@ -378,6 +390,7 @@
 0.0.0.0 html5games.net
 0.0.0.0 hypixel.io
 0.0.0.0 hypixel.net
+0.0.0.0 ice-wallo-come.github.io
 0.0.0.0 igre.games
 0.0.0.0 imagineisland.game
 0.0.0.0 img.poki-cdn.com
@@ -452,12 +465,15 @@
 0.0.0.0 listamc.com
 0.0.0.0 listamc.net
 0.0.0.0 livegameserverlist.com
+0.0.0.0 lps7x.csb.app
 0.0.0.0 luckyblocks.io
 0.0.0.0 machita66.com
+0.0.0.0 mackeylol.github.io
 0.0.0.0 maddox.games
 0.0.0.0 makeitmeme.com
 0.0.0.0 manablade.com
 0.0.0.0 manablade.io
+0.0.0.0 mathwizard.pages.dev
 0.0.0.0 mcdle.net
 0.0.0.0 mcraft.fun
 0.0.0.0 mcsrc.dev
@@ -466,6 +482,8 @@
 0.0.0.0 meowdoku.games
 0.0.0.0 mergecakegame.com
 0.0.0.0 messcraft.ovh
+0.0.0.0 mgalternative.github.io
+0.0.0.0 mgg658.github.io
 0.0.0.0 mine-craft.io
 0.0.0.0 minecraft-eaglercraft.github.io
 0.0.0.0 minecraft-games.com
@@ -493,8 +511,11 @@
 0.0.0.0 mobirix.com
 0.0.0.0 mobirix.net
 0.0.0.0 mochig.com
+0.0.0.0 monkeymath.pages.dev
 0.0.0.0 morefriv.com
 0.0.0.0 moto-x3monline.github.io
+0.0.0.0 mountain-game-games.github.io
+0.0.0.0 mountjustin.github.io
 0.0.0.0 msauth.net
 0.0.0.0 msn-21.github.io
 0.0.0.0 msn.com
@@ -507,6 +528,7 @@
 0.0.0.0 mywordle.net
 0.0.0.0 nargames.com
 0.0.0.0 narrow.one
+0.0.0.0 nate-games.github.io
 0.0.0.0 neal.fun
 0.0.0.0 nemoplay.com
 0.0.0.0 neoteo.com
@@ -520,20 +542,26 @@
 0.0.0.0 novaskin.me
 0.0.0.0 now.gg
 0.0.0.0 nowgames.io
+0.0.0.0 nowgg.me
+0.0.0.0 oddgames.uk
+0.0.0.0 ofogames.com
 0.0.0.0 ohgames.io
 0.0.0.0 omigames.com
 0.0.0.0 one.io
 0.0.0.0 onlinegames.com
 0.0.0.0 onlinegames.io
 0.0.0.0 onlinegames.net
+0.0.0.0 opium-games.com
 0.0.0.0 opticraft.net
 0.0.0.0 optijuegos.com
 0.0.0.0 optijuegos.net
+0.0.0.0 othermgwebsite.github.io
 0.0.0.0 ottergames.org
 0.0.0.0 ottomate.games
 0.0.0.0 ouazgames.com
 0.0.0.0 ouiheberg.com
 0.0.0.0 outof.games
+0.0.0.0 outred.org
 0.0.0.0 ovo-games-online.github.io
 0.0.0.0 ovoclassic-pro.github.io
 0.0.0.0 pacogames.com
@@ -547,6 +575,7 @@
 0.0.0.0 papasunblockedgames.github.io
 0.0.0.0 paperminecraft.co
 0.0.0.0 penaltyshooters.gitlab.io
+0.0.0.0 picklekid31.github.io
 0.0.0.0 pla.bad-time-simulator.com
 0.0.0.0 play-games.com
 0.0.0.0 playable.game
@@ -576,6 +605,7 @@
 0.0.0.0 pomu.com
 0.0.0.0 primarygames.gitlab.io
 0.0.0.0 privategameservers.com
+0.0.0.0 project-scythe.vercel.app
 0.0.0.0 purogames.com.br
 0.0.0.0 q13x.com
 0.0.0.0 raftlife.io
@@ -595,11 +625,13 @@
 0.0.0.0 scalacube.com
 0.0.0.0 scaryteacher-3d.io
 0.0.0.0 schoolunblockedgames.gitlab.io
+0.0.0.0 schplay.com
 0.0.0.0 scratchgamesonline.io
 0.0.0.0 sentry.io
 0.0.0.0 servidoresminecraft.info
 0.0.0.0 sgames.io
 0.0.0.0 sgames.org
+0.0.0.0 shawgames.com
 0.0.0.0 shellshock.com
 0.0.0.0 shellshock.io
 0.0.0.0 shellshockers.io
@@ -617,6 +649,7 @@
 0.0.0.0 slithergame.io
 0.0.0.0 slope-game-io.github.io
 0.0.0.0 slope-online.github.io
+0.0.0.0 slope.faav.top
 0.0.0.0 slope2unblocked.com
 0.0.0.0 slope3.com
 0.0.0.0 slope3unblocked.github.io
@@ -629,6 +662,7 @@
 0.0.0.0 slopeunblocked.games
 0.0.0.0 smashkarts.com
 0.0.0.0 smcraft.fun
+0.0.0.0 smdgames.github.io
 0.0.0.0 snakejuego.com
 0.0.0.0 snokido.com
 0.0.0.0 snowrider.pro
@@ -659,12 +693,15 @@
 0.0.0.0 subwaysurfers-unblocked.github.io
 0.0.0.0 subwaysurfers-unblocked.gitlab.io
 0.0.0.0 subwaysurfers.gg
+0.0.0.0 suite.saltyspamz.xyz
 0.0.0.0 sunfs.app
 0.0.0.0 sunstudio.io
 0.0.0.0 superjocs.com
+0.0.0.0 sz-games.github.io
 0.0.0.0 tagunblocked.com
 0.0.0.0 tankstroubleunblocked.com
 0.0.0.0 teamgames.club
+0.0.0.0 teddblue.github.io
 0.0.0.0 templerungames.github.io
 0.0.0.0 theludos.com
 0.0.0.0 theslope.github.io
@@ -680,6 +717,7 @@
 0.0.0.0 totaljerkface.com
 0.0.0.0 treeshateyou-game.com
 0.0.0.0 trex-runner.com
+0.0.0.0 trickjoker312.github.io
 0.0.0.0 tsyuay.github.io
 0.0.0.0 tubeclicker.io
 0.0.0.0 twoplayergames.com
@@ -698,6 +736,7 @@
 0.0.0.0 unblockedgames76.gitlab.io
 0.0.0.0 unblockedgamesbrowser.com
 0.0.0.0 unblockedgamesgg.com
+0.0.0.0 unblockedgamesheaven.brownwebdesign.com
 0.0.0.0 unblockedrush.com
 0.0.0.0 unity3d.com
 0.0.0.0 us.com
@@ -712,6 +751,7 @@
 0.0.0.0 vectaria.io
 0.0.0.0 venge.io
 0.0.0.0 vercel.app
+0.0.0.0 vexgames.online
 0.0.0.0 vibearcade.com
 0.0.0.0 vidaextra.com
 0.0.0.0 vitalitygames.com

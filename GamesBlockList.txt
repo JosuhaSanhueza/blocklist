@@ -3,6 +3,7 @@
 ||sites.google.com/site/totalgameinn/*^
 ||sites.google.com/view/*game*^
 ||sites.google.com/view/totalgameinn/*^
+||0ntimer.github.io^
 ||1001games.com^
 ||1001juegos.com^
 ||13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com^
@@ -19,6 +20,8 @@
 ||40servidoresmc.es^
 ||5dd2c5c4-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
 ||5dd312fa-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com^
+||5kh0.github.io^
+||658658658.github.io^
 ||66-ez.gitlab.io^
 ||66games.io^
 ||67clicker.bitbucket.io^
@@ -28,7 +31,9 @@
 ||6922b02c-40d6-4b41-8250-70ff32fd9b3c.poki-gdn.com^
 ||6x-classroom.bitbucket.io^
 ||6zar.com^
+||75kh0.github.io^
 ||76-games.bitbucket.io^
+||7x.games^
 ||8games.com^
 ||8games.io^
 ||8games.net^
@@ -46,6 +51,7 @@
 ||agar.live^
 ||agarcity.io^
 ||agario.com^
+||agariojuego.com^
 ||agarz.com^
 ||allout.game^
 ||allwebgames.com^
@@ -86,6 +92,8 @@
 ||bee.games^
 ||bestcrazygames.com^
 ||bestminecraftserverlist.net^
+||bgs.pages.dev^
+||bidoofery.github.io^
 ||bitlifegame.com^
 ||blipzi.com^
 ||bloxd.io^
@@ -97,6 +105,7 @@
 ||capybara-game.com^
 ||capybaragame.io^
 ||carrot-craft.org^
+||cattn.github.io^
 ||cbgamesdev.github.io^
 ||cdn.games.juegos123.net^
 ||cdn.pomu.com^
@@ -123,6 +132,7 @@
 ||cookieclicker-unblocked.pages.dev^
 ||cookieclicker2.io^
 ||cookieclickernew.com^
+||cool-orpin.vercel.app^
 ||cooljuegos.com^
 ||coolmathgames.com^
 ||copero.com.ar^
@@ -301,6 +311,7 @@
 ||gamenora.com^
 ||gamepix.com^
 ||gamepluto.com^
+||gamerateofficial.weebly.com^
 ||games-66-ez.github.io^
 ||games-games.com^
 ||games.com^
@@ -321,6 +332,7 @@
 ||gartic.io^
 ||garticphone.com^
 ||gd.games^
+||genarcy.github.io^
 ||geodash.org^
 ||geometry-dash-lite.io^
 ||geometry-dash-unbanned.github.io^
@@ -382,6 +394,7 @@
 ||html5games.net^
 ||hypixel.io^
 ||hypixel.net^
+||ice-wallo-come.github.io^
 ||igre.games^
 ||imagineisland.game^
 ||img.poki-cdn.com^
@@ -456,12 +469,15 @@
 ||listamc.com^
 ||listamc.net^
 ||livegameserverlist.com^
+||lps7x.csb.app^
 ||luckyblocks.io^
 ||machita66.com^
+||mackeylol.github.io^
 ||maddox.games^
 ||makeitmeme.com^
 ||manablade.com^
 ||manablade.io^
+||mathwizard.pages.dev^
 ||mcdle.net^
 ||mcraft.fun^
 ||mcsrc.dev^
@@ -470,6 +486,8 @@
 ||meowdoku.games^
 ||mergecakegame.com^
 ||messcraft.ovh^
+||mgalternative.github.io^
+||mgg658.github.io^
 ||mine-craft.io^
 ||minecraft-eaglercraft.github.io^
 ||minecraft-games.com^
@@ -497,8 +515,11 @@
 ||mobirix.com^
 ||mobirix.net^
 ||mochig.com^
+||monkeymath.pages.dev^
 ||morefriv.com^
 ||moto-x3monline.github.io^
+||mountain-game-games.github.io^
+||mountjustin.github.io^
 ||msauth.net^
 ||msn-21.github.io^
 ||msn.com^
@@ -511,6 +532,7 @@
 ||mywordle.net^
 ||nargames.com^
 ||narrow.one^
+||nate-games.github.io^
 ||neal.fun^
 ||nemoplay.com^
 ||neoteo.com^
@@ -524,20 +546,26 @@
 ||novaskin.me^
 ||now.gg^
 ||nowgames.io^
+||nowgg.me^
+||oddgames.uk^
+||ofogames.com^
 ||ohgames.io^
 ||omigames.com^
 ||one.io^
 ||onlinegames.com^
 ||onlinegames.io^
 ||onlinegames.net^
+||opium-games.com^
 ||opticraft.net^
 ||optijuegos.com^
 ||optijuegos.net^
+||othermgwebsite.github.io^
 ||ottergames.org^
 ||ottomate.games^
 ||ouazgames.com^
 ||ouiheberg.com^
 ||outof.games^
+||outred.org^
 ||ovo-games-online.github.io^
 ||ovoclassic-pro.github.io^
 ||pacogames.com^
@@ -551,6 +579,7 @@
 ||papasunblockedgames.github.io^
 ||paperminecraft.co^
 ||penaltyshooters.gitlab.io^
+||picklekid31.github.io^
 ||pla.bad-time-simulator.com^
 ||play-games.com^
 ||playable.game^
@@ -580,6 +609,7 @@
 ||pomu.com^
 ||primarygames.gitlab.io^
 ||privategameservers.com^
+||project-scythe.vercel.app^
 ||purogames.com.br^
 ||q13x.com^
 ||raftlife.io^
@@ -599,11 +629,13 @@
 ||scalacube.com^
 ||scaryteacher-3d.io^
 ||schoolunblockedgames.gitlab.io^
+||schplay.com^
 ||scratchgamesonline.io^
 ||sentry.io^
 ||servidoresminecraft.info^
 ||sgames.io^
 ||sgames.org^
+||shawgames.com^
 ||shellshock.com^
 ||shellshock.io^
 ||shellshockers.io^
@@ -621,6 +653,7 @@
 ||slithergame.io^
 ||slope-game-io.github.io^
 ||slope-online.github.io^
+||slope.faav.top^
 ||slope2unblocked.com^
 ||slope3.com^
 ||slope3unblocked.github.io^
@@ -633,6 +666,7 @@
 ||slopeunblocked.games^
 ||smashkarts.com^
 ||smcraft.fun^
+||smdgames.github.io^
 ||snakejuego.com^
 ||snokido.com^
 ||snowrider.pro^
@@ -663,12 +697,15 @@
 ||subwaysurfers-unblocked.github.io^
 ||subwaysurfers-unblocked.gitlab.io^
 ||subwaysurfers.gg^
+||suite.saltyspamz.xyz^
 ||sunfs.app^
 ||sunstudio.io^
 ||superjocs.com^
+||sz-games.github.io^
 ||tagunblocked.com^
 ||tankstroubleunblocked.com^
 ||teamgames.club^
+||teddblue.github.io^
 ||templerungames.github.io^
 ||theludos.com^
 ||theslope.github.io^
@@ -684,6 +721,7 @@
 ||totaljerkface.com^
 ||treeshateyou-game.com^
 ||trex-runner.com^
+||trickjoker312.github.io^
 ||tsyuay.github.io^
 ||tubeclicker.io^
 ||twoplayergames.com^
@@ -702,6 +740,7 @@
 ||unblockedgames76.gitlab.io^
 ||unblockedgamesbrowser.com^
 ||unblockedgamesgg.com^
+||unblockedgamesheaven.brownwebdesign.com^
 ||unblockedrush.com^
 ||unity3d.com^
 ||us.com^
@@ -716,6 +755,7 @@
 ||vectaria.io^
 ||venge.io^
 ||vercel.app^
+||vexgames.online^
 ||vibearcade.com^
 ||vidaextra.com^
 ||vitalitygames.com^
