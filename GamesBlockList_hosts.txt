@@ -151,6 +151,7 @@
 0.0.0.0 delt.io
 0.0.0.0 detodojuegos.com
 0.0.0.0 diegosjuegos.com
+0.0.0.0 diepio2.pages.dev
 0.0.0.0 digamore.com
 0.0.0.0 dinogame.gg
 0.0.0.0 dinorunner.com
@@ -341,6 +342,7 @@
 0.0.0.0 geometrylitepc.com
 0.0.0.0 geometrylitepc.io
 0.0.0.0 geometydashwave.io
+0.0.0.0 geonautica.pages.dev
 0.0.0.0 github.io
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
@@ -680,6 +682,7 @@
 0.0.0.0 trex-runner.com
 0.0.0.0 tsyuay.github.io
 0.0.0.0 tubeclicker.io
+0.0.0.0 twoplayergames.com
 0.0.0.0 twoplayergames.org
 0.0.0.0 ubg365.github.io
 0.0.0.0 ubg76.com
@@ -739,6 +742,7 @@
 0.0.0.0 zapgames.io
 0.0.0.0 zapgames.site
 0.0.0.0 zelgirl.com
+0.0.0.0 zenithub.pages.dev
 0.0.0.0 zentic.org
 0.0.0.0 zgames.com
 0.0.0.0 zgames.io
