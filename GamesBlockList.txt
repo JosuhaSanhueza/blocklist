@@ -1060,3 +1060,5 @@
 ||eaglercraftonline.bitbucket.io^
 ||thefreakcircus.my^
 ||clickspeedtester.com^
+||eaglercraft.global.ssl.fastly.net^
+||fishinggames.us^
