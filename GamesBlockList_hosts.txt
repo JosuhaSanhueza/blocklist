@@ -536,10 +536,14 @@
 0.0.0.0 jogos.com
 0.0.0.0 jopi.com
 0.0.0.0 juegaenlineachile.com
+0.0.0.0 juegos-es.bitbucket.io
+0.0.0.0 juegos-gratis.bitbucket.io
+0.0.0.0 juegos-poki.bitbucket.io
 0.0.0.0 juegos.com
 0.0.0.0 juegos.games
 0.0.0.0 juegos.io
 0.0.0.0 juegos123.net
+0.0.0.0 juegosadn.com
 0.0.0.0 juegosadn.es
 0.0.0.0 juegosarea.com
 0.0.0.0 juegosdechicas.com
@@ -719,6 +723,7 @@
 0.0.0.0 paisdelosjuegos.net
 0.0.0.0 papas-games.io
 0.0.0.0 papasgames.fit
+0.0.0.0 papasgamesfree.com
 0.0.0.0 papasgamesfree.io
 0.0.0.0 papasgamesonline.github.io
 0.0.0.0 papaspizzeria-unblocked.github.io
@@ -747,6 +752,7 @@
 0.0.0.0 player2.game
 0.0.0.0 playgama.com
 0.0.0.0 playgames.io
+0.0.0.0 playgeodash.com
 0.0.0.0 playgeodash.pages.dev
 0.0.0.0 playhop.com
 0.0.0.0 playhop2.com
@@ -761,8 +767,14 @@
 0.0.0.0 playzen.io
 0.0.0.0 pog.com
 0.0.0.0 pogo.com
+0.0.0.0 poki-es.bitbucket.io
+0.0.0.0 poki-games.bitbucket.io
 0.0.0.0 poki-games.com
 0.0.0.0 poki-gdn.com
+0.0.0.0 poki-gratis.bitbucket.io
+0.0.0.0 poki-juegos-gratis.bitbucket.io
+0.0.0.0 poki-juegos.bitbucket.io
+0.0.0.0 poki-jugar.bitbucket.io
 0.0.0.0 poki.com
 0.0.0.0 poki.io
 0.0.0.0 poki1.com

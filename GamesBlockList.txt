@@ -1,8 +1,3 @@
-||sites.google.com/*/games/*^
-||sites.google.com/*/super-mario-world^
-||sites.google.com/site/totalgameinn/*^
-||sites.google.com/view/*game*^
-||sites.google.com/view/totalgameinn/*^
 ||0ntimer.github.io^
 ||1001games.com^
 ||1001juegos.com^
@@ -540,10 +535,14 @@
 ||jogos.com^
 ||jopi.com^
 ||juegaenlineachile.com^
+||juegos-es.bitbucket.io^
+||juegos-gratis.bitbucket.io^
+||juegos-poki.bitbucket.io^
 ||juegos.com^
 ||juegos.games^
 ||juegos.io^
 ||juegos123.net^
+||juegosadn.com^
 ||juegosadn.es^
 ||juegosarea.com^
 ||juegosdechicas.com^
@@ -723,6 +722,7 @@
 ||paisdelosjuegos.net^
 ||papas-games.io^
 ||papasgames.fit^
+||papasgamesfree.com^
 ||papasgamesfree.io^
 ||papasgamesonline.github.io^
 ||papaspizzeria-unblocked.github.io^
@@ -751,6 +751,7 @@
 ||player2.game^
 ||playgama.com^
 ||playgames.io^
+||playgeodash.com^
 ||playgeodash.pages.dev^
 ||playhop.com^
 ||playhop2.com^
@@ -765,8 +766,14 @@
 ||playzen.io^
 ||pog.com^
 ||pogo.com^
+||poki-es.bitbucket.io^
+||poki-games.bitbucket.io^
 ||poki-games.com^
 ||poki-gdn.com^
+||poki-gratis.bitbucket.io^
+||poki-juegos-gratis.bitbucket.io^
+||poki-juegos.bitbucket.io^
+||poki-jugar.bitbucket.io^
 ||poki.com^
 ||poki.io^
 ||poki1.com^
@@ -833,6 +840,11 @@
 ||sigmally.com^
 ||silvergames.com^
 ||silvergames.io^
+||sites.google.com/*/games/*^
+||sites.google.com/*/super-mario-world^
+||sites.google.com/site/totalgameinn/*^
+||sites.google.com/view/*game*^
+||sites.google.com/view/totalgameinn/*^
 ||sketchful.io^
 ||skinsmc.org^
 ||skribbl.io^
