@@ -1053,3 +1053,8 @@
 ||zlite.zatoga.net^
 ||zynga.com^
 ||zynga.games^
+||kiwigames.fun^
+||fnaf1.io^
+||fnf-2.io^
+||horrorgames.io^
+||eaglercraftonline.bitbucket.io^
