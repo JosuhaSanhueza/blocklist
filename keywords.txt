@@ -795,3 +795,24 @@ yupgames
 genizymath
 githubiogames
 grannyfree
+
+# --- Listicles de categorías sin cobertura (carreras, terror, tower defense,
+# mecanografía, puzzle, deportes), sesión 2026-09-04 ---
+buildroyale
+taming
+primarygames
+gamulo
+juegosabiertos
+fastplaygames
+strategygame
+kingdomrush
+gameinabottle
+handdrawngames
+misjuegos
+freetypinggame
+typingstudy
+ninjakiwi
+playpager
+saygames
+gameyard
+mmobomb
