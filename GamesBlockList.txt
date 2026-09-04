@@ -1058,3 +1058,5 @@
 ||fnf-2.io^
 ||horrorgames.io^
 ||eaglercraftonline.bitbucket.io^
+||thefreakcircus.my^
+||clickspeedtester.com^
