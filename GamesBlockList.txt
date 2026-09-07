@@ -197,6 +197,7 @@
 ||cokogames.com^
 ||colonist.io^
 ||congusbongus.itch.io^
+||consto.uk^
 ||cookie-clicker2.com^
 ||cookieclicker-unblocked.pages.dev^
 ||cookieclicker2.io^
@@ -326,6 +327,7 @@
 ||epiconlinegames.com^
 ||essential.gg^
 ||eu.org^
+||eyebrow-tetris.sanderdesnaijer.com^
 ||ezpzunblockedgames.com^
 ||f1-three-ivory.vercel.app^
 ||f1thunder.vercel.app^
@@ -680,6 +682,7 @@
 ||manablade.io^
 ||manasource.itch.io^
 ||marbleblast-abhiverse.dedyn.io^
+||marianogappa.github.io^
 ||mathwizard.pages.dev^
 ||mattmakesgames.itch.io^
 ||maxwellstevenson.com^

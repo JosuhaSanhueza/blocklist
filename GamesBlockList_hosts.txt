@@ -193,6 +193,7 @@
 0.0.0.0 cokogames.com
 0.0.0.0 colonist.io
 0.0.0.0 congusbongus.itch.io
+0.0.0.0 consto.uk
 0.0.0.0 cookie-clicker2.com
 0.0.0.0 cookieclicker-unblocked.pages.dev
 0.0.0.0 cookieclicker2.io
@@ -322,6 +323,7 @@
 0.0.0.0 epiconlinegames.com
 0.0.0.0 essential.gg
 0.0.0.0 eu.org
+0.0.0.0 eyebrow-tetris.sanderdesnaijer.com
 0.0.0.0 ezpzunblockedgames.com
 0.0.0.0 f1-three-ivory.vercel.app
 0.0.0.0 f1thunder.vercel.app
@@ -676,6 +678,7 @@
 0.0.0.0 manablade.io
 0.0.0.0 manasource.itch.io
 0.0.0.0 marbleblast-abhiverse.dedyn.io
+0.0.0.0 marianogappa.github.io
 0.0.0.0 mathwizard.pages.dev
 0.0.0.0 mattmakesgames.itch.io
 0.0.0.0 maxwellstevenson.com
