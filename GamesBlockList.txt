@@ -182,6 +182,7 @@
 ||classroom20x.com^
 ||classroom80x.com^
 ||classroomgame.github.io^
+||classroomlite.vercel.app^
 ||classrooms6x.gitlab.io^
 ||clavejuegos.com^
 ||cleverappssg.com^
@@ -281,6 +282,7 @@
 ||driftbossonline.github.io^
 ||driftbossunblocked.io^
 ||drifthunters.org^
+||drifthunters66online.github.io^
 ||drillur.itch.io^
 ||drivequest.io^
 ||duck-math.gitlab.io^
@@ -326,6 +328,7 @@
 ||emulatorjs.org^
 ||emupedia.net^
 ||emuvault-2.firebaseapp.com^
+||epic-craft.vercel.app^
 ||epicgames.com^
 ||epiconlinegames.com^
 ||essential.gg^
@@ -347,6 +350,7 @@
 ||fivenightsatfreddysgame.com^
 ||fivenightsatfreddysgame.io^
 ||flappybird.io^
+||flqmedev.github.io^
 ||fnaf-unblock.github.io^
 ||fnaf.gratis^
 ||fnaf1.io^
@@ -900,6 +904,7 @@
 ||realmofthemadgod.com^
 ||remarkablegames.itch.io^
 ||remarkablegames.org^
+||resent5.pages.dev^
 ||resurviv.biz^
 ||retroarch.com^
 ||retrobowl.me^

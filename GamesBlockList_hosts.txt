@@ -178,6 +178,7 @@
 0.0.0.0 classroom20x.com
 0.0.0.0 classroom80x.com
 0.0.0.0 classroomgame.github.io
+0.0.0.0 classroomlite.vercel.app
 0.0.0.0 classrooms6x.gitlab.io
 0.0.0.0 clavejuegos.com
 0.0.0.0 cleverappssg.com
@@ -277,6 +278,7 @@
 0.0.0.0 driftbossonline.github.io
 0.0.0.0 driftbossunblocked.io
 0.0.0.0 drifthunters.org
+0.0.0.0 drifthunters66online.github.io
 0.0.0.0 drillur.itch.io
 0.0.0.0 drivequest.io
 0.0.0.0 duck-math.gitlab.io
@@ -322,6 +324,7 @@
 0.0.0.0 emulatorjs.org
 0.0.0.0 emupedia.net
 0.0.0.0 emuvault-2.firebaseapp.com
+0.0.0.0 epic-craft.vercel.app
 0.0.0.0 epicgames.com
 0.0.0.0 epiconlinegames.com
 0.0.0.0 essential.gg
@@ -343,6 +346,7 @@
 0.0.0.0 fivenightsatfreddysgame.com
 0.0.0.0 fivenightsatfreddysgame.io
 0.0.0.0 flappybird.io
+0.0.0.0 flqmedev.github.io
 0.0.0.0 fnaf-unblock.github.io
 0.0.0.0 fnaf.gratis
 0.0.0.0 fnaf1.io
@@ -896,6 +900,7 @@
 0.0.0.0 realmofthemadgod.com
 0.0.0.0 remarkablegames.itch.io
 0.0.0.0 remarkablegames.org
+0.0.0.0 resent5.pages.dev
 0.0.0.0 resurviv.biz
 0.0.0.0 retroarch.com
 0.0.0.0 retrobowl.me
