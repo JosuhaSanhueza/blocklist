@@ -86,12 +86,14 @@
 0.0.0.0 armorgames-as.bitbucket.io
 0.0.0.0 armorgames.com
 0.0.0.0 armorgames.online
+0.0.0.0 armywars.com
 0.0.0.0 arvexgames.com
 0.0.0.0 ascjogos.org.br
 0.0.0.0 asobrain.com
 0.0.0.0 assets.gd.sbs.softgames.de
 0.0.0.0 aternos.net
 0.0.0.0 aternos.org
+0.0.0.0 atwar-game.com
 0.0.0.0 axenthost.com
 0.0.0.0 azagames.io
 0.0.0.0 azenark.github.io
@@ -108,6 +110,7 @@
 0.0.0.0 battleon.com
 0.0.0.0 bee.games
 0.0.0.0 bestcrazygames.com
+0.0.0.0 bestgames.com
 0.0.0.0 bestminecraftserverlist.net
 0.0.0.0 bestunblockedgames.com
 0.0.0.0 betrayal.io
@@ -664,6 +667,7 @@
 0.0.0.0 miniblox.io
 0.0.0.0 minijuegos.com
 0.0.0.0 minijuegos.games
+0.0.0.0 minijuegos.mx
 0.0.0.0 minijuegosgratis.com
 0.0.0.0 miniplay.com
 0.0.0.0 miniplay.io

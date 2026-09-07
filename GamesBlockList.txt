@@ -90,12 +90,14 @@
 ||armorgames-as.bitbucket.io^
 ||armorgames.com^
 ||armorgames.online^
+||armywars.com^
 ||arvexgames.com^
 ||ascjogos.org.br^
 ||asobrain.com^
 ||assets.gd.sbs.softgames.de^
 ||aternos.net^
 ||aternos.org^
+||atwar-game.com^
 ||axenthost.com^
 ||azagames.io^
 ||azenark.github.io^
@@ -112,6 +114,7 @@
 ||battleon.com^
 ||bee.games^
 ||bestcrazygames.com^
+||bestgames.com^
 ||bestminecraftserverlist.net^
 ||bestunblockedgames.com^
 ||betrayal.io^
@@ -668,6 +671,7 @@
 ||miniblox.io^
 ||minijuegos.com^
 ||minijuegos.games^
+||minijuegos.mx^
 ||minijuegosgratis.com^
 ||miniplay.com^
 ||miniplay.io^
