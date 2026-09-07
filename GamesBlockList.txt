@@ -375,6 +375,7 @@
 ||freegames9.com^
 ||freemcserver.net^
 ||freeonlinegames.com^
+||freetogame.com^
 ||freetypinggame.net^
 ||freewebgames.io^
 ||friclassic.online^
@@ -458,6 +459,7 @@
 ||gamepix.com^
 ||gamepluto.com^
 ||gamerateofficial.weebly.com^
+||games-4-free.com^
 ||games-66-ez.github.io^
 ||games-games.com^
 ||games.com^

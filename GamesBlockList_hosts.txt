@@ -371,6 +371,7 @@
 0.0.0.0 freegames9.com
 0.0.0.0 freemcserver.net
 0.0.0.0 freeonlinegames.com
+0.0.0.0 freetogame.com
 0.0.0.0 freetypinggame.net
 0.0.0.0 freewebgames.io
 0.0.0.0 friclassic.online
@@ -454,6 +455,7 @@
 0.0.0.0 gamepix.com
 0.0.0.0 gamepluto.com
 0.0.0.0 gamerateofficial.weebly.com
+0.0.0.0 games-4-free.com
 0.0.0.0 games-66-ez.github.io
 0.0.0.0 games-games.com
 0.0.0.0 games.com
