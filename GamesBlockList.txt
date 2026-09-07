@@ -376,6 +376,7 @@
 ||freeciv.org^
 ||freecivweb.com^
 ||freedombrowser.org^
+||freefocusgames.com^
 ||freegame.com^
 ||freegames.com^
 ||freegames.io^

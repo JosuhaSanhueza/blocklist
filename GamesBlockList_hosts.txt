@@ -372,6 +372,7 @@
 0.0.0.0 freeciv.org
 0.0.0.0 freecivweb.com
 0.0.0.0 freedombrowser.org
+0.0.0.0 freefocusgames.com
 0.0.0.0 freegame.com
 0.0.0.0 freegames.com
 0.0.0.0 freegames.io
