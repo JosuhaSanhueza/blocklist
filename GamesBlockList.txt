@@ -113,8 +113,10 @@
 ||badtimesimulator.org^
 ||base44.app^
 ||basketball-stars.io^
+||basketballbros.site^
 ||basketballlegends.fun^
 ||basketballstarss.github.io^
+||basketballstarsunblocked.vercel.app^
 ||basketrandom.io^
 ||battleon.com^
 ||bee.games^
@@ -1123,6 +1125,7 @@
 ||unblockedgamesbrowser.com^
 ||unblockedgamesgg.com^
 ||unblockedgamesheaven.brownwebdesign.com^
+||unblockedgamespremiumonline.github.io^
 ||unblockedrush.com^
 ||unity3d.com^
 ||untitledproxy.pages.dev^
