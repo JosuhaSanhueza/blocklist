@@ -46,6 +46,7 @@
 0.0.0.0 a.poki-cdn.com
 0.0.0.0 a10.com
 0.0.0.0 abcya.com
+0.0.0.0 abrainrot.com
 0.0.0.0 adarkroom.doublespeakgames.com
 0.0.0.0 addictinggames.com
 0.0.0.0 addictinggames.io
@@ -525,6 +526,7 @@
 0.0.0.0 githubiogames.com
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
+0.0.0.0 gladihoppers.io
 0.0.0.0 glazegames.com
 0.0.0.0 gogamego.io
 0.0.0.0 gomestable.netlify.app
@@ -1010,6 +1012,7 @@
 0.0.0.0 start.gg
 0.0.0.0 staticquasar931.github.io
 0.0.0.0 steala-brainrot.io
+0.0.0.0 stealbrainrotgame.com
 0.0.0.0 steamcommunity.com
 0.0.0.0 steampowered.com
 0.0.0.0 stickfighter.io

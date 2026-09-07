@@ -50,6 +50,7 @@
 ||a.poki-cdn.com^
 ||a10.com^
 ||abcya.com^
+||abrainrot.com^
 ||adarkroom.doublespeakgames.com^
 ||addictinggames.com^
 ||addictinggames.io^
@@ -529,6 +530,7 @@
 ||githubiogames.com^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
+||gladihoppers.io^
 ||glazegames.com^
 ||gogamego.io^
 ||gomestable.netlify.app^
@@ -1014,6 +1016,7 @@
 ||start.gg^
 ||staticquasar931.github.io^
 ||steala-brainrot.io^
+||stealbrainrotgame.com^
 ||steamcommunity.com^
 ||steampowered.com^
 ||stickfighter.io^
