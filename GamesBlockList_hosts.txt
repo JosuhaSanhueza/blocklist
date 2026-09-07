@@ -144,6 +144,7 @@
 0.0.0.0 brainrotgames.games
 0.0.0.0 brawl-stars.eu
 0.0.0.0 breakbar.itch.io
+0.0.0.0 breakplay.fun
 0.0.0.0 bubbleshooteonline.github.io
 0.0.0.0 bubbleshooter.net
 0.0.0.0 buff.game
@@ -470,6 +471,7 @@
 0.0.0.0 gamevgames.com
 0.0.0.0 gameyard.com
 0.0.0.0 gamezipper.com
+0.0.0.0 gaminglab.dev
 0.0.0.0 gamui.com
 0.0.0.0 gamulo.com
 0.0.0.0 gartic.com
@@ -1042,6 +1044,7 @@
 0.0.0.0 tetr.io
 0.0.0.0 thefreakcircus.my
 0.0.0.0 thegamecenter.github.io
+0.0.0.0 thegamingnest.com
 0.0.0.0 theimpossiblequiz-online.github.io
 0.0.0.0 theludos.com
 0.0.0.0 thesacredtexts.weebly.com

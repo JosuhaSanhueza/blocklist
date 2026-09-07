@@ -148,6 +148,7 @@
 ||brainrotgames.games^
 ||brawl-stars.eu^
 ||breakbar.itch.io^
+||breakplay.fun^
 ||bubbleshooteonline.github.io^
 ||bubbleshooter.net^
 ||buff.game^
@@ -474,6 +475,7 @@
 ||gamevgames.com^
 ||gameyard.com^
 ||gamezipper.com^
+||gaminglab.dev^
 ||gamui.com^
 ||gamulo.com^
 ||gartic.com^
@@ -1046,6 +1048,7 @@
 ||tetr.io^
 ||thefreakcircus.my^
 ||thegamecenter.github.io^
+||thegamingnest.com^
 ||theimpossiblequiz-online.github.io^
 ||theludos.com^
 ||thesacredtexts.weebly.com^
