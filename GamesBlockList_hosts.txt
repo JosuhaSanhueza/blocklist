@@ -211,6 +211,7 @@
 0.0.0.0 crossy-road-unblock.github.io
 0.0.0.0 cryzen.io
 0.0.0.0 cubecraft.net
+0.0.0.0 cursorball.onrender.com
 0.0.0.0 curvefever.pro
 0.0.0.0 cutedressup.com
 0.0.0.0 d1tmbzjih4bfq6.cloudfront.net
@@ -416,6 +417,7 @@
 0.0.0.0 games-66-ez.github.io
 0.0.0.0 games-games.com
 0.0.0.0 games.com
+0.0.0.0 games.gg
 0.0.0.0 games.serp.co
 0.0.0.0 games4.com
 0.0.0.0 games44.com
@@ -534,6 +536,7 @@
 0.0.0.0 itch.io
 0.0.0.0 itchio.top
 0.0.0.0 jackpot-games-damifidy.vercel.app
+0.0.0.0 jerryshell.itch.io
 0.0.0.0 jetspaz.com
 0.0.0.0 jetyehs.github.io
 0.0.0.0 jeuxdefriv.com
@@ -674,6 +677,7 @@
 0.0.0.0 monkeymath.pages.dev
 0.0.0.0 mope.io
 0.0.0.0 morefriv.com
+0.0.0.0 morphz.io
 0.0.0.0 moto-x3monline.github.io
 0.0.0.0 mountain-game-games.github.io
 0.0.0.0 mountain658.github.io
@@ -813,6 +817,7 @@
 0.0.0.0 re-pack-delta.vercel.app
 0.0.0.0 realhack101sunblockedunq.webnode.page
 0.0.0.0 realmofthemadgod.com
+0.0.0.0 resurviv.biz
 0.0.0.0 retroarch.com
 0.0.0.0 retrobowl.me
 0.0.0.0 retrobowl.school
@@ -861,6 +866,7 @@
 0.0.0.0 sigmally.com
 0.0.0.0 silvergames.com
 0.0.0.0 silvergames.io
+0.0.0.0 skap.nightly.pw
 0.0.0.0 sketchful.io
 0.0.0.0 skinsmc.org
 0.0.0.0 skribbl.io
@@ -935,6 +941,7 @@
 0.0.0.0 sunfs.app
 0.0.0.0 sunstudio.io
 0.0.0.0 superjocs.com
+0.0.0.0 suroi.io
 0.0.0.0 surviv.io
 0.0.0.0 swordbattle.io
 0.0.0.0 sz-games.github.io
@@ -968,6 +975,7 @@
 0.0.0.0 topgames.gg
 0.0.0.0 tops.games
 0.0.0.0 topservers200.com
+0.0.0.0 torket.io
 0.0.0.0 totaljerkface.com
 0.0.0.0 transformice.com
 0.0.0.0 treeshateyou-game.com
