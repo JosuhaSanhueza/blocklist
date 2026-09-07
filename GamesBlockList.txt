@@ -162,6 +162,7 @@
 ||cdn-augames.github.io^
 ||cdn.games.juegos123.net^
 ||cdn.pomu.com^
+||check-the-game.vercel.app^
 ||checkcps.com^
 ||chess.com^
 ||chroma48.com^
@@ -645,6 +646,7 @@
 ||lablockedgames.com^
 ||lagged-io.bitbucket.io^
 ||lagged.com^
+||lastline.011203.xyz^
 ||legionsdk.com^
 ||lichess.org^
 ||ligadegamers.com^
@@ -666,6 +668,7 @@
 ||mathwizard.pages.dev^
 ||mattmakesgames.itch.io^
 ||maxwellstevenson.com^
+||mazocarta.com^
 ||mc.sealcentral.co^
 ||mcdle.net^
 ||mcraft.fun^
@@ -757,6 +760,7 @@
 ||numuki.com^
 ||oddgames.uk^
 ||ofogames.com^
+||oh-hell-mu.vercel.app^
 ||ohgames.io^
 ||omigames.com^
 ||one.io^
@@ -946,6 +950,7 @@
 ||snowrider3d.pro^
 ||soccer-randomx.github.io^
 ||solitaired.com^
+||solitaires.com^
 ||spacewaves2.org^
 ||spades.co^
 ||spinhook.ir^
@@ -1107,6 +1112,7 @@
 ||wowubg.github.io^
 ||wtfgames.io^
 ||xbitlabs.com^
+||xo-beta.pages.dev^
 ||y8-games.com^
 ||y8.com^
 ||y8.net^

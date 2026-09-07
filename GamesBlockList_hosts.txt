@@ -158,6 +158,7 @@
 0.0.0.0 cdn-augames.github.io
 0.0.0.0 cdn.games.juegos123.net
 0.0.0.0 cdn.pomu.com
+0.0.0.0 check-the-game.vercel.app
 0.0.0.0 checkcps.com
 0.0.0.0 chess.com
 0.0.0.0 chroma48.com
@@ -641,6 +642,7 @@
 0.0.0.0 lablockedgames.com
 0.0.0.0 lagged-io.bitbucket.io
 0.0.0.0 lagged.com
+0.0.0.0 lastline.011203.xyz
 0.0.0.0 legionsdk.com
 0.0.0.0 lichess.org
 0.0.0.0 ligadegamers.com
@@ -662,6 +664,7 @@
 0.0.0.0 mathwizard.pages.dev
 0.0.0.0 mattmakesgames.itch.io
 0.0.0.0 maxwellstevenson.com
+0.0.0.0 mazocarta.com
 0.0.0.0 mc.sealcentral.co
 0.0.0.0 mcdle.net
 0.0.0.0 mcraft.fun
@@ -753,6 +756,7 @@
 0.0.0.0 numuki.com
 0.0.0.0 oddgames.uk
 0.0.0.0 ofogames.com
+0.0.0.0 oh-hell-mu.vercel.app
 0.0.0.0 ohgames.io
 0.0.0.0 omigames.com
 0.0.0.0 one.io
@@ -942,6 +946,7 @@
 0.0.0.0 snowrider3d.pro
 0.0.0.0 soccer-randomx.github.io
 0.0.0.0 solitaired.com
+0.0.0.0 solitaires.com
 0.0.0.0 spacewaves2.org
 0.0.0.0 spades.co
 0.0.0.0 spinhook.ir
@@ -1103,6 +1108,7 @@
 0.0.0.0 wowubg.github.io
 0.0.0.0 wtfgames.io
 0.0.0.0 xbitlabs.com
+0.0.0.0 xo-beta.pages.dev
 0.0.0.0 y8-games.com
 0.0.0.0 y8.com
 0.0.0.0 y8.net
