@@ -748,6 +748,7 @@
 0.0.0.0 myunblockedgames.com
 0.0.0.0 myunblockedgames.io
 0.0.0.0 mywordle.net
+0.0.0.0 naoxink.epizy.com
 0.0.0.0 nargames.com
 0.0.0.0 narrow.one
 0.0.0.0 nate-games.github.io
@@ -880,6 +881,7 @@
 0.0.0.0 re-pack-delta.vercel.app
 0.0.0.0 realhack101sunblockedunq.webnode.page
 0.0.0.0 realmofthemadgod.com
+0.0.0.0 remarkablegames.itch.io
 0.0.0.0 remarkablegames.org
 0.0.0.0 resurviv.biz
 0.0.0.0 retroarch.com
@@ -1116,6 +1118,7 @@
 0.0.0.0 vitalitygames.com
 0.0.0.0 viverse.com
 0.0.0.0 wafercafe.com
+0.0.0.0 wavedash.com
 0.0.0.0 we-dashers.github.io
 0.0.0.0 web-dashers.github.io
 0.0.0.0 webgamer.io

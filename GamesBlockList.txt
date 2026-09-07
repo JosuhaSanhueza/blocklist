@@ -752,6 +752,7 @@
 ||myunblockedgames.com^
 ||myunblockedgames.io^
 ||mywordle.net^
+||naoxink.epizy.com^
 ||nargames.com^
 ||narrow.one^
 ||nate-games.github.io^
@@ -884,6 +885,7 @@
 ||re-pack-delta.vercel.app^
 ||realhack101sunblockedunq.webnode.page^
 ||realmofthemadgod.com^
+||remarkablegames.itch.io^
 ||remarkablegames.org^
 ||resurviv.biz^
 ||retroarch.com^
@@ -1120,6 +1122,7 @@
 ||vitalitygames.com^
 ||viverse.com^
 ||wafercafe.com^
+||wavedash.com^
 ||we-dashers.github.io^
 ||web-dashers.github.io^
 ||webgamer.io^
