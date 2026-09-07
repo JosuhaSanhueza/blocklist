@@ -233,6 +233,7 @@
 ||cursorball.onrender.com^
 ||curvefever.pro^
 ||cutedressup.com^
+||cxong.github.io^
 ||d1tmbzjih4bfq6.cloudfront.net^
 ||dashmetry.com^
 ||dashmetry.io^
@@ -240,6 +241,7 @@
 ||dbtorrent.games^
 ||deadastronauts.games^
 ||deadshot.io^
+||deepnight.net^
 ||defly.io^
 ||delt.io^
 ||detodojuegos.com^
@@ -329,6 +331,7 @@
 ||femo.com^
 ||ff.garena.com^
 ||findeaglerservers.com^
+||fishfolk.org^
 ||fishinggames.us^
 ||fivenightsatfreddys.com^
 ||fivenightsatfreddysgame.com^
@@ -368,6 +371,7 @@
 ||fridaynightfunkin.app^
 ||fridaynightfunkin.net^
 ||fridaynightfunkin.org^
+||friendlyfiregame.com^
 ||friv-2017.com^
 ||friv-2026.com^
 ||friv-7.com^
@@ -527,6 +531,8 @@
 ||hahagames.com^
 ||handdrawngames.com^
 ||hapessad.github.io^
+||harmonymonroe.com^
+||harmonymonroe.itch.io^
 ||haxball.com^
 ||hdgames.com^
 ||head-soccer.io^
@@ -665,6 +671,7 @@
 ||makeitmeme.com^
 ||manablade.com^
 ||manablade.io^
+||manasource.itch.io^
 ||mathwizard.pages.dev^
 ||mattmakesgames.itch.io^
 ||maxwellstevenson.com^
@@ -739,12 +746,14 @@
 ||nargames.com^
 ||narrow.one^
 ||nate-games.github.io^
+||natrixapp.netlify.app^
 ||neal.fun^
 ||nemoplay.com^
 ||neoteo.com^
 ||netifun.com^
 ||nettleweb.pages.dev^
 ||newgrounds.com^
+||nickesc.github.io^
 ||night.fire.games^
 ||niksid09.neocities.org^
 ||ninjakiwi.com^
@@ -862,6 +871,7 @@
 ||quantum-backrooms.vercel.app^
 ||raftlife.io^
 ||ragdollarchers2.io^
+||rancic.itch.io^
 ||re-pack-delta.vercel.app^
 ||realhack101sunblockedunq.webnode.page^
 ||realmofthemadgod.com^
@@ -942,7 +952,9 @@
 ||smashkarts.io^
 ||smcraft.fun^
 ||smdgames.github.io^
+||snake-shadrouh.netlify.app^
 ||snakejuego.com^
+||snakex-game.vercel.app^
 ||snokido.com^
 ||snow-rider-3d.bitbucket.io^
 ||snowrider.pro^
@@ -997,6 +1009,7 @@
 ||swordbattle.io^
 ||sz-games.github.io^
 ||szgames.net^
+||szunami.itch.io^
 ||tabletopia.com^
 ||tagpro.koalabeast.com^
 ||tagunblocked.com^
@@ -1020,6 +1033,7 @@
 ||thewikigame.com^
 ||tinytakinteller.itch.io^
 ||todojuegosgratis.es^
+||tooladda.online^
 ||top-games.net^
 ||top-mcservers.com^
 ||topeaglerservers.com^
@@ -1090,6 +1104,7 @@
 ||vibearcade.com^
 ||viberverse.github.io^
 ||vidaextra.com^
+||vim-snake-navy.vercel.app^
 ||vitalitygames.com^
 ||viverse.com^
 ||wafercafe.com^
@@ -1104,6 +1119,7 @@
 ||weplayretro.games^
 ||werty.me^
 ||wheeliebikegame.github.io^
+||wimpress.itch.io^
 ||woogames.io^
 ||wordle-games.com^
 ||wordle.net^
