@@ -476,6 +476,7 @@
 ||gamesfree.io^
 ||gamesgamescdn.com^
 ||gamesgo.net^
+||gamesiknow.com^
 ||gameslol.net^
 ||gameszap.com^
 ||gametop.com^
@@ -690,6 +691,7 @@
 ||machita66.com^
 ||mackeylol.github.io^
 ||maddox.games^
+||mafiakill.com^
 ||makeitmeme.com^
 ||manablade.com^
 ||manablade.io^

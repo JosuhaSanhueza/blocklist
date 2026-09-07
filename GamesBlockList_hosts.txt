@@ -472,6 +472,7 @@
 0.0.0.0 gamesfree.io
 0.0.0.0 gamesgamescdn.com
 0.0.0.0 gamesgo.net
+0.0.0.0 gamesiknow.com
 0.0.0.0 gameslol.net
 0.0.0.0 gameszap.com
 0.0.0.0 gametop.com
@@ -686,6 +687,7 @@
 0.0.0.0 machita66.com
 0.0.0.0 mackeylol.github.io
 0.0.0.0 maddox.games
+0.0.0.0 mafiakill.com
 0.0.0.0 makeitmeme.com
 0.0.0.0 manablade.com
 0.0.0.0 manablade.io
