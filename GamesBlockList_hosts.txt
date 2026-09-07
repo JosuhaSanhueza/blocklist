@@ -2,6 +2,7 @@
 0.0.0.0 0ntimer.github.io
 0.0.0.0 1001games.com
 0.0.0.0 1001juegos.com
+0.0.0.0 1255.areso.pro
 0.0.0.0 13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com
 0.0.0.0 1games.com
 0.0.0.0 1games.io
@@ -93,6 +94,7 @@
 0.0.0.0 assets.gd.sbs.softgames.de
 0.0.0.0 aternos.net
 0.0.0.0 aternos.org
+0.0.0.0 attic-byte.itch.io
 0.0.0.0 atwar-game.com
 0.0.0.0 axenthost.com
 0.0.0.0 azagames.io
@@ -137,6 +139,7 @@
 0.0.0.0 brainrot-games.io
 0.0.0.0 brainrotgames.games
 0.0.0.0 brawl-stars.eu
+0.0.0.0 breakbar.itch.io
 0.0.0.0 bubbleshooteonline.github.io
 0.0.0.0 bubbleshooter.net
 0.0.0.0 buff.game
@@ -155,6 +158,7 @@
 0.0.0.0 cdn.pomu.com
 0.0.0.0 checkcps.com
 0.0.0.0 chess.com
+0.0.0.0 chroma48.com
 0.0.0.0 chromedino.com
 0.0.0.0 ciudadelas.net
 0.0.0.0 clash3d.com
@@ -183,6 +187,7 @@
 0.0.0.0 cokitos.com
 0.0.0.0 cokogames.com
 0.0.0.0 colonist.io
+0.0.0.0 congusbongus.itch.io
 0.0.0.0 cookie-clicker2.com
 0.0.0.0 cookieclicker-unblocked.pages.dev
 0.0.0.0 cookieclicker2.io
@@ -194,6 +199,7 @@
 0.0.0.0 coolmathunblocked.weebly.com
 0.0.0.0 copero.com.ar
 0.0.0.0 copyofmasite.pages.dev
+0.0.0.0 corriscant.github.io
 0.0.0.0 country-defense-bheng.vercel.app
 0.0.0.0 cpstest.click
 0.0.0.0 cpstest.net
@@ -255,6 +261,7 @@
 0.0.0.0 driftbossonline.github.io
 0.0.0.0 driftbossunblocked.io
 0.0.0.0 drifthunters.org
+0.0.0.0 drillur.itch.io
 0.0.0.0 drivequest.io
 0.0.0.0 duck-math.gitlab.io
 0.0.0.0 eag.pages.dev
@@ -402,6 +409,7 @@
 0.0.0.0 gamalod.com
 0.0.0.0 gamaverse.com
 0.0.0.0 game-game.com
+0.0.0.0 game.backkampung.com
 0.0.0.0 game.giantshaft.com
 0.0.0.0 game.zerodayclock.com
 0.0.0.0 gamebanana.com
@@ -502,6 +510,8 @@
 0.0.0.0 grannyhorror.com
 0.0.0.0 grannyhorror.io
 0.0.0.0 grannyonline.io
+0.0.0.0 grrd.ch
+0.0.0.0 guildmaster.yht.one
 0.0.0.0 gx.games
 0.0.0.0 hahagames.com
 0.0.0.0 handdrawngames.com
@@ -824,6 +834,7 @@
 0.0.0.0 project-scythe.vercel.app
 0.0.0.0 purogames.com.br
 0.0.0.0 pushergames.itch.io
+0.0.0.0 puzzio.io
 0.0.0.0 puzzlegarage.com
 0.0.0.0 q13x.com
 0.0.0.0 raftlife.io
@@ -981,6 +992,7 @@
 0.0.0.0 theshovel.rocks
 0.0.0.0 theslope.github.io
 0.0.0.0 thewikigame.com
+0.0.0.0 tinytakinteller.itch.io
 0.0.0.0 todojuegosgratis.es
 0.0.0.0 top-games.net
 0.0.0.0 top-mcservers.com
@@ -1087,6 +1099,7 @@
 0.0.0.0 ynrbsu.github.io
 0.0.0.0 yoplay.io
 0.0.0.0 yucata.de
+0.0.0.0 yunyin.wenzi.games
 0.0.0.0 yupgames.io
 0.0.0.0 yurk.com
 0.0.0.0 zapgames.io

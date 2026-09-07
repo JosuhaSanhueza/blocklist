@@ -6,6 +6,7 @@
 ||0ntimer.github.io^
 ||1001games.com^
 ||1001juegos.com^
+||1255.areso.pro^
 ||13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com^
 ||1games.com^
 ||1games.io^
@@ -97,6 +98,7 @@
 ||assets.gd.sbs.softgames.de^
 ||aternos.net^
 ||aternos.org^
+||attic-byte.itch.io^
 ||atwar-game.com^
 ||axenthost.com^
 ||azagames.io^
@@ -141,6 +143,7 @@
 ||brainrot-games.io^
 ||brainrotgames.games^
 ||brawl-stars.eu^
+||breakbar.itch.io^
 ||bubbleshooteonline.github.io^
 ||bubbleshooter.net^
 ||buff.game^
@@ -159,6 +162,7 @@
 ||cdn.pomu.com^
 ||checkcps.com^
 ||chess.com^
+||chroma48.com^
 ||chromedino.com^
 ||ciudadelas.net^
 ||clash3d.com^
@@ -187,6 +191,7 @@
 ||cokitos.com^
 ||cokogames.com^
 ||colonist.io^
+||congusbongus.itch.io^
 ||cookie-clicker2.com^
 ||cookieclicker-unblocked.pages.dev^
 ||cookieclicker2.io^
@@ -198,6 +203,7 @@
 ||coolmathunblocked.weebly.com^
 ||copero.com.ar^
 ||copyofmasite.pages.dev^
+||corriscant.github.io^
 ||country-defense-bheng.vercel.app^
 ||cpstest.click^
 ||cpstest.net^
@@ -259,6 +265,7 @@
 ||driftbossonline.github.io^
 ||driftbossunblocked.io^
 ||drifthunters.org^
+||drillur.itch.io^
 ||drivequest.io^
 ||duck-math.gitlab.io^
 ||eag.pages.dev^
@@ -406,6 +413,7 @@
 ||gamalod.com^
 ||gamaverse.com^
 ||game-game.com^
+||game.backkampung.com^
 ||game.giantshaft.com^
 ||game.zerodayclock.com^
 ||gamebanana.com^
@@ -506,6 +514,8 @@
 ||grannyhorror.com^
 ||grannyhorror.io^
 ||grannyonline.io^
+||grrd.ch^
+||guildmaster.yht.one^
 ||gx.games^
 ||hahagames.com^
 ||handdrawngames.com^
@@ -828,6 +838,7 @@
 ||project-scythe.vercel.app^
 ||purogames.com.br^
 ||pushergames.itch.io^
+||puzzio.io^
 ||puzzlegarage.com^
 ||q13x.com^
 ||raftlife.io^
@@ -985,6 +996,7 @@
 ||theshovel.rocks^
 ||theslope.github.io^
 ||thewikigame.com^
+||tinytakinteller.itch.io^
 ||todojuegosgratis.es^
 ||top-games.net^
 ||top-mcservers.com^
@@ -1091,6 +1103,7 @@
 ||ynrbsu.github.io^
 ||yoplay.io^
 ||yucata.de^
+||yunyin.wenzi.games^
 ||yupgames.io^
 ||yurk.com^
 ||zapgames.io^
