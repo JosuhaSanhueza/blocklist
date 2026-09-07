@@ -4,6 +4,7 @@
 0.0.0.0 1001juegos.com
 0.0.0.0 1255.areso.pro
 0.0.0.0 13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com
+0.0.0.0 1b.games
 0.0.0.0 1games.com
 0.0.0.0 1games.io
 0.0.0.0 1v1lol-gg.github.io
@@ -162,6 +163,7 @@
 0.0.0.0 cdn.pomu.com
 0.0.0.0 check-the-game.vercel.app
 0.0.0.0 checkcps.com
+0.0.0.0 checkergames.com
 0.0.0.0 chess.com
 0.0.0.0 chroma48.com
 0.0.0.0 chromedino.com
@@ -416,9 +418,11 @@
 0.0.0.0 frivoriginal.com
 0.0.0.0 frivplus.com
 0.0.0.0 frivusa.com
+0.0.0.0 frustrated.io
 0.0.0.0 frvr.com
 0.0.0.0 fuegoyagua.es
 0.0.0.0 funbrain.com
+0.0.0.0 funclicker.com
 0.0.0.0 funkin.me
 0.0.0.0 funny-school.github.io
 0.0.0.0 funnygames.org
@@ -506,6 +510,7 @@
 0.0.0.0 githubiogames.com
 0.0.0.0 gitlab.io-games.com
 0.0.0.0 giveawayoftheday.com
+0.0.0.0 glazegames.com
 0.0.0.0 gogamego.io
 0.0.0.0 gomestable.netlify.app
 0.0.0.0 googlehosted.com
@@ -824,6 +829,7 @@
 0.0.0.0 plarium.com
 0.0.0.0 play-games.com
 0.0.0.0 play.gilect.com
+0.0.0.0 play2048.co
 0.0.0.0 playable.game
 0.0.0.0 playbloonstowerdefense.com
 0.0.0.0 playbrain.com

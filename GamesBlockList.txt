@@ -8,6 +8,7 @@
 ||1001juegos.com^
 ||1255.areso.pro^
 ||13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com^
+||1b.games^
 ||1games.com^
 ||1games.io^
 ||1v1lol-gg.github.io^
@@ -166,6 +167,7 @@
 ||cdn.pomu.com^
 ||check-the-game.vercel.app^
 ||checkcps.com^
+||checkergames.com^
 ||chess.com^
 ||chroma48.com^
 ||chromedino.com^
@@ -420,9 +422,11 @@
 ||frivoriginal.com^
 ||frivplus.com^
 ||frivusa.com^
+||frustrated.io^
 ||frvr.com^
 ||fuegoyagua.es^
 ||funbrain.com^
+||funclicker.com^
 ||funkin.me^
 ||funny-school.github.io^
 ||funnygames.org^
@@ -510,6 +514,7 @@
 ||githubiogames.com^
 ||gitlab.io-games.com^
 ||giveawayoftheday.com^
+||glazegames.com^
 ||gogamego.io^
 ||gomestable.netlify.app^
 ||googlehosted.com^
@@ -828,6 +833,7 @@
 ||plarium.com^
 ||play-games.com^
 ||play.gilect.com^
+||play2048.co^
 ||playable.game^
 ||playbloonstowerdefense.com^
 ||playbrain.com^
