@@ -122,6 +122,7 @@
 0.0.0.0 bidoofery.github.io
 0.0.0.0 bigbadwaffle.itch.io
 0.0.0.0 bigfishgames.com
+0.0.0.0 billiards.tailuge.workers.dev
 0.0.0.0 bitlifegame.com
 0.0.0.0 bitlifeunblockedonline.github.io
 0.0.0.0 blipzi.com
@@ -133,6 +134,7 @@
 0.0.0.0 boardgamearena.com
 0.0.0.0 boing.es
 0.0.0.0 bonk-io.com
+0.0.0.0 booleet.itch.io
 0.0.0.0 bored.com
 0.0.0.0 boredomgames.pages.dev
 0.0.0.0 boxinggames.org
@@ -240,11 +242,14 @@
 0.0.0.0 deepnight.net
 0.0.0.0 defly.io
 0.0.0.0 delt.io
+0.0.0.0 demo.reldens.com
 0.0.0.0 detodojuegos.com
+0.0.0.0 developers.rune.ai
 0.0.0.0 diegosjuegos.com
 0.0.0.0 diep.io
 0.0.0.0 diepio2.pages.dev
 0.0.0.0 digamore.com
+0.0.0.0 diguifi.itch.io
 0.0.0.0 dinogame.gg
 0.0.0.0 dinorunner.com
 0.0.0.0 dinosaur.game
@@ -546,6 +551,7 @@
 0.0.0.0 html5games.com
 0.0.0.0 html5games.io
 0.0.0.0 html5games.net
+0.0.0.0 hungry-wing-82501e.netlify.app
 0.0.0.0 hypackellite1.github.io
 0.0.0.0 hypixel.io
 0.0.0.0 hypixel.net
@@ -632,6 +638,7 @@
 0.0.0.0 kingdomarchitect.netlify.app
 0.0.0.0 kingdomofmarionettes.live
 0.0.0.0 kingdomrush.com
+0.0.0.0 kiomet.com
 0.0.0.0 kiwigames.fun
 0.0.0.0 kiwijuice56.itch.io
 0.0.0.0 kiz10.com
@@ -668,6 +675,7 @@
 0.0.0.0 manablade.com
 0.0.0.0 manablade.io
 0.0.0.0 manasource.itch.io
+0.0.0.0 marbleblast-abhiverse.dedyn.io
 0.0.0.0 mathwizard.pages.dev
 0.0.0.0 mattmakesgames.itch.io
 0.0.0.0 maxwellstevenson.com
@@ -712,6 +720,7 @@
 0.0.0.0 miniplay.io
 0.0.0.0 minix.games
 0.0.0.0 misjuegos.com
+0.0.0.0 mk48.io
 0.0.0.0 mmobomb.com
 0.0.0.0 mmogames.com
 0.0.0.0 mobirix.com
@@ -871,6 +880,7 @@
 0.0.0.0 re-pack-delta.vercel.app
 0.0.0.0 realhack101sunblockedunq.webnode.page
 0.0.0.0 realmofthemadgod.com
+0.0.0.0 remarkablegames.org
 0.0.0.0 resurviv.biz
 0.0.0.0 retroarch.com
 0.0.0.0 retrobowl.me
@@ -1027,9 +1037,11 @@
 0.0.0.0 theshovel.rocks
 0.0.0.0 theslope.github.io
 0.0.0.0 thewikigame.com
+0.0.0.0 threejs-games.github.io
 0.0.0.0 tinytakinteller.itch.io
 0.0.0.0 todojuegosgratis.es
 0.0.0.0 tooladda.online
+0.0.0.0 toomanycaptains.com
 0.0.0.0 top-games.net
 0.0.0.0 top-mcservers.com
 0.0.0.0 topeaglerservers.com

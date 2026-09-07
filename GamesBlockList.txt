@@ -126,6 +126,7 @@
 ||bidoofery.github.io^
 ||bigbadwaffle.itch.io^
 ||bigfishgames.com^
+||billiards.tailuge.workers.dev^
 ||bitlifegame.com^
 ||bitlifeunblockedonline.github.io^
 ||blipzi.com^
@@ -137,6 +138,7 @@
 ||boardgamearena.com^
 ||boing.es^
 ||bonk-io.com^
+||booleet.itch.io^
 ||bored.com^
 ||boredomgames.pages.dev^
 ||boxinggames.org^
@@ -244,11 +246,14 @@
 ||deepnight.net^
 ||defly.io^
 ||delt.io^
+||demo.reldens.com^
 ||detodojuegos.com^
+||developers.rune.ai^
 ||diegosjuegos.com^
 ||diep.io^
 ||diepio2.pages.dev^
 ||digamore.com^
+||diguifi.itch.io^
 ||dinogame.gg^
 ||dinorunner.com^
 ||dinosaur.game^
@@ -550,6 +555,7 @@
 ||html5games.com^
 ||html5games.io^
 ||html5games.net^
+||hungry-wing-82501e.netlify.app^
 ||hypackellite1.github.io^
 ||hypixel.io^
 ||hypixel.net^
@@ -636,6 +642,7 @@
 ||kingdomarchitect.netlify.app^
 ||kingdomofmarionettes.live^
 ||kingdomrush.com^
+||kiomet.com^
 ||kiwigames.fun^
 ||kiwijuice56.itch.io^
 ||kiz10.com^
@@ -672,6 +679,7 @@
 ||manablade.com^
 ||manablade.io^
 ||manasource.itch.io^
+||marbleblast-abhiverse.dedyn.io^
 ||mathwizard.pages.dev^
 ||mattmakesgames.itch.io^
 ||maxwellstevenson.com^
@@ -716,6 +724,7 @@
 ||miniplay.io^
 ||minix.games^
 ||misjuegos.com^
+||mk48.io^
 ||mmobomb.com^
 ||mmogames.com^
 ||mobirix.com^
@@ -875,6 +884,7 @@
 ||re-pack-delta.vercel.app^
 ||realhack101sunblockedunq.webnode.page^
 ||realmofthemadgod.com^
+||remarkablegames.org^
 ||resurviv.biz^
 ||retroarch.com^
 ||retrobowl.me^
@@ -1031,9 +1041,11 @@
 ||theshovel.rocks^
 ||theslope.github.io^
 ||thewikigame.com^
+||threejs-games.github.io^
 ||tinytakinteller.itch.io^
 ||todojuegosgratis.es^
 ||tooladda.online^
+||toomanycaptains.com^
 ||top-games.net^
 ||top-mcservers.com^
 ||topeaglerservers.com^
