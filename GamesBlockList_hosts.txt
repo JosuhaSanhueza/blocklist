@@ -1,6 +1,7 @@
 # --- GamesBlockList (Formato Estándar Hosts / OPNsense Unbound) ---
 0.0.0.0 0ntimer.github.io
 0.0.0.0 1001games.com
+0.0.0.0 1001jogos.com.br
 0.0.0.0 1001juegos.com
 0.0.0.0 1255.areso.pro
 0.0.0.0 13acae8c-ec6a-4823-b1a2-8ea20cea56e7.poki-gdn.com
