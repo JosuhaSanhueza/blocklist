@@ -1195,3 +1195,4 @@
 ||zohair-racing-portfolio.vercel.app^
 ||zynga.com^
 ||zynga.games^
+||friv-2023.com^
