@@ -1095,6 +1095,7 @@
 0.0.0.0 trickjoker312.github.io
 0.0.0.0 tsyuay.github.io
 0.0.0.0 tubeclicker.io
+0.0.0.0 tubzi.org
 0.0.0.0 tunnelrushgame.io
 0.0.0.0 turbo-typer-pro.vercel.app
 0.0.0.0 turtlegames.org

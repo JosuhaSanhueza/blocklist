@@ -1099,6 +1099,7 @@
 ||trickjoker312.github.io^
 ||tsyuay.github.io^
 ||tubeclicker.io^
+||tubzi.org^
 ||tunnelrushgame.io^
 ||turbo-typer-pro.vercel.app^
 ||turtlegames.org^
