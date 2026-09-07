@@ -149,6 +149,7 @@
 ||boxinggames.org^
 ||boxingrandom.net^
 ||brainrot-games.io^
+||brainrotclicker.io^
 ||brainrotgames.games^
 ||brawl-stars.eu^
 ||breakbar.itch.io^
@@ -598,6 +599,7 @@
 ||iospace.games^
 ||irv77.github.io^
 ||isladejuegos.com^
+||italianbrainrot-clicker.io^
 ||itch.io^
 ||itchio.top^
 ||jackpot-games-damifidy.vercel.app^
