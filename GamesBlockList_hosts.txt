@@ -608,6 +608,7 @@
 0.0.0.0 jopi.com
 0.0.0.0 juegaenlineachile.com
 0.0.0.0 juegos-es.bitbucket.io
+0.0.0.0 juegos-geograficos.com
 0.0.0.0 juegos-gratis.bitbucket.io
 0.0.0.0 juegos-poki.bitbucket.io
 0.0.0.0 juegos.com
@@ -926,6 +927,7 @@
 0.0.0.0 rycellgames.github.io
 0.0.0.0 sacul-6.github.io
 0.0.0.0 sandbox.game
+0.0.0.0 sandboxeducacion.es
 0.0.0.0 santiagodebus.com
 0.0.0.0 say.games
 0.0.0.0 scalacube.com
@@ -1162,6 +1164,7 @@
 0.0.0.0 wordle.net
 0.0.0.0 wordles.org
 0.0.0.0 wordlyplay.com
+0.0.0.0 world-geography-games.com
 0.0.0.0 wowubg.github.io
 0.0.0.0 wtfgames.io
 0.0.0.0 xbitlabs.com

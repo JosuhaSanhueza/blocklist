@@ -612,6 +612,7 @@
 ||jopi.com^
 ||juegaenlineachile.com^
 ||juegos-es.bitbucket.io^
+||juegos-geograficos.com^
 ||juegos-gratis.bitbucket.io^
 ||juegos-poki.bitbucket.io^
 ||juegos.com^
@@ -930,6 +931,7 @@
 ||rycellgames.github.io^
 ||sacul-6.github.io^
 ||sandbox.game^
+||sandboxeducacion.es^
 ||santiagodebus.com^
 ||say.games^
 ||scalacube.com^
@@ -1166,6 +1168,7 @@
 ||wordle.net^
 ||wordles.org^
 ||wordlyplay.com^
+||world-geography-games.com^
 ||wowubg.github.io^
 ||wtfgames.io^
 ||xbitlabs.com^
