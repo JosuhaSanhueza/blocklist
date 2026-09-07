@@ -663,6 +663,7 @@
 0.0.0.0 kizi.com
 0.0.0.0 kizi2.com
 0.0.0.0 kizi5.com
+0.0.0.0 kognify-games.com
 0.0.0.0 kongregate.com
 0.0.0.0 kongregate.io
 0.0.0.0 kongregate.online
@@ -1194,5 +1195,6 @@
 0.0.0.0 zgames.io
 0.0.0.0 zlite.zatoga.net
 0.0.0.0 zohair-racing-portfolio.vercel.app
+0.0.0.0 zylom.com
 0.0.0.0 zynga.com
 0.0.0.0 zynga.games

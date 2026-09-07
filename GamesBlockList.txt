@@ -667,6 +667,7 @@
 ||kizi.com^
 ||kizi2.com^
 ||kizi5.com^
+||kognify-games.com^
 ||kongregate.com^
 ||kongregate.io^
 ||kongregate.online^
@@ -1198,5 +1199,6 @@
 ||zgames.io^
 ||zlite.zatoga.net^
 ||zohair-racing-portfolio.vercel.app^
+||zylom.com^
 ||zynga.com^
 ||zynga.games^
