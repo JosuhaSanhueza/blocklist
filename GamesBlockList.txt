@@ -155,6 +155,7 @@
 ||capprime.netlify.app^
 ||capybara-game.com^
 ||capybaragame.io^
+||caraccio.itch.io^
 ||carrot-craft.org^
 ||cattn.github.io^
 ||cbgamesdev.github.io^
@@ -254,6 +255,7 @@
 ||dolldivine.com^
 ||dominion.games^
 ||dominoes365.io^
+||donteatthecashier.live^
 ||doodlejump.io^
 ||dragonawaken.com^
 ||dragonbound.net^
@@ -546,6 +548,7 @@
 ||hypixel.net^
 ||ice-wallo-come.github.io^
 ||idlegames.win^
+||idolsofash.live^
 ||igre.games^
 ||imagineisland.game^
 ||img.poki-cdn.com^
@@ -624,8 +627,10 @@
 ||kickoutgames.com^
 ||king.com^
 ||kingdomarchitect.netlify.app^
+||kingdomofmarionettes.live^
 ||kingdomrush.com^
 ||kiwigames.fun^
+||kiwijuice56.itch.io^
 ||kiz10.com^
 ||kiz10.org^
 ||kizi.com^
@@ -651,6 +656,7 @@
 ||livegameserverlist.com^
 ||lps7x.csb.app^
 ||luckyblocks.io^
+||lullwood.vercel.app^
 ||machita66.com^
 ||mackeylol.github.io^
 ||maddox.games^
@@ -672,6 +678,7 @@
 ||mgalternative.github.io^
 ||mgg658.github.io^
 ||mimshacks.com^
+||mindustrygame.github.io^
 ||mine-craft.io^
 ||minecraft-eaglercraft.github.io^
 ||minecraft-games.com^
@@ -842,11 +849,13 @@
 ||princeton-tower-defense.vercel.app^
 ||privategameservers.com^
 ||project-scythe.vercel.app^
+||projectoutfox.com^
 ||purogames.com.br^
 ||pushergames.itch.io^
 ||puzzio.io^
 ||puzzlegarage.com^
 ||q13x.com^
+||quantum-backrooms.vercel.app^
 ||raftlife.io^
 ||ragdollarchers2.io^
 ||re-pack-delta.vercel.app^
@@ -990,6 +999,7 @@
 ||tankionline.com^
 ||tankstroubleunblocked.com^
 ||tanukisunsetgame.github.io^
+||tb.caeland.ca^
 ||teamgames.club^
 ||teddblue.github.io^
 ||templerungames.github.io^
@@ -1110,6 +1120,7 @@
 ||yiv.com^
 ||ynrbsu.github.io^
 ||yoplay.io^
+||youmakethishouseahome.online^
 ||yucata.de^
 ||yunyin.wenzi.games^
 ||yupgames.io^
@@ -1117,6 +1128,7 @@
 ||zapgames.io^
 ||zapgames.site^
 ||zelgirl.com^
+||zenith391.itch.io^
 ||zenithub.pages.dev^
 ||zentic.org^
 ||zgames.com^

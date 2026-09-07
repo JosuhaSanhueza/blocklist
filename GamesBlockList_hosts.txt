@@ -151,6 +151,7 @@
 0.0.0.0 capprime.netlify.app
 0.0.0.0 capybara-game.com
 0.0.0.0 capybaragame.io
+0.0.0.0 caraccio.itch.io
 0.0.0.0 carrot-craft.org
 0.0.0.0 cattn.github.io
 0.0.0.0 cbgamesdev.github.io
@@ -250,6 +251,7 @@
 0.0.0.0 dolldivine.com
 0.0.0.0 dominion.games
 0.0.0.0 dominoes365.io
+0.0.0.0 donteatthecashier.live
 0.0.0.0 doodlejump.io
 0.0.0.0 dragonawaken.com
 0.0.0.0 dragonbound.net
@@ -542,6 +544,7 @@
 0.0.0.0 hypixel.net
 0.0.0.0 ice-wallo-come.github.io
 0.0.0.0 idlegames.win
+0.0.0.0 idolsofash.live
 0.0.0.0 igre.games
 0.0.0.0 imagineisland.game
 0.0.0.0 img.poki-cdn.com
@@ -620,8 +623,10 @@
 0.0.0.0 kickoutgames.com
 0.0.0.0 king.com
 0.0.0.0 kingdomarchitect.netlify.app
+0.0.0.0 kingdomofmarionettes.live
 0.0.0.0 kingdomrush.com
 0.0.0.0 kiwigames.fun
+0.0.0.0 kiwijuice56.itch.io
 0.0.0.0 kiz10.com
 0.0.0.0 kiz10.org
 0.0.0.0 kizi.com
@@ -647,6 +652,7 @@
 0.0.0.0 livegameserverlist.com
 0.0.0.0 lps7x.csb.app
 0.0.0.0 luckyblocks.io
+0.0.0.0 lullwood.vercel.app
 0.0.0.0 machita66.com
 0.0.0.0 mackeylol.github.io
 0.0.0.0 maddox.games
@@ -668,6 +674,7 @@
 0.0.0.0 mgalternative.github.io
 0.0.0.0 mgg658.github.io
 0.0.0.0 mimshacks.com
+0.0.0.0 mindustrygame.github.io
 0.0.0.0 mine-craft.io
 0.0.0.0 minecraft-eaglercraft.github.io
 0.0.0.0 minecraft-games.com
@@ -838,11 +845,13 @@
 0.0.0.0 princeton-tower-defense.vercel.app
 0.0.0.0 privategameservers.com
 0.0.0.0 project-scythe.vercel.app
+0.0.0.0 projectoutfox.com
 0.0.0.0 purogames.com.br
 0.0.0.0 pushergames.itch.io
 0.0.0.0 puzzio.io
 0.0.0.0 puzzlegarage.com
 0.0.0.0 q13x.com
+0.0.0.0 quantum-backrooms.vercel.app
 0.0.0.0 raftlife.io
 0.0.0.0 ragdollarchers2.io
 0.0.0.0 re-pack-delta.vercel.app
@@ -986,6 +995,7 @@
 0.0.0.0 tankionline.com
 0.0.0.0 tankstroubleunblocked.com
 0.0.0.0 tanukisunsetgame.github.io
+0.0.0.0 tb.caeland.ca
 0.0.0.0 teamgames.club
 0.0.0.0 teddblue.github.io
 0.0.0.0 templerungames.github.io
@@ -1106,6 +1116,7 @@
 0.0.0.0 yiv.com
 0.0.0.0 ynrbsu.github.io
 0.0.0.0 yoplay.io
+0.0.0.0 youmakethishouseahome.online
 0.0.0.0 yucata.de
 0.0.0.0 yunyin.wenzi.games
 0.0.0.0 yupgames.io
@@ -1113,6 +1124,7 @@
 0.0.0.0 zapgames.io
 0.0.0.0 zapgames.site
 0.0.0.0 zelgirl.com
+0.0.0.0 zenith391.itch.io
 0.0.0.0 zenithub.pages.dev
 0.0.0.0 zentic.org
 0.0.0.0 zgames.com
