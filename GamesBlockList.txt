@@ -701,6 +701,7 @@
 ||maxwellstevenson.com^
 ||mazocarta.com^
 ||mc.sealcentral.co^
+||mc4k.pages.dev^
 ||mcdle.net^
 ||mcraft.fun^
 ||mcsrc.dev^
@@ -1010,6 +1011,7 @@
 ||stickman-hook.io^
 ||stickman-unblocked.github.io^
 ||stickman.pro^
+||stickmanclimb2.github.io^
 ||stickmanhook-unblocked.github.io^
 ||stickmanhook.bitbucket.io^
 ||stickmanhook.org^

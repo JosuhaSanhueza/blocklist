@@ -697,6 +697,7 @@
 0.0.0.0 maxwellstevenson.com
 0.0.0.0 mazocarta.com
 0.0.0.0 mc.sealcentral.co
+0.0.0.0 mc4k.pages.dev
 0.0.0.0 mcdle.net
 0.0.0.0 mcraft.fun
 0.0.0.0 mcsrc.dev
@@ -1006,6 +1007,7 @@
 0.0.0.0 stickman-hook.io
 0.0.0.0 stickman-unblocked.github.io
 0.0.0.0 stickman.pro
+0.0.0.0 stickmanclimb2.github.io
 0.0.0.0 stickmanhook-unblocked.github.io
 0.0.0.0 stickmanhook.bitbucket.io
 0.0.0.0 stickmanhook.org
