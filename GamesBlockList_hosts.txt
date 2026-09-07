@@ -198,6 +198,7 @@
 0.0.0.0 cooljuegos.com
 0.0.0.0 coolmathgames.com
 0.0.0.0 coolmathunblocked.weebly.com
+0.0.0.0 coopverse.io
 0.0.0.0 copero.com.ar
 0.0.0.0 copyofmasite.pages.dev
 0.0.0.0 corriscant.github.io
@@ -700,6 +701,7 @@
 0.0.0.0 mobirix.net
 0.0.0.0 mochig.com
 0.0.0.0 monkeymath.pages.dev
+0.0.0.0 moomoo.io
 0.0.0.0 mope.io
 0.0.0.0 morefriv.com
 0.0.0.0 morphz.io
@@ -741,6 +743,7 @@
 0.0.0.0 nowgames.io
 0.0.0.0 nowgg.me
 0.0.0.0 null-x-team.github.io
+0.0.0.0 numuki.com
 0.0.0.0 oddgames.uk
 0.0.0.0 ofogames.com
 0.0.0.0 ohgames.io
@@ -933,6 +936,7 @@
 0.0.0.0 spacewaves2.org
 0.0.0.0 spades.co
 0.0.0.0 spinhook.ir
+0.0.0.0 splix.io
 0.0.0.0 sprunki.org
 0.0.0.0 srunners.com
 0.0.0.0 starlighttt.netlify.app

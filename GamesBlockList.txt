@@ -202,6 +202,7 @@
 ||cooljuegos.com^
 ||coolmathgames.com^
 ||coolmathunblocked.weebly.com^
+||coopverse.io^
 ||copero.com.ar^
 ||copyofmasite.pages.dev^
 ||corriscant.github.io^
@@ -704,6 +705,7 @@
 ||mobirix.net^
 ||mochig.com^
 ||monkeymath.pages.dev^
+||moomoo.io^
 ||mope.io^
 ||morefriv.com^
 ||morphz.io^
@@ -745,6 +747,7 @@
 ||nowgames.io^
 ||nowgg.me^
 ||null-x-team.github.io^
+||numuki.com^
 ||oddgames.uk^
 ||ofogames.com^
 ||ohgames.io^
@@ -937,6 +940,7 @@
 ||spacewaves2.org^
 ||spades.co^
 ||spinhook.ir^
+||splix.io^
 ||sprunki.org^
 ||srunners.com^
 ||starlighttt.netlify.app^
