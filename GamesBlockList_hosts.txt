@@ -331,6 +331,7 @@
 0.0.0.0 forgeofempires.com
 0.0.0.0 fr9.es
 0.0.0.0 free-aigames.com
+0.0.0.0 freeciv.org
 0.0.0.0 freecivweb.com
 0.0.0.0 freedombrowser.org
 0.0.0.0 freegame.com
@@ -392,6 +393,7 @@
 0.0.0.0 funbrain.com
 0.0.0.0 funkin.me
 0.0.0.0 funny-school.github.io
+0.0.0.0 funnygames.org
 0.0.0.0 funtrivia.com
 0.0.0.0 futbol-11.com
 0.0.0.0 gamalod.com
@@ -480,6 +482,7 @@
 0.0.0.0 googlesnake.org
 0.0.0.0 goose.game
 0.0.0.0 got.gtarcade.com
+0.0.0.0 got.r2games.com
 0.0.0.0 gplusgames.gitlab.io
 0.0.0.0 graebor.itch.io
 0.0.0.0 granny-games.com
@@ -686,6 +689,7 @@
 0.0.0.0 mountain-game-games.github.io
 0.0.0.0 mountain658.github.io
 0.0.0.0 mountjustin.github.io
+0.0.0.0 mousebreaker.com
 0.0.0.0 msauth.net
 0.0.0.0 msn-21.github.io
 0.0.0.0 msn.com
@@ -910,6 +914,7 @@
 0.0.0.0 spades.co
 0.0.0.0 spinhook.ir
 0.0.0.0 sprunki.org
+0.0.0.0 srunners.com
 0.0.0.0 starlighttt.netlify.app
 0.0.0.0 start.gg
 0.0.0.0 staticquasar931.github.io

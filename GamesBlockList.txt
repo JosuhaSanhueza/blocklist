@@ -335,6 +335,7 @@
 ||forgeofempires.com^
 ||fr9.es^
 ||free-aigames.com^
+||freeciv.org^
 ||freecivweb.com^
 ||freedombrowser.org^
 ||freegame.com^
@@ -396,6 +397,7 @@
 ||funbrain.com^
 ||funkin.me^
 ||funny-school.github.io^
+||funnygames.org^
 ||funtrivia.com^
 ||futbol-11.com^
 ||gamalod.com^
@@ -484,6 +486,7 @@
 ||googlesnake.org^
 ||goose.game^
 ||got.gtarcade.com^
+||got.r2games.com^
 ||gplusgames.gitlab.io^
 ||graebor.itch.io^
 ||granny-games.com^
@@ -690,6 +693,7 @@
 ||mountain-game-games.github.io^
 ||mountain658.github.io^
 ||mountjustin.github.io^
+||mousebreaker.com^
 ||msauth.net^
 ||msn-21.github.io^
 ||msn.com^
@@ -914,6 +918,7 @@
 ||spades.co^
 ||spinhook.ir^
 ||sprunki.org^
+||srunners.com^
 ||starlighttt.netlify.app^
 ||start.gg^
 ||staticquasar931.github.io^
