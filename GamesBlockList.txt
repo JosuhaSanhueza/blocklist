@@ -1100,6 +1100,7 @@
 ||tuxpusher.github.io^
 ||twoplayergames.com^
 ||twoplayergames.org^
+||typing.com^
 ||typingstudy.com^
 ||ubg365.github.io^
 ||ubg6969.gitlab.io^
@@ -1139,6 +1140,8 @@
 ||veckiogame.com^
 ||veckiogame.org^
 ||vectaria.io^
+||vedoque.com^
+||velocidactil.es^
 ||venge.io^
 ||vercel.app^
 ||vex4unblocked.github.io^

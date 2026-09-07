@@ -1096,6 +1096,7 @@
 0.0.0.0 tuxpusher.github.io
 0.0.0.0 twoplayergames.com
 0.0.0.0 twoplayergames.org
+0.0.0.0 typing.com
 0.0.0.0 typingstudy.com
 0.0.0.0 ubg365.github.io
 0.0.0.0 ubg6969.gitlab.io
@@ -1135,6 +1136,8 @@
 0.0.0.0 veckiogame.com
 0.0.0.0 veckiogame.org
 0.0.0.0 vectaria.io
+0.0.0.0 vedoque.com
+0.0.0.0 velocidactil.es
 0.0.0.0 venge.io
 0.0.0.0 vercel.app
 0.0.0.0 vex4unblocked.github.io
