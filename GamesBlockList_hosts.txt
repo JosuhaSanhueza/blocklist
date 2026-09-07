@@ -433,6 +433,7 @@
 0.0.0.0 funclicker.com
 0.0.0.0 funkin.me
 0.0.0.0 funny-school.github.io
+0.0.0.0 funnygames.it
 0.0.0.0 funnygames.org
 0.0.0.0 funtrivia.com
 0.0.0.0 futbol-11.com
