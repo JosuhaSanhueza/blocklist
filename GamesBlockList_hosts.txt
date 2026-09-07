@@ -151,6 +151,7 @@
 0.0.0.0 buildroyale.io
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
 0.0.0.0 calcsolver.net
+0.0.0.0 calculalo.app
 0.0.0.0 camcimahir.itch.io
 0.0.0.0 capprime.netlify.app
 0.0.0.0 capybara-game.com
@@ -692,6 +693,8 @@
 0.0.0.0 manasource.itch.io
 0.0.0.0 marbleblast-abhiverse.dedyn.io
 0.0.0.0 marianogappa.github.io
+0.0.0.0 mathplayground.com
+0.0.0.0 mathsframe.co.uk
 0.0.0.0 mathwizard.pages.dev
 0.0.0.0 mattmakesgames.itch.io
 0.0.0.0 maxwellstevenson.com

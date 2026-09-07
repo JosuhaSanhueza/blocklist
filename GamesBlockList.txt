@@ -155,6 +155,7 @@
 ||buildroyale.io^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||calcsolver.net^
+||calculalo.app^
 ||camcimahir.itch.io^
 ||capprime.netlify.app^
 ||capybara-game.com^
@@ -696,6 +697,8 @@
 ||manasource.itch.io^
 ||marbleblast-abhiverse.dedyn.io^
 ||marianogappa.github.io^
+||mathplayground.com^
+||mathsframe.co.uk^
 ||mathwizard.pages.dev^
 ||mattmakesgames.itch.io^
 ||maxwellstevenson.com^
