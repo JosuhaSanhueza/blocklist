@@ -336,6 +336,7 @@
 0.0.0.0 fandejuegos.com
 0.0.0.0 fastclient.net
 0.0.0.0 fastplaygames.com
+0.0.0.0 federyeeco.itch.io
 0.0.0.0 femo.com
 0.0.0.0 ff.garena.com
 0.0.0.0 findeaglerservers.com
@@ -383,6 +384,7 @@
 0.0.0.0 fridaynightfunkin.org
 0.0.0.0 friendlyfiregame.com
 0.0.0.0 friv-2017.com
+0.0.0.0 friv-2023.com
 0.0.0.0 friv-2026.com
 0.0.0.0 friv-7.com
 0.0.0.0 friv.cm

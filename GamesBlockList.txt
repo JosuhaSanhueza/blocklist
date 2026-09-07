@@ -340,6 +340,7 @@
 ||fandejuegos.com^
 ||fastclient.net^
 ||fastplaygames.com^
+||federyeeco.itch.io^
 ||femo.com^
 ||ff.garena.com^
 ||findeaglerservers.com^
@@ -387,6 +388,7 @@
 ||fridaynightfunkin.org^
 ||friendlyfiregame.com^
 ||friv-2017.com^
+||friv-2023.com^
 ||friv-2026.com^
 ||friv-7.com^
 ||friv.cm^
@@ -1195,4 +1197,3 @@
 ||zohair-racing-portfolio.vercel.app^
 ||zynga.com^
 ||zynga.games^
-||friv-2023.com^
