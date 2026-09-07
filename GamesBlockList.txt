@@ -1150,6 +1150,7 @@
 ||webmulator.com^
 ||webretro.org^
 ||weeklyarcade.games^
+||wellgames.com^
 ||weplayretro.games^
 ||werty.me^
 ||wheeliebikegame.github.io^

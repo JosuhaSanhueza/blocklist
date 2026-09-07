@@ -1146,6 +1146,7 @@
 0.0.0.0 webmulator.com
 0.0.0.0 webretro.org
 0.0.0.0 weeklyarcade.games
+0.0.0.0 wellgames.com
 0.0.0.0 weplayretro.games
 0.0.0.0 werty.me
 0.0.0.0 wheeliebikegame.github.io
