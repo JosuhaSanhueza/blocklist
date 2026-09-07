@@ -1048,6 +1048,8 @@
 ||sz-games.github.io^
 ||szgames.net^
 ||szunami.itch.io^
+||tablas-multiplicar.com^
+||tablasdemultiplicar.com^
 ||tabletopia.com^
 ||tagpro.koalabeast.com^
 ||tagunblocked.com^

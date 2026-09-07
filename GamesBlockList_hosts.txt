@@ -1044,6 +1044,8 @@
 0.0.0.0 sz-games.github.io
 0.0.0.0 szgames.net
 0.0.0.0 szunami.itch.io
+0.0.0.0 tablas-multiplicar.com
+0.0.0.0 tablasdemultiplicar.com
 0.0.0.0 tabletopia.com
 0.0.0.0 tagpro.koalabeast.com
 0.0.0.0 tagunblocked.com
