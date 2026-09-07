@@ -234,6 +234,7 @@
 ||crazymonkeygames.com^
 ||crazyschoolgames.com^
 ||cribbage-online.net^
+||cristic.com^
 ||cross-code.com^
 ||crossy-road-unblock.github.io^
 ||cryzen.io^

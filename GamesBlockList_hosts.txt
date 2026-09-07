@@ -230,6 +230,7 @@
 0.0.0.0 crazymonkeygames.com
 0.0.0.0 crazyschoolgames.com
 0.0.0.0 cribbage-online.net
+0.0.0.0 cristic.com
 0.0.0.0 cross-code.com
 0.0.0.0 crossy-road-unblock.github.io
 0.0.0.0 cryzen.io
