@@ -257,6 +257,7 @@
 ||demo.reldens.com^
 ||detodojuegos.com^
 ||developers.rune.ai^
+||dibujosparacolorearte.com^
 ||diegosjuegos.com^
 ||diep.io^
 ||diepio2.pages.dev^
