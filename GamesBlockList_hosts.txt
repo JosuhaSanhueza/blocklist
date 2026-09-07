@@ -48,6 +48,7 @@
 0.0.0.0 addictinggames.com
 0.0.0.0 addictinggames.io
 0.0.0.0 adfree-sz-games.github.io
+0.0.0.0 aelienz.web.app
 0.0.0.0 aeon-network.net
 0.0.0.0 aflacck.itch.io
 0.0.0.0 agame.com
@@ -264,6 +265,7 @@
 0.0.0.0 drillur.itch.io
 0.0.0.0 drivequest.io
 0.0.0.0 duck-math.gitlab.io
+0.0.0.0 dynetisgames.com
 0.0.0.0 eag.pages.dev
 0.0.0.0 eaglecraft.com.co
 0.0.0.0 eaglecraft.com
@@ -310,6 +312,7 @@
 0.0.0.0 essential.gg
 0.0.0.0 eu.org
 0.0.0.0 ezpzunblockedgames.com
+0.0.0.0 f1-three-ivory.vercel.app
 0.0.0.0 f1thunder.vercel.app
 0.0.0.0 faf-games.gitlab.io
 0.0.0.0 fandejuegos.com
@@ -1012,6 +1015,7 @@
 0.0.0.0 tsyuay.github.io
 0.0.0.0 tubeclicker.io
 0.0.0.0 tunnelrushgame.io
+0.0.0.0 turbo-typer-pro.vercel.app
 0.0.0.0 turtlegames.org
 0.0.0.0 tuxpusher.github.io
 0.0.0.0 twoplayergames.com
@@ -1110,5 +1114,6 @@
 0.0.0.0 zgames.com
 0.0.0.0 zgames.io
 0.0.0.0 zlite.zatoga.net
+0.0.0.0 zohair-racing-portfolio.vercel.app
 0.0.0.0 zynga.com
 0.0.0.0 zynga.games

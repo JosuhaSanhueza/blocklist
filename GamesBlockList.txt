@@ -52,6 +52,7 @@
 ||addictinggames.com^
 ||addictinggames.io^
 ||adfree-sz-games.github.io^
+||aelienz.web.app^
 ||aeon-network.net^
 ||aflacck.itch.io^
 ||agame.com^
@@ -268,6 +269,7 @@
 ||drillur.itch.io^
 ||drivequest.io^
 ||duck-math.gitlab.io^
+||dynetisgames.com^
 ||eag.pages.dev^
 ||eaglecraft.com^
 ||eaglecraft.com.co^
@@ -314,6 +316,7 @@
 ||essential.gg^
 ||eu.org^
 ||ezpzunblockedgames.com^
+||f1-three-ivory.vercel.app^
 ||f1thunder.vercel.app^
 ||faf-games.gitlab.io^
 ||fandejuegos.com^
@@ -1016,6 +1019,7 @@
 ||tsyuay.github.io^
 ||tubeclicker.io^
 ||tunnelrushgame.io^
+||turbo-typer-pro.vercel.app^
 ||turtlegames.org^
 ||tuxpusher.github.io^
 ||twoplayergames.com^
@@ -1114,5 +1118,6 @@
 ||zgames.com^
 ||zgames.io^
 ||zlite.zatoga.net^
+||zohair-racing-portfolio.vercel.app^
 ||zynga.com^
 ||zynga.games^
