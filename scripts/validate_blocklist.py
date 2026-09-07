@@ -10,7 +10,14 @@ WHITELIST = {
     "apple.com", "amazon.com", "facebook.com", "twitter.com", "instagram.com",
     "reddit.com", "linkedin.com", "twitch.tv", "discord.com", "fandom.com",
     "duckduckgo.com", "bing.com", "yahoo.com", "cloudflare.com", "startpage.com",
-    "fastly.com", "fastly.net", "fastlylb.net"
+    "fastly.com", "fastly.net", "fastlylb.net", "kickstarter.com",
+    "archive.org", "scratch.mit.edu", "cartoonnetwork.es", "cartoonnetworkhq.com",
+    # Contenido 100% educativo — ver comentario en scripts/update_blocklist.py
+    "mathplayground.com", "calculalo.app", "mathsframe.co.uk", "cristic.com",
+    "world-geography-games.com", "juegos-geograficos.com", "sandboxeducacion.es",
+    "tablasdemultiplicar.com", "tablas-multiplicar.com", "vedoque.com",
+    "velocidactil.es", "typing.com", "dibujosparacolorearte.com", "freefocusgames.com",
+    "educaenvivo.com", "elbuhoboo.com", "juegosinfantilespum.com",
 }
 
 def check_line(line_clean, line_num, domains_seen):

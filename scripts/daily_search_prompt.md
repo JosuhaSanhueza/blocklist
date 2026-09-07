@@ -49,3 +49,11 @@ Ya estás parado en el directorio del repo. Hacé lo siguiente, en orden:
 No agregues `roblox.com` — se bloquea aparte manualmente vía AdGuard. No uses fuentes que sean
 explícitamente "herramientas de evasión/bypass" (ej. listas tipo ByePassHub) si la herramienta
 de fetch las rechaza por ese motivo — no lo intentes rodear con curl u otro método.
+
+**No bloquees contenido 100% educativo** (juegos de matemáticas, geografía, mecanografía,
+ortografía, dibujo infantil, entrenamiento cognitivo/atención, etc.), aunque `is_game_website()`
+lo marque como `True` — el objetivo del proyecto es bloquear distracción, no aprendizaje. Si un
+sitio es inequívocamente curricular/educativo, no lo agregues (y si lo agregaste sin darte cuenta,
+sacalo y agregalo a `WHITELIST` con un comentario). Si una página mezcla contenido educativo con
+juegos de puro entretenimiento, se revisa a mano — no la agregues ni la excluyas por tu cuenta,
+dejala para revisión del usuario.

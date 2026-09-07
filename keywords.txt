@@ -757,11 +757,8 @@ solitaired
 webmulator
 
 # --- Cierre de sesión: paso de 1000 dominios (2026-09-10) ---
-educaenvivo
-elbuhoboo
 jigsawplanet
 juegosarea
-juegosinfantilespum
 juegosipo
 paweljarosz
 pushergames
@@ -905,28 +902,15 @@ zohair-racing
 # --- Tanda "1000" (parcial, rendimiento decreciente confirmado): 39 nuevos, 2026-09-10 ---
 bemuse
 breakplay
-calculalo
 checkergames
 classroomlite
-cristic
-dibujosparacolorearte
-freefocusgames
 freetogame
 frustrated
 funclicker
 games-4-free
 gaminglab
 glazegames
-juegos-geograficos
-mathplayground
-mathsframe
 musicgames
 play2048
-sandboxeducacion
-tablas-multiplicar
-tablasdemultiplicar
 thegamingnest
-vedoque
-velocidactil
 wellgames
-world-geography-games

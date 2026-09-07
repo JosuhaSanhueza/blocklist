@@ -152,7 +152,6 @@
 0.0.0.0 buildroyale.io
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
 0.0.0.0 calcsolver.net
-0.0.0.0 calculalo.app
 0.0.0.0 camcimahir.itch.io
 0.0.0.0 capprime.netlify.app
 0.0.0.0 capybara-game.com
@@ -231,7 +230,6 @@
 0.0.0.0 crazymonkeygames.com
 0.0.0.0 crazyschoolgames.com
 0.0.0.0 cribbage-online.net
-0.0.0.0 cristic.com
 0.0.0.0 cross-code.com
 0.0.0.0 crossy-road-unblock.github.io
 0.0.0.0 cryzen.io
@@ -253,7 +251,6 @@
 0.0.0.0 demo.reldens.com
 0.0.0.0 detodojuegos.com
 0.0.0.0 developers.rune.ai
-0.0.0.0 dibujosparacolorearte.com
 0.0.0.0 diegosjuegos.com
 0.0.0.0 diep.io
 0.0.0.0 diepio2.pages.dev
@@ -318,10 +315,8 @@
 0.0.0.0 eaglerforge.github.io
 0.0.0.0 easyfun.gg
 0.0.0.0 edgesuite.net
-0.0.0.0 educaenvivo.com
 0.0.0.0 education.com
 0.0.0.0 education.minecraft.net
-0.0.0.0 elbuhoboo.com
 0.0.0.0 elgoog.im
 0.0.0.0 ellieeet123.github.io
 0.0.0.0 emulatorjs.com
@@ -372,7 +367,6 @@
 0.0.0.0 freeciv.org
 0.0.0.0 freecivweb.com
 0.0.0.0 freedombrowser.org
-0.0.0.0 freefocusgames.com
 0.0.0.0 freegame.com
 0.0.0.0 freegames.com
 0.0.0.0 freegames.io
@@ -611,7 +605,6 @@
 0.0.0.0 jopi.com
 0.0.0.0 juegaenlineachile.com
 0.0.0.0 juegos-es.bitbucket.io
-0.0.0.0 juegos-geograficos.com
 0.0.0.0 juegos-gratis.bitbucket.io
 0.0.0.0 juegos-poki.bitbucket.io
 0.0.0.0 juegos.com
@@ -644,7 +637,6 @@
 0.0.0.0 juegosfrivolo.com
 0.0.0.0 juegosgratis.games
 0.0.0.0 juegosgratispuntocom.github.io
-0.0.0.0 juegosinfantilespum.com
 0.0.0.0 juegosipo.com
 0.0.0.0 juegosjuegos.com
 0.0.0.0 juegosjuegos.ws
@@ -698,8 +690,6 @@
 0.0.0.0 manasource.itch.io
 0.0.0.0 marbleblast-abhiverse.dedyn.io
 0.0.0.0 marianogappa.github.io
-0.0.0.0 mathplayground.com
-0.0.0.0 mathsframe.co.uk
 0.0.0.0 mathwizard.pages.dev
 0.0.0.0 mattmakesgames.itch.io
 0.0.0.0 maxwellstevenson.com
@@ -931,7 +921,6 @@
 0.0.0.0 rycellgames.github.io
 0.0.0.0 sacul-6.github.io
 0.0.0.0 sandbox.game
-0.0.0.0 sandboxeducacion.es
 0.0.0.0 santiagodebus.com
 0.0.0.0 say.games
 0.0.0.0 scalacube.com
@@ -1048,8 +1037,6 @@
 0.0.0.0 sz-games.github.io
 0.0.0.0 szgames.net
 0.0.0.0 szunami.itch.io
-0.0.0.0 tablas-multiplicar.com
-0.0.0.0 tablasdemultiplicar.com
 0.0.0.0 tabletopia.com
 0.0.0.0 tagpro.koalabeast.com
 0.0.0.0 tagunblocked.com
@@ -1100,7 +1087,6 @@
 0.0.0.0 tuxpusher.github.io
 0.0.0.0 twoplayergames.com
 0.0.0.0 twoplayergames.org
-0.0.0.0 typing.com
 0.0.0.0 typingstudy.com
 0.0.0.0 ubg365.github.io
 0.0.0.0 ubg6969.gitlab.io
@@ -1140,8 +1126,6 @@
 0.0.0.0 veckiogame.com
 0.0.0.0 veckiogame.org
 0.0.0.0 vectaria.io
-0.0.0.0 vedoque.com
-0.0.0.0 velocidactil.es
 0.0.0.0 venge.io
 0.0.0.0 vercel.app
 0.0.0.0 vex4unblocked.github.io
@@ -1173,7 +1157,6 @@
 0.0.0.0 wordle.net
 0.0.0.0 wordles.org
 0.0.0.0 wordlyplay.com
-0.0.0.0 world-geography-games.com
 0.0.0.0 wowubg.github.io
 0.0.0.0 wtfgames.io
 0.0.0.0 xbitlabs.com

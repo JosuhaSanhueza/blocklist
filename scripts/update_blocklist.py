@@ -100,6 +100,16 @@ WHITELIST = {
     # Sitios de juegos específicos alojados en subdominios propios (no estos apex)
     # se bloquean por su propio dominio, nunca por el de la institución.
     "archive.org", "scratch.mit.edu", "cartoonnetwork.es", "cartoonnetworkhq.com",
+    # Contenido 100% educativo (matemáticas, geografía, mecanografía, dibujo infantil,
+    # entrenamiento cognitivo/atención): decisión explícita del usuario de NO bloquear
+    # juegos educativos, aunque "jueguen" mecánicas de juego. Si una página mezcla
+    # contenido educativo con distracción real, se revisa a mano caso por caso — esta
+    # lista es solo para sitios que son inequívocamente 100% educativos.
+    "mathplayground.com", "calculalo.app", "mathsframe.co.uk", "cristic.com",
+    "world-geography-games.com", "juegos-geograficos.com", "sandboxeducacion.es",
+    "tablasdemultiplicar.com", "tablas-multiplicar.com", "vedoque.com",
+    "velocidactil.es", "typing.com", "dibujosparacolorearte.com", "freefocusgames.com",
+    "educaenvivo.com", "elbuhoboo.com", "juegosinfantilespum.com",
 }
 
 # CDNs / Infraestructura crítica que NUNCA debemos bloquear al escanear iframe o CDNs embebidos

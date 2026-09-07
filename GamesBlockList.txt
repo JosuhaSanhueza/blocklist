@@ -156,7 +156,6 @@
 ||buildroyale.io^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||calcsolver.net^
-||calculalo.app^
 ||camcimahir.itch.io^
 ||capprime.netlify.app^
 ||capybara-game.com^
@@ -235,7 +234,6 @@
 ||crazymonkeygames.com^
 ||crazyschoolgames.com^
 ||cribbage-online.net^
-||cristic.com^
 ||cross-code.com^
 ||crossy-road-unblock.github.io^
 ||cryzen.io^
@@ -257,7 +255,6 @@
 ||demo.reldens.com^
 ||detodojuegos.com^
 ||developers.rune.ai^
-||dibujosparacolorearte.com^
 ||diegosjuegos.com^
 ||diep.io^
 ||diepio2.pages.dev^
@@ -322,10 +319,8 @@
 ||eaglerforge.github.io^
 ||easyfun.gg^
 ||edgesuite.net^
-||educaenvivo.com^
 ||education.com^
 ||education.minecraft.net^
-||elbuhoboo.com^
 ||elgoog.im^
 ||ellieeet123.github.io^
 ||emulatorjs.com^
@@ -376,7 +371,6 @@
 ||freeciv.org^
 ||freecivweb.com^
 ||freedombrowser.org^
-||freefocusgames.com^
 ||freegame.com^
 ||freegames.com^
 ||freegames.io^
@@ -615,7 +609,6 @@
 ||jopi.com^
 ||juegaenlineachile.com^
 ||juegos-es.bitbucket.io^
-||juegos-geograficos.com^
 ||juegos-gratis.bitbucket.io^
 ||juegos-poki.bitbucket.io^
 ||juegos.com^
@@ -648,7 +641,6 @@
 ||juegosfrivolo.com^
 ||juegosgratis.games^
 ||juegosgratispuntocom.github.io^
-||juegosinfantilespum.com^
 ||juegosipo.com^
 ||juegosjuegos.com^
 ||juegosjuegos.ws^
@@ -702,8 +694,6 @@
 ||manasource.itch.io^
 ||marbleblast-abhiverse.dedyn.io^
 ||marianogappa.github.io^
-||mathplayground.com^
-||mathsframe.co.uk^
 ||mathwizard.pages.dev^
 ||mattmakesgames.itch.io^
 ||maxwellstevenson.com^
@@ -935,7 +925,6 @@
 ||rycellgames.github.io^
 ||sacul-6.github.io^
 ||sandbox.game^
-||sandboxeducacion.es^
 ||santiagodebus.com^
 ||say.games^
 ||scalacube.com^
@@ -1052,8 +1041,6 @@
 ||sz-games.github.io^
 ||szgames.net^
 ||szunami.itch.io^
-||tablas-multiplicar.com^
-||tablasdemultiplicar.com^
 ||tabletopia.com^
 ||tagpro.koalabeast.com^
 ||tagunblocked.com^
@@ -1104,7 +1091,6 @@
 ||tuxpusher.github.io^
 ||twoplayergames.com^
 ||twoplayergames.org^
-||typing.com^
 ||typingstudy.com^
 ||ubg365.github.io^
 ||ubg6969.gitlab.io^
@@ -1144,8 +1130,6 @@
 ||veckiogame.com^
 ||veckiogame.org^
 ||vectaria.io^
-||vedoque.com^
-||velocidactil.es^
 ||venge.io^
 ||vercel.app^
 ||vex4unblocked.github.io^
@@ -1177,7 +1161,6 @@
 ||wordle.net^
 ||wordles.org^
 ||wordlyplay.com^
-||world-geography-games.com^
 ||wowubg.github.io^
 ||wtfgames.io^
 ||xbitlabs.com^
