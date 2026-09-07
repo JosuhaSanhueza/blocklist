@@ -147,6 +147,7 @@
 ||buildroyale.io^
 ||c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com^
 ||calcsolver.net^
+||camcimahir.itch.io^
 ||capprime.netlify.app^
 ||capybara-game.com^
 ||capybaragame.io^
@@ -197,6 +198,7 @@
 ||coolmathunblocked.weebly.com^
 ||copero.com.ar^
 ||copyofmasite.pages.dev^
+||country-defense-bheng.vercel.app^
 ||cpstest.click^
 ||cpstest.net^
 ||cpstest.org^
@@ -240,6 +242,7 @@
 ||dinosaur.game^
 ||dinosaurgame-free.io^
 ||dinosaurgame.io^
+||dog-squad-game-app.web.app^
 ||dolldivine.com^
 ||dominion.games^
 ||dominoes365.io^
@@ -404,6 +407,7 @@
 ||gamaverse.com^
 ||game-game.com^
 ||game.giantshaft.com^
+||game.zerodayclock.com^
 ||gamebanana.com^
 ||gamedistribution.com^
 ||gameflare.com^
@@ -605,6 +609,7 @@
 ||kevin.games^
 ||kickoutgames.com^
 ||king.com^
+||kingdomarchitect.netlify.app^
 ||kingdomrush.com^
 ||kiwigames.fun^
 ||kiz10.com^
@@ -818,6 +823,7 @@
 ||poncle.itch.io^
 ||primarygames.com^
 ||primarygames.gitlab.io^
+||princeton-tower-defense.vercel.app^
 ||privategameservers.com^
 ||project-scythe.vercel.app^
 ||purogames.com.br^
@@ -990,6 +996,7 @@
 ||topservers200.com^
 ||torket.io^
 ||totaljerkface.com^
+||tower.codealuxz.fr^
 ||transformice.com^
 ||treeshateyou-game.com^
 ||trex-runner.com^

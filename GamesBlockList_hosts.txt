@@ -143,6 +143,7 @@
 0.0.0.0 buildroyale.io
 0.0.0.0 c42ea1fd-7ebe-4bc4-b543-15c26b1fc457.poki-gdn.com
 0.0.0.0 calcsolver.net
+0.0.0.0 camcimahir.itch.io
 0.0.0.0 capprime.netlify.app
 0.0.0.0 capybara-game.com
 0.0.0.0 capybaragame.io
@@ -193,6 +194,7 @@
 0.0.0.0 coolmathunblocked.weebly.com
 0.0.0.0 copero.com.ar
 0.0.0.0 copyofmasite.pages.dev
+0.0.0.0 country-defense-bheng.vercel.app
 0.0.0.0 cpstest.click
 0.0.0.0 cpstest.net
 0.0.0.0 cpstest.org
@@ -236,6 +238,7 @@
 0.0.0.0 dinosaur.game
 0.0.0.0 dinosaurgame-free.io
 0.0.0.0 dinosaurgame.io
+0.0.0.0 dog-squad-game-app.web.app
 0.0.0.0 dolldivine.com
 0.0.0.0 dominion.games
 0.0.0.0 dominoes365.io
@@ -400,6 +403,7 @@
 0.0.0.0 gamaverse.com
 0.0.0.0 game-game.com
 0.0.0.0 game.giantshaft.com
+0.0.0.0 game.zerodayclock.com
 0.0.0.0 gamebanana.com
 0.0.0.0 gamedistribution.com
 0.0.0.0 gameflare.com
@@ -601,6 +605,7 @@
 0.0.0.0 kevin.games
 0.0.0.0 kickoutgames.com
 0.0.0.0 king.com
+0.0.0.0 kingdomarchitect.netlify.app
 0.0.0.0 kingdomrush.com
 0.0.0.0 kiwigames.fun
 0.0.0.0 kiz10.com
@@ -814,6 +819,7 @@
 0.0.0.0 poncle.itch.io
 0.0.0.0 primarygames.com
 0.0.0.0 primarygames.gitlab.io
+0.0.0.0 princeton-tower-defense.vercel.app
 0.0.0.0 privategameservers.com
 0.0.0.0 project-scythe.vercel.app
 0.0.0.0 purogames.com.br
@@ -986,6 +992,7 @@
 0.0.0.0 topservers200.com
 0.0.0.0 torket.io
 0.0.0.0 totaljerkface.com
+0.0.0.0 tower.codealuxz.fr
 0.0.0.0 transformice.com
 0.0.0.0 treeshateyou-game.com
 0.0.0.0 trex-runner.com
