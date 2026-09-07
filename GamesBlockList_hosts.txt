@@ -113,6 +113,7 @@
 0.0.0.0 basketrandom.io
 0.0.0.0 battleon.com
 0.0.0.0 bee.games
+0.0.0.0 bemuse.ninja
 0.0.0.0 bestcrazygames.com
 0.0.0.0 bestgames.com
 0.0.0.0 bestminecraftserverlist.net
@@ -765,6 +766,7 @@
 0.0.0.0 msngames.com
 0.0.0.0 msngames.io
 0.0.0.0 mundijuegos.com
+0.0.0.0 musicgames.io
 0.0.0.0 my.games
 0.0.0.0 myabandonware.com
 0.0.0.0 myunblockedgames.com

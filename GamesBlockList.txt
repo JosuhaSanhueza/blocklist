@@ -117,6 +117,7 @@
 ||basketrandom.io^
 ||battleon.com^
 ||bee.games^
+||bemuse.ninja^
 ||bestcrazygames.com^
 ||bestgames.com^
 ||bestminecraftserverlist.net^
@@ -769,6 +770,7 @@
 ||msngames.com^
 ||msngames.io^
 ||mundijuegos.com^
+||musicgames.io^
 ||my.games^
 ||myabandonware.com^
 ||myunblockedgames.com^
